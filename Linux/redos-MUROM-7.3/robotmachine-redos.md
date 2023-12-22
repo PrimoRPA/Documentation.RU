@@ -35,7 +35,7 @@
 
 4. Установите необходимо для работы робота ПО:
 ```
-[primo-admin@redos-robot ~]$ sudo dnf -y install xorg-x11-server-Xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0
+[primo-admin@redos-robot ~]$ sudo dnf -y install at xorg-x11-server-Xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0
 ```
 
 ## Настройка учетной записи агента
@@ -61,17 +61,18 @@ passwd: данные аутентификации успешно обновле�
 
 Для запуска агентом оркестратора заданий роботов без прав пользователя `root` необходима следующая настройка:
 ```
-[primo-admin@redos-robot ~]$ sudo sh -c "echo 'primo-agent ALL = (%primo-rpa) NOPASSWD: /bin/at' > /etc/sudoers.d/primo-rpa-agent"
+[primo-admin@redos-robot ~]$ sudo sh -c "echo 'agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/at' > /etc/sudoers.d/primo-rpa-agent"
 ```
 
 ## Установка агента
 
 Разворачивание файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-[primo-admin@redos-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/LTools
+[primo-admin@redos-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/LTools
 [primo-admin@redos-robot ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent
 [primo-admin@redos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
-[primo-admin@redos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/Primo/LTools
+[primo-admin@redos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/LTools
+[primo-admin@redos-robot ~]$ sudo chmod g+w /opt/Primo/Agent /opt/LTools
 ```
 
 Устанавливаем агент оркестратора как службу и настраиваем автозапуск:
