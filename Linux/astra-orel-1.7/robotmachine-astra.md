@@ -26,7 +26,7 @@
 
 3. Установите необходимо для работы робота ПО:
 ```
-[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0
+[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0 graphicsmagick-imagemagick-compat
 ```
 
 ## Настройка учетной записи агента

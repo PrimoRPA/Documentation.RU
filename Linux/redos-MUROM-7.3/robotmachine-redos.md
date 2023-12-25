@@ -35,7 +35,7 @@
 
 4. Установите необходимо для работы робота ПО:
 ```
-[primo-admin@redos-robot ~]$ sudo dnf -y install at xorg-x11-server-Xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0
+[primo-admin@redos-robot ~]$ sudo dnf -y install at xorg-x11-server-Xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0 ImageMagick
 ```
 
 ## Настройка учетной записи агента
