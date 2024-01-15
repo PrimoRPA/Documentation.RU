@@ -166,3 +166,26 @@ passwd: все данные аутентификации успешно обно
 
 **Рекомендации по настройке пользователя робота в Оркестраторе (пользователя РДП):**  
 Для экономии памяти следует использовать минимально необходимую глубину цвета экрана - 24 или 16 бит.
+
+## Обновление агента оркестратора
+
+Остановка службы:
+```
+[primo-admin@centos-robot ~]$ sudo systemctl stop Primo.Orchestrator.Agent
+```
+
+Обновление файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+```
+[primo-admin@centos-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
+[primo-admin@centos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
+```
+
+Запуск службы:
+```
+[primo-admin@centos-robot ~]$ sudo systemctl start Primo.Orchestrator.Agent
+```
+
+Просмотр статуса службы:
+```
+[primo-admin@centos-robot ~]$ sudo systemctl status Primo.Orchestrator.Agent
+```
