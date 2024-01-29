@@ -69,11 +69,11 @@ passwd: данные аутентификации успешно обновле�
 
 Разворачивание файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-[primo-admin@redos-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/LTools
+[primo-admin@redos-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@redos-robot ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent
 [primo-admin@redos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
-[primo-admin@redos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/LTools
-[primo-admin@redos-robot ~]$ sudo chmod g+w /opt/Primo/Agent /opt/LTools
+[primo-admin@redos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
+[primo-admin@redos-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 ```
 
 Установите агент оркестратора как службу и настройте автозапуск:
@@ -96,7 +96,7 @@ passwd: данные аутентификации успешно обновле�
   ...
   "Agent": {
     ...
-    <b>"IpAddress": "192.168.0.20",<b>
+    <b>"IpAddress": "192.168.0.20",</b>
     ...
   },
 </pre>
@@ -176,6 +176,8 @@ passwd: данные аутентификации успешно обновле�
 ```
 [primo-admin@redos-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
 [primo-admin@redos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
+[primo-admin@redos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent
+[primo-admin@redos-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent
 ```
 
 Запуск службы:
@@ -186,4 +188,131 @@ passwd: данные аутентификации успешно обновле�
 Просмотр статуса службы:
 ```
 [primo-admin@redos-robot ~]$ sudo systemctl status Primo.Orchestrator.Agent
+```
+
+## Миграция агента оркестратора
+
+Для миграции существующей установки агента оркестратора на версию с возможностью работы без прав `root` необходимо выполнить следующее:
+* настроить пользователей и группы
+* перенести данные агента оркестратора
+* обновить агент и файл конфигурации
+* обновить файл управления службой
+
+### Настройка пользователей и групп
+
+Эти команды необходимо выполнять от имени пользователя настроенного как администратор при установке РЕДОС 7.3:
+```
+[admin@redos-robot ~]$ sudo systemctl stop Primo.Orchestrator.Agent
+[admin@redos-robot ~]$ sudo useradd -m -s /bin/bash primo-admin
+[admin@redos-robot ~]$ sudo usermod -G wheel primo-admin
+[admin@redos-robot ~]$ sudo passwd primo-admin
+Новый пароль : ***
+Повторите ввод нового пароля : ***
+passwd: пароль успешно обновлён
+```
+
+Теперь небходимо войти в систему под пользователем `primo-admin` и дальнейшие команды выполнять под его именем.
+
+Выполните команды из следующих разделов:
+* [Настройка дополнительного ПО](#Настройка-дополнительного-ПО)
+* [Настройка учетной записи агента](#Настройка-учетной-записи-агента)
+
+Существующие учётные записи роботов необходимо добавить в группу `primo-rpa`: 
+```
+[primo-admin@redos-robot ~]$ sudo usermod -G primo-rpa robot
+```
+
+### Перенос данных агента оркестратора
+
+В командах этого раздела предполаются исходные пути каталогов с данными как в оригинальном файле конфигурации. Если эти пути были изменены, то необходимо подставить изменённые пути.
+
+```
+[primo-admin@redos-robot ~]$ sudo mkdir /opt/Primo/AgentData 
+[primo-admin@redos-robot ~]$ sudo mv /opt/Primo/Agent/RobotLocks /opt/PrimoAgent/RobotDistr /opt/Primo/Agent/ScreenFilesZip /opt/Primo/AgentData
+[primo-admin@redos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/AgentData /opt/LTools
+[primo-admin@redos-robot ~]$ sudo chmod -R g+w /opt/Primo/AgentData /opt/LTools
+```
+
+### Обновление агента и файла конфигурации
+
+Обновление файлов агента оркестратора (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+```
+[primo-admin@redos-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
+[primo-admin@redos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent
+[primo-admin@redos-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent 
+[primo-admin@redos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
+```
+
+В файле конфигурации `appsettings.ProdLinux.json` необходимо внести следующие изменения:
+1) Вместо:
+```
+...
+"Robot": {
+  ...
+  "LocksPath": "/opt/Primo/Agent/RobotLocks",
+  ...
+}
+```
+указать:
+```
+...
+"Robot": {
+  ...
+  "LocksDir": "RobotLocks"
+}
+```
+2) Вместо:
+```
+"DeployRobot": {
+  ...
+  "RobotDistrPath": "/opt/PrimoAgent/RobotDistr",
+  ...
+}
+```
+указать:
+```
+"DeployRobot": {
+  ...
+  "RobotDistrDir": "RobotDistr",
+  ...
+}
+```
+3) Вместо:
+```
+"ScreenFiles": {
+  ...
+  "ZipPath": "/opt/Primo/Agent/ScreenFilesZip",
+  ...
+}
+```
+указать:
+```
+"ScreenFiles": {
+  ...
+  "ZipDir": "ScreenFilesZip",
+  ...
+}
+```
+4) Добавить:
+```
+"Agent": {
+  ...
+  "DataPath": "/opt/Primo/AgentData",
+  ...
+},
+...
+"AgentCommands": {
+    "At": "/usr/bin/at",
+    "Reboot": "/usr/sbin/reboot",
+    "Xvfb": "/usr/bin/xvfb-run",
+    "Session": "/usr/bin/mate-session"
+},
+```
+
+### Обновление файла управления службой
+
+```
+[primo-admin@redos-robot ~]$ sudo cp /opt/Primo/Agent/Primo.Orchestrator.Agent.service /etc/systemd/system/
+[primo-admin@redos-robot ~]$ sudo systemctl daemon-reload
+[primo-admin@redos-robot ~]$ sudo systemctl enable /etc/systemd/system/Primo.Orchestrator.Agent.service
 ```

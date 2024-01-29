@@ -71,11 +71,11 @@ passwd: все данные аутентификации успешно обно
 
 Разворачивание файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-[primo-admin@centos-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/LTools
+[primo-admin@centos-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@centos-robot ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent
 [primo-admin@centos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
-[primo-admin@centos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/LTools
-[primo-admin@centos-robot ~]$ sudo chmod g+w /opt/Primo/Agent /opt/LTools
+[primo-admin@centos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
+[primo-admin@centos-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 ```
 
 Установите агент оркестратора как службу и настройте автозапуск:
@@ -177,6 +177,8 @@ passwd: все данные аутентификации успешно обно
 Обновление файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 [primo-admin@centos-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
+[primo-admin@centos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent
+[primo-admin@centos-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent
 [primo-admin@centos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
 ```
 
@@ -188,4 +190,131 @@ passwd: все данные аутентификации успешно обно
 Просмотр статуса службы:
 ```
 [primo-admin@centos-robot ~]$ sudo systemctl status Primo.Orchestrator.Agent
+```
+
+## Миграция агента оркестратора
+
+Для миграции существующей установки агента оркестратора на версию с возможностью работы без прав `root` необходимо выполнить следующее:
+* настроить пользователей и группы
+* перенести данные агента оркестратора
+* обновить агент и файл конфигурации
+* обновить файл управления службой
+
+### Настройка пользователей и групп
+
+Эти команды необходимо выполнять от имени пользователя настроенного как администратор при установке Centos 7:
+```
+[admin@centos-robot ~]$ sudo systemctl stop Primo.Orchestrator.Agent
+[admin@centos-robot ~]$ sudo useradd -m -s /bin/bash primo-admin
+[admin@centos-robot ~]$ sudo usermod -G wheel primo-admin
+[admin@centos-robot ~]$ sudo passwd primo-admin
+Новый пароль : ***
+Повторите ввод нового пароля : ***
+passwd: пароль успешно обновлён
+```
+
+Теперь небходимо войти в систему под пользователем `primo-admin` и дальнейшие команды выполнять под его именем.
+
+Выполните команды из следующих разделов:
+* [Настройка дополнительного ПО](#Настройка-дополнительного-ПО)
+* [Настройка учетной записи агента](#Настройка-учетной-записи-агента)
+
+Существующие учётные записи роботов необходимо добавить в группу `primo-rpa`: 
+```
+[primo-admin@centos-robot ~]$ sudo usermod -G primo-rpa robot
+```
+
+### Перенос данных агента оркестратора
+
+В командах этого раздела предполаются исходные пути каталогов с данными как в оригинальном файле конфигурации. Если эти пути были изменены, то необходимо подставить изменённые пути.
+
+```
+[primo-admin@centos-robot ~]$ sudo mkdir /opt/Primo/AgentData 
+[primo-admin@centos-robot ~]$ sudo mv /opt/Primo/Agent/RobotLocks /opt/PrimoAgent/RobotDistr /opt/Primo/Agent/ScreenFilesZip /opt/Primo/AgentData
+[primo-admin@centos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/AgentData /opt/LTools
+[primo-admin@centos-robot ~]$ sudo chmod -R g+w /opt/Primo/AgentData /opt/LTools
+```
+
+### Обновление агента и файла конфигурации
+
+Обновление файлов агента оркестратора (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+```
+[primo-admin@centos-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
+[primo-admin@centos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent
+[primo-admin@centos-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent 
+[primo-admin@centos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
+```
+
+В файле конфигурации `appsettings.ProdLinux.json` необходимо внести следующие изменения:
+1) Вместо:
+```
+...
+"Robot": {
+  ...
+  "LocksPath": "/opt/Primo/Agent/RobotLocks",
+  ...
+}
+```
+указать:
+```
+...
+"Robot": {
+  ...
+  "LocksDir": "RobotLocks"
+}
+```
+2) Вместо:
+```
+"DeployRobot": {
+  ...
+  "RobotDistrPath": "/opt/PrimoAgent/RobotDistr",
+  ...
+}
+```
+указать:
+```
+"DeployRobot": {
+  ...
+  "RobotDistrDir": "RobotDistr",
+  ...
+}
+```
+3) Вместо:
+```
+"ScreenFiles": {
+  ...
+  "ZipPath": "/opt/Primo/Agent/ScreenFilesZip",
+  ...
+}
+```
+указать:
+```
+"ScreenFiles": {
+  ...
+  "ZipDir": "ScreenFilesZip",
+  ...
+}
+```
+4) Добавить:
+```
+"Agent": {
+  ...
+  "DataPath": "/opt/Primo/AgentData",
+  ...
+},
+...
+"AgentCommands": {
+    "At": "/usr/bin/at",
+    "Reboot": "/usr/sbin/reboot",
+    "Xvfb": "/usr/bin/xvfb-run",
+    "Session": "/usr/bin/gnome-session"
+},
+```
+
+### Обновление файла управления службой
+
+```
+[primo-admin@centos-robot ~]$ sudo cp /opt/Primo/Agent/Primo.Orchestrator.Agent.service /etc/systemd/system/
+[primo-admin@centos-robot ~]$ sudo systemctl daemon-reload
+[primo-admin@centos-robot ~]$ sudo systemctl enable /etc/systemd/system/Primo.Orchestrator.Agent.service
 ```
