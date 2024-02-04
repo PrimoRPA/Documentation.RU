@@ -188,7 +188,7 @@ passwd: пароль успешно обновлён
 
 ### Настройка пользователей и групп
 
-Эти команды необходимо выполнять от имени пользователя настроенного как администратор при установке Astra Linux 1.7:
+Эти команды необходимо выполнять от имени пользователя, настроенного как администратор при установке Astra Linux 1.7:
 ```
 [admin@astra-robot ~]$ sudo systemctl stop Primo.Orchestrator.Agent
 [admin@astra-robot ~]$ sudo useradd -m -s /bin/bash primo-admin
