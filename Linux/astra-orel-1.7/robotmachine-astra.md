@@ -293,7 +293,8 @@ passwd: пароль успешно обновлён
     "At": "/usr/bin/at",
     "Reboot": "/usr/sbin/reboot",
     "Xvfb": "/usr/bin/xvfb-run",
-    "Session": "/usr/bin/fly-wm"
+    "Session": "/usr/bin/fly-wm",
+    "StopSession": "fly-wmfunc FLYWM_UPDATE_VAL UseExitDialog false && fly-wmfunc FLYWM_UPDATE_VAL UseConfirmDialog false && fly-wmfunc FLYWM_LOGOUT"
 },
 ```
 
