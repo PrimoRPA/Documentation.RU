@@ -57,7 +57,7 @@ description: Insert chart
 //width - Ширина: [Int32] Ширина диаграммы
 //height - Высота: [Int32] Высота диаграммы
 //Aspose.Cells.Charts.Chart data = app.InsertChart(range, isVerticalRange, chtartType, [sheetName], [sheetIdx], [left], [top], [width], [height]);
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, "fileName");
+ Primo.Office.OdfOxml.ExcelApp app =  Primo.Office.OdfOxml.ExcelApp.Init(wf, "fileName");
 Aspose.Cells.Charts.Chart data = app.InsertChart("*", false, LTools.Office.Model.Excel.ChartTypes.Line, "Лист1", 0, 10, 10, 800, 800);
 app.Save();
 ```
@@ -75,7 +75,7 @@ app.Save();
 //top - Сверху: [Int32] Отступ сверху
 //width - Ширина: [Int32] Ширина диаграммы
 //height - Высота: [Int32] Высота диаграммы
-app = LTools.Office.ExcelApp.Init(wf, "fileName")
+app =  Primo.Office.OdfOxml.ExcelApp.Init(wf, "fileName")
 data = app.InsertChart("*", false, LTools.Office.Model.Excel.ChartTypes.Line, "Лист1", 0, 10, 10, 800, 800) #Aspose.Cells.Charts.Chart
 app.Save()
 ```
@@ -97,7 +97,7 @@ var host = new _lib.Microsoft.ClearScript.HostFunctions();
 var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
 var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
 var lst3 = host.newObj(_lib.System.Data.DataTable);
-var app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var app = _lib.Primo.Office.OdfOxml.ExcelApp.Init(wf, ".\\book.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
 var data = app.InsertChart("*", false, _lib.LTools.Office.Model.Excel.ChartTypes.Line, "Лист1", 0, 10, 10, 800, 800) //_lib.LTools.Office.Model.Excel.ExcelChartItem	
 app.Save();
 ```
