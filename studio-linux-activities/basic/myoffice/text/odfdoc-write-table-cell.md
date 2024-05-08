@@ -5,7 +5,7 @@ description: Write table cell
 ### Записать в ячейку таблицы
 Элемент записывает текст в ячейку таблицы. Элемент работает корректно только внутри контейнера  "Документ ODF"
 
-![](../../../resources/basic/myoffice/text/odfdoc-write-table-cell.png
+![](../../../resources/basic/myoffice/text/odfdoc-write-table-cell.png)
 
 
 ### Свойства
