@@ -57,7 +57,7 @@ description: Insert chart
 //width - Ширина: [Int32] Ширина диаграммы
 //height - Высота: [Int32] Высота диаграммы
 //Aspose.Cells.Charts.Chart data = app.InsertChart(range, isVerticalRange, chtartType, [sheetName], [sheetIdx], [left], [top], [width], [height]);
- Primo.Office.OdfOxml.ExcelApp app =  Primo.Office.OdfOxml.ExcelApp.Init(wf, "fileName");
+Primo.Office.OdfOxml.ExcelApp app =  Primo.Office.OdfOxml.ExcelApp.Init(wf, "fileName");
 Aspose.Cells.Charts.Chart data = app.InsertChart("*", false, LTools.Office.Model.Excel.ChartTypes.Line, "Лист1", 0, 10, 10, 800, 800);
 app.Save();
 ```
