@@ -6,8 +6,6 @@ description: Copy to clipboard
 
 Копирует текст в буфер обмена
 
-Вставляем ссылку до картинки с визуальным обликом элемента, например:   
-
 ![](../../../../resources/activities/basic/odf/text/odfdoc-copy-to-clipboard.png)
 
 
