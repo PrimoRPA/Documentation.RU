@@ -1,8 +1,8 @@
 # Чтение текста
 
-![](../../../resources/basic/myoffice/text/Cropped-ReadText.png)
+![](../../../../resources/activities/basic/odf/text/Cropped-ReadText.png)
 
-Компонент, считывающий данные из документа Word. 
+Компонент, считывающий данные из документа Word.
 
 ## Свойство
 

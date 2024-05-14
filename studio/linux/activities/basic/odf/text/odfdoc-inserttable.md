@@ -1,6 +1,6 @@
 # Вставить таблицу
 
-![](../../../resources/basic/myoffice/text/Cropped-InsertTable.png)
+![](../../../../resources/activities/basic/odf/text/Cropped-InsertTable.png)
 
 Элемент, читающий таблицу из документа. Элемент работает корректно только внутри контейнера.
 

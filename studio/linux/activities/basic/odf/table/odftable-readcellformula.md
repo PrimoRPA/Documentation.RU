@@ -1,8 +1,8 @@
 # Чтение формулы из ячейки
 
-![](../../../resources/basic/myoffice/table/Cropped-ReadFormulaFromCell.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-ReadFormulaFromCell.png)
 
-Компонент, производящий считывание формулы из указанной ячейки Excel. 
+Компонент, производящий считывание формулы из указанной ячейки Excel.
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

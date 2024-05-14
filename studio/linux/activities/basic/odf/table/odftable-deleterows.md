@@ -1,6 +1,6 @@
 # Удаление строк
 
-![](../../../resources/basic/myoffice/table/Cropped-DeleteRows.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-DeleteRows.png)
 
 Элемент позволяет удалить строки из листа Excel.
 

@@ -1,8 +1,8 @@
 # Чтение колонки
 
-![](../../../resources/basic/myoffice/table/Cropped-ReadColumn.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-ReadColumn.png)
 
-Элемент, считывающий данные из колонки Excel. 
+Элемент, считывающий данные из колонки Excel.
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\

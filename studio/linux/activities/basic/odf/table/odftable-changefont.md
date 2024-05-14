@@ -1,6 +1,6 @@
 # Изменение шрифта
 
-![](../../../resources/basic/myoffice/table/Cropped-WriteFormula.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-WriteFormula.png)
 
 Компонент, изменяющий шрифт диапазона ячеек в Excel.
 

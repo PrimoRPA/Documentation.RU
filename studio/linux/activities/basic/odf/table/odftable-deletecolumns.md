@@ -1,6 +1,6 @@
 # Удаление колонок
 
-![](../../../resources/basic/myoffice/table/Cropped-DeleteColumn.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-DeleteColumn.png)
 
 Элемент позволяет удалить выбранные колонки из листа Excel.
 

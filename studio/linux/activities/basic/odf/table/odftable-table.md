@@ -1,6 +1,6 @@
 # Таблица ODF
 
-![](../../../resources/basic/myoffice/table/Cropped-ODFtable.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-ODFtable.png)
 
 Компонент, производящий подключение к приложению Excel. Компонент служит контейнером для других элементов, работающих с Excel.
 В случае отсутствия указанного файла будет создан новый.
@@ -11,9 +11,9 @@
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 1. **Путь к файлу** *[String]*: Путь к файлу документа Excel. Пример: `C:\folder\file.xlsx`.
-2. **Проверять файл**: Проверка на наличие указанного файла Excel. 
+2. **Проверять файл**: Проверка на наличие указанного файла Excel.
 3. **Пароль** *[String]*: Пароль от файла Excel.
-4. **Пароль (зашифрованный)** *[[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-8.0)]*: Зашифрованный пароль от файла Excel. 
+4. **Пароль (зашифрованный)** *[[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-8.0)]*: Зашифрованный пароль от файла Excel.
 5. **Массив байтов** *[byte\[]]*: Массив байтов документа.
 
 ## Только код

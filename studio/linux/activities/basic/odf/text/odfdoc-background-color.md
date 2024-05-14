@@ -4,7 +4,7 @@ description: Text background color
 
 ### Цвет фона шрифта
 
-![](../../../resources/basic/myoffice/text/odfdoc-background-color.png)
+![](../../../../resources/activities/basic/odf/text/odfdoc-background-color.png)
 
 Элемент обрабатывает цвет фона текста документа. Элемент работает корректно только внутри контейнера "Документ ODF".
 
@@ -47,4 +47,3 @@ app.SetTextBackground(10, 25, clr);
 ```
 {% endtab %}
 {% endtabs %}
-

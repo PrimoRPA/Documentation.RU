@@ -1,6 +1,6 @@
 # Запись диапазона
 
-![](../../../resources/basic/myoffice/table/Cropped-WriteRange.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-WriteRange.png)
 
 Элемент записывает данные в указанный диапазон ячеек Excel.
 
@@ -36,4 +36,3 @@
 `app.AppendRange(data, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);`  
 `app.AppendRange(data_info, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);`    
 `app.AppendRange(dataTable, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);`  
-

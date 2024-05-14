@@ -1,6 +1,6 @@
 # Вставка строк
 
-![](../../../resources/basic/myoffice/table/Cropped-InsertRow.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-InsertRow.png)
 
 Элемент для добавления строк в лист Excel.
 
