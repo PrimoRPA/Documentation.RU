@@ -5,7 +5,7 @@ description: Add table row
 ### Добавить строку таблицы
 Элемент добавляет строку к таблице
 
-![](../../../resources/basic/myoffice/text/odfdoc-add-table-row.png)
+![](../../../resources/basic/odf/text/odfdoc-add-table-row.png)
 
 Элемент работает корректно только внутри контейнера "Документ ODF"
 
