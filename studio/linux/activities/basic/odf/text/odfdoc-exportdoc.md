@@ -1,6 +1,6 @@
 # Экспортировать документ
 
-![](../../../resources/basic/myoffice/text/Cropped-ExportDoc.png)
+![](../../../../resources/activities/basic/odf/text/Cropped-ExportDoc.png)
 
 Компонент, производящий экспорт документа Word в другой формат. Доступный формат: PDF
 

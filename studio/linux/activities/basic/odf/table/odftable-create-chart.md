@@ -4,7 +4,7 @@ description: Insert chart
 
 # Вставка диаграммы
 
-![](../../../resources/basic/myoffice/table/odftable-create-chart.png)
+![](../../../../resources/activities/basic/odf/table/odftable-create-chart.png)
 
 Компонент создает диаграмму на листе таблицы. Элемент работает корректно только внутри контейнера "Таблица ODF".
 
@@ -29,11 +29,11 @@ description: Insert chart
 
 Типы доступных диаграмм могут быть представлены следующими группами:
 1. Area — диаграмма с областями.
-2. Bar — линейчатая диаграмма. 
+2. Bar — линейчатая диаграмма.
 3. Column — гистограмма.
 4. Doughnut — кольцевая диаграмма.
-5. Line Chart — линейный график. 
-6. Pie — круговая диаграмма. 
+5. Line Chart — линейный график.
+6. Pie — круговая диаграмма.
 7. XY scatter — точечная диаграмма.
 
 
@@ -94,8 +94,8 @@ var host = new _lib.Microsoft.ClearScript.HostFunctions();
 var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
 var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
 var lst3 = host.newObj(_lib.System.Data.DataTable);
-var app = _lib.Primo.Office.OdfOxml.ExcelApp.Init(wf, ".\\book.ods");	
-var data = app.InsertChart("*", false, _lib.LTools.Office.Model.Excel.ChartTypes.Line, "Лист1", 0, 10, 10, 800, 800) //_lib.LTools.Office.Model.Excel.ExcelChartItem	
+var app = _lib.Primo.Office.OdfOxml.ExcelApp.Init(wf, ".\\book.ods");
+var data = app.InsertChart("*", false, _lib.LTools.Office.Model.Excel.ChartTypes.Line, "Лист1", 0, 10, 10, 800, 800) //_lib.LTools.Office.Model.Excel.ExcelChartItem
 app.Save();
 ```
 {% endtab %}

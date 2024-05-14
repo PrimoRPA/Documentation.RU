@@ -3,7 +3,7 @@ description: Change cells
 ---
 ### Изменение ячейки
 
-![](../../../resources/basic/myoffice/table/odftable-changecell.png)
+![](../../../../resources/activities/basic/odf/table/odftable-changecell.png)
 
 Компонент изменяет формат ячеек таблицы.
 
@@ -33,7 +33,7 @@ description: Change cells
 - Bottom: нижняя граница диапазона
 - Vertical: вертикальные границы ячеек       
 - Horizontal: горизонтальные границы ячеек
- 
+
 Свойство **Толщина бордюра** может принимать следующие значения:<br>
 - Thin: тонкий
 - Medium: стредний

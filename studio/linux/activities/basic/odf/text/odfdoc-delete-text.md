@@ -4,7 +4,7 @@ description: Delete text
 
 # Удалить текст
 
-![](../../../resources/basic/myoffice/text/odfdoc-delete-text.png)
+![](../../../../resources/activities/basic/odf/text/odfdoc-delete-text.png)
 
 Элемент удаляет текст заданной длины. Элемент работает корректно только внутри контейнера "Документ ODF".
 

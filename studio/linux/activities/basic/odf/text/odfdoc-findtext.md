@@ -1,6 +1,6 @@
 # Найти текст
 
-![](../../../resources/basic/myoffice/text/Cropped-FindText.png)
+![](../../../../resources/activities/basic/odf/text/Cropped-FindText.png)
 
 Ищет вхождение заданного текста в документ.
 

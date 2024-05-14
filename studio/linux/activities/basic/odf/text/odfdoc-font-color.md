@@ -4,7 +4,7 @@ description: Text color
 
 # Цвет шрифта
 
-![](../../../resources/basic/myoffice/text/odfdoc-font-color.png)
+![](../../../../resources/activities/basic/odf/text/odfdoc-font-color.png)
 
 Элемент обрабатывает цвет текста документа. Элемент работает корректно только внутри контейнера "Документ ODF".
 

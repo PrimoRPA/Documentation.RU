@@ -1,6 +1,6 @@
 # Выделение диапазона
 
-![](../../../resources/basic/myoffice/table/Cropped-SelectRange.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-SelectRange.png)
 
 Компонент выделяет диапазон ячеек Excel.<br>
 Элемент работает только для файлов формата Microsoft Excel (файлы с расширением xsl, xlsx, xlsx, xlsm), поскольку все прочие форматы не поддерживают сохранение выделения диапазона.

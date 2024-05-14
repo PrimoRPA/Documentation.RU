@@ -1,8 +1,8 @@
 # Документ ODF
 
-![](../../../resources/basic/myoffice/text/Cropped-DocumentODF.png)
+![](../../../../resources/activities/basic/odf/text/Cropped-DocumentODF.png)
 
-Компонент, производящий подключение к приложению ODF Документы. 
+Компонент, производящий подключение к приложению ODF Документы.
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

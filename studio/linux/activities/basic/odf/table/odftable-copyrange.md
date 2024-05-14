@@ -1,6 +1,6 @@
 # Копирование диапазона
 
-![](../../../resources/basic/myoffice/table/Cropped-CopyRange.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-CopyRange.png)
 
 Компонент, позволяющий скопировать диапазон ячеек Excel и вставить в другой лист. Вставку возможно осуществить как внутри одного документа, так и во внешний файл Excel.
 
@@ -33,4 +33,3 @@
 **C#**  
 `Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`   
 `app.CopyRange(range, rangeTo, [sheet], [sheetIdx], [sheetTo], [sheetIdxTo], [format], [file]);`
-

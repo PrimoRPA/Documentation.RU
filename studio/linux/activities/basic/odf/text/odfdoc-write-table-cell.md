@@ -4,7 +4,7 @@ description: Write table cell
 
 # Записать в ячейку таблицы
 
-![](../../../resources/basic/myoffice/text/odfdoc-write-table-cell.png)
+![](../../../../resources/activities/basic/odf/text/odfdoc-write-table-cell.png)
 
 Элемент записывает текст в ячейку таблицы. Элемент работает корректно только внутри контейнера  "Документ ODF".
 

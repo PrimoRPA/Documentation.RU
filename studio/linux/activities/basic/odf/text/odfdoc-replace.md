@@ -1,6 +1,6 @@
 # Заменить текст
 
-![](../../../resources/basic/myoffice/text/Cropped-ReplaceText.png)
+![](../../../../resources/activities/basic/odf/text/Cropped-ReplaceText.png)
 
 Заменяет все вхождения исходного текста на новый.
 

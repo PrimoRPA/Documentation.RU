@@ -1,6 +1,6 @@
 # Сохранить как PDF
 
-![](../../../resources/basic/myoffice/table/Cropped-SaveAsPDF.png)
+![](../../../../resources/activities/basic/odf/table/Cropped-SaveAsPDF.png)
 
 Элемент позволяет сохранять файл Excel в формат PDF.
 
