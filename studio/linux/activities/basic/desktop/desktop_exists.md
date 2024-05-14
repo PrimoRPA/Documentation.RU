@@ -1,6 +1,6 @@
 # Присутствие элемента
 
-![](../../resources/basic/desktop/image-element-exist.png)
+![](../../resources/activities/basic/desktop/image-element-exist.png)
 
 Компонент, производящий поиск элемента управления. Компонент корректно работает только внутри контейнера Присоединиться к приложению.
 
