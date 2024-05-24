@@ -40,9 +40,9 @@ System.Data.DataTable dataTable = app.ReadRangeTable(range, [sheet], [sheetIdx])
 {% tab title="Python" %}
 ```python
 app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file])
-dataList = app.ReadRange(range, [sheet], [sheetIdx]) #List<List<string>>
-dataCells = app.ReadRangeInfo(range, [sheet], [sheetIdx]) #List<List<Primo.Office.OdfOxml.Model.ExcelCellInfo>>
-dataTable = app.ReadRangeTable(range, [sheet], [sheetIdx]) #System.Data.DataTable"
+dataList = app.ReadRange(range, [sheet], [sheetIdx])
+dataCells = app.ReadRangeInfo(range, [sheet], [sheetIdx])
+dataTable = app.ReadRangeTable(range, [sheet], [sheetIdx]) 
 ```
 {% endtab %}
 
