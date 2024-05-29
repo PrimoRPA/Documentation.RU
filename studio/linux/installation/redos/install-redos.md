@@ -1,4 +1,4 @@
-# tmp dock
+# tmp doc
 # Действия при установке РЕД ОС 7.3
 
 При установке машины студии под управлением РЕДОС 7.3 необходимо:
@@ -14,22 +14,28 @@
 
 ## Настройка дополнительного ПО
 
-Выполните подключение машины студии к репозиториям main, update, base и extended. Сами репозитории описаны в статье [Интернет-репозитории Astra Linux Special Edition x.7](https://wiki.astralinux.ru/pages/viewpage.action?pageId=158598882) .
-Настройка локальных зеркал этих репозиториев описана в статье [Создание репозиториев для операционной системы Astra Linux Special Edition x.7 в закрытом сегменте](https://wiki.astralinux.ru/pages/viewpage.action?pageId=199148426).
+1. Выполните подключение машины студии к репозиториям `base` и `updates`. Настройка локальных зеркал этих репозиториев описана в [Руководстве РЕД ОС](https://redos.red-soft.ru/base/server-configuring/service-repositories/create-repo/)
 
-**!!ВАЖНО!! Локальные репозитории необходимо выгружать на машину, имеющую доступ в Интернет.**
+**!!ВАЖНО!! Локальные репозитории необходимо выгружать на машине, имеющей доступ в Интернет.**
 
-Рекомендуется выделить одну машину под управлением Astra Linux 1.7 для размещения на ней сервера репозиториев.
+Рекомендуется выделить одну машину под управлением РЕД ОС 7.3 для размещения на ней сервера репозиториев.
 
-Проверьте доступность репозиториев, используя следующую команду:
+2. Проверьте доступность репозиториев, используя следующую команду:
+```
+[primo-admin@redos-studio ~]$ sudo dnf repolist
+```
 
-`[primo-admin@redos-studio ~]$ sudo apt update`
+Репозитории `base` и `updates` должны присутствовать в выводе команды.
 
-Репозитории main, update, base и extended должны присутствовать в выводе команды.
+3. Удалите приложения для автообновления ПО (чтобы избежать засорения рабочего стола пользователя оповещениями):
+```
+[primo-admin@redos-studio ~]$ sudo dnf -y remove dnfdragora
+```
 
-Установите необходимое для работы студии ПО:
-
-`[primo-admin@redos-studio ~]$ sudo apt -y install xsel at xvfb python3 python3-pyatspi python3-numpy xdotool imagemagick python3-opencv wmctrl`
+4. Установите необходимое для работы пользователя ПО:
+```
+[primo-admin@redos-studio ~]$ sudo dnf -y install xsel at xvfb python3 python3-pyatspi python3-numpy xdotool imagemagick python3-opencv wmctrl
+```
 
 ## Установка браузера Chrome
 
