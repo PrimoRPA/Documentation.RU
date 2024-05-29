@@ -16,13 +16,13 @@
 
 Проверьте доступность репозиториев, используя следующую команду:
 
-`[primo-admin@astra-studio ~]$ sudo apt update`
+`[primo-admin@redos-studio ~]$ sudo apt update`
 
 Репозитории main, update, base и extended должны присутствовать в выводе команды.
 
 Установите необходимое для работы студии ПО:
 
-`[primo-admin@astra-studio ~]$ sudo apt -y install xsel at xvfb python3 python3-pyatspi python3-numpy xdotool imagemagick python3-opencv wmctrl`
+`[primo-admin@redos-studio ~]$ sudo apt -y install xsel at xvfb python3 python3-pyatspi python3-numpy xdotool imagemagick python3-opencv wmctrl`
 
 ## Установка браузера Chrome
 
@@ -33,59 +33,59 @@ deb https://security.debian.org/debian-security/ buster/updates main contrib non
 ```
 Скачайте дистрибутив браузера; для этого необходимо из домашней папки выполнить
 ```
-[primo-admin@astra-studio ~]$ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+[primo-admin@redos-studio ~]$ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
 Откройте домашнюю папку в проводнике и двойным щелчком на файле `google-chrome-stable_current_amd64.deb` выполните установку браузера. После установки файл `google-chrome-stable_current_amd64.deb` можно удалить.
 
 Проверка: выполните указанную ниже команду. Если браузер запустится, установка прошла успешно:
 ```
-[primo-admin@astra-studio ~]$ google-chrome
+[primo-admin@redos-studio ~]$ google-chrome
 ```
 
 ## Установка браузера Яндекс
 Для установки браузера выполните команду:
 ```
-[primo-admin@astra-studio ~]$ sudo apt-get install yandex-browser-stable
+[primo-admin@redos-studio ~]$ sudo apt-get install yandex-browser-stable
 ```
 
 Проверка: выполните указанную ниже команду. Если браузер запустится, установка прошла успешно:
 ```
-[primo-admin@astra-studio ~]$ yandex-browser-stable
+[primo-admin@redos-studio ~]$ yandex-browser-stable
 ```
 ## Установка Студии
 Распакуйте архив Primo.Studio.Linux.zip в удобный каталог, например: `/home/user`.
 
 Создайте каталог:
 ```
-[primo-admin@astra-studio ~]$ sudo mkdir /opt/Primo/
+[primo-admin@redos-studio ~]$ sudo mkdir /opt/Primo/
 ```
 Содержимое папки linux-x64 перенесите в `/opt/Primo/Studio`:
 ```
-[primo-admin@astra-studio ~]$ sudo mv /home/user/linux-x64/ /opt/Primo/Studio/`
+[primo-admin@redos-studio ~]$ sudo mv /home/user/linux-x64/ /opt/Primo/Studio/`
 ```
 Распакуйте содержимое архива `/opt/Primo/Studio/x64/AstraOCRx64.zip` в папку `/opt/Primo/Studio/`
 
 ## Создание группы пользователей
 Для работы пользователя необходима общая группа:
 ```
-[primo-admin@astra-studio ~]$ sudo groupadd primo-rpa
+[primo-admin@redos-studio ~]$ sudo groupadd primo-rpa
 ```
 Задайте вновь созданную группу для всех элементов папки Студии:
 ```
-[primo-admin@astra-studio ~]$ sudo chgrp -R primo-rpa /opt/Primo/Studio/
+[primo-admin@redos-studio ~]$ sudo chgrp -R primo-rpa /opt/Primo/Studio/
 ```
 Задайте права:
 ```
-[primo-admin@astra-studio ~]$ sudo chmod -R 770 /opt/Primo/Studio/
+[primo-admin@redos-studio ~]$ sudo chmod -R 770 /opt/Primo/Studio/
 ```
 ## Настройка учетной записи пользователя
 Создание учётной записи пользователя `<any_user>`:
 ```
-[primo-admin@astra-studio ~]$ sudo useradd -g primo-rpa -m -s /bin/bash <any_user>
+[primo-admin@redos-studio ~]$ sudo useradd -g primo-rpa -m -s /bin/bash <any_user>
 ```
 Установка пароля учётной записи пользователя `<any_user>`:
 ```
-[primo-admin@astra-studio ~]$ sudo passwd <any_user>`
+[primo-admin@redos-studio ~]$ sudo passwd <any_user>`
 Новый пароль : ***
 Повторите ввод нового пароля : ***
 passwd: пароль успешно обновлён
