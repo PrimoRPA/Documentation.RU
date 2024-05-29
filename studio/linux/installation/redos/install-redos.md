@@ -34,7 +34,7 @@
 
 4. Установите необходимое для работы пользователя ПО:
 ```
-[primo-admin@redos-studio ~]$ sudo dnf -y install xsel at xvfb python3 python3-pyatspi python3-numpy xdotool imagemagick python3-opencv wmctrl
+[primo-admin@redos-studio ~]$ sudo dnf -y install xsel at python3-pyatspi python3-numpy xdotool ImageMagick python3-opencv wmctrl
 ```
 
 ## Установка браузера Chrome
