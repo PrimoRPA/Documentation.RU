@@ -71,7 +71,7 @@ Shift+z
 ## Установка браузера Яндекс
 Для установки браузера выполните команду:
 ```
-[primo-admin@redos-studio ~]$ sudo apt-get install yandex-browser-stable
+[primo-admin@redos-studio ~]$ sudo dnf install yandex-browser-stable
 ```
 
 Проверка: выполните указанную ниже команду. Если браузер запустится, установка прошла успешно:
