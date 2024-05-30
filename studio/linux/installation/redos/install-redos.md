@@ -67,7 +67,10 @@ Shift+z
 ```
 [primo-admin@redos-studio ~]$ sudo yum install google-chrome-stable
 ```
-
+Проверка: выполните указанную ниже команду. Если браузер запустится, установка прошла успешно:
+```
+[primo-admin@redos-studio ~]$ google-chrome
+```
 ## Установка браузера Яндекс
 Для установки браузера выполните команду:
 ```
