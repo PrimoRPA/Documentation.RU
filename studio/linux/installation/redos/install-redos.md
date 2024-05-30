@@ -39,20 +39,33 @@
 
 ## Установка браузера Chrome
 
-Для регистрации репозиториев в качестве источников пакетов указанные ниже строки должны быть добавлены в файл `/etc/apt/sources.list`
+Необходимо подключить необходимый репозиторий, для этого выполните команду:
 ```
-deb [trusted=yes] https://deb.debian.org/debian/ buster main contrib non-free
-deb https://security.debian.org/debian-security/ buster/updates main contrib non-free
+[primo-admin@redos-studio ~]$ sudo vim /etc/yum.repos.d/chrome.repo
 ```
-Скачайте дистрибутив браузера; для этого необходимо из домашней папки выполнить
-```
-[primo-admin@redos-studio ~]$ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-```
-Откройте домашнюю папку в проводнике и двойным щелчком на файле `google-chrome-stable_current_amd64.deb` выполните установку браузера. После установки файл `google-chrome-stable_current_amd64.deb` можно удалить.
+В этот файл необходимо вставить следующий текст:
 
-Проверка: выполните указанную ниже команду. Если браузер запустится, установка прошла успешно:
 ```
-[primo-admin@redos-studio ~]$ google-chrome
+[chrome]
+name=google-chrome - 64-bit
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
+enabled=1
+gpgcheck=1
+gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+
+```
+В результате выполнения предыдущей команды должен открыться редактор VIM. Чтобы вставить текст из буфера обмена, сохранить изменения и выйти из редактора, выполните следующую последовательность команд:
+```
+Insert
+Shift+Insert
+Escape
+Shift+z
+Shift+z
+```
+Если файл уже существует и корректно заполнен, редактировать ничего не нужно. В таком случае переходите к выполнению следующей команды.
+Для установки браузера Chrome выполните команду:
+```
+[primo-admin@redos-studio ~]$ sudo yum install google-chrome-stable
 ```
 
 ## Установка браузера Яндекс
