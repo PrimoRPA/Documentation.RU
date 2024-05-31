@@ -1,8 +1,8 @@
 # Запись в журнал
 
-![](../../resources/basic/dialogs/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(198).png)
+![](../../../resources/activities/basic/dialogs/image-100-1-1-1-1-1-1-1-2-198.png)
 
-![](../../resources/basic/dialogs/image-(337).png)
+![](../../../resources/activities/basic/dialogs/image-337.png)
 
 **«Запись в журнал» (Add to log)** - позволяет вывести сообщение в [Консоль](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#konsol) и [пользовательский журнал](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/log). RPA-разработчики и аналитики могут использовать этот элемент для отслеживания текущего состояния выполнения процесса. Просмотр пользовательских сообщений помогает удостовериться, что обработка данных в процессе происходит корректно. 
 
@@ -10,7 +10,7 @@
 1. В пользовательском журнале - текстовый файл, который хранится в папке `Log` в `AppData`. Для того, чтобы файл сохранялся, необходимо в [настройках отладчика](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#otladchik) включить параметр **Писать пользовательский журнал**. В названии журнала содержится слово **custom**, которое позволяет отличить его от журнала Студии и Робота. Пример: 2404202316_Default_Robot1_**custom**.log. 
 2. В Консоли - панель в нижней части интерфейса Studio. Во время запуска/отладки процесса здесь отобразятся записи, созданные на шаге выполнения элемента **«Запись в журнал»**.
 
-   ![](../../resources/basic/dialogs/add-to-log-console.png)
+   ![](../../../resources/activities/basic/dialogs/add-to-log-console.png)
 
 
 ### Свойства

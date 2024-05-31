@@ -8,7 +8,7 @@
 
 Стратегия для тенанта настраивается в конфигурационном файле WebApi в секции `Tenants`. Для этого выберите тенант и укажите в параметре `RpaProjectQueueProcessingType` нужную стратегию в числовом виде:
 
-![](<../../.gitbook/assets/new-pic-tenant-strategy.png>)
+![](../resources/fine-tuning/new-pic-tenant-strategy.png)
 
 Доступные значения соответствуют параметрам глобальной стратегии в UI. 
 

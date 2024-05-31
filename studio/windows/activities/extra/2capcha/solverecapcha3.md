@@ -1,6 +1,6 @@
 # Решить ReCapcha v3
 
-![](<../../../.gitbook/assets/image (745).png>)
+![](../../../resources/activities/extra/2capcha/image-745.png)
 
 Элемент, решающий капчу формата ReCapcha v3
 

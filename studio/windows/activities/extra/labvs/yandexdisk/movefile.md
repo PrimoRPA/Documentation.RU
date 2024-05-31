@@ -1,6 +1,6 @@
 # Переместить файл
 
-![](<../../../../.gitbook/assets/image (566).png>)
+![](../../../../resources/activities/extra/labvs/yandexdisk/image-566.png)
 
 Элемент, перемещающий файл
 

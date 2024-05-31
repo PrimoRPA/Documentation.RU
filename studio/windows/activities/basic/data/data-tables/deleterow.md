@@ -1,8 +1,8 @@
 # Удалить строку
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (73).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-73.png)
 
-![](<../../../../.gitbook/assets/image (356).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-356.png)
 
 Компонент, удаляющий строку таблицы.
 

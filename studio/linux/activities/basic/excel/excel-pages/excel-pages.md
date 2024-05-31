@@ -1,8 +1,8 @@
 # Список страниц
 
-![](../../../resources/basic/excel/excel_pages/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(238).png)
+![](../../../../resources/activities/basic/excel/excel-pages/image-100-1-1-1-1-1-1-1-2-238.png)
 
-![](../../../resources/basic/excel/excel_pages/image-(127).png)
+![](../../../../resources/activities/basic/excel/excel-pages/image-127.png)
 
 Компонент, получающий список страниц Excel.
 

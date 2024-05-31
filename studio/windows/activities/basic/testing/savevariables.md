@@ -1,8 +1,8 @@
 # Сохранить переменные
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (78).png>)
+![](../../../resources/activities/basic/testing/image-100-1-1-1-1-1-1-1-2-78.png)
 
-![](<../../../.gitbook/assets/Сохранить переменные.png>)
+![](../../../resources/activities/basic/testing/сохранить-переменные.png)
 
 Сохраняет значения переменных в файл.
 

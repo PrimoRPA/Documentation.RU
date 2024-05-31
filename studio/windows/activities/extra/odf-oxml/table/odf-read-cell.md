@@ -2,7 +2,7 @@
 
 Элемент считывает данные из ячейки ODF-таблицы. Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Чтение из ячейки»](<../../../../.gitbook/assets1/windows_items/odf-read-cell.png>)
+![Элемент «Чтение из ячейки»](../../../../resources/activities/extra/odf-oxml/table/odf-read-cell.png)
 
 
 ## Свойства

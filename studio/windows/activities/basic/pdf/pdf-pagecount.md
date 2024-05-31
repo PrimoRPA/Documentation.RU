@@ -2,9 +2,9 @@
 
 *Eng: Page count*
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (133).png>)
+![](../../../resources/activities/basic/pdf/image-100-1-1-1-1-1-1-1-2-133.png)
 
-![](<../../../.gitbook/assets/image (348).png>)
+![](../../../resources/activities/basic/pdf/image-348.png)
 
 Элемент позволяет получить количество страниц PDF-документа.
 

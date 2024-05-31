@@ -8,7 +8,7 @@
 * В секции **ConnectionStrings** измените **HOST** для всех строк подключения к БД на реальный IP серверов БД.\
   Если поменялся пользователь/пароль БД – их тоже нужно изменить.
 
-![](<../../../.gitbook/assets/install-states-1.png>)
+![](../../resources/admin/windows/install-states-1.png)
 
 3\. Проверьте, что значение системной переменной окружения **DOTNET_ENVIRONMENT** равно **ProdWin**. Для этого выполните в PoweShell команду:
 ```

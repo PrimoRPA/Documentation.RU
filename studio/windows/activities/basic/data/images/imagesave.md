@@ -1,6 +1,6 @@
 # Сохранить изображение
 
-![](<../../../../.gitbook/assets/image (302).png>)
+![](../../../../resources/activities/basic/data/images/image-302.png)
 
 Компонент, сохраняющий изображение в заданном формате.
 

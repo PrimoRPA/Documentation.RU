@@ -4,7 +4,7 @@
 
 Добавляет строку в существующую таблицу.
 
-![](../../../resources/basic/data/data_tables/image-(345).png)
+![](../../../../resources/activities/basic/data/data-tables/image-345.png)
 
 
 ## Свойства

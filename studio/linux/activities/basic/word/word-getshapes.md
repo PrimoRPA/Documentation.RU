@@ -9,7 +9,7 @@ description: Get shapes
 
 Путь до документа указывается в контейнере [**Документ Word**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_word/el_word_app).
 
-![](../../resources/basic/word/word-get-shapes.png)
+![](../../../resources/activities/basic/word/word-get-shapes.png)
 
 
 ## Свойства

@@ -6,7 +6,7 @@
 
 Для надежности рекомендуется использовать этот элемент в контейнере [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/el_desktop_attach). Подключаемое приложение указывается в контейнере.
 
-![](../../resources/basic/desktop/image-(149).png)
+![](../../../resources/activities/basic/desktop/image-149.png)
 
 
 ## Свойства
@@ -16,7 +16,7 @@
 
 :bangbang: *Значения этих свойств учитываются, только если установлен чекбокс **Новое ядро***.
 
-![](../../resources/basic/desktop/hot-key-emul-new-core-parameters.png)
+![](../../../resources/activities/basic/desktop/hot-key-emul-new-core-parameters.png)
 
 Предоставляют возможность выбрать клавиши для эмулирования:
 
@@ -29,7 +29,7 @@
 
 :bangbang: *Значения этих свойств проигнорируются, если установлен чекбокс **Новое ядро***. 
 
-![](../../resources/basic/desktop/hot-key-emul-proccess-parameters-2.png)
+![](../../../resources/activities/basic/desktop/hot-key-emul-proccess-parameters-2.png)
 
 Предназначены для указания комбинации клавиш для эмуляции: 
 
@@ -37,7 +37,7 @@
 
     Убедитесь, что установлен **Режим без кода (выкл)**. Иначе могут возникнуть непредвиденные символы.
 
-    ![](../../resources/basic/desktop/hot-key-emul-no-code.png)
+    ![](../../../resources/activities/basic/desktop/hot-key-emul-no-code.png)
 
 1. **Асинхронный**: Boolean. Определяет тип ввода: синхронный или асинхронный. По умолчанию галочка не установлена - используется синхронный ввод. Отличия:
    * Синхронный - в этом режиме кнопки нажимаются одновременно. Например, если нужно нажать `Ctrl` + `A`, то обе клавиши активируются в один момент времени.

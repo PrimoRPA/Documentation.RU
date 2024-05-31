@@ -1,6 +1,6 @@
 # Редактировать фигуру
 
-![](<../../../.gitbook/assets/image (480).png>)
+![](../../../resources/activities/extra/powerpoint/image-480.png)
 
 
 

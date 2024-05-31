@@ -4,7 +4,7 @@
 
 Если в файле требуется сохранить изменения, то дополнительно используйте элемент «Сохранить документ».
 
-![Элемент «Запись диапазона»](<../../../../.gitbook/assets1/windows_items/odf-append-range.png>)
+![Элемент «Запись диапазона»](../../../../resources/activities/extra/odf-oxml/table/odf-append-range.png)
 
 
 ## Свойства

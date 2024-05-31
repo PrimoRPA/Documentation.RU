@@ -1,6 +1,6 @@
 # Вставить файл
 
-![](<../../../.gitbook/assets/image (605).png>)
+![](../../../resources/activities/extra/powerpoint/image-605.png)
 
 
 

@@ -1,6 +1,6 @@
 # Событие клика изображения
 
-![](../../../resources/basic/ocr/els_events/image-(134).png)
+![](../../../../resources/activities/basic/ocr/events/image-134.png)
 
 
 

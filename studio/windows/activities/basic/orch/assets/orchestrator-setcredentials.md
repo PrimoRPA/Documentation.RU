@@ -5,7 +5,7 @@ description: Set Credentials
 
 Элемент обращается в Оркестратор, чтобы установить новое значение [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials (учетные данные). Название ресурса указывается в свойствах элемента.
 
-![Элемент «Установить учетные данные»](<../../../../.gitbook/assets/image (342).png>)
+![Элемент «Установить учетные данные»](../../../../resources/activities/basic/orch/assets/image-342.png)
 
 ## Начальные условия
 
@@ -26,7 +26,7 @@ description: Set Credentials
 
 ### Решение проблем
 
-![](<../../../../.gitbook/assets1/set-asset-error-in-studio.png>)
+![](../../../../resources/activities/basic/orch/assets/set-asset-error-in-studio.png)
 
 При выполнении элемента может возникнуть «Ошибка получения значения». Вероятные причины возникновения:
 * ресурса с указанным названием нет в Оркестраторе;

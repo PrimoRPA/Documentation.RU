@@ -1,6 +1,6 @@
 # Удалить ЭЦП
 
-![](<../../../../.gitbook/assets/image (841).png>)
+![](../../../../resources/activities/extra/t1/cryptopro/image-841.png)
 
 Элемент, удаляющий ЭЦП из массива байт
 

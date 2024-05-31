@@ -1,8 +1,8 @@
 # Python Script
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (160).png>)
+![](../../../resources/activities/basic/prog/image-100-1-1-1-1-1-1-10-160.png)
 
-![](<../../../.gitbook/assets/image (113).png>)
+![](../../../resources/activities/basic/prog/image-113.png)
 
 Компонент производит выполнение сценария на языке [IronPython](https://ironpython.net/) - реализации языка Python, предназначенной для платформы Microsoft .NET.
 

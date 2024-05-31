@@ -1,8 +1,8 @@
 # Проговорить сообщение
 
-![](../../resources/basic/dialogs/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(231).png)
+![](../../../resources/activities/basic/dialogs/image-100-1-1-1-1-1-1-1-2-231.png)
 
-![](../../resources/basic/dialogs/Проговорить-сообщение.png)
+![](../../../resources/activities/basic/dialogs/проговорить-сообщение-fixed.png)
 
 Компонент, проговаривающий голосом заданное сообщение.
 

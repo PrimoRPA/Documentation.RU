@@ -1,6 +1,6 @@
 # Сохранить документ
 
-![](<../../../../.gitbook/assets1/Cropped-SaveDocument.png>)
+![](../../../../resources/activities/basic/odf/document/cropped-savedocument.png)
 
 Компонент, производящий сохранения файла Word. Если путь к файлу не указан, сохранен будет файл, открытый в рамках текущего контейнера Word. 
 

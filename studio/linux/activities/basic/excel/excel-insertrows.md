@@ -8,7 +8,7 @@ description: Insert rows
 
 Путь до файла, тип драйвера и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Если в файле требуется сохранить изменения, то после вставки строк используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
-![](../../resources/basic/excel/WFInsertRows.png)
+![](../../../resources/activities/basic/excel/wfinsertrows-fixed.png)
 
 
 ## Свойства

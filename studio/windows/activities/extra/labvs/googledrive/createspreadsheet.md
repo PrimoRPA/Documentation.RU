@@ -1,6 +1,6 @@
 # Создать таблицу
 
-![](<../../../../.gitbook/assets/image (555).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-555.png)
 
 Элемент, создающий таблицу
 

@@ -1,6 +1,6 @@
 # Создать объект Java
 
-![](<../../../.gitbook/assets/java-create-object.png>)
+![](../../../resources/activities/extra/java/java-create-object.png)
 
 Элемент создает объект Java с заданным типом. Для создания объекта должен использоваться класс из файла \*.jar, указанного в элементе [**Загрузить jar**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_loadjar).
 
@@ -12,7 +12,7 @@
 | -------------------- | --------------------- | --------------------------------------------- |
 | ***Объект*** | |  |
 | Тип\*                | String                | Тип создаваемого объекта. Пример: `"package.name.ClassName"` |
-| Параметры            | List\<object\>        | Параметры конструктора. **Важно**: значение параметра не может быть null. Для удобства заполнения воспользуйтесь редактором по кнопке ![](<../../../.gitbook/assets/java-editor-button.png>), пример приведен ниже |
+| Параметры            | List\<object\>        | Параметры конструктора. **Важно**: значение параметра не может быть null. Для удобства заполнения воспользуйтесь редактором по кнопке ![](../../../resources/activities/extra/java/java-editor-button.png), пример приведен ниже |
 | ***Вывод***  | |  |
 | Результат            | Primo.Java.Model.JavaObject | Переменная вывода, которая будет хранить ссылку на созданный объект |
 
@@ -20,11 +20,11 @@
 
 Чтобы вызвать окно редактора, нажмите кнопку, выделенную на рисунке ниже.
 
-![](<../../../.gitbook/assets/java-create-object-parameters.png>)
+![](../../../resources/activities/extra/java/java-create-object-parameters.png)
 
 В левом поле укажите тип параметра, а в правом - его значение.
 
-![](<../../../.gitbook/assets/java-array-editor.png>)
+![](../../../resources/activities/extra/java/java-array-editor.png)
 
 Чтобы добавить новую строку, щелкните под уже заполненной.\
 Удалить ненужный параметр можно клавишей `Delete`.

@@ -1,6 +1,6 @@
 # Закрыть Outlook
 
-![](<../../../.gitbook/assets/image (166).png>)
+![](../../../resources/activities/basic/outlook/image-166.png)
 
 Элемент закрывает приложение Outlook. Корректно работает только внутри контейнера [Приложение Outlook](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_app).
 

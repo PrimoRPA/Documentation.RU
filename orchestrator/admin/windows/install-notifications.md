@@ -8,7 +8,7 @@
     
   * отредактируйте секцию **Email** - она отвечает за SMTP-сервер, с которого будет происходить рассылка.
 
-![](<../../../.gitbook/assets/install-notifications-1.png>)
+![](../../resources/admin/windows/install-notifications-1.png)
 
 3\. Проверьте, что значение системной переменной окружения DOTNET_ENVIRONMENT равно `ProdWin`. Для этого в PoweShell выполните команду:
 ```
@@ -32,6 +32,6 @@
 
 5\. Перейдите в UI Оркестратора и в разделе **Настройки ➝ Пользователи** отредактируйте для пользователей параметры рассылки: укажите e-mail и типы событий, по которым необходимо получать уведомления:
 
-![](<../../../.gitbook/assets/install-notifications-2.png>)
+![](../../resources/admin/windows/install-notifications-2.png)
 
 :white_check_mark: **Готово**: уведомления успешно настроены.

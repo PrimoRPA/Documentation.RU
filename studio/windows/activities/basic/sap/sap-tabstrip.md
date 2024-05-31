@@ -1,6 +1,6 @@
 # Закладки
 
-![](<../../../.gitbook/assets/image (385).png>)
+![](../../../resources/activities/basic/sap/image-385.png)
 
 Получает указатель на UI-элемент «закладки».
 

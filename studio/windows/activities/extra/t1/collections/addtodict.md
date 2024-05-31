@@ -1,6 +1,6 @@
 # Добавить в справочник
 
-![](<../../../../.gitbook/assets/image (461).png>)
+![](../../../../resources/activities/extra/t1/collections/image-461.png)
 
 Элемент, добавляющий новое значение в справочник
 

@@ -1,8 +1,8 @@
 # Заменить подстроку
 
-![](../../../resources/basic/data/data_strings/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(170).png)
+![](../../../../resources/activities/basic/data/data-strings/image-100-1-1-1-1-1-1-1-2-170.png)
 
-![](../../../resources/basic/data/data_strings/image-(438).png)
+![](../../../../resources/activities/basic/data/data-strings/image-438.png)
 
 Компонент, осуществляющий замену всех вхождений подстроки в строке.
 

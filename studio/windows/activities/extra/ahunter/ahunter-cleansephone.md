@@ -1,6 +1,6 @@
 # Стандартизация телефона
 
-![](<../../../.gitbook/assets/image (878).png>)
+![](../../../resources/activities/extra/ahunter/image-878.png)
 
 
 

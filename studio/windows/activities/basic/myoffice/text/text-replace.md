@@ -1,6 +1,6 @@
 # Заменить текст
 
-![](<../../../../.gitbook/assets/image (939).png>)
+![](../../../../resources/activities/basic/myoffice/text/image-939.png)
 
 Заменяет все вхождения исходного текста на новый.
 

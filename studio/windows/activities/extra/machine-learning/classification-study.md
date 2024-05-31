@@ -8,7 +8,7 @@ description: Classification model training
 
 В результате выполнения элемента вы получите обученную модель — файл, который способен распознавать определенные типы закономерностей.
 
-![](<../../../.gitbook/assets/image (181).png>)
+![](../../../resources/activities/extra/machine-learning/image-181.png)
 
 
 ## Свойства

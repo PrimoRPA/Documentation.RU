@@ -1,8 +1,8 @@
 # Запрос XPath
 
-![](../../../resources/basic/data/data_xml/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(307).png)
+![](../../../../resources/activities/basic/data/data-xml/image-100-1-1-1-1-1-1-1-2-307.png)
 
-![](../../../resources/basic/data/data_xml/image-(373).png)
+![](../../../../resources/activities/basic/data/data-xml/image-373.png)
 
 Компонент, осуществляющий поиск в документе XML в соответствии с запросом XPath.
 

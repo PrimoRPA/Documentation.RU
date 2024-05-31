@@ -1,6 +1,6 @@
 # Список чатов
 
-![](<../../../../.gitbook/assets/image (238).png>)
+![](../../../../resources/activities/extra/messengers/autofaq/image-238.png)
 
 Элемент, получающий список чатов AutoFAQ.
 

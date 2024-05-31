@@ -1,6 +1,6 @@
 # Записать в Credentials
 
-![](<../../../.gitbook/assets/image (402).png>)
+![](../../../resources/activities/basic/crypto/image-402.png)
 
 Компонент, производящий запись учетных данных в Credential Manager
 

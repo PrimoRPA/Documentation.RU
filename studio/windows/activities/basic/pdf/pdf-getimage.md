@@ -1,8 +1,8 @@
 # Получение изображений
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (201).png>)
+![](../../../resources/activities/basic/pdf/image-100-1-1-1-1-1-1-1-2-201.png)
 
-![](<../../../.gitbook/assets/image (338).png>)
+![](../../../resources/activities/basic/pdf/image-338.png)
 
 Компонент, получающий изображения из документа PDF
 

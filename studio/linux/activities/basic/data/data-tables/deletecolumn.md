@@ -1,8 +1,8 @@
 # Удалить колонку
 
-![](../../../resources/basic/data/data_tables/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(30).png)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-30.png)
 
-![](../../../resources/basic/data/data_tables/image-(365).png)
+![](../../../../resources/activities/basic/data/data-tables/image-365.png)
 
 Компонент, удаляющий колонку таблицы. Удалить можно по индексу либо названию колонки.
 

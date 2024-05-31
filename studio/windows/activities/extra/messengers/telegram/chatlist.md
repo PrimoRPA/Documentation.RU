@@ -1,6 +1,6 @@
 # Список чатов
 
-![](<../../../../.gitbook/assets/image (60).png>)
+![](../../../../resources/activities/extra/messengers/telegram/image-60.png)
 
 Элемент, получающий список последних чатов Telegram.
 

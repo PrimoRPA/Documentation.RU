@@ -2,7 +2,7 @@
 
 *Eng: Filter Range*
 
-![](<../../../.gitbook/assets/image (265).png>)
+![](../../../resources/activities/basic/excel/image-265.png)
 
 Компонент, устанавливающий фильтр диапазона ячеек Excel.
 

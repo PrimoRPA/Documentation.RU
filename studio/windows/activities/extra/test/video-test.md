@@ -1,6 +1,6 @@
 # Просмотр видео
 
-[![](<../../../.gitbook/assets/test-pic.png>)](https://youtu.be/IAIRmChw65k?si=EGuQeE-o9Cn21OF8?t=5s "")
+[![](../../../resources/activities/extra/test/test-pic.png)](https://youtu.be/IAIRmChw65k?si=EGuQeE-o9Cn21OF8?t=5s "")
 
 .
 
@@ -8,7 +8,7 @@
 
 ..
 
-![](<../../../.gitbook/assets/test-pic.png>)
+![](../../../resources/activities/extra/test/test-pic.png)
 
 
 ...

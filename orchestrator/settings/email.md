@@ -10,11 +10,11 @@ Email входящей почты используется в [заданиях]
 
 Нажмите кнопку **Добавить Email**:
 
-![](<../../.gitbook/assets/email-tab.png>)
+![](../resources/settings/email-tab.png)
 
 Откроется форма:
 
-![](<../../.gitbook/assets/add-email-form-1-part.png>)
+![](../resources/settings/add-email-form-1-part.png)
 
 Поле **Логин** заполняется только в том случае, если email и логин для аутентификации в почте не совпадают.
 
@@ -45,7 +45,7 @@ Email входящей почты используется в [заданиях]
 
 #### Переключатели
 
-![](<../../.gitbook/assets/add-email-form-2-part.png>)
+![](../resources/settings/add-email-form-2-part.png)
 
 * **Require Authenticate** - определяет, требуется ли аутентификация.
 * **Use Ssl** - определяет, используется ли шифрование с помощью SSL/TLS/STARTTLS.
@@ -58,7 +58,7 @@ Email входящей почты используется в [заданиях]
 
 В форме создании задания, для которого выбран триггер по email, добавленный адрес отобразится среди значений списка Email.
 
-![](<../../.gitbook/assets/email-task-add-email-2.png>)
+![](../resources/settings/email-task-add-email-2.png)
 
 
 

@@ -2,11 +2,11 @@
 
 # Расписания
 
-![](<../../.gitbook/assets/image (485).png>)
+![](../resources/robot-runner/image-485.png)
 
 Расписания позволяют запускать задачи в соответствии с графиком:
 
-![](<../../.gitbook/assets/image (514).png>)
+![](../resources/robot-runner/image-514.png)
 
 Окно редактирования расписания соответствует аналогичному окну редактора расписаний Windows.
 

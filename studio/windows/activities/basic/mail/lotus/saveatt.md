@@ -1,6 +1,6 @@
 # Сохранить вложение
 
-![](<../../../../.gitbook/assets/image (844).png>)
+![](../../../../resources/activities/basic/mail/lotus/image-844.png)
 
 
 

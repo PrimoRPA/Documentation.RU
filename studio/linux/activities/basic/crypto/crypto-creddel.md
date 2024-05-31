@@ -1,6 +1,6 @@
 # Удалить Credentials
 
-![](../../resources/basic/crypto/image-(313).png)
+![](../../../resources/activities/basic/crypto/image-313.png)
 
 Компонент, производящий удаление учетных данных из Credential Manager
 

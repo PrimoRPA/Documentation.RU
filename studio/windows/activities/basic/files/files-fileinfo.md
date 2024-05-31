@@ -1,8 +1,8 @@
 # Информация о файле
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (38).png>)
+![](../../../resources/activities/basic/files/image-100-1-1-1-1-1-1-1-2-38.png)
 
-![](<../../../.gitbook/assets/Информация о файле.png>)
+![](../../../resources/activities/basic/files/информация-о-файле.png)
 
 Компонент, получающий информацию о файле или папке.
 

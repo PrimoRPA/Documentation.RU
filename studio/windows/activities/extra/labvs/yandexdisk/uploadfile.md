@@ -1,6 +1,6 @@
 # Загрузить файл
 
-![](<../../../../.gitbook/assets/image (770).png>)
+![](../../../../resources/activities/extra/labvs/yandexdisk/image-770.png)
 
 Элемент, загружающий файл на удаленный диск
 

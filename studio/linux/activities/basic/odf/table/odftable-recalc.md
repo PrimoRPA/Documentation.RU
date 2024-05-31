@@ -1,6 +1,6 @@
 # Пересчет формул
 
-![](../../../../resources/activities/basic/odf/table/Cropped-FormulaRecalc.png)
+![](../../../../resources/activities/basic/odf/table/cropped-formularecalc-fixed.png)
 
 Компонент, пересчитывающий формулы листов Excel.
 

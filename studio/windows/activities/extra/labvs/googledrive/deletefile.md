@@ -1,6 +1,6 @@
 # Удалить файл
 
-![](<../../../../.gitbook/assets/image (578).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-578.png)
 
 Элемент, удаляющий файл
 

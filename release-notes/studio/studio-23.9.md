@@ -7,7 +7,7 @@
 
 1. Значительно улучшен UI/UX **Редактора шаблона поиска**. Изменения призваны сделать его более удобным и понятным в использовании. Подробности см. в разделе [Новый редактор шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns/new-pattern-editor).
 
-    ![](<../../.gitbook/assets/new-template-editor.png>)
+    ![](../resources/studio/new-template-editor.png)
 
 1. Стал поддерживаться Selenium WebDriver актуальной версии. Улучшение призвано повысить эффективность работы с шаблонами поиска для веб-приложений.
 1. Расширение [Primo RPA Extension](https://chrome.google.com/webstore/detail/primo-rpa-extension/pbdnfhljkbaiibahdfcmgnfpapchlmmp) обновлено до версии 1.60. В новой версии улучшена работа с **Вводом текста** (Text input) в веб-формах. В ранней версии ввод текста мог не сработать, например, в формах ввода логина/пароля. Обновление 1.60 позволяет решить эту проблему. 
@@ -22,13 +22,13 @@
 
 1. Улучшен инструмент публикации проекта в Оркестраторе из Студии. Теперь при публикации новой версии проекта рабочий файл будет сопоставляться с существующими в Оркестраторе. При найденном совпадении Студия предложит его для выбора, указав на нужную запись в окне проектов. Это позволит избежать ситуации, когда новую версию можно по ошибке загрузить в неподходящий проект.
 
-   ![](<../../.gitbook/assets/export-project-to-orch-2.png>)
+   ![](../resources/studio/export-project-to-orch-2.png)
 
 **Работа с элементами**:
 
 1. В контейнере [**Приложение Excel**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app) появилось свойство **«Открывать только на чтение»**. Оно работает только с драйвером Interop и определяет, нужно ли открывать файл в режиме «Только для чтения». По умолчанию свойство отключено. Функциональность помогает считывать данные из файла, который был заблокирован для редактирования.
 
-   ![](<../../.gitbook/assets/excel-only-read-2.png>)   
+   ![](../resources/studio/excel-only-read-2.png)   
   
 1. Улучшен импорт SAP-элементов из UIPath-проектов:
    * **Read Status Bar** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Строка состояния**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_statusbar) (SAP). Контейнер добавляется только в том случае, если элемент импортируется без него. 
@@ -37,13 +37,13 @@
 
 1. В элементе [**Комментарий**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_dialogs/el_dialogs_comment) стал доступен ввод текста с переводом строки. 
 
-   ![](<../../.gitbook/assets/element-wfcomment-for-relis-notes.png>)
+   ![](../resources/studio/element-wfcomment-for-relis-notes.png)
 
 **Другие улучшения**:
 
 1. В окне [Поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/search) (Ctrl+F) стало сохраняться последнее значение, введенное в поисковой строке.
 
-   ![](<../../.gitbook/assets/find-window-for-relis.png>)
+   ![](../resources/studio/find-window-for-relis.png)
 
 ### Улучшения в Robot Runner
 

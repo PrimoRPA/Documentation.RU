@@ -5,7 +5,7 @@ description: Save attachment
 
 # Сохранить вложение
 
-![](<../../../.gitbook/assets/image (554).png>)
+![](../../../resources/activities/basic/outlook/image-554.png)
 
 Элемент сохраняет вложение письма.
 

@@ -1,6 +1,6 @@
 # Событие мыши
 
-![](../../../resources/basic/desktop/events/image-(49).png)
+![](../../../../resources/activities/basic/desktop/events/image-49.png)
 
 Компонент, ожидающий событие нажатия мыши. Обратите внимание, что элемент помещается в контейнер [**События**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/els_events/el_events). В этом же контейнере настраивается режим работы цикла и работа с потоками.
 
@@ -21,5 +21,5 @@
 
 Пример структуры:
 
-![](../../../resources/basic/desktop/events/mouse-trigger.png)
+![](../../../../resources/activities/basic/desktop/events/mouse-trigger.png)
 

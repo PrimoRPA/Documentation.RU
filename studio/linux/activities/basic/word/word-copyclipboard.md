@@ -1,6 +1,6 @@
 # Копировать в буфер обмена
 
-![](../../resources/basic/word/image-(70).png)
+![](../../../resources/activities/basic/word/image-70.png)
 
 Элемент копирует выделенный текст в буфер обмена.
 

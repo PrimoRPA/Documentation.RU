@@ -1,6 +1,6 @@
 # Исчезновение элемента
 
-![](<../../../.gitbook/assets/image (557).png>)
+![](../../../resources/activities/basic/uiinteraction/image-557.png)
 
 Компонент, ожидающий исчезновение элемента управления.
 

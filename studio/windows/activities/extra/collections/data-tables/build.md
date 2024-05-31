@@ -2,13 +2,13 @@
 
 Элемент создает таблицу на основе данных, указанных в Мастере. 
 
-![](<../../../../.gitbook/assets1/WFDataTableBuild-2.png>)
+![](../../../../resources/activities/extra/collections/data-tables/wfdatatablebuild-2.png)
 
 По нажатию кнопки **Добавить колонку** откроется форма создания столбца, где можно указать его название, тип данных и другие необходимые параметры. Эти данные в дальнейшем можно отредактировать.
 
 :small_blue_diamond: *Изменение типа данных колонки повлечет за собой удаление всех ее значений.*
 
-![](<../../../../.gitbook/assets1/WFDataTableBuild-3.png.png>)
+![](../../../../resources/activities/extra/collections/data-tables/wfdatatablebuild-3.png.png)
 
 Параметры:
 * **Имя столбца** — допускается только строковое значение.

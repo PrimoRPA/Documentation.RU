@@ -1,8 +1,8 @@
 # Привести к строке
 
-![](../../../resources/basic/data/data_strings/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(250).png)
+![](../../../../resources/activities/basic/data/data-strings/image-100-1-1-1-1-1-1-1-2-250.png)
 
-![](../../../resources/basic/data/data_strings/image-(451).png)
+![](../../../../resources/activities/basic/data/data-strings/image-451.png)
 
 Компонент, приводящий объект к строке.
 

@@ -2,11 +2,11 @@
 
 Производит объединение двух таблиц по указанным столбцам в соответствии с выбранным типом оператора JOIN.
 
-![](<../../../../.gitbook/assets1/DataTables.WFDataTableJoin.png>)
+![](../../../../resources/activities/extra/collections/data-tables/datatables.wfdatatablejoin.png)
 
 Нажмите кнопку **Мастер объединения**, чтобы указать столбцы и тип объединения (JOIN).
 
-![](<../../../../.gitbook/assets1/WFDataTableJoin-3.png>)  
+![](../../../../resources/activities/extra/collections/data-tables/wfdatatablejoin-3.png)  
 
 Типы объединения:
 * **Inner** — используется по умолчанию. Объединяет строки из двух таблиц, если в связующих столбцах этих таблиц содержатся одинаковые значения. Любые строки, не соответствующие правилу объединения, будут удалены из результирующей таблицы. 

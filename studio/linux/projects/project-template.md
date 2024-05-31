@@ -8,7 +8,7 @@ Primo RPA Studio предоставляет возможность создав�
 
 Список доступных шаблонов находится в разделе меню **Файл ➝ Проект**. Для создания проекта достаточно кликнуть на нужный шаблон.
 
-![](<../../.gitbook/assets1/project-templates-list.png>)
+![](../resources/projects/project-templates-list.png)
 
 Шаблоны представлены на русском и английском языках:
 * Robotic Enterprise Framework (REF) — robust and Resilient framework for building Orchestator-connected enterprise projects.

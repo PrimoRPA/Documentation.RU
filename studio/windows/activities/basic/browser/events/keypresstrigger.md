@@ -1,6 +1,6 @@
 # Событие кнопки браузера
 
-![](<../../../../.gitbook/assets/image (153).png>)
+![](../../../../resources/activities/basic/browser/events/image-153.png)
 
 
 

@@ -2,11 +2,11 @@
 
 Элемент позволяет отправить вопрос в сервис GigaChat.
 
-![](<../../../../.gitbook/assets1/сбер токен.png>)
+![](../../../../resources/activities/extra/ai/gigachat/сбер-токен.png)
 
 Элемент становится доступным после установки библиотеки **Primo.AI**. Найти его можно в группе элементов GigaChat на соответствующей панели:
 
-![](<../../../../.gitbook/assets1/gigachat-on-panel.png>)
+![](../../../../resources/activities/extra/ai/gigachat/gigachat-on-panel.png)
 
 В переменной вывода вернется ответ от нейросетевой модели.
 
@@ -35,17 +35,17 @@
 
 Пример заполнения свойств:
 
-![](<../../../../.gitbook/assets1/сбер свойства вопрос.png>)
+![](../../../../resources/activities/extra/ai/gigachat/сбер-свойства-вопрос.png)
 
 ## Просмотр ответа
 
 Чтобы просмотреть ответ GigaChat, установите [точку останова](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#tochka-ostanova) и запустите [отладку](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug) процесса. На панели [**Вывод**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#panel-vyvod) откройте текущее значение переменной:
 
-![](<../../../../.gitbook/assets1/сбер переменная ответа.png>)
+![](../../../../resources/activities/extra/ai/gigachat/сбер-переменная-ответа.png)
 
 Пример отладки процесса с записью ответа в консоль:
 
-![](<../../../../.gitbook/assets1/сбер отладка.png>)
+![](../../../../resources/activities/extra/ai/gigachat/сбер-отладка.png)
 
 ## Полезные материалы
 

@@ -1,8 +1,8 @@
 # Tesseract OCR
 
-![](../../resources/basic/ocr/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(128).png)
+![](../../../resources/activities/basic/ocr/image-100-1-1-1-1-1-1-1-2-128.png)
 
-![](../../resources/basic/ocr/image-(309).png)
+![](../../../resources/activities/basic/ocr/image-309.png)
 
 Компонент, осуществляющий подключение к ядру OCR Tesseract. Tesseract 3-й версии поставляется вместе с Primo RPA Studio и не требует дополнительной установки.
 

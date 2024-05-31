@@ -1,6 +1,6 @@
 # Подсказка
 
-![](<../../../.gitbook/assets/image (280).png>)
+![](../../../resources/activities/basic/assistant/image-280.png)
 
 Элемент, отображающий окно подсказки.
 

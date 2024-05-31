@@ -1,8 +1,8 @@
 # Получить голоса
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (231).png>)
+![](../../../resources/activities/basic/dialogs/image-100-1-1-1-1-1-1-1-2-231.png)
 
-![](<../../../.gitbook/assets/Получить голоса.png>)
+![](../../../resources/activities/basic/dialogs/получить-голоса.png)
 
 Компонент, получающий массив доступных в системе голосов.
 

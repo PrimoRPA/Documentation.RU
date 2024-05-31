@@ -1,8 +1,8 @@
 # Создать файл
 
-![](../../resources/basic/files/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(90).png)
+![](../../../resources/activities/basic/files/image-100-1-1-1-1-1-1-1-2-90.png)
 
-![](../../resources/basic/files/image-(15).png)
+![](../../../resources/activities/basic/files/image-15.png)
 
 Компонент, создающий новый файл.
 

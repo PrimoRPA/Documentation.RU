@@ -1,8 +1,8 @@
 # Обновить маппинг
 
-![](../../../resources/basic/data/mapping/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(209).png)
+![](../../../../resources/activities/basic/data/mapping/image-100-1-1-1-1-1-1-1-2-209.png)
 
-![](../../../resources/basic/data/mapping/image-(405).png)
+![](../../../../resources/activities/basic/data/mapping/image-405.png)
 
 Обновляет переменные маппинга аргументов вызываемой последовательности.
 

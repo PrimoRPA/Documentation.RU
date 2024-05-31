@@ -1,6 +1,6 @@
 # Дерево
 
-![](<../../../.gitbook/assets/image (308).png>)
+![](../../../resources/activities/basic/sap/image-308.png)
 
 С помощью компонента можно получить указатель на UI-элемент «дерево».
 

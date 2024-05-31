@@ -4,7 +4,7 @@
 
 Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Список страниц»](<../../../../../.gitbook/assets1/windows_items/odf-sheets-list.png>)
+![Элемент «Список страниц»](../../../../../resources/activities/extra/odf-oxml/table/pages/odf-sheets-list.png)
 
 
 ## Свойства

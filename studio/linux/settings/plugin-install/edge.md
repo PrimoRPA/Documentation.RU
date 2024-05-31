@@ -21,18 +21,18 @@
 * В появившемся окне нажмите кнопку **Загрузить распакованное** (Load unpacked):
   > *Если кнопки нет, включите параметр **Режим разработчика**.*
 
-![](<../../../.gitbook/assets/image (615).png>)
+![](../../resources/settings/plugin-install/image-615.png)
 
 * В качестве пути укажите папку с файлами расширения, которое открылось после нажатия на значок **Edge**:
 
-![](<../../../.gitbook/assets/image (685).png>)
+![](../../resources/settings/plugin-install/image-685.png)
 
 * Скопируйте значение поля **ID** в открывшемся окне:
 
-![](<../../../.gitbook/assets/image (613).png>)
+![](../../resources/settings/plugin-install/image-613.png)
 
 * И вставьте значение в окно Installation, затем нажмите **ОК**:
-![](<../../../.gitbook/assets/image (699).png>)
+![](../../resources/settings/plugin-install/image-699.png)
 
 * Расширение будет установлено.
 

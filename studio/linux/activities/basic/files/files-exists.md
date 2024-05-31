@@ -1,8 +1,8 @@
 # Существует файл/папка
 
-![](../../resources/basic/files/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(227).png)
+![](../../../resources/activities/basic/files/image-100-1-1-1-1-1-1-1-2-227.png)
 
-![](../../resources/basic/files/image-(189).png)
+![](../../../resources/activities/basic/files/image-189.png)
 
 Компонент, проверяющий наличие файла либо папки.
 

@@ -7,7 +7,7 @@ description: Image search
 
 Элемент осуществляет поиск и классификацию знакомых изображений внутри изображения.
 
-![](<../../../.gitbook/assets/image (29).png>)
+![](../../../resources/activities/extra/machine-learning/image-29.png)
 
 
 ## Свойства

@@ -1,8 +1,8 @@
 # Присоединиться к серверу
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (353).png>)
+![](../../../../resources/activities/basic/network/terminal/image-100-1-1-1-1-1-1-1-2-353.png)
 
-![](<../../../../.gitbook/assets/image (408).png>)
+![](../../../../resources/activities/basic/network/terminal/image-408.png)
 
 Элемент подключается к удаленному терминальному серверу.
 

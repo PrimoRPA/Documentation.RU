@@ -1,8 +1,8 @@
 # Часть даты
 
-![](../../../resources/basic/data/datetime/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(121).png)
+![](../../../../resources/activities/basic/data/datetime/image-100-1-1-1-1-1-1-1-2-121.png)
 
-![](../../../resources/basic/data/datetime/image-(447).png)
+![](../../../../resources/activities/basic/data/datetime/image-447.png)
 
 Компонент, выделяющий из даты нужную часть.
 

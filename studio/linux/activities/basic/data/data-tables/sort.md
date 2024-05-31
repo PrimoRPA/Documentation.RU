@@ -1,8 +1,8 @@
 # Сортировать таблицу
 
-![](../../../resources/basic/data/data_tables/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(256).png)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-256.png)
 
-![](../../../resources/basic/data/data_tables/image-(422).png)
+![](../../../../resources/activities/basic/data/data-tables/image-422.png)
 
 Компонент, сортирующий таблицу.
 

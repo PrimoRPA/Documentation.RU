@@ -1,6 +1,6 @@
 # Чтение текста
 
-![](<../../../../.gitbook/assets/image (807).png>)
+![](../../../../resources/activities/basic/myoffice/text/image-807.png)
 
 Компонент, считывающий данные из документа Текст.
 

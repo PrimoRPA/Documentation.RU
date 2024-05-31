@@ -1,6 +1,6 @@
 # Чтение из ячейки
 
-![](<../../../../.gitbook/assets1/Cropped-ReadCell.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-readcell.png)
 
 Элемент, считывающий данные из ячейки Excel и сохраняющий их в переменную.
 

@@ -1,6 +1,6 @@
 # Отправить контакт
 
-![](<../../../../.gitbook/assets/image (8).png>)
+![](../../../../resources/activities/extra/messengers/telegram/image-8.png)
 
 Элемент, отправляющий контакт в чат Telegram.
 

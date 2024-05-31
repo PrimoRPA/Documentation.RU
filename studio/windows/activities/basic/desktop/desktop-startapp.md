@@ -1,6 +1,6 @@
 # Запустить приложение
 
-![](<../../../.gitbook/assets/image (42).png>)
+![](../../../resources/activities/basic/desktop/image-42.png)
 
 Компонент, запускающий новый процесс.
 

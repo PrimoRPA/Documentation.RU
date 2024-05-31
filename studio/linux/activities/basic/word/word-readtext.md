@@ -1,8 +1,8 @@
 # Чтение текста
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(91).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-91.png)
 
-![](../../resources/basic/word/image-(55).png)
+![](../../../resources/activities/basic/word/image-55.png)
 
 Компонент, считывающий данные из документа Word. Компонент корректно работает только внутри контейнера Приложение Word.
 

@@ -1,6 +1,6 @@
 # Якорь
 
-![](<../../../.gitbook/assets/image (546).png>)
+![](../../../resources/activities/basic/uiinteraction/image-546.png)
 
 **Eng:** Anchor
 

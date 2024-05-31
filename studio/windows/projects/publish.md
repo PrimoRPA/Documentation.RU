@@ -10,7 +10,7 @@
 
 Перейдите на вкладку меню **Оркестратор** и нажмите кнопку **Опубликовать**. В результате появится окно со списком проектов Оркестратора:
 
-![](<../../.gitbook/assets/list-projects-in-studio-for-publish.png>)
+![](../resources/projects/list-projects-in-studio-for-publish.png)
 
 В окне доступны действия:
 
@@ -20,7 +20,7 @@
 
 При создании проекта отобразится окно конфигурации:
 
-![](<../../.gitbook/assets/publish-rpa-project-from-studio.png>)
+![](../resources/projects/publish-rpa-project-from-studio.png)
 
 Данное окно аналогично окну добавления проекта в Оркестраторе.
 

@@ -1,6 +1,6 @@
 # Разрешение
 
-![](<../../../.gitbook/assets/image (111).png>)
+![](../../../resources/activities/basic/desktop/image-111.png)
 
 Элемент, осуществляющий смену разрешения экрана.
 

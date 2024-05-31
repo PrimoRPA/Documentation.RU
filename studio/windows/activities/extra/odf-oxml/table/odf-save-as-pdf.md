@@ -2,7 +2,7 @@
 
 Элемент сохраняет ODF-файл в формате PDF. Путь до экспортируемого файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Сохранить как PDF»](<../../../../.gitbook/assets1/windows_items/odf-save-as-pdf.png>)
+![Элемент «Сохранить как PDF»](../../../../resources/activities/extra/odf-oxml/table/odf-save-as-pdf.png)
 
 
 ## Свойства

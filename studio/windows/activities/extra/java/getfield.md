@@ -1,6 +1,6 @@
 # Получить поле
 
-![](<../../../.gitbook/assets/java-get-field.png>)
+![](../../../resources/activities/extra/java/java-get-field.png)
 
 Элемент получает поле объекта Java.
 

@@ -1,6 +1,6 @@
 # МойОфис Таблица
 
-![](<../../../../.gitbook/assets/image (529).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-529.png)
 
 
 

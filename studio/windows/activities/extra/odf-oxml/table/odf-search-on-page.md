@@ -2,7 +2,7 @@
 
 Элемент ищет значения на странице файла с ODF-таблицей. Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Поиск на странице»](<../../../../.gitbook/assets1/windows_items/odf-find-all.png>)
+![Элемент «Поиск на странице»](../../../../resources/activities/extra/odf-oxml/table/odf-find-all.png)
 
 
 ## Свойства

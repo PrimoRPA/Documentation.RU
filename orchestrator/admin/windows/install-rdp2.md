@@ -8,7 +8,7 @@
 * В секции **ConnectionStrings** измените **Host** для строки подключения к БД на реальный IP сервера БД.\
   Если поменялся пользователь/пароль БД – их тоже нужно отредактировать в этой секции. Пароль предварительно шифруем программой шифрования паролей:
 
-![](<../../../.gitbook/assets/install-rdp2-1.png>)
+![](../../resources/admin/windows/install-rdp2-1.png)
 
 3\. Проверьте, что значение системной переменной окружения **DOTNET_ENVIRONMENT** равно **ProdWin**. Для этого выполните в PoweShell команду:
 ```
@@ -24,22 +24,22 @@
 ```
 5\. Запустите службу - она должна работать как локальная служба, то есть под **Local System account**:
 
-![](<../../../.gitbook/assets/install-rdp2-2.png>)
+![](../../resources/admin/windows/install-rdp2-2.png)
 
 Свойства службы:
 
-![](<../../../.gitbook/assets/install-rdp2-3.png>)
+![](../../resources/admin/windows/install-rdp2-3.png)
 
 6\. Проверьте, что RDP-сессия устанавливается корректно - для этого перейдите в UI Оркестратора:
 
-![](<../../../.gitbook/assets/install-rdp2-4.png>)
+![](../../resources/admin/windows/install-rdp2-4.png)
 
 7\. В Оркестраторе должны быть установлены следующие параметры сессии:
 
 **Authentication Level = Attemp Authentication\
 Negotiate Security Layer = True**
 
-![](<../../../.gitbook/assets/install-rdp2-5.png>)
+![](../../resources/admin/windows/install-rdp2-5.png)
 
 :white_check_mark: **Готово**: RDP2 успешно установлен под Windows 2016 Server.
 

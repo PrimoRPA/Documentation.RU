@@ -1,6 +1,6 @@
 # Подписать байты
 
-![](<../../../../.gitbook/assets/image (596).png>)
+![](../../../../resources/activities/extra/t1/cryptopro/image-596.png)
 
 Элемент, создающий ЭЦП массива байт
 

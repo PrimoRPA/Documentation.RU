@@ -1,6 +1,6 @@
 # Сохранить как PDF
 
-![](<../../../../.gitbook/assets1/Cropped-SaveAsPDF.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-saveaspdf.png)
 
 Элемент позволяет сохранять файл Excel в формат PDF.
 

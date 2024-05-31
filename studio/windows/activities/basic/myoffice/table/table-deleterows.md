@@ -1,6 +1,6 @@
 # Удаление строк
 
-![](<../../../../.gitbook/assets/image (499).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-499.png)
 
 Компонент, удаляющий строки из листа Таблицы.
 

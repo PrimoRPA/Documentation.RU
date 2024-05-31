@@ -1,8 +1,8 @@
 # Удалить строку
 
-![](../../../resources/basic/data/data_tables/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(73).png)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-73.png)
 
-![](../../../resources/basic/data/data_tables/image-(356).png)
+![](../../../../resources/activities/basic/data/data-tables/image-356.png)
 
 Компонент, удаляющий строку таблицы.
 

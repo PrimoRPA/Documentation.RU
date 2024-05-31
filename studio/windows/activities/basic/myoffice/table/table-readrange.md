@@ -1,6 +1,6 @@
 # Чтение диапазона
 
-![](<../../../../.gitbook/assets/image (458).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-458.png)
 
 Компонент, считывающий данные из диапазона ячеек Таблицы.
 

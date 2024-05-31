@@ -8,7 +8,7 @@ description: Sort range
 
 Если в файле требуется сохранить изменения, используйте дополнительно элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save). 
 
-![](<../../../.gitbook/assets1/WFSortRange.png>)
+![](../../../resources/activities/basic/excel/wfsortrange.png)
 
 
 ## Свойства

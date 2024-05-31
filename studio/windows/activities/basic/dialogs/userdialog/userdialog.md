@@ -1,6 +1,6 @@
 # Форма ввода
 
-![](<../../../../.gitbook/assets/image (310).png>)
+![](../../../../resources/activities/basic/dialogs/userdialog/image-310.png)
 
 Элемент, отображающий пользовательскую форму.
 

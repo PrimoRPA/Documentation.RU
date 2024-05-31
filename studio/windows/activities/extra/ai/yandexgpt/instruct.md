@@ -2,12 +2,12 @@
 
 Задает вопрос YandexGPT в асинхронном режиме. Используйте этот элемент, если ваш вопрос не требует срочного ответа. В асинхронном режиме генерация текста займет больше времени, но ответ будет качественнее и дешевле.
 
-![](<../../../../.gitbook/assets1/задать вопрос.png>)
+![](../../../../resources/activities/extra/ai/yandexgpt/задать-вопрос.png)
 
 
 Элементы группы YandexGPT, включая **Задать вопрос**, становятся доступными после установки в Студии библиотеки **Primo.AI**:
 
-![](<../../../../.gitbook/assets1/yandexgpt-items.png>)
+![](../../../../resources/activities/extra/ai/yandexgpt/yandexgpt-items.png)
 
 
 ## Предварительные условия
@@ -35,7 +35,7 @@
 
 Пример заполнения свойств:
 
-![](<../../../../.gitbook/assets1/parameters-WFInstruct-2.png>)
+![](../../../../resources/activities/extra/ai/yandexgpt/parameters-wfinstruct-2.png)
 
 
 

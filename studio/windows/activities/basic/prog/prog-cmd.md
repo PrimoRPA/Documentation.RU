@@ -1,8 +1,8 @@
 # Командная строка
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (136).png>)
+![](../../../resources/activities/basic/prog/image-100-1-1-1-1-1-1-1-2-136.png)
 
-![](<../../../.gitbook/assets/image (63).png>)
+![](../../../resources/activities/basic/prog/image-63.png)
 
 Компонент, производящий выполнение консольной команды CMD.
 

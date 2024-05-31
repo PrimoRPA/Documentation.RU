@@ -1,6 +1,6 @@
 # Ввод формулы в ячейку
 
-![](../../../../resources/activities/basic/odf/table/Cropped-WriteFormula.png)
+![](../../../../resources/activities/basic/odf/table/cropped-writeformula.png)
 
 Компонент, производящий запись формулы в ячейку Excel.
 

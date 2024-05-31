@@ -3,7 +3,7 @@
 
 Мультитенантность настраивается в конфигурационном файле WebApi в секции **Tenants**:
 
-![](<../../.gitbook/assets/tenants-config.png>) 
+![](../resources/deployment/tenants-config.png) 
 
 #### Таблица 1 – Описание параметров для настройки мультитенантности.
 
@@ -32,7 +32,7 @@
 
 Если используется SSO, то привязка тенантов к AD также настраивается в секции **ActiveDirectory** в параметре **Tenants**:
 
-![](<../../.gitbook/assets/tenants-to-ad.png>) 
+![](../resources/deployment/tenants-to-ad.png) 
 
 В массиве Tenants перечисляются ID тенантов, которые привязаны к AD. Пустая строка – это ID дефолтного тенанта.
 

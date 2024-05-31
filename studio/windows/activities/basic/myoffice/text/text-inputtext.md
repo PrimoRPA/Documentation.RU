@@ -1,6 +1,6 @@
 # Ввод текста
 
-![](<../../../../.gitbook/assets/image (579).png>)
+![](../../../../resources/activities/basic/myoffice/text/image-579.png)
 
 Компонент, производящий запись данных в документ Текст.
 

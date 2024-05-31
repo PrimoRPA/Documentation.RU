@@ -4,9 +4,9 @@ description: Insert
 
 # Вставка данных
 
-![](../../resources/basic/db/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(65).png)
+![](../../../resources/activities/basic/db/image-100-1-1-1-1-1-1-1-2-65.png)
 
-![](../../resources/basic/db/бд.-вставка-данных.png)
+![](../../../resources/activities/basic/db/бд.-вставка-данных.png)
 
 Элемент производит вставку данных в указанную таблицу базы данных (БД).
 
@@ -35,17 +35,17 @@ description: Insert
 
 Мастер для Ole DB:
 
-![Для Ole DB](../../resources/basic/db/image-(301).png)
+![Для Ole DB](../../../resources/activities/basic/db/image-301.png)
 
 Мастер для PostgreSQL:
 
-![Для Postgre Sql](../../resources/basic/db/image-(383).png)
+![Для Postgre Sql](../../../resources/activities/basic/db/image-383.png)
 
 После заполнения полей мастера и нажатия кнопки **OK** строка соединения сформируется автоматически и будет записана в соответствующее свойство.
 
 Рассмотрим пример заполнения мастера для PostgreSQL. В свойстве **Тип БД** указываем `Postgre Sql`. После чего вызываем мастер и заполняем параметры подключения: 
 
-![Заполненные параметры подключения к Postgre Sql](../../resources/basic/db/WFConnectDatabase-master.png)
+![Заполненные параметры подключения к Postgre Sql](../../../resources/activities/basic/db/wfconnectdatabase-master.png)
 
 Нажимаем **Тест**, чтобы убедиться, что подключение настроено успешно. После чего сохраняем настройки. В свойстве **Строка соединения** автоматически сформировалось значение из нашего мастера: `"Host=localhost;Port=5432;Password=pass;Username=postgres;Database=postgres"`.
 

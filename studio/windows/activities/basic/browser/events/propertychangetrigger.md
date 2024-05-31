@@ -1,6 +1,6 @@
 # Событие изменения аттрибута
 
-![](<../../../../.gitbook/assets/image (150).png>)
+![](../../../../resources/activities/basic/browser/events/image-150.png)
 
 
 

@@ -8,7 +8,7 @@ description: Copy range
 
 Чтобы изменения применились, используйте также элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/prilozhenie-excel/el\_excel\_save).
 
-![Элемент «Копирование диапазона»](<../../../.gitbook/assets1/WFCopyRange.png>)
+![Элемент «Копирование диапазона»](../../../resources/activities/basic/excel/wfcopyrange.png)
 
 
 ## Свойства

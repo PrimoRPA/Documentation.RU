@@ -1,6 +1,6 @@
 # Зашифровать строку
 
-![](<../../../../.gitbook/assets/image (603).png>)
+![](../../../../resources/activities/extra/t1/cryptopro/image-603.png)
 
 Элемент, шифрующий строку
 

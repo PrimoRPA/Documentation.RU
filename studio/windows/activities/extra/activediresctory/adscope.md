@@ -1,6 +1,6 @@
 # Соединение с Active Directory
 
-![](<../../../.gitbook/assets/ad-scope.png>)
+![](../../../resources/activities/extra/activediresctory/ad-scope.png)
 
 Элемент подключается к серверу Active Directory. Является контейнером для других AD-элементов.
 

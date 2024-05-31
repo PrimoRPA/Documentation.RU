@@ -1,6 +1,6 @@
 # Вставка изображения
 
-![](<../../../../.gitbook/assets/image (559).png>)
+![](../../../../resources/activities/basic/myoffice/text/image-559.png)
 
 Компонент, производящий вставку изображения в документ Текст.
 

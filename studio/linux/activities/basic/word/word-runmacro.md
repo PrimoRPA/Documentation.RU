@@ -1,6 +1,6 @@
 # Запустить макрос
 
-![](../../resources/basic/word/Запустить-макрос-Word.png)
+![](../../../resources/activities/basic/word/запустить-макрос-word-fixed.png)
 
 Элемент, выполняющий макрос Word. Не поддерживается на ОС Linux.
 

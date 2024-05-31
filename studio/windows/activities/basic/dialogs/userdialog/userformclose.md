@@ -1,5 +1,5 @@
 # Закрыть форму
 
-![](<../../../../.gitbook/assets/image (329).png>)
+![](../../../../resources/activities/basic/dialogs/userdialog/image-329.png)
 
 Элемент, закрывающий форму

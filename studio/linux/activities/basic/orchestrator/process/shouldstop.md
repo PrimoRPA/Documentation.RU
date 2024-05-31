@@ -4,12 +4,12 @@ description: Should stop
 
 # Должен остановиться
 
-![](../../../resources/basic/orch/process/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(10)-(153).png)
+![](../../../../resources/activities/basic/orchestrator/process/image-100-1-1-1-1-1-1-10-153.png)
 
 
 Элемент получает сигнал мягкой остановки из Оркестратора. Робот остановится только при наличии сигнала, иначе — остановка проигнорируется. 
 
-![](../../../resources/basic/orch/process/image-(282).png)
+![](../../../../resources/activities/basic/orchestrator/process/image-282.png)
 
 Кто может подать сигнал:
 1. Система — автоматически. Это произойдет, если в Оркестраторе был запущен RPA-проект по заданию с триггером **Запуск по расписанию** и установленным чекбоксом **Завершение робота** в режиме **Попросить остановиться**. Подробности см. [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks#1.-zapusk-po-raspisaniyu).
@@ -20,7 +20,7 @@ description: Should stop
 
    :bangbang: *\*Кнопка отображается только во время выполнения проекта.*
 
- ![](../../../resources/basic/orch/process/ask-to-stop-2.png)
+ ![](../../../../resources/activities/basic/orchestrator/process/ask-to-stop-2.png)
 
 В результате этих действий робот, дойдя до выполнения элемента **Должен остановиться**, совершит мягкую остановку.
 

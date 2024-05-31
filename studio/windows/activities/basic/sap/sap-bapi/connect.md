@@ -1,6 +1,6 @@
 # Соединение с BAPI
 
-![](<../../../../.gitbook/assets/image (314).png>)
+![](../../../../resources/activities/basic/sap/sap-bapi/image-314.png)
 
 Элемент, осуществляющий соединение с сервисами SAP BAPI
 

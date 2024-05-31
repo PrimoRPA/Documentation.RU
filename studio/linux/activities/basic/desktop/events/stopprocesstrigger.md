@@ -1,6 +1,6 @@
 # Событие завершения процесса
 
-![](../../../resources/basic/desktop/events/image-(163).png)
+![](../../../../resources/activities/basic/desktop/events/image-163.png)
 
 
 

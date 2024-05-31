@@ -1,6 +1,6 @@
 # Размер справочника
 
-![](<../../../../.gitbook/assets/image (761).png>)
+![](../../../../resources/activities/extra/t1/collections/image-761.png)
 
 Элемент, получающий размер справочника
 

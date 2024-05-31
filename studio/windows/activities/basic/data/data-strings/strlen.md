@@ -1,8 +1,8 @@
 # Длина строки
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (112).png>)
+![](../../../../resources/activities/basic/data/data-strings/image-100-1-1-1-1-1-1-1-2-112.png)
 
-![](<../../../../.gitbook/assets/image (246).png>)
+![](../../../../resources/activities/basic/data/data-strings/image-246.png)
 
 Компонент, получающий длину заданной строки.
 

@@ -4,19 +4,19 @@
 
 После успешного запуска на экране появится окно приветствия:
 
-![](<../../.gitbook/assets/Приветственное окно.png>)
+![](../resources/launch/приветственное-окно.png)
 
 Из данного окна можно создать новый проект, открыть имеющийся, либо выбрать один из последних проектов, с которыми производилась работа - они отобразятся в блоке "История".
 
 Если снять галку "Показывать при запуске", данное окно более не будет появляться. После закрытия окна приветствия, станет доступно окно Студии:
 
-![](<../../.gitbook/assets/Untitled (12).png>)
+![](../resources/launch/untitled-12.png)
 
 В окне присутствуют следующие компоненты:&#x20;
 
 Главное меню приложения (Файл):
 
-![](<../../.gitbook/assets/image (646).png>)
+![](../resources/launch/image-646.png)
 
 В данном меню имеются следующие пункты:
 
@@ -51,7 +51,7 @@
 
 Основная панель представляет собой ленту, разбитую на следующие группы:
 
-![](<../../.gitbook/assets/image (736).png>)
+![](../resources/launch/image-736.png)
 
 Общие
 
@@ -66,7 +66,7 @@
 * Отменить
 * Повторить
 
-![](<../../.gitbook/assets/image (638).png>)
+![](../resources/launch/image-638.png)
 
 Вид
 
@@ -74,7 +74,7 @@
 * Показать все аннотации
 * Панели
 
-![](<../../.gitbook/assets/image (610).png>)
+![](../resources/launch/image-610.png)
 
 Отладка
 
@@ -111,7 +111,7 @@
 
 Основная рабочая область
 
-![](<../../.gitbook/assets/image (711).png>)
+![](../resources/launch/image-711.png)
 
 ​
 
@@ -123,34 +123,34 @@
 
 Панель перехвата трафика
 
-![](<../../.gitbook/assets/image (703).png>)
+![](../resources/launch/image-703.png)
 
 ​
 
 Панель свойств пакета
 
-![](<../../.gitbook/assets/image (681).png>)
+![](../resources/launch/image-681.png)
 
 ​
 
 Панель фильтра трафика
 
-![](<../../.gitbook/assets/image (631).png>)
+![](../resources/launch/image-631.png)
 
 ​
 
 Панель мобильных устройств
 
-![](<../../.gitbook/assets/image (617).png>)
+![](../resources/launch/image-617.png)
 
 ​
 
 Панель инспектора UI
 
-![](<../../.gitbook/assets/image (659).png>)
+![](../resources/launch/image-659.png)
 
 ​
 
 Панель инспектора SAP
 
-![](<../../.gitbook/assets/image (620).png>)
+![](../resources/launch/image-620.png)

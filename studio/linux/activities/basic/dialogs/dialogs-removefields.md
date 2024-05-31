@@ -1,8 +1,8 @@
 # Удалить поля журнала
 
-![](../../resources/basic/dialogs/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(243).png)
+![](../../../resources/activities/basic/dialogs/image-100-1-1-1-1-1-1-1-2-243.png)
 
-![](../../resources/basic/dialogs/Удалить-поля-журнала.png)
+![](../../../resources/activities/basic/dialogs/удалить-поля-журнала-fixed.png)
 
 Позволяет удалить дополнительные поля из журнала Робота.
 

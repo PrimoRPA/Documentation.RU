@@ -1,6 +1,6 @@
 # Удаление колонок
 
-![](<../../../../.gitbook/assets/image (515).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-515.png)
 
 Компонент, удаляющий колонки из листа Таблицы.
 

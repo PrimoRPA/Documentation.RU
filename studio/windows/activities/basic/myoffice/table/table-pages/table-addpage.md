@@ -1,6 +1,6 @@
 # Добавить страницу
 
-![](<../../../../../.gitbook/assets/image (531).png>)
+![](../../../../../resources/activities/basic/myoffice/table/table-pages/image-531.png)
 
 Компонент, создающий новую страницу в Таблицу.
 

@@ -4,7 +4,7 @@
 
 После записи данных используйте элемент «Сохранить документ», иначе изменения в файле не сохранятся.
 
-![Элемент «Ввод в ячейку»](<../../../../.gitbook/assets1/windows_items/odf-input-to-cell.png>)
+![Элемент «Ввод в ячейку»](../../../../resources/activities/extra/odf-oxml/table/odf-input-to-cell.png)
 
 
 ## Свойства

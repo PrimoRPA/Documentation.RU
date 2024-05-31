@@ -1,8 +1,8 @@
 # Повтор N раз
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (358).png>)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-1-2-358.png)
 
-![](<../../../.gitbook/assets/image (36).png>)
+![](../../../resources/activities/basic/logic/image-36.png)
 
 Компонент-цикл, выполняющийся заданное число раз.
 

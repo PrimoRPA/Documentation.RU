@@ -1,8 +1,8 @@
 # Разница дат
 
-![](../../../resources/basic/data/datetime/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(248).png)
+![](../../../../resources/activities/basic/data/datetime/image-100-1-1-1-1-1-1-1-2-248.png)
 
-![](../../../resources/basic/data/datetime/image-(371).png)
+![](../../../../resources/activities/basic/data/datetime/image-371.png)
 
 Компонент, получающий разницу между двумя датами.
 

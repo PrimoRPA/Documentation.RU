@@ -1,6 +1,6 @@
 # Запустить макрос
 
-![](<../../../../.gitbook/assets/image (810).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-810.png)
 
 Элемент, выполняющий макрос Таблицы.
 

@@ -10,7 +10,7 @@ description: Peek queue
 
 Для успешной работы компонента должна быть настроена связь Студии и Оркестратора.
 
-![](../../../resources/basic/orch/queues/image-(393).png)
+![](../../../../resources/activities/basic/orchestrator/queues/image-393.png)
 
 ## Свойства
 Символ `*` в названии указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

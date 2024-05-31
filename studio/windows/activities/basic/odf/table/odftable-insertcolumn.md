@@ -1,6 +1,6 @@
 # Вставка колонок
 
-![](<../../../../.gitbook/assets1/Cropped-InsertColumn.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-insertcolumn.png)
 
 Элемент вставляет колонки в лист Excel.
 

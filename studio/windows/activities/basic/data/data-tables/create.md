@@ -1,8 +1,8 @@
 # Создать таблицу
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (130).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-130.png)
 
-![](<../../../../.gitbook/assets/image (380).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-380.png)
 
 Компонент, создающий новую таблицу.
 

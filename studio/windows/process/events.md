@@ -9,11 +9,11 @@
 
 Для создания обработчика события добавьте в проект контейнер [**События**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/els_events/el_events) из группы элементов **Рабочий стол ➝ События**:
 
-![](<../../.gitbook/assets/image (99).png>)
+![](../resources/process/image-99.png)
 
 Контейнер состоит из двух подконтейнеров: *События* и *Действия*. В *События* помещаются элементы, описывающие отслеживаемое события, а в подконтейнер *Действия* - обработчики данных событий:
 
-![](<../../.gitbook/assets/image (156).png>)
+![](../resources/process/image-156.png)
 
 В данном примере [**Окно сообщения**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_dialogs/el_dialogs_message) будет отображаться каждый раз при клике мышью на экране. Информация о произошедшем событии доступна в переменной аргументов (args).
 

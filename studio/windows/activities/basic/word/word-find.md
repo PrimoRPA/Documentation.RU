@@ -1,6 +1,6 @@
 # Найти текст
 
-![](<../../../.gitbook/assets/image (104).png>)
+![](../../../resources/activities/basic/word/image-104.png)
 
 Ищет вхождение заданного текста в документ.
 

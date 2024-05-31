@@ -7,7 +7,7 @@ _Eng: Get Attribute_
 1. Поместите компонент внутрь контейнера [**Открыть браузер**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open) или [**Присоединиться к браузеру**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_attach).
 2. [Установите расширение того браузера](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install), к которому вы хотите подключиться.
 
-![Get Attribute 2](../../resources/basic/browser/image-(319).png)
+![Get Attribute 2](../../../resources/activities/basic/browser/image-319.png)
 
 
 ## Свойства
@@ -17,7 +17,7 @@ _Eng: Get Attribute_
 
 - **Атрибут**: String. Название атрибута элемента управления. Пример: `"title"`.
 - **Таймаут\***: Int32. Предельное время ожидания завершения процесса (в миллисекундах). По умолчанию `10000`. 
-- **Шаблон поиска**: String. [Шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) элемента управления (то же, что и селектор). Для быстрого формирования шаблона используйте инструмент **Выбрать компонент** ![](../../resources/basic/browser/image-(553).png)
+- **Шаблон поиска**: String. [Шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) элемента управления (то же, что и селектор). Для быстрого формирования шаблона используйте инструмент **Выбрать компонент** ![](../../../resources/activities/basic/browser/image-553.png)
 - **Элемент**: LTools.WebBrowser.Model.IElementInfo. Переменная со ссылкой на элемент управления. Заполняется, если нужный элемент управления был найден ранее, с помощью компонента **Присутствие элемента**.
 
 **Группа «Вывод»**:

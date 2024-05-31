@@ -26,5 +26,5 @@
 
   Пример ошибки, которая отобразится пользователю в Студии:
 
-![](../../../.gitbook/assets1/min-version-studio-error.png)
+![](../resources/fine-tuning/min-version-studio-error.png)
 

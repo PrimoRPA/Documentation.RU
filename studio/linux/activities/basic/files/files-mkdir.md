@@ -1,8 +1,8 @@
 # Создать папку
 
-![](../../resources/basic/files/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(11).png)
+![](../../../resources/activities/basic/files/image-100-1-1-1-1-1-1-1-2-11.png)
 
-![](../../resources/basic/files/image-(203).png)
+![](../../../resources/activities/basic/files/image-203.png)
 
 Компонент, создающий новую папку.
 

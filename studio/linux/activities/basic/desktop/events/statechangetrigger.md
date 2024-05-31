@@ -1,6 +1,6 @@
 # Событие изменения состояния
 
-![](../../../resources/basic/desktop/events/image-(78).png)
+![](../../../../resources/activities/basic/desktop/events/image-78.png)
 
 
 

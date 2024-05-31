@@ -2,9 +2,9 @@
 
 *Eng: Move to folder (IMAP)*
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (28).png>)
+![](../../../resources/activities/basic/mail/image-100-1-1-1-1-1-1-1-1-28.png)
 
-![](<../../../.gitbook/assets/image (427).png>)
+![](../../../resources/activities/basic/mail/image-427.png)
 
 Элемент перемещает сообщения между папками по протоколу IMAP.
 

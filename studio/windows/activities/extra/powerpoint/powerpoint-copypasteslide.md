@@ -1,6 +1,6 @@
 # Копировать-вставить слайд
 
-![](<../../../.gitbook/assets/image (477).png>)
+![](../../../resources/activities/extra/powerpoint/image-477.png)
 
 
 

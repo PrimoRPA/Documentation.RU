@@ -1,6 +1,6 @@
 # Чтение почты
 
-![](../../../resources/basic/mail/exchange/image-(324).png)
+![](../../../../resources/activities/basic/mail/exchange/image-324.png)
 
 Компонент вычитывает электронную почту из MS Exchange.
 

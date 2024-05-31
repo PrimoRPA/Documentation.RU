@@ -1,6 +1,6 @@
 # Прокрутка
 
-![](../../resources/basic/desktop/image-(224).png)
+![](../../../resources/activities/basic/desktop/image-224.png)
 
 Элемент, осуществляющий прокрутку в визуальном компоненте.
 

@@ -2,7 +2,7 @@
 
 *Eng: Insert image*
 
-![](<../../../.gitbook/assets/image (204).png>)
+![](../../../resources/activities/basic/word/image-204.png)
 
 Элемент производит вставку изображения в документ Word. Путь до документа указывается в контейнере [Документ Word](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_word/el_word_app?q=%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82+Word).
 

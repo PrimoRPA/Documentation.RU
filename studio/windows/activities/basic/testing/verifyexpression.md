@@ -1,8 +1,8 @@
 # Проверка выражения
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (129).png>)
+![](../../../resources/activities/basic/testing/image-100-1-1-1-1-1-1-1-2-129.png)
 
-![](<../../../.gitbook/assets/image (121).png>)
+![](../../../resources/activities/basic/testing/image-121.png)
 
 Элемент, выполняющий проверку заданного выражения.
 

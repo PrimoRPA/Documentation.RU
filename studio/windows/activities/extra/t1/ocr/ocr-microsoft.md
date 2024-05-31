@@ -1,6 +1,6 @@
 # Microsoft OCR
 
-![](<../../../../.gitbook/assets/microsoft_ocr_scope.png>)
+![](../../../../resources/activities/extra/t1/ocr/microsoft-ocr-scope.png)
 
 Элемент осуществляет подключение к ядру OCR Microsoft. Поддерживается только для Windows 10. Является контейнером для таких OCR-элементов, как [Клик текста мышью](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) и [Распознать текст](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_recog).
 

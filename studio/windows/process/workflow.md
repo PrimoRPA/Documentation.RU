@@ -2,7 +2,7 @@
 
 В Студии доступна глобальная переменная **\_Workflow**. При ее вызове в редакторе кода (например, через элемент **Присвоение**) будут доступны следующие свойства:
 
-![](<../../.gitbook/assets/workflow.png>)
+![](../resources/process/workflow.png)
 
 1. **Caller** — ссылка на объект процесса, который вызвал текущий процесс.
 2. **Current** — ccылка на объект текущего процесса.
@@ -24,29 +24,29 @@
    **Способы указания конфигурации:**
    * В Студии на вкладке меню **Отладка** в параметре **Конфигурация**. Параметр реализован в виде выпадающего списка:
 
-     ![](<../../.gitbook/assets/studio-standard-config-robot.png>)
+     ![](../resources/process/studio-standard-config-robot.png)
 
    * При загрузке проекта в Оркестратор:
 
-     ![](<../../.gitbook/assets/orch-robot-config-standard.png>)
+     ![](../resources/process/orch-robot-config-standard.png)
 
    * В утилите Robot Runner при добавлении задания (на вкладке **Общие**):
 
-     ![](<../../.gitbook/assets/runner-config-robot-standard.png>)
+     ![](../resources/process/runner-config-robot-standard.png)
      
 8. **RunConfigCustom** — специальная конфигурация запуска. Она отличается от стандартной тем, что в специальной конфигурации возможно использовать индивидуальное значение (вместо Debug/Release). 
     Задать значение специальной конфигурации можно в следующих местах:
     * В Студии на вкладке меню **Отладка** в параметре **Конфигурация**. Параметр представляет собой текстовое поле.
     
-      ![](<../../.gitbook/assets/studio-robot-config-special.png>)
+      ![](../resources/process/studio-robot-config-special.png)
 
     * При загрузке проекта в Оркестратор (текстовое поле):
 
-      ![](<../../.gitbook/assets/orch-robot-config-special.png>)
+      ![](../resources/process/orch-robot-config-special.png)
 
     * В утилите Robot Runner при добавлении задания (на вкладке **Общие**).
 
-      ![](<../../.gitbook/assets/runner-config-special.png>)
+      ![](../resources/process/runner-config-special.png)
 
 9. **Logging.ScreenshotsPath** — путь до папки со скриншотами. Путь, заданный по умолчанию, можно изменить. Пример: в C# script укажите свой путь к файлам скриншотов, используя синтаксис `_Workflow.Logging.ScreenshotsPath = "<screens_folder>"`, где `<screens_folder>` — новая папка для сохранения скриншотов, которая будет создана в проекте и использована по умолчанию.
 

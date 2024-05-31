@@ -1,6 +1,6 @@
 # Удалить из коллекции
 
-![](<../../../../.gitbook/assets/image (478).png>)
+![](../../../../resources/activities/extra/t1/collections/image-478.png)
 
 Элемент, удаляющий значение из коллекции
 

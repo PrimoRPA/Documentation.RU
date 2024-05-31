@@ -1,6 +1,6 @@
 # Переместить в папку
 
-![](<../../../.gitbook/assets/image (90).png>)
+![](../../../resources/activities/basic/outlook/image-90.png)
 
 Компонент, осуществляющий перемещение сообщений между папками Outlook.
 

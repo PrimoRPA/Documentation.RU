@@ -1,6 +1,6 @@
 # Отправить файл
 
-![](<../../../../.gitbook/assets/image (198).png>)
+![](../../../../resources/activities/extra/messengers/telegram/image-198.png)
 
 Элемент, отправляющий файл в чат Telegram.
 

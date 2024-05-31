@@ -1,6 +1,6 @@
 # Заменить текст
 
-![](<../../../.gitbook/assets/image (572).png>)
+![](../../../resources/activities/extra/powerpoint/image-572.png)
 
 
 

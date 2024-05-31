@@ -1,8 +1,8 @@
 # JavaScript
 
-![](../../resources/basic/prog/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(340).png)
+![](../../../resources/activities/basic/prog/image-100-1-1-1-1-1-1-1-2-340.png)
 
-![](../../resources/basic/prog/image-(31).png)
+![](../../../resources/activities/basic/prog/image-31.png)
 
 Компонент, производящий выполнение сценария на языке JavaScript.
 

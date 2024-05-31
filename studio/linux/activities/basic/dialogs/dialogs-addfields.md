@@ -1,8 +1,8 @@
 # Добавить поля журнала
 
-![](../../resources/basic/dialogs/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(243).png)
+![](../../../resources/activities/basic/dialogs/image-100-1-1-1-1-1-1-1-2-243.png)
 
-![](../../resources/basic/dialogs/Добавить-поля-журнала.png)
+![](../../../resources/activities/basic/dialogs/добавить-поля-журнала-fixed.png)
 
 Позволяет добавить дополнительные поля в журнал Робота Оркестратора. Впоследствии ненужные поля можно удалить при помощи компонента [**Удалить поля журнала**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/els\_dialogs/el\_dialogs\_removefields).
 

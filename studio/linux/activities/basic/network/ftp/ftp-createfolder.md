@@ -1,8 +1,8 @@
 # Создать папку FTP
 
-![](../../../resources/basic/network/ftp/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(38).png)
+![](../../../../resources/activities/basic/network/ftp/image-100-1-1-1-1-1-1-1-1-38.png)
 
-![](../../../resources/basic/network/ftp/Создать-папку-FTP.png)
+![](../../../../resources/activities/basic/network/ftp/создать-папку-ftp-fixed.png)
 
 С помощью этого элемента можно создать папку на FTP-сервере.
 

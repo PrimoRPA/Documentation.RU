@@ -1,6 +1,6 @@
 # Преобразовать объект Java
 
-![](<../../../.gitbook/assets/java-convert-object.png>)
+![](../../../resources/activities/extra/java/java-convert-object.png)
 
 Элемент помогает преобразовать объект Java в тип данных .NET. Поддерживаются только примитивные типы данных .NET и массивы примитивных типов .NET. 
 

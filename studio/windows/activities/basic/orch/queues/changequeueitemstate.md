@@ -7,7 +7,7 @@ description: Change queue item state
 
 Компонент позволяет изменить статус элемента [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора. Выбранный статус будет обозначать результат обработки элемента роботом. Например, присвоение статуса **Success** будет означать, что обработка элемента прошла успешно.
 
-![](<../../../../.gitbook/assets/change-status-orch-queue-items.png>)
+![](../../../../resources/activities/basic/orch/queues/change-status-orch-queue-items.png)
 
 ## Начальные условия
 
@@ -16,7 +16,7 @@ description: Change queue item state
 
 ## Жизненный цикл элемента очереди
 
-![](<../../../../.gitbook/assets1/items-states-diargam.png>)  
+![](../../../../resources/activities/basic/orch/queues/items-states-diargam.png)  
 
 Статусы элемента: 
 * **New** – элемент добавлен в очередь, но еще не извлечен ни одним роботом. 

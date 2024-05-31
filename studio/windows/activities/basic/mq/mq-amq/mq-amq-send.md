@@ -1,8 +1,8 @@
 # Отправить сообщение
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (255).png>)
+![](../../../../resources/activities/basic/mq/mq-amq/image-100-1-1-1-1-1-1-1-2-255.png)
 
-![](<../../../../.gitbook/assets/image (398).png>)
+![](../../../../resources/activities/basic/mq/mq-amq/image-398.png)
 
 Компонент, отправляющий сообщение в очередь сервера ActiveMQ.
 

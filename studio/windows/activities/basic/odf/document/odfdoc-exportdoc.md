@@ -1,6 +1,6 @@
 # Экспортировать документ
 
-![](<../../../../.gitbook/assets1/Cropped-ExportDoc.png>)
+![](../../../../resources/activities/basic/odf/document/cropped-exportdoc.png)
 
 Компонент, производящий экспорт документа Word в другой формат. Доступный формат: PDF
 

@@ -20,4 +20,4 @@
 
 ```
 
-![](<../../../.gitbook/assets/0 (126).png>)
+![](../../resources/ltools.sdk/windows/0-126.png)

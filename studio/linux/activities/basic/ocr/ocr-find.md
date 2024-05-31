@@ -1,6 +1,6 @@
 # Поиск изображения
 
-![](../../resources/basic/ocr/image-(384).png)
+![](../../../resources/activities/basic/ocr/image-384.png)
 
 Компонент, производящий поиск заданного изображения на экране.
 

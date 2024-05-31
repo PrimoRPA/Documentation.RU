@@ -1,8 +1,8 @@
 # Регулярное выражение (IsMatch)
 
-![](../../../resources/basic/data/data_strings/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(12).png)
+![](../../../../resources/activities/basic/data/data-strings/image-100-1-1-1-1-1-1-1-1-12.png)
 
-![](../../../resources/basic/data/data_strings/image-(264).png)
+![](../../../../resources/activities/basic/data/data-strings/image-264.png)
 
 Компонент, применяющий регулярное выражение к заданной строке. В результате вернется значение true (соответствует рег.выражению) или false (не соответствует) .\
 **Примечание**. Также есть элемент [Регулярное выражение (Matches)](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/els\_data/els\_data\_strings/el\_stringmatches), который отличается тем, что возвращает массив соответствий.

@@ -1,6 +1,6 @@
 # Получить объект
 
-![](<../../../.gitbook/assets/get-object.png>)
+![](../../../resources/activities/extra/python/get-object.png)
 
 Элемент позволяет получить объект Python. 
 

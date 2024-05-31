@@ -1,6 +1,6 @@
 # Пометить сообщения
 
-![](<../../../.gitbook/assets/image (202).png>)
+![](../../../resources/activities/basic/outlook/image-202.png)
 
 Компонент, делающий пометки на сообщениях электронной почты в Outlook.
 

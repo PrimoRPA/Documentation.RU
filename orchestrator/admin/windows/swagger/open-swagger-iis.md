@@ -16,13 +16,13 @@ Swagger – интерактивная документация по API Орк�
 </rule>
 ```
 
-![](<../../../../.gitbook/assets/swagger-iils-1.png>)
+![](../../../resources/admin/windows/swagger/swagger-iils-1.png)
 
 3\. При помощи оснастки IIS или cmd (iisreset) перезапустите узел Primo.UI:
 
-![](<../../../../.gitbook/assets/swagger-iils-2.png>)
+![](../../../resources/admin/windows/swagger/swagger-iils-2.png)
 
 4\. Проверьте доступность Swagger по адресу:
 https://{IP}:44392/swagger/index.html 
 
-![](<../../../../.gitbook/assets/swagger-iils-3.png>)
+![](../../../resources/admin/windows/swagger/swagger-iils-3.png)

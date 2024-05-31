@@ -1,6 +1,6 @@
 # Добавить функцию
 
-![](<../../../.gitbook/assets/add-function.png>)
+![](../../../resources/activities/extra/python/add-function.png)
 
 Элемент добавляет функцию Python.
 

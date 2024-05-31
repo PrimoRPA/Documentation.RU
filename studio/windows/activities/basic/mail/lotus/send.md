@@ -1,6 +1,6 @@
 # Отправить письмо
 
-![](<../../../../.gitbook/assets/image (306).png>)
+![](../../../../resources/activities/basic/mail/lotus/image-306.png)
 
 Компонент, осуществляющий отправку почтового сообщения Lotus Notes.
 

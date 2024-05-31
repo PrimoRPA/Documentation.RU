@@ -2,7 +2,7 @@
 
 Элемент выделяет диапазон ячеек в в ODF-таблице. Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Выделение диапазона»](<../../../../.gitbook/assets1/windows_items/odf-select-range.png>)
+![Элемент «Выделение диапазона»](../../../../resources/activities/extra/odf-oxml/table/odf-select-range.png)
 
 
 ## Свойства

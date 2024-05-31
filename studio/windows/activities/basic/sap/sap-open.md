@@ -1,6 +1,6 @@
 # Открыть SAP
 
-![](<../../../.gitbook/assets/image (361).png>)
+![](../../../resources/activities/basic/sap/image-361.png)
 
 Элемент осуществляет подключение к SAP Front End.
 

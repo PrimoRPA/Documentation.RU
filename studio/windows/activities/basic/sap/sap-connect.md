@@ -1,6 +1,6 @@
 # Присоединиться к SAP
 
-![](<../../../.gitbook/assets/image (424).png>)
+![](../../../resources/activities/basic/sap/image-424.png)
 
 Контейнер осуществляет присоединение к открытому SAP Front End, чтобы начать с ним работу.
 
@@ -16,7 +16,7 @@
 
 Имя системы можно найти в свойствах для системной записи:
 
-![](<../../../.gitbook/assets/Имя системы.png>)
+![](../../../resources/activities/basic/sap/имя-системы.png)
 
 
 {% tabs %}

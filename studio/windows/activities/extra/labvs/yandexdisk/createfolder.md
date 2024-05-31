@@ -1,6 +1,6 @@
 # Создать папку
 
-![](<../../../../.gitbook/assets/image (494) (1) (1) (1) (2).png>)
+![](../../../../resources/activities/extra/labvs/yandexdisk/image-494-1-1-1-2.png)
 
 Элемент, создающий новую папку
 

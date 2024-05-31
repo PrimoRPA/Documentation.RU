@@ -2,7 +2,7 @@
 
 На экране **Настройка учётных записей пользователей и паролей** создайте пользователя-администратора (далее – primo-admin) машины Студии.
 
-![](../../resources/installation/astra/Astra-Linux.png)
+![](../../resources/installation/astra/astra-linux-fixed.png)
 
 ## Настройка дополнительного ПО
 
@@ -96,16 +96,16 @@ passwd: пароль успешно обновлён
 
 ## Установка расширения для браузера Chrome для текущего пользователя
 Откройте браузер Chrome, выберите пункт меню **Настройки и управление Google Chrome > Расширения > Управление расширениями**, далее на странице **Расширения** установите настройку **Режим разработчика**:  
-![](<../../resources/installation/astra/developer-mode.png>)  
+![](../../resources/installation/astra/developer-mode.png)  
 Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` в браузер Хром на страницу **Расширения**. В результате на странице должно появится расширение Primo RPA Extension:  
-![](<../../resources/installation/astra/chrome-extension.png>)
+![](../../resources/installation/astra/chrome-extension.png)
 
 ## Установка расширения для браузера Яндекс
 Откройте браузер Яндекс, в строке адреса укажите browser://extensions/, нажмите Enter, далее на странице **Расширения** установите настройку **Режим разработчика**:  
-![](<../../resources/installation/astra/developer-mode.png>)  
+![](../../resources/installation/astra/developer-mode.png)  
 
 Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` в браузер Яндекс на страницу **Расширения**. В результате на странице должно появиться расширение Primo RPA Extension:  
-![](<../../resources/installation/astra/yandex-extension.png>)
+![](../../resources/installation/astra/yandex-extension.png)
 
 
 ## Настройка браузеров Chrome и Яндекс для текущего пользователя
@@ -136,18 +136,18 @@ passwd: пароль успешно обновлён
 **Решение**: включите прозрачность в композит-менеджер (по умолчанию ВЫКЛ).  
 fly-admin-theme -> «Эффекты» -> «Композитинг» -> «Прозрачность»
 
-![](<../../resources/installation/astra/alphachannel-setup.png>)
+![](../../resources/installation/astra/alphachannel-setup.png)
 
 В случае, если настройка Композит-менеджер не доступна в текущей конфигурации, откройте Студию и в настройках «Общие» установите настройку **Принудительная прозрачность окон**:  
 
-![](<../../resources/installation/astra/transparent-window-setup.png>)
+![](../../resources/installation/astra/transparent-window-setup.png)
 
 2. **Проблема**: «Смещение элементов в браузере Яндекс». Проблема проявляется во время выбора элемента страницы при помощи пикера браузера, при этом границы выбранного элемента не совпадают с самим элементом.  
 **Решение**: В настройках «Интерфейс» -> «Боковая панель» отключите настройку «Показывать боковую панель»
 
-![](<../../resources/installation/astra/sidebar.png>)
+![](../../resources/installation/astra/sidebar.png)
 
 3. **Проблема**: «При запуске браузера Яндекс восстанавливаются закрытые вкладки страниц».  
 **Решение**: В настройках «Интерфейс»-> «Вкладки и группы» выключите настройку «При запуске восстанавливать вкладки окон и список закрепленных групп»
 
-![](<../../resources/installation/astra/page-restore.png>)
+![](../../resources/installation/astra/page-restore.png)

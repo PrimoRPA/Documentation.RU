@@ -24,19 +24,19 @@
 После чего служба Primo.Orchestrator.MachineInfo будет отображаться в списке служб как запущенная:
 
 
-![](<../../../.gitbook/assets/install-machineinfo-1.png>)
+![](../../resources/admin/windows/install-machineinfo-1.png)
 
-![](<../../../.gitbook/assets/nstall-machineinfo-2.png>)
+![](../../resources/admin/windows/nstall-machineinfo-2.png)
 
 3\. Откройте порт 5051 на файерволе.\
 Если используется один сервер с MachineInfo, в конфигурационном файле службы WebApi нужно добавить на него ссылку:
 
-![](<../../../.gitbook/assets/install-machineinfo-3.png>)
+![](../../resources/admin/windows/install-machineinfo-3.png)
 
 Параметр **Timeout** (по умолчанию 4 сек) – это время ответа, после которого сервис считается недоступным.
 
 Если используется кластер MachineInfo, или MachineInfo используется в геокластере, в конфигурационном файле службы WebApi нужно прописать ссылки на все узлы кластера:
 
-![](<../../../.gitbook/assets/install-machineinfo-4.png>)
+![](../../resources/admin/windows/install-machineinfo-4.png)
 
 Порядок узлов имеет значение. В момент генерации запроса на лицензию должны быть доступны все узлы. **Узлы нельзя скрывать за балансировщиком нагрузки!**

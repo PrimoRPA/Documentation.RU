@@ -1,8 +1,8 @@
 # Цикл While
 
-![](../../resources/basic/logic/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(82).png)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-1-2-82.png)
 
-![](../../resources/basic/logic/image-(58).png)
+![](../../../resources/activities/basic/logic/image-58.png)
 
 Цикл, продолжающийся, пока установленное в нем выражение возвращает Истину (в начале цикла).
 

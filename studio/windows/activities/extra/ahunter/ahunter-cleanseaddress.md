@@ -1,6 +1,6 @@
 # Стандартизация адреса
 
-![](<../../../.gitbook/assets/image (527).png>)
+![](../../../resources/activities/extra/ahunter/image-527.png)
 
 
 

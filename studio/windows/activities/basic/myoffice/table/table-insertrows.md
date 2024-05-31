@@ -1,6 +1,6 @@
 # Вставка строк
 
-![](<../../../../.gitbook/assets/image (910).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-910.png)
 
 Компонент, вставляющий строки в лист Таблицы.
 

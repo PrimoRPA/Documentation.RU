@@ -19,7 +19,7 @@ Primo Studio позволяет подключать собственные ис
 
 4. После сохранения настроек новый источник будет доступен для выбора в окне [Управления зависимостями](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei). Пример:
 
-![](../../.gitbook/assets/new-source-nuget-1.png)
+![](../resources/settings/new-source-nuget-1.png)
 
 ## Дополнительно
 В качестве источника также можно указать и [локальный сервер NuGet](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/nuget), который входит в комплект поставки Оркестратора.

@@ -1,6 +1,6 @@
 # Прочитать таблицу
 
-![](<../../../../.gitbook/assets1/Cropped-ReadTable.png>)
+![](../../../../resources/activities/basic/odf/document/cropped-readtable.png)
 
 Элемент, читающий таблицу из документа. Элемент работает корректно только внутри контейнера Word
 

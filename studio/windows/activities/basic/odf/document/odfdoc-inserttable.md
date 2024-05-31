@@ -1,6 +1,6 @@
 # Вставить таблицу
 
-![](<../../../../.gitbook/assets1/Cropped-InsertTable.png>)
+![](../../../../resources/activities/basic/odf/document/cropped-inserttable.png)
 
 Элемент, читающий таблицу из документа. Элемент работает корректно только внутри контейнера.
 

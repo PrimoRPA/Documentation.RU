@@ -6,7 +6,7 @@ description: Delete from queue
 
 Компонент позволяет удалить элемент из [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора. Если указанный элемент очереди был извлечен роботом, то удалить этот элемент сможет только тот робот, который его извлек.
 
-![Элемент «Удалить из очереди»](<../../../../.gitbook/assets/delete-orch-queue-item-by-studio.png>)
+![Элемент «Удалить из очереди»](../../../../resources/activities/basic/orch/queues/delete-orch-queue-item-by-studio.png)
 
 
 ## Свойства

@@ -1,8 +1,8 @@
 # Записать в ячейку таблицы
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(211).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-211.png)
 
-![](../../resources/basic/word/image-(28).png)
+![](../../../resources/activities/basic/word/image-28.png)
 
 Элемент, записывающий текст в ячейку таблицы. Элемент работает корректно только внутри контейнера Word
 

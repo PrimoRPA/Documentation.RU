@@ -1,8 +1,8 @@
 # Классифицировать документы
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (115).png>)
+![](../../../../resources/activities/basic/ocr/dbrain/image-100-1-1-1-1-1-1-1-2-115.png)
 
-![](<../../../../.gitbook/assets/image (344).png>)
+![](../../../../resources/activities/basic/ocr/dbrain/image-344.png)
 
 Элемент, осуществляющий классификацию документов на сервере Dbrain
 

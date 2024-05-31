@@ -12,12 +12,12 @@
 1. Запустите Visual Studio и выберите **Создание проекта** (Create a new project).
 2. Выберите шаблон проекта **Библиотека классов** (Class Library) и нажмите **Далее**.
 
-   ![](<../../../.gitbook/assets1/template's-project.png>)
+   ![](../../resources/ltools.sdk/linux/template's-project.png)
    
 3. В названии проекта обязательно укажите префикс **Primo.**. Пример: `Primo.Test`.
 4. Далее выберите фреймворк **.NET 6.0** и нажмите **Создать**.
 
-   ![](<../../../.gitbook/assets1/framework.png>)
+   ![](../../resources/ltools.sdk/linux/framework.png)
 
 5. В меню Visual Studio выберите **Проект > Добавить ссылку на проект...**. В открывшемся окне нажмите кнопку **Обзор...** и откройте каталог установки Primo RPA Studio под Linux. Добавьте из него в свой проект следующие файлы:
    * LTools.Common.dll
@@ -27,7 +27,7 @@
    * LTools.SDK.dll
    * Primo.UIControls.dll
 
-   ![](<../../../.gitbook/assets1/add-refs-2.png>)
+   ![](../../resources/ltools.sdk/linux/add-refs-2.png)
 
 6. Перейдите в панель инструментов **Обозреватель решений** (Solution Explorer), вызовите контекстное меню проекта и выберите **Управление пакетами NuGet**. Установите следующие сборки:
    * Avalonia 0.10.18
@@ -37,7 +37,7 @@
    * MessageBox.Avalonia 2.1.0
    * XamlNameReferenceGenerator 1.5.1
 
-   ![](<../../../.gitbook/assets1/add-nugets.png>)
+   ![](../../resources/ltools.sdk/linux/add-nugets.png)
 
 7. Установите расширение Avalonia for Visual Studio. Для этого выберите раздел меню **Расширения > Управление расширениями** и введите в поисковой строке `Avalonia` для выдачи нужных результатов.
 
@@ -52,7 +52,7 @@
 
 Пример:
 
-![](<../../../.gitbook/assets1/sdk-project-folders.png>)
+![](../../resources/ltools.sdk/linux/sdk-project-folders.png)
 
 > \*Вы можете использовать другие папки и названия в своем проекте.
 
@@ -138,7 +138,7 @@ uiElements:PrimoUserControl xmlns="https://github.com/avaloniaui"
 
 Теперь спроектируйте визуальный облик элемента Primo. Подумайте, какие вы хотите увидеть на панели элемента поля, кнопки и т.д. 
 
-![](<../../../.gitbook/assets1/RenderActivity.png>)
+![](../../resources/ltools.sdk/linux/renderactivity.png)
 
 
 В соответствии с вашим дизайном создайте сетку (Grid). Например, мы хотим создать простой элемент с полем для ввода данных и кнопкой «Установить шаблон»:
@@ -161,11 +161,11 @@ uiElements:PrimoUserControl xmlns="https://github.com/avaloniaui"
 
 :small_blue_diamond: *Форма в Visual Studio может не отображаться из-за ошибки "No Executable" - данная ошибка связана с Avalonia.*
 
-![](<../../../.gitbook/assets1/No Executable1.png>)
+![](../../resources/ltools.sdk/linux/no-executable1.png)
 
 Пример созданной панели элемента Primo:
 
-![Так будет выглядеть наш элемент «Запись в консоль»](<../../../.gitbook/assets1/sdk-панелька.png>)
+![Так будет выглядеть наш элемент «Запись в консоль»](../../resources/ltools.sdk/linux/sdk-панелька.png)
 
 
 
@@ -373,15 +373,15 @@ public class WriteInConsole : PrimoComponentSimple<WriteInConsoleBase>
 
 Опубликованный NuGet-пакет вы можете затем установить в свою Студию на Линукс при помощи Менеджера зависимостей:
 
-![](<../../../.gitbook/assets1/sdk-setup-nuget.png>)
+![](../../resources/ltools.sdk/linux/sdk-setup-nuget.png)
 
 Элементы из вашей библиотеки появятся на панели «Элементы». Например, наш элемент отобразился так:
 
-![](<../../../.gitbook/assets1/sdk-элементы.png>)
+![](../../resources/ltools.sdk/linux/sdk-элементы.png)
 
 Он обладает следующими свойствами:
 
-![](<../../../.gitbook/assets1/sdk-свойства.png>)
+![](../../resources/ltools.sdk/linux/sdk-свойства.png)
 
 
 

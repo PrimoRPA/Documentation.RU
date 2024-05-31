@@ -1,8 +1,8 @@
 # Сортировать таблицу
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (256).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-256.png)
 
-![](<../../../../.gitbook/assets/image (422).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-422.png)
 
 Компонент, сортирующий таблицу.
 

@@ -1,6 +1,6 @@
 # Повернуть изображение
 
-![](../../../resources/basic/data/images/image-(311).png)
+![](../../../../resources/activities/basic/data/images/image-311.png)
 
 Компонент, поворачивающий изображение на заданный угол.
 

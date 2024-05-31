@@ -1,6 +1,6 @@
 # Отправить текст
 
-![](<../../../../.gitbook/assets/image (65).png>)
+![](../../../../resources/activities/extra/messengers/telegram/image-65.png)
 
 Элемент, отправляющий текстовое сообщение в чат Telegram.
 

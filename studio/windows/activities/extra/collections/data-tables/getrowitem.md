@@ -2,7 +2,7 @@
 
 Извлекает значение строки из таблицы DataTable в соответствии с указанным столбцом.
 
-![](<../../../../.gitbook/assets1/WFDataTableGetRowItem.png>)
+![](../../../../resources/activities/extra/collections/data-tables/wfdatatablegetrowitem.png)
 
 
 

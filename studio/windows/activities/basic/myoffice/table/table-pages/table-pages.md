@@ -1,6 +1,6 @@
 # Список страниц
 
-![](<../../../../../.gitbook/assets/image (582).png>)
+![](../../../../../resources/activities/basic/myoffice/table/table-pages/image-582.png)
 
 Компонент, получающий список страниц Таблицы.
 

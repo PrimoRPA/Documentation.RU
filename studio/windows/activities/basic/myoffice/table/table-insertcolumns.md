@@ -1,6 +1,6 @@
 # Вставка колонок
 
-![](<../../../../.gitbook/assets/image (496).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-496.png)
 
 Компонент, вставляющий колонки в лист Таблицы.
 

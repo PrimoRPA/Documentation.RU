@@ -1,8 +1,8 @@
 # Вставить таблицу
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(97).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-97.png)
 
-![](../../resources/basic/word/image-(130).png)
+![](../../../resources/activities/basic/word/image-130.png)
 
 Элемент, вставляющий таблицу в документ. Элемент работает корректно только внутри контейнера Word
 

@@ -67,6 +67,6 @@
 ```
 Результат должен быть примерно таким:
 
-![](<../../.gitbook/assets/IdeaHub_Installation_1.png>)
+![](../resources/installation/ideahub-installation-1.png)
 
 

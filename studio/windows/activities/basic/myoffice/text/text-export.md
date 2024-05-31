@@ -1,6 +1,6 @@
 # Экспортировать документ
 
-![](<../../../../.gitbook/assets/image (481).png>)
+![](../../../../resources/activities/basic/myoffice/text/image-481.png)
 
 Компонент, производящий экспорт документа Текст в другой формат.
 

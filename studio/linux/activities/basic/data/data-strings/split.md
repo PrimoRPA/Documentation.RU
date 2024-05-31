@@ -1,8 +1,8 @@
 # Разделить строку
 
-![](../../../resources/basic/data/data_strings/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(101).png)
+![](../../../../resources/activities/basic/data/data-strings/image-100-1-1-1-1-1-1-1-2-101.png)
 
-![](../../../resources/basic/data/data_strings/image-(307).png)
+![](../../../../resources/activities/basic/data/data-strings/image-307.png)
 
 Компонент, разделяющий строку на подстроки.
 

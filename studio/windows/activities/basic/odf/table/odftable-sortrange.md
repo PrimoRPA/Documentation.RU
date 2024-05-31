@@ -1,6 +1,6 @@
 # Сортировка диапазона
 
-![](<../../../../.gitbook/assets1/Cropped-SortRange.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-sortrange.png)
 
 Компонент, устанавливающий сортировку диапазона ячеек Excel.
 

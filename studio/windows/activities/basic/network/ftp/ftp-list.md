@@ -1,6 +1,6 @@
 # Получить список файлов FTP
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (277).png>)
+![](../../../../resources/activities/basic/network/ftp/image-100-1-1-1-1-1-1-1-2-277.png)
 
 <figure><img src="../../../../.gitbook/assets/ftp_list_file (1) (1).png" alt=""><figcaption></figcaption></figure>
 

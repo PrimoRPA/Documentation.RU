@@ -1,8 +1,8 @@
 # Выделить диапазон
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(84).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-84.png)
 
-![](../../resources/basic/word/image-(91).png)
+![](../../../resources/activities/basic/word/image-91.png)
 
 Выделяет диапазон заданной длины. Если ни начало, ни длина не указаны, выделяется весь текст.
 

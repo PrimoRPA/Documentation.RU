@@ -1,8 +1,8 @@
 # Выбор значения
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (272).png>)
+![](../../../../resources/activities/basic/browser/gen1/image-100-1-1-1-1-1-1-1-2-272.png)
 
-![](<../../../../.gitbook/assets/image (353).png>)
+![](../../../../resources/activities/basic/browser/gen1/image-353.png)
 
 Компонент, выбирающий значения в комбо-боксе либо списке.
 

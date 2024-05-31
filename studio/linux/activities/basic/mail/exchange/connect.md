@@ -4,18 +4,18 @@ description: MS Exchange
 
 # Сервер MS Exchange
 
-![](../../../resources/basic/mail/exchange/image-(366).png)
+![](../../../../resources/activities/basic/mail/exchange/image-366.png)
 
 Элемент производит подключение к серверу Microsoft Exchange и позволяет роботу взаимодействовать с ним для выполнения операций с электронной почтой. 
 
 Является контейнером для других элементов, входящих в группу `MS Exchange` (см. рисунок ниже), которые используются для отправки/удаления писем, прикрепления файлов к письмам, извлечения вложений и других операций с электронной почтой.
 
-![](../../../resources/basic/mail/exchange/items-from-groups-ms-exchange.png)
+![](../../../../resources/activities/basic/mail/exchange/items-from-groups-ms-exchange.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-![](../../../resources/basic/mail/exchange/WFAttachExchange.png)
+![](../../../../resources/activities/basic/mail/exchange/wfattachexchange-fixed.png)
 
 1. **Версия** *[Microsoft.Exchange.WebServices. Data.ExchangeVersion]* - версия сервера MS Exchange. По умолчанию установлена `Exchange2013_SP1`. Чтобы выбрать другую версию, щелкните выпадающий список значений. 
 2. **URL сервера** *[String]* - URL сервера MS Exchange. Пример: `"https://<server>/EWS/Exchange.asmx"`.

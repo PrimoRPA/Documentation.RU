@@ -5,9 +5,9 @@ description: Assign
 
 # Присвоение
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (11).png>)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-1-1-11.png)
 
-![](<../../../.gitbook/assets/image (179).png>)
+![](../../../resources/activities/basic/logic/image-179.png)
 
 Элемент позволяет присвоить любое значение переменной.
 
@@ -32,6 +32,6 @@ description: Assign
 
 Также, при необходимости, обычное **Присвоение** можно преобразовать во множественное. Для этого вызовите контекстное меню элемента и выберите команду «Преобразовать во Множественное присвоение»:
 
-![](<../../../.gitbook/assets/assign-context-menu.png>)
+![](../../../resources/activities/basic/logic/assign-context-menu.png)
 
 

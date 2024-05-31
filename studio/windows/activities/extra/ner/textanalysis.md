@@ -1,6 +1,6 @@
 # Анализ текста
 
-![](<../../../.gitbook/assets/image (7).png>)
+![](../../../resources/activities/extra/ner/image-7.png)
 
 Компонент, осуществляющий анализ текста по методике NER.
 

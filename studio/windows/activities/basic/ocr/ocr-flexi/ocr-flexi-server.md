@@ -1,6 +1,6 @@
 # Сервер FlexiCapture
 
-![](<../../../../.gitbook/assets/image (399).png>)
+![](../../../../resources/activities/basic/ocr/ocr-flexi/image-399.png)
 
 Элемент служит для подключения к серверу FlexiCapture.
 

@@ -1,6 +1,6 @@
 # Диалог выбора файла
 
-![](<../../../.gitbook/assets/image (469).png>)
+![](../../../resources/activities/basic/dialogs/image-469.png)
 
 
 

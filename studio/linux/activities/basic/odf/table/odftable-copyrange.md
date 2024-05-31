@@ -1,6 +1,6 @@
 # Копирование диапазона
 
-![](../../../../resources/activities/basic/odf/table/Cropped-CopyRange.png)
+![](../../../../resources/activities/basic/odf/table/cropped-copyrange-fixed.png)
 
 Компонент, позволяющий скопировать диапазон ячеек Excel и вставить в другой лист. Вставку возможно осуществить как внутри одного документа, так и во внешний файл Excel.
 

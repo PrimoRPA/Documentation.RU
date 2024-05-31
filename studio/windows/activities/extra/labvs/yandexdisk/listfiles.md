@@ -1,6 +1,6 @@
 # Список файлов
 
-![](<../../../../.gitbook/assets/image (523).png>)
+![](../../../../resources/activities/extra/labvs/yandexdisk/image-523.png)
 
 Элемент, получающий список файлов.
 

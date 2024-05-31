@@ -4,7 +4,7 @@
 
 Элемент используется для извлечения файлов из архива. 
 
-![](<../../../../.gitbook/assets/image (298).png>)
+![](../../../../resources/activities/basic/data/arch/image-298.png)
 
 
 ## Свойства

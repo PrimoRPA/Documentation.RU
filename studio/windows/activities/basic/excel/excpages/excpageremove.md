@@ -1,6 +1,6 @@
 # Удалить страницу
 
-![](<../../../../.gitbook/assets/image (47).png>)
+![](../../../../resources/activities/basic/excel/excpages/image-47.png)
 
 Компонент удаляет страницу Excel по ее порядковому номеру или названию. Если изменение требуется сохранить, не забудьте в конце работы с Excel использовать элемент [**Сохранить документ**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 

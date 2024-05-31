@@ -1,6 +1,6 @@
 # Найти текст
 
-![](<../../../../.gitbook/assets1/Cropped-FindText.png>)
+![](../../../../resources/activities/basic/odf/document/cropped-findtext.png)
 
 Ищет вхождение заданного текста в документ.
 

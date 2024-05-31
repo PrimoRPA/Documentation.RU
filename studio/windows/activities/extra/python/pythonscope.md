@@ -1,6 +1,6 @@
 # Python
 
-![](<../../../.gitbook/assets/Python-app.png>)
+![](../../../resources/activities/extra/python/python-app.png)
 
 :bangbang: ***Требует наличия на машине установленных Python 3.9 и Pywin32.***
 

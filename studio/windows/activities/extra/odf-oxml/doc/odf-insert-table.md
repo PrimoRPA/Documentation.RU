@@ -2,7 +2,7 @@
 
 Элемент вставляет таблицу в документ. Путь до файла указывается в контейнере «Документ ODF».
 
-![](<../../../../.gitbook/assets1/windows_items/odf-input-table.png>)
+![](../../../../resources/activities/extra/odf-oxml/doc/odf-input-table.png)
 
 
 ## Свойства

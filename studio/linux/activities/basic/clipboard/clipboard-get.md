@@ -4,7 +4,7 @@
 
 Элемент позволяет извлекать данные из буфера обмена.
 
-![](../../resources/basic/clipboard/image-(367).png)
+![](../../../resources/activities/basic/clipboard/image-367.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

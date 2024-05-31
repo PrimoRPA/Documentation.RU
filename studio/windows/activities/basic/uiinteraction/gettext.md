@@ -1,6 +1,6 @@
 # Получить текст
 
-![](<../../../.gitbook/assets/image (894).png>)
+![](../../../resources/activities/basic/uiinteraction/image-894.png)
 
 Компонент позволяет получить текст из выбранного элемента управления.
 

@@ -1,6 +1,6 @@
 # Переименовать страницу
 
-![](<../../../../.gitbook/assets/image (41).png>)
+![](../../../../resources/activities/basic/excel/excpages/image-41.png)
 
 Компонент, переименовывающий страницу Excel.
 

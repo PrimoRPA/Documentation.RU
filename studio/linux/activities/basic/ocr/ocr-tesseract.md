@@ -1,6 +1,6 @@
 # Tesseract OCR
 
-![](../../resources/basic/ocr/Tesseract-cropped.png)
+![](../../../resources/activities/basic/ocr/tesseract-cropped-fixed.png)
 
 Элемент осуществляет подключение к ядру OCR Tesseract. Поддерживается только Tesseract 5-й версии. 
 

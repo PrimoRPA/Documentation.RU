@@ -1,6 +1,6 @@
 # Удалить сообщения
 
-![](../../../resources/basic/mail/exchange/image-(299).png)
+![](../../../../resources/activities/basic/mail/exchange/image-299.png)
 
 Компонент, удаляющий сообщения электронной почты в MS Exchange.
 

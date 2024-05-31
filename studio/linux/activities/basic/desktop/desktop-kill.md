@@ -1,6 +1,6 @@
 # Уничтожить процесс
 
-![](../../resources/basic/desktop/image-(182).png)
+![](../../../resources/activities/basic/desktop/image-182.png)
 
 Компонент, осуществляющий принудительное завершение внешнего приложения.
 

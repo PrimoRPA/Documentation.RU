@@ -4,7 +4,7 @@
  
 Важно отметить, что элемент работает исключительно с таблицами. Любой другой контент в HTML-коде, не являющийся таблицей, в результате преобразования отображаться не будет.
 
-![](<../../../../.gitbook/assets1/data_table9.png>)
+![](../../../../resources/activities/basic/data/data-html/data-table9.png)
 
 
 ## Свойства
@@ -14,12 +14,12 @@
 **Группа Processing:**
 -  **HTML\*** *[System.String]*: Переменная, содержащая строку с HTML-кодом. Пример: `<table><tr><th>текст заголовка1</th><th>текст заголовка2</th></tr><tr><td>данные1</td><td>данные2</td></tr></table>`.
 
-![](<../../../../.gitbook/assets1/processing.png>)
+![](../../../../resources/activities/basic/data/data-html/processing.png)
 
 **Группа Output:**
 -  **Tables\*:** *[System.Collections.Generic.List<System.Data.DataTable>]*: Переменная с результатами выполнения элемента, содержащая коллекцию таблиц.
 
-  ![](<../../../../.gitbook/assets1/1.png>)
+  ![](../../../../resources/activities/basic/data/data-html/1.png)
 
 
 

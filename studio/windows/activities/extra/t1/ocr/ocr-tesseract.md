@@ -1,6 +1,6 @@
 # Tesseract OCR
 
-![](<../../../../.gitbook/assets/google_ocr.png>)
+![](../../../../resources/activities/extra/t1/ocr/google-ocr.png)
 
 Элемент осуществляет подключение к ядру OCR Tesseract. Поддерживается только Tesseract 3-й версии — движок поставляется вместе с Primo RPA Studio и не требует дополнительной установки.
 

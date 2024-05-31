@@ -14,7 +14,7 @@
 
 Для создания нового параметра перейдите на вкладку **Структура/Параметры расчета** и на открывшейся странице со списком параметров нажмите кнопку **Добавить параметр расчета**. 
 
-![](<../.gitbook/assets/IdeaHub_Processes_9_CalcParam.png>)
+![](resources/ideahub-processes-9-calcparam.png)
 
 В открывшейся форме заполните поля:  
 **Имя параметра** – название параметра (только заглавные буквы, цифры и символы подчеркивания)  
@@ -28,7 +28,7 @@
 
 Поиск параметра в списке по названию:
 
-![](<../.gitbook/assets/IdeaHub_Processes_6_ParameterSearch.png>)
+![](resources/ideahub-processes-6-parametersearch.png)
 
 Пример написания формулы, выдающей в качестве результата процессы в разработке, у которых FTE больше 3:
 1. В списке параметров найдите параметр, показывающий список процессов, находящихся в разработке – это параметр `LIST_PROCESSES_DEVELOPMENT`.
@@ -37,11 +37,11 @@
 4. Составьте формулу:  
                    	```filter(LIST_PROCESS_DEVELOPMENT, “field_fte > 3”)```
 
-![](<../.gitbook/assets/IdeaHub_Processes_7_Formula1.png>)
+![](resources/ideahub-processes-7-formula1.png)
 
 При этом в поле Автоматический расчет будет показан результат – список процессов, удовлетворяющих заданному условию фильтрации.
 
 Видоизменив формулу путем добавления функции `count()` можно получить в виде результата количество процессов, удовлетворяющих заданному условию фильтрации:  
                             	```count(filter(LIST_PROCESS_DEVELOPMENT, “field_fte > 3”))```
 
-![](<../.gitbook/assets1/IdeaHub_AddCalcParameter2.png>)
+![](resources/ideahub-addcalcparameter2.png)

@@ -1,8 +1,8 @@
 # Часть даты
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (121).png>)
+![](../../../../resources/activities/basic/data/datetime/image-100-1-1-1-1-1-1-1-2-121.png)
 
-![](<../../../../.gitbook/assets/image (447).png>)
+![](../../../../resources/activities/basic/data/datetime/image-447.png)
 
 Компонент, выделяющий из даты нужную часть.
 

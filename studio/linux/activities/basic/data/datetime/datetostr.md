@@ -1,8 +1,8 @@
 # Дата к строке
 
-![](../../../resources/basic/data/datetime/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(228).png)
+![](../../../../resources/activities/basic/data/datetime/image-100-1-1-1-1-1-1-1-2-228.png)
 
-![](../../../resources/basic/data/datetime/image-(294).png)
+![](../../../../resources/activities/basic/data/datetime/image-294.png)
 
 Компонент, преобразующий дату к строке.
 

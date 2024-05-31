@@ -4,9 +4,9 @@ description: Connect
 
 # Присоединиться к БД
 
-![](../../resources/basic/db/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(218).png)
+![](../../../resources/activities/basic/db/image-100-1-1-1-1-1-1-1-2-218.png)
 
-![](../../resources/basic/db/image-(330).png)
+![](../../../resources/activities/basic/db/image-330.png)
 
 Элемент осуществляет подключение к базе данных (БД). Установленное соединение обеспечивает возможность передачи запросов и получения ответов между приложением и базой данных. 
 
@@ -35,17 +35,17 @@ description: Connect
 
 Мастер для Ole DB:
 
-![Для Ole DB](../../resources/basic/db/image-(301).png)
+![Для Ole DB](../../../resources/activities/basic/db/image-301.png)
 
 Мастер для PostgreSQL:
 
-![Для Postgre Sql](../../resources/basic/db/image-(383).png)
+![Для Postgre Sql](../../../resources/activities/basic/db/image-383.png)
 
 После заполнения полей мастера и нажатия кнопки **OK** строка соединения сформируется автоматически и будет записана в соответствующее свойство.
 
 Ниже рассмотрим пример заполнения мастера для PostgreSQL. В свойстве **Тип БД** указываем `Postgre Sql`. После чего вызываем мастер и заполняем параметры подключения: 
 
-![Заполненные параметры подключения к Postgre Sql](../../resources/basic/db/WFConnectDatabase-master.png)
+![Заполненные параметры подключения к Postgre Sql](../../../resources/activities/basic/db/wfconnectdatabase-master-fixed.png)
 
 Нажимаем **Тест**, чтобы убедиться, что подключение настроено успешно. После чего сохраняем настройки. 
 

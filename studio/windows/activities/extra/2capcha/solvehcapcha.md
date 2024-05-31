@@ -1,6 +1,6 @@
 # Решить hCapcha
 
-![](<../../../.gitbook/assets/image (505).png>)
+![](../../../resources/activities/extra/2capcha/image-505.png)
 
 Элемент, решающий капчу формата hCapcha
 
@@ -19,7 +19,7 @@
 
 hCaptcha - это относительно новый вид капчи, который очень похож на reCAPTCHA
 
-![](<../../../.gitbook/assets/image (801).png>)
+![](../../../resources/activities/extra/2capcha/image-801.png)
 
 Принцип решения капчи довольно прост:
 

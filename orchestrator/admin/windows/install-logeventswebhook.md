@@ -16,7 +16,7 @@ Expand-Archive -LiteralPath "$InstallPath\LogEventsWebhook.zip" -DestinationPath
 
 3\. Настройте параметры в файле appsettings.ProdWin.json:
 
-![](<../../../.gitbook/assets/install-webhooks-1.png>)
+![](../../resources/admin/windows/install-webhooks-1.png)
 
 **Описание необходимых параметров:**
 
@@ -32,11 +32,11 @@ Expand-Archive -LiteralPath "$InstallPath\LogEventsWebhook.zip" -DestinationPath
 
 4\. Настройте уровни логирования (Information, Warning, Error):
 
-![](<../../../.gitbook/assets/install-webhooks-2.png>)
+![](../../resources/admin/windows/install-webhooks-2.png)
 
 5\. Настройте путь до папки с логами и шаблон имени файлов логов:
 
-![](<../../../.gitbook/assets/install-webhooks-3.png>)
+![](../../resources/admin/windows/install-webhooks-3.png)
 
 5\. Зарегистрируйте Primo.Orchestrator.LogEventsWebhook.exe как службу Windows и сразу запустите. Она должна работать как локальная служба. Для этого последовательно выполните в PowerShell команды:
 ```
@@ -50,10 +50,10 @@ $s.Start()
 
 После чего служба Primo.Orchestrator.LogEventsWebhook будет отображаться в списке служб как запущенная:
 
-![](<../../../.gitbook/assets/install-webhooks-4.png>)
+![](../../resources/admin/windows/install-webhooks-4.png)
 
-![](<../../../.gitbook/assets/install-webhooks-5.png>)
+![](../../resources/admin/windows/install-webhooks-5.png)
 
 6\. В завершение в конфигурационном файле службы WebApi нужно разрешить интеграцию:
 
-![](<../../../.gitbook/assets/install-webhooks-6.png>)
+![](../../resources/admin/windows/install-webhooks-6.png)

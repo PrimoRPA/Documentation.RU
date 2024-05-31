@@ -1,6 +1,6 @@
 # Отредактировать доступ к файлу
 
-![](<../../../../.gitbook/assets/image (590).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-590.png)
 
 Элемент, редактирующий права доступа к файлу
 

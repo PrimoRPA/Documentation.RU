@@ -1,6 +1,6 @@
 # Пометить сообщение
 
-![](<../../../../.gitbook/assets/image (334).png>)
+![](../../../../resources/activities/basic/mail/exchange/image-334.png)
 
 Компонент, делающий пометки на сообщениях электронной почты в MS Exchange.
 

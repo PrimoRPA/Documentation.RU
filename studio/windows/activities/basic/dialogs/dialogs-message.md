@@ -1,6 +1,6 @@
 # Окно сообщения
 
-![](<../../../.gitbook/assets/image (387).png>)
+![](../../../resources/activities/basic/dialogs/image-387.png)
 
 Компонент, производящий отображение окна с заданным сообщением.
 

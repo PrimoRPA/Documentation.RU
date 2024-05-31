@@ -1,6 +1,6 @@
 # Присоединиться к приложению
 
-![](../../resources/basic/desktop/image-(191).png)
+![](../../../resources/activities/basic/desktop/image-191.png)
 
 Компонент осуществляет подключение к действующему процессу внешнего приложения.
 

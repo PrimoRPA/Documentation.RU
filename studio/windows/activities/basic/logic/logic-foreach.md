@@ -1,8 +1,8 @@
 # Цикл ForEach
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (168).png>)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-10-168.png)
 
-![](<../../../.gitbook/assets/image (33).png>)
+![](../../../resources/activities/basic/logic/image-33.png)
 
 Элемент представляет собой цикл, перебирающий все значения выбранного массива.
 

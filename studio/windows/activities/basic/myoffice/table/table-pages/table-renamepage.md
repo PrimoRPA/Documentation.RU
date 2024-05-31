@@ -1,6 +1,6 @@
 # Переименовать страницу
 
-![](<../../../../../.gitbook/assets/image (512).png>)
+![](../../../../../resources/activities/basic/myoffice/table/table-pages/image-512.png)
 
 Компонент, переименовывающий страницу Таблицы.
 

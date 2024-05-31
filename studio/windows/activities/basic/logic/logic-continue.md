@@ -1,7 +1,7 @@
 # Продолжить цикл
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (313).png>)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-1-2-313.png)
 
-![](<../../../.gitbook/assets/image (223).png>)
+![](../../../resources/activities/basic/logic/image-223.png)
 
 Компонент, производящий безусловный переход к следующей итерации цикла.

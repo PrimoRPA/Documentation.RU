@@ -1,6 +1,6 @@
 # Получить из справочника
 
-![](<../../../../.gitbook/assets/image (498).png>)
+![](../../../../resources/activities/extra/t1/collections/image-498.png)
 
 Элемент, получающий значение из справочника по ключу
 

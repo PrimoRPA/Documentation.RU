@@ -1,6 +1,6 @@
 # Коллекция содержит
 
-![](<../../../../.gitbook/assets/image (911).png>)
+![](../../../../resources/activities/extra/t1/collections/image-911.png)
 
 Элемент, проверяющий наличие элемента в коллекции
 

@@ -6,7 +6,7 @@
 
 Является контейнером для других элементов (собственно, действий).
 
-![](../../resources/basic/logic/image-(161).png)
+![](../../../resources/activities/basic/logic/image-161.png)
 
 **Кроссплатформенность**: Windows, Linux, MacOS.
 
@@ -23,7 +23,7 @@
 
 ### Поведение при ошибке
 
-![](../../resources/basic/logic/continue-on-error-in-retry-item.png)
+![](../../../resources/activities/basic/logic/continue-on-error-in-retry-item.png)
 
 
 :small_blue_diamond: **Если версия Студии 23.11 и выше**. 

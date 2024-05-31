@@ -2,7 +2,7 @@
 
 # Песочница
 
-![](<../../.gitbook/assets/image (9).png>)
+![](../resources/process/image-9.png)
 
 **Установка Песочницы Windows**
 
@@ -18,7 +18,7 @@
 
 Для запуска процесса в песочнице необходимо вызвать его из процесса робота при помощи элемента [**Ссылка на процесс**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_logic/el_logic_link). Для включения режима песочницы установите флаг **Запуск в песочнице** в свойствах элемента:
 
-![](<../../.gitbook/assets/image (193).png>)
+![](../resources/process/image-193.png)
 
 **ВНИМАНИЕ! Основной и вспомогательный робот могут обмениваться только простыми данными (String, [Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0), [DateTime](https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=net-5.0), Boolean и т.д.) либо коллекциями простых данных (List\<String>, List\<DateTime> и т.д.)**
 

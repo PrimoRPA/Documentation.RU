@@ -1,8 +1,8 @@
 # Отправить письмо (SMTP)
 
-![](../../resources/basic/mail/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(185).png)
+![](../../../resources/activities/basic/mail/image-100-1-1-1-1-1-1-1-2-185.png)
 
-![](../../resources/basic/mail/image-(250).png)
+![](../../../resources/activities/basic/mail/image-250.png)
 
 Компонент, осуществляющий отправку почтового сообщения по протоколу SMTP.
 

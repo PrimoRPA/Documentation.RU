@@ -1,6 +1,6 @@
 # Читать CSV
 
-![](<../../../../.gitbook/assets/read_csv.png>)
+![](../../../../resources/activities/extra/t1/csv/read-csv.png)
 
 Элемент копирует все записи из указанного CSV-файла в переменную с типом DataTable для последующего использования.
 

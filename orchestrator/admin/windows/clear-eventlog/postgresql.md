@@ -6,58 +6,58 @@
 
 1. Найдите на машине Application Stack Builder:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Application Stack Builder.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-application-stack-builder.png)
 
 2. Выберите сервер установки и нажмите **Следующий**:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Выбор сервера.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-выбор-сервера.png)
 
 3. Выберите компонент **Категории** ➝ **Add-ons, tools and utilities** ➝ **pgAgent**:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Выбор компонента.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-выбор-компонента.png)
 
 4. Выберите каталог загрузки для установки пакета и нажмите **Следующий**.\
    В новом окне также нажмите **Следующий**: 
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Выбор каталога загрузки.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-выбор-каталога-загрузки.png)
 
 5. В появившемся окне Setup pgAgent нажмите **Next**, в окне Upgrade Mode тоже нажмите **Next**:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Окно Setup.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-окно-setup.png)
 
 6. Укажите детали подключения к серверу и нажмите **Next**:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Детали подключения к серверу.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-детали-подключения-к-серверу.png)
 
 7. Укажите учетные данные службы pgAgent, нажмите **Next**:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Учетка pgAgent.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-учетка-pgagent.png)
 
 8. В результате появится сообщение о том, что схема pgagent создана.
 9. Добавьте метод trust в файл `<Posgresql_folder>\data\pg_hba.conf` для `host   all             all             ::1/128`:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Метод trust.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-метод-trust.png)
 
 10. Запустите программу pgAdmin и подключитесь к серверу Postgresql.
 11.	Создайте pgAgent Job:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. PgAgent job.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-pgagent-job.png)
 
 12.	Задайте название job и перейдите на вкладку Steps.
 13.	Создайте шаг job. Укажите название **TruncLogs**. Нажмите **Edit**, выберите базу **ltoolslogs**.
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Шаг job.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-шаг-job.png)
 
 14.	Перейдите на вкладку Code, укажите команду вызова процедуры:
 ```
 CALL public.truncate_logs(30,524288000);
 ```
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Вкладка Code.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-вкладка-code.png)
 
 15. Перейдите на вкладку Schedules, добавьте расписание. Укажите название **RunEvery30mins**. В поле Start укажите текущую дату и время.
 16.	Перейдите на вкладку Repeat. В поле Hours выберите значение **\<Select All\>**. В поле Minutes выберите **00** и **30**:
 
-![](<../../../../.gitbook/assets/Postgre. Очистка логов. Вкладка Repeat.png>)
+![](../../../resources/admin/windows/clear-eventlog/postgre.-очистка-логов.-вкладка-repeat.png)
 
 17. В завершение нажмите кнопку **Save**.
 

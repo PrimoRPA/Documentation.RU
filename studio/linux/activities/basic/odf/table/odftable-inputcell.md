@@ -1,6 +1,6 @@
 # Ввод в ячейку
 
-![](../../../../resources/activities/basic/odf/table/Cropped-InputCell.png)
+![](../../../../resources/activities/basic/odf/table/cropped-inputcell-fixed.png)
 
 Компонент, производящий запись данных в ячейку Excel.
 

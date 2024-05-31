@@ -1,8 +1,8 @@
 # Переместить файл
 
-![](../../resources/basic/files/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(192).png)
+![](../../../resources/activities/basic/files/image-100-1-1-1-1-1-1-1-2-192.png)
 
-![](../../resources/basic/files/image-(103).png)
+![](../../../resources/activities/basic/files/image-103.png)
 
 Компонент, перемещающий файл.
 

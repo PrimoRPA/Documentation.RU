@@ -1,6 +1,6 @@
 # Якорь
 
-![](../../resources/basic/desktop/image-(19).png)
+![](../../../resources/activities/basic/desktop/image-19.png)
 
 Компонент, производящий операцию над элементом, основываясь на его положении относительно элемента-якоря.
 

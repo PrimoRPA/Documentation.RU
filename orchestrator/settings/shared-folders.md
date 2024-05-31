@@ -51,7 +51,7 @@
 
 Администратор может вручную ограничить права пользователя на действия с общими папками. Для этого администратор должен перейти в раздел **Настройки > Роли**, выбрать роль для редактирования и обратиться к группе прав *Общие папки*:
 
-![](<../../.gitbook/assets1/orch-rights-on-shared-folders.png>)
+![](../resources/settings/orch-rights-on-shared-folders.png)
 
 * Просмотр — пользователь с данной ролью сможет только просматривать общие папки.
 * Создание — пользователь с данной ролью имеет право создавать общие папки.
@@ -65,11 +65,11 @@
 
 Фильтрация всех объектов будет происходить на основе текущей папки. Все новые объекты создаются в текущей папке.
 
-![](<../../.gitbook/assets1/orc-menu-shared-folders.png>)
+![](../resources/settings/orc-menu-shared-folders.png)
 
 Пользователь может перемещать объекты между своими папками:
 
-![](<../../.gitbook/assets1/orc-shared-folers-move-object.png>)
+![](../resources/settings/orc-shared-folers-move-object.png)
 
 Пользователь может переместить объекты из своей папки в корневую папку. Из корневой папки пользователь может переместить объекты в свою папку, если нет явного запрета (на корневую папку заданы права не ниже удаления).
 
@@ -92,15 +92,15 @@
 2. Выберите некорневую папку и укажите права доступа к ее объектам.
 3. В результате делегированная папка отобразится в профиле пользователя. На рисунке ниже пользователю **noadmin** делегирована папка **MyBigFolder2** с правами *Только чтение*.
 
-![](<../../.gitbook/assets1/orch-shared-folders-delegate-as-admin-result.png>)
+![](../resources/settings/orch-shared-folders-delegate-as-admin-result.png)
 
 ### Делегирование от обычного пользователя
 
 Обычный пользователь — не администратор — может делегировать свою папку только из раздела **Все общие папки**:
 
-![](<../../.gitbook/assets1/orch-shared-folders-delegate-not-as-admin-1.png>)
+![](../resources/settings/orch-shared-folders-delegate-not-as-admin-1.png)
 
 Нажмите кнопку **Делегировать** и заполните открывшуюся форму:
 
-![](<../../.gitbook/assets1/orch-shared-folders-delegate-not-as-admin-2.png>)
+![](../resources/settings/orch-shared-folders-delegate-not-as-admin-2.png)
 

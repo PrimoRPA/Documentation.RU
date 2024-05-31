@@ -1,6 +1,6 @@
 # To Do
 
-![](<../../../.gitbook/assets/image (825).png>)
+![](../../../resources/activities/basic/dialogs/image-825.png)
 
 Элемент, задающий точку для разработки функционала в будущем.
 

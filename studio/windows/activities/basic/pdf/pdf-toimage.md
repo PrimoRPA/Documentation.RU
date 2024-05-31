@@ -1,8 +1,8 @@
 # Преобразовать в изображение
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (41).png>)
+![](../../../resources/activities/basic/pdf/image-100-1-1-1-1-1-1-1-2-41.png)
 
-![](<../../../.gitbook/assets/image (322).png>)
+![](../../../resources/activities/basic/pdf/image-322.png)
 
 Компонент, преобразующий документ PDF в изображения.
 
