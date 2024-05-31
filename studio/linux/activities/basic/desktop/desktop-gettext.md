@@ -14,6 +14,7 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
+//Функционал пока не реализован!!!
 LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 //Шаблон поиска
 string txt = app.GetInnerText("{\"Name\":\"\",\"AutomationID\":\"txtbxSample\",\"ClassName\":\"TextBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
@@ -25,6 +26,7 @@ txt = app.GetInnerText(el);
 
 {% tab title="Python" %}
 ```python
+#Функционал пока не реализован!!!
 app = LTools.Desktop.DesktopApp.Init(wf, None, "Test_*", 20000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
 #Шаблон поиска
 txt = app.GetInnerText("{\"Name\":\"\",\"AutomationID\":\"txtbxSample\",\"ClassName\":\"TextBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}")
@@ -36,6 +38,7 @@ txt = app.GetInnerText(el)
 
 {% tab title="JavaScript" %}
 ```javascript
+//Функционал пока не реализован!!!
 var app = _lib.LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, true, _lib.LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 //Шаблон поиска
 var txt = app.GetInnerText("{\"Name\":\"\",\"AutomationID\":\"txtbxSample\",\"ClassName\":\"TextBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
