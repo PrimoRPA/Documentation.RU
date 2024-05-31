@@ -1,6 +1,6 @@
 # Событие кнопки приложения
 
-![](../../../resources/basic/desktop/events/image-(165).png)
+![](../../../../resources/activities/basic/desktop/events/image-165.png)
 
 
 

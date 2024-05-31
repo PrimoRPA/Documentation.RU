@@ -5,8 +5,8 @@
 1. Выяснить URL, логин и пароль вашего портала AutoFAQ. Обычно, URL имеет вид [https://\*.autofaq.ai/](https://croc-chat.autofaq.ai/)
 2. Найти ID сервиса. Для этого перейдите в раздел Настройки -> Общие -> Параметры подключения к сервису
 
-![](<../../../../.gitbook/assets/image (395).png>)
+![](../../../../resources/activities/extra/messengers/autofaq/image-395.png)
 
 3\. Выяснить ID пользователя. Для этого перейдите в раздел Настройки -> Общие -> Параметры прямого подключения к базам знаний через API
 
-![](<../../../../.gitbook/assets/image (433).png>)
+![](../../../../resources/activities/extra/messengers/autofaq/image-433.png)

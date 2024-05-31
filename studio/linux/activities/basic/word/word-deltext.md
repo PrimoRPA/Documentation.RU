@@ -1,8 +1,8 @@
 # Удалить текст
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(94).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-94.png)
 
-![](../../resources/basic/word/image-(3)-(1).png)
+![](../../../resources/activities/basic/word/image-3-1.png)
 
 Удаляет диапазон заданной длины. Если ни начало, ни длина не указаны, удаляется весь текст.
 

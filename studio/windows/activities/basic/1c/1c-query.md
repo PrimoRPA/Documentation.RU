@@ -1,6 +1,6 @@
 # Выполнить запрос
 
-![](<../../../.gitbook/assets/image (374).png>)
+![](../../../resources/activities/basic/1c/image-374.png)
 
 Компонент, выполняющий запрос 1С.
 

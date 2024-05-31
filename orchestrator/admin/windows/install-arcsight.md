@@ -18,15 +18,15 @@ Expand-Archive -LiteralPath "$InstallPath\ArcSight.zip" -DestinationPath "C:\Pri
 
 3\. Настройте уровни логирования приложения (Information, Warning, Error):
 
-![](<../../../.gitbook/assets/install-arcsight-1.png>)
+![](../../resources/admin/windows/install-arcsight-1.png)
 
 4\. Настройте путь до папки с логами приложения и шаблон имени файлов логов:
 
-![](<../../../.gitbook/assets/install-arcsight-2.png>)
+![](../../resources/admin/windows/install-arcsight-2.png)
 
 5\. Настройте параметры интеграции с ArcSight:
 
-![](<../../../.gitbook/assets/install-arcsight-3.png>)
+![](../../resources/admin/windows/install-arcsight-3.png)
 
 **Описание параметров интеграции с ArcSight:**
 * Секция Device:
@@ -60,8 +60,8 @@ $s.Start()
 
 После этого созданная служба Primo.Orchestrator.ArcSight будет отображаться в списке всех служб как запущенная:
 
-![](<../../../.gitbook/assets/install-arcsight-4.png>)
+![](../../resources/admin/windows/install-arcsight-4.png)
 
-![](<../../../.gitbook/assets/install-arcsight-5.png>)
+![](../../resources/admin/windows/install-arcsight-5.png)
 
 После установки ArcSight требуется настройка интеграционного шлюза LogEventsWebhook.

@@ -1,6 +1,6 @@
 # Удалить страницу
 
-![](<../../../../../.gitbook/assets/image (504).png>)
+![](../../../../../resources/activities/basic/myoffice/table/table-pages/image-504.png)
 
 Компонент, удаляющий страницу Таблицы.
 

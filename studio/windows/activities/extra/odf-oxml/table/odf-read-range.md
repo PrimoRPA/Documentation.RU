@@ -2,7 +2,7 @@
 
 Элемент считывает данные из диапазона ячеек ODF-таблицы. Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Чтение диапазона»](<../../../../.gitbook/assets1/windows_items/odf-read-range.png>)
+![Элемент «Чтение диапазона»](../../../../resources/activities/extra/odf-oxml/table/odf-read-range.png)
 
 
 ## Свойства

@@ -1,6 +1,6 @@
 # Прокрутка
 
-![](<../../../../.gitbook/assets/image (224).png>)
+![](../../../../resources/activities/basic/desktop/gen1/image-224.png)
 
 Элемент, осуществляющий прокрутку в визуальном компоненте.
 

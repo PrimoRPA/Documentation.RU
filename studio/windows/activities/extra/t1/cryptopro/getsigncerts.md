@@ -1,6 +1,6 @@
 # Данные подписи
 
-![](<../../../../.gitbook/assets/image (598).png>)
+![](../../../../resources/activities/extra/t1/cryptopro/image-598.png)
 
 Элемент, получающий сертификаты подписи
 

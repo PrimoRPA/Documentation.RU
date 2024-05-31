@@ -1,8 +1,8 @@
 # Добавить страницу
 
-![](../../../resources/basic/excel/excel_pages/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(238).png)
+![](../../../../resources/activities/basic/excel/excel-pages/image-100-1-1-1-1-1-1-1-2-238.png)
 
-![](../../../resources/basic/excel/excel_pages/image-(242).png)
+![](../../../../resources/activities/basic/excel/excel-pages/image-242.png)
 
 Компонент, создающий новую страницу в Excel.
 

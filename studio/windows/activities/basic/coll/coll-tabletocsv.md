@@ -2,11 +2,11 @@
 
 *Eng: Table to CSV*
 
-[](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (107).png>)
+![](../../../resources/activities/basic/coll/image-100-1-1-1-1-1-1-1-2-107.png)
 
 Элемент позволяет экспортировать данные из таблицы в формат CSV.
 
-![](<../../../.gitbook/assets/image (435).png>)
+![](../../../resources/activities/basic/coll/image-435.png)
 
 
 ## Свойства

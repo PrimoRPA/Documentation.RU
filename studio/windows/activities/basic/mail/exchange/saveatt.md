@@ -6,7 +6,7 @@ description: Save attachment
 
 Элемент позволяет сохранить вложение письма.
 
-![](<../../../../.gitbook/assets/image (773).png>)
+![](../../../../resources/activities/basic/mail/exchange/image-773.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

@@ -19,34 +19,34 @@
 
 1. Откройте Primo RPA Studio и нажмите в главном меню кнопку **Управление зависимостями** <img src="../../../.gitbook/assets/managePackages32.png" alt="" data-size="line">
 
-   ![](<../../../.gitbook/assets1/управление зависимостями.png>)
+   ![](../../../resources/activities/extra/ai/управление-зависимостями.png)
 
 2. В окне **Управление зависимостями** перейдите на вкладку **Nuget.org**. Введите в поисковом поле название пакета — **Primo.AI**.
 
-   ![](<../../../.gitbook/assets1/depend-nuget-primo-ai.png>)
+   ![](../../../resources/activities/extra/ai/depend-nuget-primo-ai.png)
 
 3. Установите пакет:
    * Нажмите кнопку **Установить**.
 
-   ![](<../../../.gitbook/assets1/1-install-primo-ai.png>)
+   ![](../../../resources/activities/extra/ai/1-install-primo-ai.png)
 
    * Нажмите кнопку **Сохранить**.
 
-   ![](<../../../.gitbook/assets1/2-save-primoai.png>)
+   ![](../../../resources/activities/extra/ai/2-save-primoai.png)
 
    * Нажмите кнопку **Установить**.
 
-    ![](<../../../.gitbook/assets1/3-install-primoai.png>)
+    ![](../../../resources/activities/extra/ai/3-install-primoai.png)
 
     * Дождитесь окончания установки и нажмите **ОК**.
 
-    ![](<../../../.gitbook/assets1/4-install-primo-ai.png>)
+    ![](../../../resources/activities/extra/ai/4-install-primo-ai.png)
  
 4. Готово — пакет **Primo.AI** установлен в качестве зависимости. Немного подождите, пока зависимость загрузится. Во время установки проект будет перезапущен с предложением сохранить изменения.
 
 5. Перейдите на панель элементов и найдите появившиеся группы `GigaChat` и `YandexGPT`.
 
-   ![](<../../../.gitbook/assets1/элементы из пакета ai.png>)
+   ![](../../../resources/activities/extra/ai/элементы-из-пакета-ai.png)
 
 6. Перетащите элемент из нужной группы в процесс, чтобы начать с ним работу.
 

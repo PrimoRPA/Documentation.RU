@@ -1,8 +1,8 @@
 # Получить сообщение
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (246).png>)
+![](../../../../resources/activities/basic/mq/mq-amq/image-100-1-1-1-1-1-1-1-2-246.png)
 
-![](<../../../../.gitbook/assets/image (359).png>)
+![](../../../../resources/activities/basic/mq/mq-amq/image-359.png)
 
 Компонент, получающий сообщения из очереди сервера ActiveMQ.
 

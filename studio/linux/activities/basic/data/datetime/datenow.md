@@ -1,8 +1,8 @@
 # Текущая дата/время
 
-![](../../../resources/basic/data/datetime/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(343).png)
+![](../../../../resources/activities/basic/data/datetime/image-100-1-1-1-1-1-1-1-2-343.png)
 
-![](../../../resources/basic/data/datetime/image-(444).png)
+![](../../../../resources/activities/basic/data/datetime/image-444.png)
 
 Компонент, получающий текущие дату и время.
 

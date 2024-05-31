@@ -2,7 +2,7 @@
 
 *Eng: Receive mail (IMAP)*
 
-![](<../../../.gitbook/assets/image (335).png>)
+![](../../../resources/activities/basic/mail/image-335.png)
 
 Элемент используется для получения почтовых сообщений по протоколу IMAP. Cвойства элемента представлены ниже.
 

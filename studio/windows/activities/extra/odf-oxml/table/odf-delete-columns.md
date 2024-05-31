@@ -4,7 +4,7 @@
 
 Если в файле требуется сохранить изменения, то дополнительно используйте элемент «Сохранить документ».
 
-![Элемент «Удаление колонок»](<../../../../.gitbook/assets1/windows_items/odf-delete-columns.png>)
+![Элемент «Удаление колонок»](../../../../resources/activities/extra/odf-oxml/table/odf-delete-columns.png)
 
 
 ## Свойства

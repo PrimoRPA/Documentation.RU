@@ -1,6 +1,6 @@
 # Событие изменения аттрибута
 
-![](../../../resources/basic/browser/events/image-(150).png)
+![](../../../../resources/activities/basic/browser/events/image-150.png)
 
 
 

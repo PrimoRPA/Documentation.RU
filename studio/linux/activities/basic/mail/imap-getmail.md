@@ -2,9 +2,9 @@
 
 *Eng: Receive mail (IMAP)*
 
-![](../../resources/basic/mail/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(58).png)
+![](../../../resources/activities/basic/mail/image-100-1-1-1-1-1-1-1-1-58.png)
 
-![](../../resources/basic/mail/image-(335).png)
+![](../../../resources/activities/basic/mail/image-335.png)
 
 Элемент используется для получения почтовых сообщений по протоколу IMAP. Cвойства элемента представлены ниже.
 

@@ -1,8 +1,8 @@
 # JSON к объекту
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (130).png>)
+![](../../../../resources/activities/basic/data/data-json/image-100-1-1-1-1-1-1-10-130.png)
 
-![](<../../../../.gitbook/assets/image (255).png>)
+![](../../../../resources/activities/basic/data/data-json/image-255.png)
 
 Компонент осуществляет преобразование JSON в объект .NET.
 

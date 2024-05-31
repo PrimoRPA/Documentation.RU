@@ -10,47 +10,47 @@
 Для машины контроллера AD и рабочего места пользователя Оркестратора, которое будет введено в AD, должны быть прописаны статические IP. Причем, для рабочего места «DNS» = «IP контроллера AD».
 Должно быть установлено:
 
-![](<../../../.gitbook/assets/setup-ad-1.png>)
+![](../../resources/admin/windows/setup-ad-1.png)
 
-![](<../../../.gitbook/assets/setup-ad-2.png>)
+![](../../resources/admin/windows/setup-ad-2.png)
 
-![](<../../../.gitbook/assets/setup-ad-3.png>)
+![](../../resources/admin/windows/setup-ad-3.png)
 
-![](<../../../.gitbook/assets/setup-ad-4.png>)
+![](../../resources/admin/windows/setup-ad-4.png)
 
-![](<../../../.gitbook/assets/setup-ad-5.png>)
+![](../../resources/admin/windows/setup-ad-5.png)
 
-![](<../../../.gitbook/assets/setup-ad-6.png>)
+![](../../resources/admin/windows/setup-ad-6.png)
 
-![](<../../../.gitbook/assets/setup-ad-7.png>)
+![](../../resources/admin/windows/setup-ad-7.png)
 
-![](<../../../.gitbook/assets/setup-ad-8.png>)
+![](../../resources/admin/windows/setup-ad-8.png)
 
-![](<../../../.gitbook/assets/setup-ad-9.png>)
+![](../../resources/admin/windows/setup-ad-9.png)
 
-![](<../../../.gitbook/assets/setup-ad-10.png>)
+![](../../resources/admin/windows/setup-ad-10.png)
 
-![](<../../../.gitbook/assets/setup-ad-11.png>)
+![](../../resources/admin/windows/setup-ad-11.png)
 
-![](<../../../.gitbook/assets/setup-ad-12.png>)
+![](../../resources/admin/windows/setup-ad-12.png)
 
-![](<../../../.gitbook/assets/setup-ad-13.png>)
+![](../../resources/admin/windows/setup-ad-13.png)
 
-![](<../../../.gitbook/assets/setup-ad-14.png>)
+![](../../resources/admin/windows/setup-ad-14.png)
 
-![](<../../../.gitbook/assets/setup-ad-15.png>)
+![](../../resources/admin/windows/setup-ad-15.png)
 
-![](<../../../.gitbook/assets/setup-ad-16.png>)
+![](../../resources/admin/windows/setup-ad-16.png)
 
-![](<../../../.gitbook/assets/setup-ad-17.png>)
+![](../../resources/admin/windows/setup-ad-17.png)
 
-![](<../../../.gitbook/assets/setup-ad-18.png>)
+![](../../resources/admin/windows/setup-ad-18.png)
 
-![](<../../../.gitbook/assets/setup-ad-19.png>)
+![](../../resources/admin/windows/setup-ad-19.png)
 
-![](<../../../.gitbook/assets/setup-ad-20.png>)
+![](../../resources/admin/windows/setup-ad-20.png)
 
-![](<../../../.gitbook/assets/setup-ad-21.png>)
+![](../../resources/admin/windows/setup-ad-21.png)
  
 AD DS и DNS можно сразу, AD CS – после того, как машина станет контроллером AD.
 В DNS надо прописывать сервис в прямую зону. Имя контроллера туда само пропишется при настройке AD.

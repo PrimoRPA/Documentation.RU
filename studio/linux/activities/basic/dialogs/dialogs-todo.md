@@ -1,6 +1,6 @@
 # To Do
 
-![](../../resources/basic/dialogs/image-(825).png)
+![](../../../resources/activities/basic/dialogs/image-825.png)
 
 Элемент, задающий точку для разработки функционала в будущем.
 

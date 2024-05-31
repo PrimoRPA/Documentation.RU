@@ -1,6 +1,6 @@
 # Запрос SOAP
 
-![](<../../../.gitbook/assets/SOAPRequest.png>)
+![](../../../resources/activities/extra/networking/soaprequest.png)
 
 ***Важно!** Элемент доступен только при установке пакета **Primo.Networking**, который скачивается с помощью [Менеджера зависимостей Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) либо на сайте [NuGet.org](https://www.nuget.org/packages/Primo.Networking).*
 
@@ -11,7 +11,7 @@
 
 Обращаем внимание, что при закрытии окна мастера изменить настройки можно только в свойствах.
 
-![](<../../../.gitbook/assets/soap-master.png>)
+![](../../../resources/activities/extra/networking/soap-master.png)
 
 Настройки запроса:
 * **Описание сервиса** - укажите URL схемы WSDL с описанием сервиса. Или нажмите кнопку `...`, если файл \*.wsdl нужно найти на жестком диске.

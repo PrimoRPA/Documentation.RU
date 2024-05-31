@@ -1,6 +1,6 @@
 # Переместить в папку
 
-![](../../../resources/basic/mail/exchange/image-(297).png)
+![](../../../../resources/activities/basic/mail/exchange/image-297.png)
 
 Компонент, осуществляющий перемещение сообщений между папками MS Exchange.
 

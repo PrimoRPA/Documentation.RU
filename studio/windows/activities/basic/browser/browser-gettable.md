@@ -5,29 +5,29 @@ _Eng: Read Table_
 
 По кнопке **Мастер** открывается мастер чтения таблиц. 
 
-![Read Table 2](<../../../.gitbook/assets/image (207).png>)
+![Read Table 2](../../../resources/activities/basic/browser/image-207.png)
 
 Нажмите в окне мастера кнопку **Захват**.
 
-![Welcome Window](<../../../.gitbook/assets/image (87).png>)
+![Welcome Window](../../../resources/activities/basic/browser/image-87.png)
 
 После чего выделите в браузере элемент, который следует считать строкой таблицы.
 
-![Capture Element](<../../../.gitbook/assets/image (237).png>)
+![Capture Element](../../../resources/activities/basic/browser/image-237.png)
 
 Появится стандартное окно для формирования шаблона поиска (селектора). Установите необходимые свойства для идентификации элемента управления и нажмите **ОК**.
 
-![Search Template](<../../../.gitbook/assets/image (129).png>)
+![Search Template](../../../resources/activities/basic/browser/image-129.png)
 
 В результате отобразится окно для формирования ячеек строки. Отметьте галочками группы данных и атрибуты, которые вы хотите считывать в качестве ячеек. Вы также можете указать имена для колонок таблицы (в столбце **Имя колонки**) и скорректировать CSS-селекторы данных или создать новые CSS-селекторы. 
 
 В завершение нажмите кнопку **Проверить**, чтобы просмотреть окно с результатами.
 
-![Cell Configuration](<../../../.gitbook/assets/image (225).png>)
+![Cell Configuration](../../../resources/activities/basic/browser/image-225.png)
 
 Пример результата:
 
-![Resulting Data](<../../../.gitbook/assets/image (144).png>)
+![Resulting Data](../../../resources/activities/basic/browser/image-144.png)
 
 
 ## Свойства
@@ -42,7 +42,7 @@ _Eng: Read Table_
 - **Шаблон поиска**. String. Шаблон поиска элемента управления. 
 - **Элемент**. LTools.WebBrowser.Model.IElementInfo. Переменная со ссылкой на элемент управления. Такую переменную можно получить при помощи компонента [**Присутствие элемента**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_exists), а потом указать ее в этом свойстве. Для этого откройте редактор кода и укажите `<название переменной>.BrowserElement`. Пример:
 
-  ![](<../../../.gitbook/assets/execute-js-browser-element.png>)
+  ![](../../../resources/activities/basic/browser/execute-js-browser-element.png)
   
 - **Таймаут\***. Int32. Предельное время ожидания завершения процесса (в миллисекундах). По умолчанию `10000`.
 

@@ -9,7 +9,7 @@ Primo.Office.Pdf - это библиотека для автоматизации
 2. В Студии, на панели «Элементы», в группе PDF появится элемент **Чтение таблицы**.
 3. Перетащите элемент в свой процесс, чтобы начать работу.
 
-   ![](<../../../.gitbook/assets1/pdf-wf-gettable.png>) 
+   ![](../../../resources/activities/extra/pdf/pdf-wf-gettable.png) 
 
 ## Установка пакета
 
@@ -17,20 +17,20 @@ Primo.Office.Pdf - это библиотека для автоматизации
 
 **1.** [Скачайте](https://www.nuget.org/packages/Primo.Office.Pdf/#readme-body-tab) пакет с портала NuGet.
 
-![](<../../../.gitbook/assets1/download_pack.png>)
+![](../../../resources/activities/extra/pdf/download-pack.png)
 
 **2.** Откройте Primo  RPA Studio и перейдите в раздел **Управление зависимостями**.
 
-![](<../../../.gitbook/assets1/button-dependency-manager.png>)
+![](../../../resources/activities/extra/pdf/button-dependency-manager.png)
 
 **3.** На вкладке **Студия** выберите опцию загрузки и укажите путь к скачанному файлу пакета.
 
-![](<../../../.gitbook/assets1/Package.png>)
+![](../../../resources/activities/extra/pdf/package.png)
 
 
 **4.** В поисковой строке **Управления зависимостями** введите *pdf*, чтобы найти пакет **Primo.Office.Pdf.** Затем установите его и сохраните изменения. 
 
-![](<../../../.gitbook/assets1/after_browse.png>)
+![](../../../resources/activities/extra/pdf/after-browse.png)
 
 **5**. Готово - пакет **Primo.Office.Pdf** установлен в качестве зависимости. Немного подождите, пока зависимость загрузится, и найдите **Чтение таблицы** на панели элементов.
 

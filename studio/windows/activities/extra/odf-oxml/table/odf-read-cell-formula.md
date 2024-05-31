@@ -2,7 +2,7 @@
 
 Элемент считывает формулу из ячейки ODF-таблицы. Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Чтение формулы из ячейки»](<../../../../.gitbook/assets1/windows_items/odf-read-cell-formula.png>)
+![Элемент «Чтение формулы из ячейки»](../../../../resources/activities/extra/odf-oxml/table/odf-read-cell-formula.png)
 
 
 ## Свойства

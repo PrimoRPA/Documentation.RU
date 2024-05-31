@@ -1,8 +1,8 @@
 # Изменить дату
 
-![](../../../resources/basic/data/datetime/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(99).png)
+![](../../../../resources/activities/basic/data/datetime/image-100-1-1-1-1-1-1-1-2-99.png)
 
-![](../../../resources/basic/data/datetime/image-(256).png)
+![](../../../../resources/activities/basic/data/datetime/image-256.png)
 
 Компонент, изменяющий части даты.
 

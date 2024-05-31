@@ -1,6 +1,6 @@
 # Читать адресную книгу
 
-![](<../../../.gitbook/assets/image (48).png>)
+![](../../../resources/activities/basic/outlook/image-48.png)
 
 Компонент, производящий чтение адресных книг Outlook.
 

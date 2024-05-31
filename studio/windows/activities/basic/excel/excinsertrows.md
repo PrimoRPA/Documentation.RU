@@ -8,7 +8,7 @@ description: Insert rows
 
 Дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения в файле не сохранятся.
 
-![Элемент «Вставка строк»](<../../../.gitbook/assets1/WFInsertRows.png>)
+![Элемент «Вставка строк»](../../../resources/activities/basic/excel/wfinsertrows.png)
 
 
 ## Свойства

@@ -1,6 +1,6 @@
 # Microsoft OCR
 
-![](<../../../.gitbook/assets/image (263).png>)
+![](../../../resources/activities/basic/ocr/image-263.png)
 
 Компонент, осуществляющий подключение к ядру OCR Microsoft (только Windows 10).
 

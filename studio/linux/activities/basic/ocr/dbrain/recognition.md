@@ -1,8 +1,8 @@
 # Обработать документы
 
-![](../../../resources/basic/ocr/dbrain/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(180).png)
+![](../../../../resources/activities/basic/ocr/dbrain/image-100-1-1-1-1-1-1-1-2-180.png)
 
-![](../../../resources/basic/ocr/dbrain/image-(391).png)
+![](../../../../resources/activities/basic/ocr/dbrain/image-391.png)
 
 Элемент, осуществляющий обработку документов на сервере Dbrain
 

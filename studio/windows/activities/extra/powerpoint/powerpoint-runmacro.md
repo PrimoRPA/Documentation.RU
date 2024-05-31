@@ -1,6 +1,6 @@
 # Запустить макрос
 
-![](<../../../.gitbook/assets/image (541).png>)
+![](../../../resources/activities/extra/powerpoint/image-541.png)
 
 
 

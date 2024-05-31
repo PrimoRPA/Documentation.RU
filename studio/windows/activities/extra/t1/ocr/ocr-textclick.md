@@ -1,6 +1,6 @@
 # Клик текста мышью
 
-![](<../../../../.gitbook/assets/click_ocrtext.png>)
+![](../../../../resources/activities/extra/t1/ocr/click-ocrtext.png)
 
 Элемент ищет указанную строку и щелкает по ней мышью. При этом делает скриншот экрана.
 

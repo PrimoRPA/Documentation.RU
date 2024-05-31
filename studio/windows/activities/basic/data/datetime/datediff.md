@@ -1,8 +1,8 @@
 # Разница дат
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (248).png>)
+![](../../../../resources/activities/basic/data/datetime/image-100-1-1-1-1-1-1-1-2-248.png)
 
-![](<../../../../.gitbook/assets/image (371).png>)
+![](../../../../resources/activities/basic/data/datetime/image-371.png)
 
 Компонент, получающий разницу между двумя датами.
 

@@ -1,6 +1,6 @@
 # Эмуляция спецкнопки
 
-![](<../../../.gitbook/assets/image (364).png>)
+![](../../../resources/activities/basic/sap/image-364.png)
 
 Компонент, производящий эмуляцию нажатия спецкнопки.
 

@@ -2,7 +2,7 @@
 
 *Eng: SecureStringToString*
 
-![](<../../../.gitbook/assets/SecureString к строке.png>)
+![](../../../resources/activities/basic/crypto/securestring-к-строке.png)
 
 Компонент, который преобразует SecureString в строку. Элемент **SecureString к строке** может быть полезен при автоматизации задач, которые требуют обработки конфиденциальных данных. 
 

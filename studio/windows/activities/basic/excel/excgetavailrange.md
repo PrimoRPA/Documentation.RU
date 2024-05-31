@@ -8,7 +8,7 @@ description: Find First/Last Data Row
 
 Путь до файла, тип драйвера и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
-![](<../../../.gitbook/assets1/WFGetAvailRange.png>)
+![](../../../resources/activities/basic/excel/wfgetavailrange.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
@@ -30,7 +30,7 @@ description: Find First/Last Data Row
 
 На рисунке ниже приведен пример заполненных свойств. Исходя из свойств, элемент будет искать начальную и конечную строки в таблице на листе «Персонал таблица». Последняя строка диапазона определяется первой пустой строкой. Ячейка столбца, с которой будет считаться количество строк с данными, определена как "Е1".
 
-![](<../../../.gitbook/assets1/WFGetAvailRange-example.png>)
+![](../../../resources/activities/basic/excel/wfgetavailrange-example.png)
 
 ## Пример использования 
 RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).

@@ -1,8 +1,8 @@
 # Поиск файлов
 
-![](../../resources/basic/files/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(203).png)
+![](../../../resources/activities/basic/files/image-100-1-1-1-1-1-1-1-2-203.png)
 
-![](../../resources/basic/files/image-(199).png)
+![](../../../resources/activities/basic/files/image-199.png)
 
 Элемент, осуществляющий поиск файлов и папок.
 

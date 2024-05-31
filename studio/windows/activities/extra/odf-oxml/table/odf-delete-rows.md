@@ -4,7 +4,7 @@
 
 Если в файле требуется сохранить изменения, то дополнительно используйте элемент «Сохранить документ».
 
-![Элемент «Удаление строк»](<../../../../.gitbook/assets1/windows_items/odf-delete-rows.png>)
+![Элемент «Удаление строк»](../../../../resources/activities/extra/odf-oxml/table/odf-delete-rows.png)
 
 
 ## Свойства

@@ -1,6 +1,6 @@
 # Расшифровать байты
 
-![](<../../../../.gitbook/assets/image (573).png>)
+![](../../../../resources/activities/extra/t1/cryptopro/image-573.png)
 
 Элемент, расшифровывающий массив байт
 

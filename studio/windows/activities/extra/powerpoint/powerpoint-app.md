@@ -1,6 +1,6 @@
 # Приложение PowerPoint
 
-![](<../../../.gitbook/assets/image (548).png>)
+![](../../../resources/activities/extra/powerpoint/image-548.png)
 
 
 

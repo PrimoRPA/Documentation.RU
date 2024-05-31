@@ -4,11 +4,11 @@
 
 Элемент **Вопрос в чат** должен размещаться в контейнере **Создать чат**. Убедитесь, что в контейнере указан действующий токен для запросов.
 
-![](<../../../../.gitbook/assets1/вопрос-в-чат-яндекс-гпт.png>)
+![](../../../../resources/activities/extra/ai/yandexgpt/вопрос-в-чат-яндекс-гпт.png)
 
 Элементы группы YandexGPT, включая **Вопрос в чат**, становятся доступными после установки в Студии библиотеки **Primo.AI**:
 
-![](<../../../../.gitbook/assets1/yandexgpt-items.png>)
+![](../../../../resources/activities/extra/ai/yandexgpt/yandexgpt-items.png)
 
 
 ## Предварительные условия
@@ -29,5 +29,5 @@
 
 Пример заполнения свойств:
 
-![](<../../../../.gitbook/assets1/ya-gpt-chat-message.png>)
+![](../../../../resources/activities/extra/ai/yandexgpt/ya-gpt-chat-message.png)
 

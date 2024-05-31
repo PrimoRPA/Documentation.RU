@@ -4,7 +4,7 @@
 
 Элемент завершает работу внешнего приложения. Размещается внутри контейнера [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/el_desktop_attach), в свойствах которого должен быть указан заголовок приложения/имя процесса.
 
-![](<../../../.gitbook/assets/image (173).png>)
+![](../../../resources/activities/basic/desktop/image-173.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

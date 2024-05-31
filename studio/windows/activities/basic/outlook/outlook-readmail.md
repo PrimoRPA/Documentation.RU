@@ -8,7 +8,7 @@
 
 Элемент должен располагаться внутри контейнера [Приложение Outlook](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_outlook/el_outlook_app), которое отвечает за подключение к почтовому клиенту. Не забудьте указать корректные настройки подключения перед тем, как начать работу.
 
-![](<../../../.gitbook/assets/image (109).png>)
+![](../../../resources/activities/basic/outlook/image-109.png)
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\

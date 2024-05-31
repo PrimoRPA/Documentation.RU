@@ -12,10 +12,10 @@
 
 **Пользователь** (3) – это локальный или доменный пользователь (не обязательно Administrator), от имени которого Агент на машине робота создает задание в Task Scheduler для запуска робота.
 
-![](<../../../.gitbook/assets/registered-robot-machines.png>)
+![](../../resources/settings/robots/registered-robot-machines.png)
 
 Задание в Task Scheduler:
  
-![](<../../../.gitbook/assets/task-scheduler-for-start-robot.png>)
+![](../../resources/settings/robots/task-scheduler-for-start-robot.png)
 
 :white_check_mark: **Теперь Оркестратор готов к работе**: можно развертывать роботов на настроенных машинах и управлять выполнением RPA-проектов из Оркестратора.

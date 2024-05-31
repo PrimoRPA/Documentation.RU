@@ -8,7 +8,7 @@ description: Insert columns
 
 Дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения в файле не сохранятся.
 
-![Элемент «Вставка колонок»](<../../../.gitbook/assets1/WFInsertColumns.png>)  
+![Элемент «Вставка колонок»](../../../resources/activities/basic/excel/wfinsertcolumns.png)  
 
 
 ## Свойства

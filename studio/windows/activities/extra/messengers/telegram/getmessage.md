@@ -1,6 +1,6 @@
 # Получить сообщения
 
-![](<../../../../.gitbook/assets/image (43).png>)
+![](../../../../resources/activities/extra/messengers/telegram/image-43.png)
 
 Элемент, получающий сообщения из чата Telegram.
 

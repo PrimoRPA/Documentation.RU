@@ -5,9 +5,9 @@ description: Invoke project
 
 # Вызов проекта
 
-![](../../../resources/basic/orch/process/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(126).png)
+![](../../../../resources/activities/basic/orchestrator/process/image-100-1-1-1-1-1-1-1-2-126.png)
 
-![](../../../resources/basic/orch/process/Вызов-проекта.png)
+![](../../../../resources/activities/basic/orchestrator/process/вызов-проекта-fixed.png)
 
 Элемент предназначен для вызова и локальной обработки проекта из Оркестратора. 
 

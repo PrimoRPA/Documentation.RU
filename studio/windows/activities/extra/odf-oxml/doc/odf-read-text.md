@@ -2,7 +2,7 @@
 
 Элемент считывает данные из документа и сохраняет результат в переменную. Путь до файла указывается в контейнере «Документ ODF».
 
-![](<../../../../.gitbook/assets1/windows_items/odf-read-text.png>)
+![](../../../../resources/activities/extra/odf-oxml/doc/odf-read-text.png)
 
 
 ## Свойства

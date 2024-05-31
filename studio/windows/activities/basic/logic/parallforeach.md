@@ -1,8 +1,8 @@
 # Параллельный цикл ForEach
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (358).png>)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-1-2-358.png)
 
-![](<../../../.gitbook/assets/image (147).png>)
+![](../../../resources/activities/basic/logic/image-147.png)
 
 Компонент-цикл, перебирающий все значения выбранного массива в параллельных потоках.
 

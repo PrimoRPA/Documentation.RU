@@ -1,6 +1,6 @@
 # Запустить VBA
 
-![](<../../../../.gitbook/assets/Запустить VBA Word.png>)
+![](../../../resources/activities/basic/word/запустить-vba-word.png)
 
 Элемент, выполняющий скрипт VBA в Word. Не поддерживается на ОС Linux.
 

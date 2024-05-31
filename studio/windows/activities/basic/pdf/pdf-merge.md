@@ -2,9 +2,9 @@
 
 *Eng: Merge documents*
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (36).png>)
+![](../../../resources/activities/basic/pdf/image-100-1-1-1-1-1-1-1-2-36.png)
 
-![](<../../../.gitbook/assets/image (445).png>)
+![](../../../resources/activities/basic/pdf/image-445.png)
 
 Элемент позволяет объединить два документа PDF в один.
 

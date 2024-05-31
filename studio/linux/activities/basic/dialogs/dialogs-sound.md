@@ -1,6 +1,6 @@
 # Звуковой сигнал
 
-![](../../resources/basic/dialogs/image-(432).png)
+![](../../../resources/activities/basic/dialogs/image-432.png)
 
 Компонент, воспроизводящий звук заданной протяженности и частоты.
 

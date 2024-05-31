@@ -8,6 +8,6 @@
 
 Эти группы элементов будут доступны в Студии только после [установки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) библиотеки. 
 
-![](<../../../.gitbook/assets1/windows_items/library-odf.png>)
+![](../../../resources/activities/extra/odf-oxml/library-odf.png)
 
 

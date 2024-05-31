@@ -1,8 +1,8 @@
 # Отправить сообщение
 
-![](../../../resources/basic/mq/mq_amq/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(255).png)
+![](../../../../resources/activities/basic/mq/mq-amq/image-100-1-1-1-1-1-1-1-2-255.png)
 
-![](../../../resources/basic/mq/mq_amq/image-(398).png)
+![](../../../../resources/activities/basic/mq/mq-amq/image-398.png)
 
 Компонент, отправляющий сообщение в очередь сервера ActiveMQ.
 

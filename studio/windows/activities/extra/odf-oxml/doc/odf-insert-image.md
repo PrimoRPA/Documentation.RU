@@ -2,7 +2,7 @@
 
 Элемент вставляет изображение в ODF-файл. Путь до файла указывается в контейнере «Документ ODF».
 
-![](<../../../../.gitbook/assets1/windows_items/odf-input-image.png>)
+![](../../../../resources/activities/extra/odf-oxml/doc/odf-input-image.png)
 
 
 ## Свойства

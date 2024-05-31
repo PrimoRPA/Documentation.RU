@@ -1,8 +1,8 @@
 # Проверка результатов с оператором
 
-![](../../resources/basic/testing/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(210).png)
+![](../../../resources/activities/basic/testing/image-100-1-1-1-1-1-1-1-2-210.png)
 
-![](../../resources/basic/testing/image-(76).png)
+![](../../../resources/activities/basic/testing/image-76.png)
 
 Элемент, выполняющий проверку заданного результатов заданного элемента.
 

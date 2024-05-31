@@ -1,8 +1,8 @@
 # Распознать текст
 
-![](../../resources/basic/ocr/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(119).png)
+![](../../../resources/activities/basic/ocr/image-100-1-1-1-1-1-1-1-2-119.png)
 
-![](../../resources/basic/ocr/image-(316).png)
+![](../../../resources/activities/basic/ocr/image-316.png)
 
 Компонент, производящий разбор экранного текста методом OCR.
 

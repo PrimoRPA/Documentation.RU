@@ -16,7 +16,7 @@
 
 [**Primo.MachineLearning**](https://www.nuget.org/packages/Primo.MachineLearning/) — это библиотека с набором элементов для машинного обучения. После того как вы установите библиотеку в Студии, на панели элементов появится группа **Машинное обучение**:
 
-![](<../../../.gitbook/assets1/items-Primo.MachineLearning.png>)
+![](../../../resources/activities/extra/machine-learning/items-primo.machinelearning.png)
 
 В группу входят такие компоненты, как:
 * [**Обучение модели классификации**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_classification_study) — элемент производит обучение модели классификации данных.
@@ -34,12 +34,12 @@
 
 * Откройте Primo RPA Studio и нажмите в главном меню кнопку **Управление зависимостями** <img src="../../../.gitbook/assets/managePackages32.png" alt="" data-size="line">
 
-   ![](<../../../.gitbook/assets1/управление зависимостями.png>)
+   ![](../../../resources/activities/extra/machine-learning/управление-зависимостями.png)
 
 * В окне **Управление зависимостями** перейдите на вкладку **Nuget.org**. Введите в поисковом поле название пакета — **Primo.MachineLearning**.
 * Установите пакет (пп. 3 и 4 на рисунке):
 
-  ![](<../../../.gitbook/assets1/install-Primo.MachineLearning.png>)
+  ![](../../../resources/activities/extra/machine-learning/install-primo.machinelearning.png)
 
 * Дождитесь окончания установки и нажмите **ОК**.
 * Готово — пакет **Primo.MachineLearning** установлен в качестве зависимости проекта. Немного подождите, пока зависимость загрузится. Во время установки проект будет перезапущен с предложением сохранить изменения.

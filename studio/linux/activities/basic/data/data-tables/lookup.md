@@ -1,6 +1,6 @@
 # Искать в таблице
 
-![](../../../resources/basic/data/data_tables/image-(774).png)
+![](../../../../resources/activities/basic/data/data-tables/image-774.png)
 
 Компонент, осуществляющий поиск в таблице.
 

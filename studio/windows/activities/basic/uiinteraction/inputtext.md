@@ -1,8 +1,8 @@
 # Ввод текста
 
-![](<../../../.gitbook/assets/image (937).png>)
+![](../../../resources/activities/basic/uiinteraction/image-937.png)
 
-Компонент позволяет ввести текст в выбранный элемент управления. Инструмент ![](<../../../.gitbook/assets/image (794).png>), который расположен на компоненте, позволяет автоматически заполнить [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) нужного элемента управления.
+Компонент позволяет ввести текст в выбранный элемент управления. Инструмент ![](../../../resources/activities/basic/uiinteraction/image-794.png), который расположен на компоненте, позволяет автоматически заполнить [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) нужного элемента управления.
 
 Если элемент управления относится к определенному приложению, сначала используйте контейнер [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_desktop/el_desktop_attach), а уже в него поместите **Ввод текста**.
 
@@ -16,7 +16,7 @@
 | Текст                | String                               | Текст, который нужно ввести. Пример: `"text"`       |
 | Защищенный текст     | [SecureString](https://learn.microsoft.com/ru-Ru/dotnet/api/system.security.securestring?view=netcore-3.1) | Для вставки зашифрованного текста. Например, пароля пользователя, который не должен храниться в открытом виде |
 | Режим                | -                                    | Выберите режим ввода текста: INVOKE (по умолчанию) или SIMULATE. Режим INVOKE производит вставку текста, SIMULATE - эмулирует ввод текста с клавиатуры и предназначен для тех приложений, где ввод через INVOKE не поддерживается (например, в 1С) |
-| Шаблон поиска        | String                               | Шаблон поиска элемента управления. Доступно заполнение вручную в формате JSON (через редактор) либо автоматически при помощи инструмента ![](<../../../.gitbook/assets/image (794).png>) |
+| Шаблон поиска        | String                               | Шаблон поиска элемента управления. Доступно заполнение вручную в формате JSON (через редактор) либо автоматически при помощи инструмента ![](../../../resources/activities/basic/uiinteraction/image-794.png) |
 | Область              | [System.Drawing.Rectangle](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.rectangle?view=net-6.0) | Область поиска компонента |
 | Элемент              | [LTools.UIInteraction.Model.UIControl](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_uiinteraction/tipy-dannykh/uicontrol) | Переменная со ссылкой на элемент управления, который был найден и сохранен ранее. Если заполнено это свойство, шаблон поиска указывать не нужно |
 | Текущий пользователь | Boolean                              | Искать только среди процессов текущего пользователя. По умолчанию выключено |

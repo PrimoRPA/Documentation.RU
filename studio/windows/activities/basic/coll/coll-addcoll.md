@@ -4,7 +4,7 @@
 
 Компонент позволяет добавить новый элемент в коллекцию.
 
-![](<../../../.gitbook/assets/image (276).png>)
+![](../../../resources/activities/basic/coll/image-276.png)
 
 
 ## Свойства

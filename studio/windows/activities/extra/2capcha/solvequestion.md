@@ -1,6 +1,6 @@
 # Решить вопрос
 
-![](<../../../.gitbook/assets/image (756).png>)
+![](../../../resources/activities/extra/2capcha/image-756.png)
 
 Элемент, решающий капчу-вопрос.
 

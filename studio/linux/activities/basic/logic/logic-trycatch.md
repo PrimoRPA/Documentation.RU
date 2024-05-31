@@ -1,8 +1,8 @@
 # Try-Catch
 
-![](../../resources/basic/logic/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(46).png)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-1-1-46.png)
 
-![](../../resources/basic/logic/image-(53).png)
+![](../../../resources/activities/basic/logic/image-53.png)
 
 Элемент **Try-Catch** используется для обработки исключений, которые могут возникать при выполнении сценария. Try-Catch содержит стандартные блоки: Try, Catch и Finally.
 

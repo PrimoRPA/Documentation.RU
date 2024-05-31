@@ -1,6 +1,6 @@
 # Всплывающее уведомление
 
-![](../../resources/basic/dialogs/image-(885).png)
+![](../../../resources/activities/basic/dialogs/image-885.png)
 
 
 

@@ -1,6 +1,6 @@
 # Отправить текст
 
-![](<../../../../.gitbook/assets/image (117).png>)
+![](../../../../resources/activities/extra/messengers/autofaq/image-117.png)
 
 Элемент, отправляющий текстовое сообщение в чат AutoFAQ.
 

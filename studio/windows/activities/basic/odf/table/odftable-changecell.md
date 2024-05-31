@@ -1,6 +1,6 @@
 # Изменение ячейки
 
-![](<../../../../.gitbook/assets1/Cropped-WriteFormula.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-writeformula.png)
 
 Компонент, изменяющий формат ячеек в Excel.
 

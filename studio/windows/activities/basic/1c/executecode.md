@@ -1,6 +1,6 @@
 # Выполнить код
 
-![](<../../../.gitbook/assets/image (20).png>)
+![](../../../resources/activities/basic/1c/image-20.png)
 
 
 

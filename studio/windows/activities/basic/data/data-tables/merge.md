@@ -1,8 +1,8 @@
 # Объединить таблицы
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (310).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-310.png)
 
-![](<../../../../.gitbook/assets/image (341).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-341.png)
 
 Компонент, объединяющий таблицы.
 

@@ -1,6 +1,6 @@
 # Диалог ввода
 
-![](../../resources/basic/dialogs/image-(415).png)
+![](../../../resources/activities/basic/dialogs/image-415.png)
 
 Компонент, производящий отображение окна ввода данных.
 

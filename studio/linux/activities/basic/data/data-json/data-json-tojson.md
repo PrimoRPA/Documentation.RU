@@ -1,8 +1,8 @@
 # Объект к JSON
 
-![](../../../resources/basic/data/data_json/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(14).png)
+![](../../../../resources/activities/basic/data/data-json/image-100-1-1-1-1-1-1-1-1-14.png)
 
-![](../../../resources/basic/data/data_json/image-(285).png)
+![](../../../../resources/activities/basic/data/data-json/image-285.png)
 
 Компонент преобразует объект к JSON.
 

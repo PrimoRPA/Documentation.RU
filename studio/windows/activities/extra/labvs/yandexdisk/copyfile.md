@@ -1,6 +1,6 @@
 # Копировать файл
 
-![](<../../../../.gitbook/assets/image (576).png>)
+![](../../../../resources/activities/extra/labvs/yandexdisk/image-576.png)
 
 Элемент, копирующий файл
 

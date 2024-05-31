@@ -1,8 +1,8 @@
 # Ссылка на процесс
 
-![](../../resources/basic/logic/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(54).png)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-1-1-54.png)
 
-![](../../resources/basic/logic/image-(211).png)
+![](../../../resources/activities/basic/logic/image-211.png)
 
 **Eng**: Process link
 
@@ -10,10 +10,10 @@
 
 На панели элемента также находятся кнопки:
 
-1. **Открыть** ![](../../resources/basic/logic/open-link-process2.png) - автоматически открывает в проекте вкладку с указанным подпроцессом.
-2. **Аргументы** ![](../../resources/basic/logic/args-link-process2.png) - вызывает окно с аргументами подпроцесса. Пример:
+1. **Открыть** ![](../../../resources/activities/basic/logic/open-link-process2.png) - автоматически открывает в проекте вкладку с указанным подпроцессом.
+2. **Аргументы** ![](../../../resources/activities/basic/logic/args-link-process2.png) - вызывает окно с аргументами подпроцесса. Пример:
 
-   ![](../../resources/basic/logic/args-window.png)
+   ![](../../../resources/activities/basic/logic/args-window.png)
 
    Для каждого аргумента возможно создать переменную (или аргумент) и указать ее в столбце **Назначение**.\
    В окне поддерживается сочетание клавиш:
@@ -41,7 +41,7 @@
 
 ### Песочница
 
-![](../../resources/basic/logic/image-(9).png)
+![](../../../resources/activities/basic/logic/image-9.png)
 
 [«Песочница» (SandBox)](https://learn.microsoft.com/ru-ru/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) - инструмент Windows 10, 11 для безопасного запуска приложений в изолированной виртуальной среде. Программы, установленные и запущенные внутри Песочницы, изолированы от остальной системы и работают независимо от главного компьютера. Песочница является временной. При ее закрытии все находящееся в ней программное обеспечение, все файлы и данные о состоянии удаляются. При каждом открытии приложения вы получаете новый экземпляр Песочницы.
 
@@ -63,7 +63,7 @@
 
 * Установить флаг **Запуск в песочнице** в свойствах элемента:
 
-![](../../resources/basic/logic/image-(193).png)
+![](../../../resources/activities/basic/logic/image-193.png)
 
 :bangbang:***Основной и вспомогательный робот могут обмениваться только простыми данными (String, [Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0), [DateTime](https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=net-5.0), Boolean и т.д.) либо коллекциями простых данных (List\<String>, List\<DateTime> и т.д.)***
 

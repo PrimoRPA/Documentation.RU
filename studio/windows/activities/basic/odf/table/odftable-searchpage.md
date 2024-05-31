@@ -1,6 +1,6 @@
 # Поиск на странице
 
-![](<../../../../.gitbook/assets1/Cropped-PageSearch.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-pagesearch.png)
 
 Компонент, осуществляющий поиск значения на странице Excel.
 

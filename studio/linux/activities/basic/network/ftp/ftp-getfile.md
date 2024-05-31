@@ -1,6 +1,6 @@
 # Получить файл по FTP
 
-![](../../../resources/basic/network/ftp/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(342).png)
+![](../../../../resources/activities/basic/network/ftp/image-100-1-1-1-1-1-1-1-2-342.png)
 
 <figure><img src="../../../../.gitbook/assets/get_file_ftp (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

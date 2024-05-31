@@ -1,8 +1,8 @@
 # Получить следующие локальные тестовые данные
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (153).png>)
+![](../../../resources/activities/basic/testing/image-100-1-1-1-1-1-1-1-2-153.png)
 
-![](<../../../.gitbook/assets/image (215).png>)
+![](../../../resources/activities/basic/testing/image-215.png)
 
 Элемент, получающие следующие локальные тестовые данные
 

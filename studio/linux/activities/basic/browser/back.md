@@ -1,8 +1,8 @@
 # Назад
 
-![](../../resources/basic/browser/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(40).png)
+![](../../../resources/activities/basic/browser/image-100-1-1-1-1-1-1-1-2-40.png)
 
-![](../../resources/basic/browser/image-(351).png)
+![](../../../resources/activities/basic/browser/image-351.png)
 
 Компонент, осуществляющий навигацию назад.
 

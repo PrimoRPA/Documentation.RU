@@ -17,7 +17,7 @@
 
 \* _Полная схема приведена в разделе_ [_Компоненты системы_](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/system-components).
 
-![](<../../../../.gitbook/assets/Компоненты Оркестратора и Роботы.png>)
+![](../../../resources/setting-up-machines/linux/robotmachine/компоненты-оркестратора-и-роботы.png)
 
 **Агент** – self-hosted веб-приложение. Агент выполнен как .NET Core 3.1-приложение. Агент используется для развертывания и управления роботом на машине робота.
 

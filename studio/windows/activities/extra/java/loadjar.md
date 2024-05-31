@@ -1,6 +1,6 @@
 # Загрузить Jar
 
-![](<../../../.gitbook/assets/java-jar-load.png>)
+![](../../../resources/activities/extra/java/java-jar-load.png)
 
 Элемент загружает файл \*.jar в контекст Java для последующих действий. Например, [вызвать метод](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_invokemethod) возможно только после загрузки jar-файла.
 

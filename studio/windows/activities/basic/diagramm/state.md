@@ -1,8 +1,8 @@
 # Состояние
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (262).png>)
+![](../../../resources/activities/basic/diagramm/image-100-1-1-1-1-1-1-1-2-262.png)
 
-![](<../../../.gitbook/assets/image (273).png>)
+![](../../../resources/activities/basic/diagramm/image-273.png)
 
 Компонент, являющийся контейнером состояния
 

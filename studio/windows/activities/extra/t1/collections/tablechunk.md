@@ -1,6 +1,6 @@
 # Форматировать таблицу
 
-![](<../../../../.gitbook/assets/image (501).png>)
+![](../../../../resources/activities/extra/t1/collections/image-501.png)
 
 Элемент, разрезающий таблицу на под-таблицы и создающий новую
 

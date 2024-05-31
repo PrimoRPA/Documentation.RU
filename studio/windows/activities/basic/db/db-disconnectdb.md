@@ -5,9 +5,9 @@ description: Disconnect DB
 
 # Отсоединиться от БД
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (65).png>)
+![](../../../resources/activities/basic/db/image-100-1-1-1-1-1-1-1-2-65.png)
 
-![](<../../../.gitbook/assets/отсоединиться от бд.png>)
+![](../../../resources/activities/basic/db/отсоединиться-от-бд.png)
 
 Элемент завершает соединение с базой данных.
 

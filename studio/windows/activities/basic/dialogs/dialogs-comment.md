@@ -4,7 +4,7 @@
 
 Пример использования:
 
-![](<../../../.gitbook/assets/element-wfcomment.png>)
+![](../../../resources/activities/basic/dialogs/element-wfcomment.png)
 
 ## Свойства
 

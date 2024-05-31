@@ -1,6 +1,6 @@
 # Установить курсор мыши
 
-![](<../../../.gitbook/assets/image (459).png>)
+![](../../../resources/activities/basic/uiinteraction/image-459.png)
 
 Устанавливает курсор мыши на выбранном элементе управления.
 

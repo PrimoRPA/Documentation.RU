@@ -4,7 +4,7 @@ description: Save workbook
 
 # Сохранить документ
 
-![](<../../../.gitbook/assets/image (283).png>)
+![](../../../resources/activities/basic/excel/image-283.png)
 
 Элемент сохраняет текущее состояние файла Excel. 
 

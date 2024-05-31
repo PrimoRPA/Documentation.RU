@@ -4,9 +4,9 @@ description: Execute query
 
 # Выполнить запрос
 
-![](../../resources/basic/db/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(10)-(246).png)
+![](../../../resources/activities/basic/db/image-100-1-1-1-1-1-1-10-246.png)
 
-![](../../resources/basic/db/image-(421).png)
+![](../../../resources/activities/basic/db/image-421.png)
 
 Элемент выполняет запрос к базе данных (БД). В сценарии элемент может использоваться:
 * внутри контейнера [**Присоединиться к БД**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/el\_basic/els\_db/el\_db\_connect);
@@ -50,11 +50,11 @@ description: Execute query
 
 Пример мастера для Ole DB:
 
-![Для Ole DB](../../resources/basic/db/image-(301).png)
+![Для Ole DB](../../../resources/activities/basic/db/image-301.png)
 
 Пример мастера для PostgreSQL:
 
-![Для Postgre Sql](../../resources/basic/db/image-(383).png)
+![Для Postgre Sql](../../../resources/activities/basic/db/image-383.png)
 
 После нажатия кнопки **OK** строка соединения сформируется автоматически и будет записана в соответствующее свойство.
 

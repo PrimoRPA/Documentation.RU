@@ -10,7 +10,7 @@ description: Send message
 
 Данный элемент размещается внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/els_exchange/el_connect). Перед отправкой сообщения убедитесь, что в контейнере правильно указаны все необходимые свойства: email, логин, пароль и др. 
 
-![](<../../../../.gitbook/assets1/exchange-send-message.png>)
+![](../../../../resources/activities/basic/mail/exchange/exchange-send-message.png)
 
 
 
@@ -30,7 +30,7 @@ description: Send message
 1. **Вложения** *[System.Collections.Generic.List\<String>]* — список путей к вложениям письма. Указать пути можно несколькими способами:
    * Использовать редактор коллекций (1). В поле редактора пропишите путь до файла вложения либо переменную, содержащую путь (2). Новая строка добавляется по нажатию `Enter`.
 
-     ![](<../../../../.gitbook/assets1/collection-editor-exchange.png>)
+     ![](../../../../resources/activities/basic/mail/exchange/collection-editor-exchange.png)
 
    * Заранее подготовить список путей до вложений. Его можно сформировать вручную или использовать элемент [Поиск файлов](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_files/el_files_search), чтобы сохранить пути найденных вложений в переменную.
 1. **Копировать в папку** *[Boolean]* — определяет, нужно ли сохранять копию письма в папке «Отправленные». По умолчанию чекбокс выключен — копия не сохраняется.

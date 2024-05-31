@@ -1,6 +1,6 @@
 # Запись диапазона
 
-![](<../../../../.gitbook/assets/image (839).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-839.png)
 
 Компонент, записывающий данные диапазона ячеек в Таблицу.
 

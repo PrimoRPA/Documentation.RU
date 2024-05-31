@@ -9,7 +9,7 @@ description: Invoke robot
 
 Задание, которое вы хотите выполнить, должно иметь тип триггера [«Запуск из другого робота»](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks#id-6.-zapusk-iz-drugogo-robota). Робот для указанного задания подберется автоматически.
 
-![Элемент «Запустить робота»](<../../../../.gitbook/assets/Запустить робота.png>)
+![Элемент «Запустить робота»](../../../../resources/activities/basic/orch/process/запустить-робота.png)
 
 
 ## Свойства

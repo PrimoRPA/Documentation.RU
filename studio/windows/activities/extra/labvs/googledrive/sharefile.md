@@ -1,6 +1,6 @@
 # Дать доступ к файлу
 
-![](<../../../../.gitbook/assets/image (929).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-929.png)
 
 Элемент, предоставляющий доступ к файлу
 

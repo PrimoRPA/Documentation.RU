@@ -4,7 +4,7 @@
 
 Если в файле требуется сохранить изменения, то дополнительно используйте элемент «Сохранить документ».
 
-![Элемент «Вставка строк»](<../../../../.gitbook/assets1/windows_items/odf-insert-row.png>)
+![Элемент «Вставка строк»](../../../../resources/activities/extra/odf-oxml/table/odf-insert-row.png)
 
 
 ## Свойства

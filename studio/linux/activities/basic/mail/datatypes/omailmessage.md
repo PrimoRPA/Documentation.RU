@@ -32,7 +32,7 @@ LTools.Office.Model.OMailMessage - модель письма. Используе
 ### CreateDate
 Свойства модели **CreateDate/ReceiveDate** имеет следующий набор свойств:
 
-![](../../../resources/basic/mail/datatypes/omail-createdate.png)
+![](../../../../resources/activities/basic/mail/datatypes/omail-createdate.png)
 
 Пример получения дня месяца, когда было создано сообщение: `var_list_mails[0].CreateDate.Day`, где:
 * var_list_mails - это условное название переменной;
@@ -59,7 +59,7 @@ LTools.Office.Model.OMailMessage - модель письма. Используе
 
 Свойство модели **MessageProperties** (только Outlook) обладает следующим набором свойств: 
 
-![](../../../resources/basic/mail/datatypes/omail-message-properties2.png)
+![](../../../../resources/activities/basic/mail/datatypes/omail-message-properties2.png)
 
 Их описание можно найти в [этом разделе](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/mapi-properties), выбрав нужное название канонического свойства в левом меню. 
 

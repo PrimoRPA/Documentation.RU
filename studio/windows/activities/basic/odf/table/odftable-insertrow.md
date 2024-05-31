@@ -1,6 +1,6 @@
 # Вставка строк
 
-![](<../../../../.gitbook/assets1/Cropped-InsertRow.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-insertrow.png)
 
 Элемент для добавления строк в лист Excel.
 

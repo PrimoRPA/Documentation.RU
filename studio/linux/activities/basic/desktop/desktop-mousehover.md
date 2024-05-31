@@ -1,6 +1,6 @@
 # Установить курсор мыши
 
-![](../../resources/basic/desktop/mouse_hover.png)
+![](../../../resources/activities/basic/desktop/mouse-hover.png)
 
 Устанавливает курсор мыши на выбранном элементе управления или по координатам.
 

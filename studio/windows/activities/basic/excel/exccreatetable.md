@@ -1,6 +1,6 @@
 # Создать таблицу
 
-![](../../../.gitbook/assets/excel-create-table.png)
+![](../../../resources/activities/basic/excel/excel-create-table.png)
 
 Компонент создает таблицу на заданном листе Excel.
 

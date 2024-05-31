@@ -1,6 +1,6 @@
 # Исчезновение элемента
 
-![](../../resources/basic/desktop/image-(158).png)
+![](../../../resources/activities/basic/desktop/image-158.png)
 
 Компонент, ожидающий исчезновение элемента управления.
 

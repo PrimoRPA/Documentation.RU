@@ -1,6 +1,6 @@
 # Создать папку
 
-![](<../../../../.gitbook/assets/image (594).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-594.png)
 
 Элемент, создающий новую папку
 

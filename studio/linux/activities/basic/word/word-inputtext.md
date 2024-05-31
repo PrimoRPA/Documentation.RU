@@ -1,8 +1,8 @@
 # Ввод текста
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(139).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-139.png)
 
-![](../../resources/basic/word/image-(171).png)
+![](../../../resources/activities/basic/word/image-171.png)
 
 Компонент, производящий запись данных в документ Word. Компонент корректно работает только внутри контейнера Приложение Word.
 

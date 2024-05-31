@@ -1,6 +1,6 @@
 # Создать коллекцию
 
-![](<../../../../.gitbook/assets/image (510).png>)
+![](../../../../resources/activities/extra/t1/collections/image-510.png)
 
 Элемент, создающий и наполняющий коллекцию
 
@@ -15,5 +15,5 @@
 
 **Мастер коллекций**
 
-![](<../../../../.gitbook/assets/image (519).png>)
+![](../../../../resources/activities/extra/t1/collections/image-519.png)
 

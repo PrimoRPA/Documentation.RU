@@ -1,8 +1,8 @@
 # Удалить файл по FTP
 
-![](../../../resources/basic/network/ftp/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(38).png)
+![](../../../../resources/activities/basic/network/ftp/image-100-1-1-1-1-1-1-1-1-38.png)
 
-![](../../../resources/basic/network/ftp/Удалить-файл-по-FTP.png)
+![](../../../../resources/activities/basic/network/ftp/удалить-файл-по-ftp-fixed.png)
 
 Позволяет удалить файл с сервера по протоколу FTP(S).
 

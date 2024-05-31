@@ -8,7 +8,7 @@ description: Prediction model training
 
 В результате выполнения элемента вы получите модель — файл, который обучен распознаванию определенных типов закономерностей.
 
-![](<../../../.gitbook/assets/image (187).png>)
+![](../../../resources/activities/extra/machine-learning/image-187.png)
 
 
 ## Свойства

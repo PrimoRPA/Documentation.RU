@@ -1,8 +1,8 @@
 # Удалить повторяющиеся строки
 
-![](../../../resources/basic/data/data_tables/image-(100)-(1)-(1)-(1)-(2)-(83).png)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-2-83.png)
 
-![](../../../resources/basic/data/data_tables/Удалить-повторяющиеся-строки.png)
+![](../../../../resources/activities/basic/data/data-tables/удалить-повторяющиеся-строки-fixed.png)
 
 
 Компонент, объединяющий таблицы.

@@ -1,6 +1,6 @@
 # Java
 
-![](<../../../.gitbook/assets/Java.png>)
+![](../../../resources/activities/extra/java/java.png)
 
 :bangbang: ***Требует установленной Java 8. Предназначено только для Windows.***
 

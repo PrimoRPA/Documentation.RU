@@ -1,6 +1,6 @@
 # Диалог выбора файла
 
-![](../../resources/basic/dialogs/image-(469).png)
+![](../../../resources/activities/basic/dialogs/image-469.png)
 
 
 

@@ -1,6 +1,6 @@
 # Загрузить файл
 
-![](<../../../../.gitbook/assets/image (532).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-532.png)
 
 Элемент, загружающий файл на диск
 

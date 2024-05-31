@@ -27,28 +27,28 @@
 7.	[Перейдите](https://console.cloud.yandex.ru/cloud) в консоль управления Yandex Cloud.
 8.	Обязательно скопируйте идентификатор папки - он понадобится для работы с GPT.
 
-    ![](<../../.gitbook/assets1/get-token-yandex-1.png>)
+    ![](../resources/settings/get-token-yandex-1.png)
 
 9.	Слева, в дереве навигации, перейдите на уровень организации и затем – в раздел «Права доступа».
 
-    ![](<../../.gitbook/assets1/get-token-yandex-2.png>)
+    ![](../resources/settings/get-token-yandex-2.png)
 
 10.	Выберите функцию **Изменить роли** у нужного пользователя.
 
-    ![](<../../.gitbook/assets1/get-token-yandex-3.png>)
+    ![](../resources/settings/get-token-yandex-3.png)
 
 11.	Нажмите кнопку **Добавить роль**.
 
-    ![](<../../.gitbook/assets1/get-token-yandex-4.png>)
+    ![](../resources/settings/get-token-yandex-4.png)
 
 12.	Выберите `ai.languageModels.user`.
 
-    ![](<../../.gitbook/assets1/get-token-yandex-5.png>)
+    ![](../resources/settings/get-token-yandex-5.png)
 
 13.	Нажмите **Сохранить**.
 14.	Перейдите в каталог `default` (либо нужный) и нажмите **YandexGPT**.
 
-    ![](<../../.gitbook/assets1/get-token-yandex-6.png>)
+    ![](../resources/settings/get-token-yandex-6.png)
 
 15.	Заполните форму создания платежного аккаунта.
 16.	Используйте токен (см. шаг 6) и ID папки (см. шаг 8) в следующих случаях:
@@ -61,12 +61,12 @@
 1.	[Авторизуйтесь](https://developers.sber.ru/studio/workspaces/my-space/get/gigachat-api) на портале для разработчиков по Сбер ID. Если у вас нет Сбер ID, создайте его на странице авторизации. В качестве Сбер ID используется ваш номер телефона.
 2.	Создайте проект GigaChat, если система не создала его сама. По умолчанию это проект с названием **Mой GigaChat**.
 
-    ![](<../../.gitbook/assets1/add-project-gigachat.png>)
+    ![](../resources/settings/add-project-gigachat.png)
 
 3. Перейдите в проект GigaChat и нажмите кнопку **Сгенерировать ClientSecret**.
 4. Скопируйте и сохраните авторизационные данные.
 
-   ![](<../../.gitbook/assets1/auth-data-sber.png>)
+   ![](../resources/settings/auth-data-sber.png)
 
 6. Получите токен.
 

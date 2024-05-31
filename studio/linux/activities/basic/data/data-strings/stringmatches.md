@@ -1,8 +1,8 @@
 # Регулярное выражение (Matches)
 
-![](../../../resources/basic/data/data_strings/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(327).png)
+![](../../../../resources/activities/basic/data/data-strings/image-100-1-1-1-1-1-1-1-2-327.png)
 
-![](../../../resources/basic/data/data_strings/Рег-выражение(массив).png)
+![](../../../../resources/activities/basic/data/data-strings/рег-выражение-массив.png)
 
 Применяет регулярное выражение к заданной строке. В результате будет получен список совпадений.\
 Если список не требуется, а нужно лишь узнать, имеется совпадение или нет - используйте элемент [Регулярное выражение (IsMatch)](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/els\_data/els\_data\_strings/el\_regex), который вернет результат в формате boolean.

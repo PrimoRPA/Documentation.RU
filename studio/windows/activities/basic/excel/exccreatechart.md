@@ -9,7 +9,7 @@ description: Insert chart
 
 Дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения в файле не сохранятся.
 
-![Элемент «Вставка диаграммы»](<../../../.gitbook/assets1/WFCreateChart.png>)
+![Элемент «Вставка диаграммы»](../../../resources/activities/basic/excel/wfcreatechart.png)
 
 
 ## Свойства
@@ -36,7 +36,7 @@ description: Insert chart
 
 Пример заполненных свойств приведен на рисунке ниже. 
 
-![](<../../../.gitbook/assets1/WFCreateChart-example.png>)
+![](../../../resources/activities/basic/excel/wfcreatechart-example.png)
 
 
 ## Пример использования 

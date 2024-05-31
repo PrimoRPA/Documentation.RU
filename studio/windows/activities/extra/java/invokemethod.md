@@ -1,6 +1,6 @@
 # Вызвать метод Java
 
-![](<../../../.gitbook/assets/java-invoke-method.png>)
+![](../../../resources/activities/extra/java/java-invoke-method.png)
 
 Элемент вызывает указанный метод в экземпляре Java из [загруженного](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_loadjar) .jar-файла.
 

@@ -1,6 +1,6 @@
 # Выполнить скрипт
 
-![](<../../../.gitbook/assets/execute-script-python.png>)
+![](../../../resources/activities/extra/python/execute-script-python.png)
 
 Элемент выполняет сценарий Python. 
 

@@ -1,6 +1,6 @@
 # Power Shell
 
-![](../../resources/basic/prog/image-(233).png)
+![](../../../resources/activities/basic/prog/image-233.png)
 
 Компонент, производящий выполнение сценария PowerShell.
 

@@ -1,6 +1,6 @@
 # Клик элемента
 
-![](<../../../../.gitbook/assets/image (222).png>)
+![](../../../../resources/activities/basic/desktop/events/image-222.png)
 
 
 

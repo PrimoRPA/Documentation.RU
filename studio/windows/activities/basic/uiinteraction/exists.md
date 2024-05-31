@@ -1,6 +1,6 @@
 # Присутствие элемента
 
-![](<../../../.gitbook/assets/image (571).png>)
+![](../../../resources/activities/basic/uiinteraction/image-571.png)
 
 Компонент производит поиск элемента управления.
 

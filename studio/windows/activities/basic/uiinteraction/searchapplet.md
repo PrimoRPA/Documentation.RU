@@ -1,6 +1,6 @@
 # Поиск Java Applet
 
-![](<../../../../.gitbook/assets/Поиск Java Applet.png>)
+![](../../../resources/activities/basic/uiinteraction/поиск-java-applet.png)
 
 Элемент, производящий поиск программы Java Applet.
 

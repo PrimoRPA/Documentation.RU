@@ -1,6 +1,6 @@
 # Запись диапазона
 
-![](<../../../../.gitbook/assets1/Cropped-WriteRange.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-writerange.png)
 
 Элемент записывает данные в указанный диапазон ячеек Excel.
 

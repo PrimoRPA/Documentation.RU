@@ -6,7 +6,7 @@
 
 После установки пакета в Студии, на панели элементов, станет доступна папка **Т1-Интеграция** с подпапкой **OCR**:
 
-![](<../../../../.gitbook/assets/ocr-in-panel.png>)
+![](../../../../resources/activities/extra/t1/ocr/ocr-in-panel.png)
 
 
 

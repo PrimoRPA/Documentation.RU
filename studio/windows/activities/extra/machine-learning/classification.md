@@ -6,7 +6,7 @@ description: Classification
 
 Элемент осуществляет классификацию входных данных на основе обученной модели. Модель, которую вы будете использовать, предварительно обучают с помощью элемента [Обучение модели классификации](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_classification_study).
 
-![](<../../../.gitbook/assets/image (216).png>)
+![](../../../resources/activities/extra/machine-learning/image-216.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

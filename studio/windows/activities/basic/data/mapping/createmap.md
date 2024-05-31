@@ -1,8 +1,8 @@
 # Создать маппинг
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (244).png>)
+![](../../../../resources/activities/basic/data/mapping/image-100-1-1-1-1-1-1-1-2-244.png)
 
-![](<../../../../.gitbook/assets/image (382).png>)
+![](../../../../resources/activities/basic/data/mapping/image-382.png)
 
 Создает маппинг переменных на аргументы вызываемой последовательности.
 

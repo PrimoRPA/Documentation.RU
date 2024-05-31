@@ -11,24 +11,24 @@
 2\. Внесем изменения в конфигурационный файл WebApi (`C:\Primo\WebApi\appsettings.ProdWin.json`):
 * В секции `RobotDeployment` меняем значение параметра `OrchBaseUrl` на реальный IP (который у вашего сервера, см. nginx.config «Руководство по установке Nginx под Windows 2016 Server.docx»):
 
-![](<../../../.gitbook/assets/install-webapi-as-service-1.png>)
+![](../../resources/admin/windows/install-webapi-as-service-1.png)
 
 * Создаем папку для публикации дистрибутивов Робота, например, `C:\tmp` и указываем её в конфигурационном файле в секции `RobotDistrUpload`:
 
-![](<../../../.gitbook/assets/install-webapi-as-service-2.png>)
+![](../../resources/admin/windows/install-webapi-as-service-2.png)
 
 * В секции `ConnectionStrings` конфигурационного файла `appsettings.ProdWin.json` меняем **HOST** для всех строк подключения к БД на реальный IP серверов БД.
   * Для **PostgreSQL** меняем подчеркнутые значения:
 
-![](<../../../.gitbook/assets/install-webapi-as-service-3.png>)
+![](../../resources/admin/windows/install-webapi-as-service-3.png)
 
   * Для **MS SQL SERVER** меняем подчеркнутые значения:
 
-![](<../../../.gitbook/assets/install-webapi-as-service-4.png>)
+![](../../resources/admin/windows/install-webapi-as-service-4.png)
 
 * Если для работы лицензий используется сервис получения параметров оборудования, то настраиваем WebApi на работу с этим сервисом – вводим адрес этого сервиса в секции `License`:
 
-![](<../../../.gitbook/assets/install-webapi-as-service-5.png>)
+![](../../resources/admin/windows/install-webapi-as-service-5.png)
  
 * Если поменялся пользователь/пароль БД – их тоже изменяем.
 
@@ -49,7 +49,7 @@
 
 После этого созданная служба **Primo.Orchestrator.WebApi** будет отображаться в списке всех служб как запущенная:
 
-![](<../../../.gitbook/assets/install-webapi-as-service-6.png>)
+![](../../resources/admin/windows/install-webapi-as-service-6.png)
  
 :bangbang: Служба может не запуститься. Наиболее вероятная причина – это неверный connection string (пароль) в `appsettings.ProdWin.json` и/или не развернута/не настроена какая-либо из 4-х БД Оркестратора.
 

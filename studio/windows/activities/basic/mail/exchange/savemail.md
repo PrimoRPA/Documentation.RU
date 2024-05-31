@@ -1,8 +1,8 @@
 # Сохранить сообщение
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (252).png>)
+![](../../../../resources/activities/basic/mail/exchange/image-100-1-1-1-1-1-1-1-2-252.png)
 
-![](<../../../../.gitbook/assets/Сохранить сообщение Exchange и Outlook.png>)
+![](../../../../resources/activities/basic/mail/exchange/сохранить-сообщение-exchange-и-outlook.png)
 
 Позволяет сохранить на диск письмо из электронной почты MS Exchange. Корректно работает только внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/el\_basic/els\_mail/els\_exchange/el\_connect).
 

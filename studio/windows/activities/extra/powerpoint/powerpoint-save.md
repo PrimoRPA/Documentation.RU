@@ -1,6 +1,6 @@
 # Сохранить документ
 
-![](<../../../.gitbook/assets/image (851).png>)
+![](../../../resources/activities/extra/powerpoint/image-851.png)
 
 
 

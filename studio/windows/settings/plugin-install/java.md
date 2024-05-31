@@ -11,6 +11,6 @@
 
 * Установить галку в пункте **Enable Java Access Bridge** в меню **Панель управления > Специальные возможности > Использование компьютера без дисплея**&#x20;
 
-![](<../../../.gitbook/assets/image (772).png>)
+![](../../resources/settings/plugin-install/image-772.png)
 
 

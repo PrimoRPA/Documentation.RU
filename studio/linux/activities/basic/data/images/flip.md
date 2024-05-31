@@ -1,6 +1,6 @@
 # Отразить изображение
 
-![](../../../resources/basic/data/images/image-(272).png)
+![](../../../../resources/activities/basic/data/images/image-272.png)
 
 Компонент, отражающий изображение в заданную сторону.
 

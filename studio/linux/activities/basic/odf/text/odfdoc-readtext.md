@@ -1,6 +1,6 @@
 # Чтение текста
 
-![](../../../../resources/activities/basic/odf/text/Cropped-ReadText.png)
+![](../../../../resources/activities/basic/odf/text/cropped-readtext-fixed.png)
 
 Компонент, считывающий данные из документа Word.
 

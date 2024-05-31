@@ -1,8 +1,8 @@
 # Информация о документе
 
-![](../../resources/basic/pdf/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(41).png)
+![](../../../resources/activities/basic/pdf/image-100-1-1-1-1-1-1-1-2-41.png)
 
-![](../../resources/basic/pdf/get-pdf-file-info.png)
+![](../../../resources/activities/basic/pdf/get-pdf-file-info.png)
 
 Элемент, с помощью которого можно получить метаданные документа PDF.
 

@@ -1,6 +1,6 @@
 # Получить из коллекции
 
-![](<../../../../.gitbook/assets/image (511).png>)
+![](../../../../resources/activities/extra/t1/collections/image-511.png)
 
 Элемент, получающий значение из коллекции по индексу
 

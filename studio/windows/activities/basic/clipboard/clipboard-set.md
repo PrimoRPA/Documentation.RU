@@ -3,7 +3,7 @@
 
 Элемент предназначен для отправки текста в буфер обмена.
 
-![](<../../../.gitbook/assets/image (376).png>)
+![](../../../resources/activities/basic/clipboard/image-376.png)
 
 ## Свойства
 Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

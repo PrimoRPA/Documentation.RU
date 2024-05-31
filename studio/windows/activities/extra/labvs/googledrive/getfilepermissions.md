@@ -1,6 +1,6 @@
 # Получить доступы файла
 
-![](<../../../../.gitbook/assets/image (600).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-600.png)
 
 Элемент, получающий список доступов к файлу
 

@@ -1,8 +1,8 @@
 # Создать папку FTP
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (38).png>)
+![](../../../../resources/activities/basic/network/ftp/image-100-1-1-1-1-1-1-1-1-38.png)
 
-![](<../../../../.gitbook/assets/Создать папку FTP.png>)
+![](../../../../resources/activities/basic/network/ftp/создать-папку-ftp.png)
 
 С помощью этого элемента можно создать папку на FTP-сервере.
 

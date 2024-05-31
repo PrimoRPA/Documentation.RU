@@ -9,43 +9,43 @@
 1. Перейдите в консоль разработчика по [данному адресу](https://console.developers.google.com/flows/enableapi?apiid=sheets.googleapis.com).
 2. Создайте проект либо выберите имеющийся и нажмите кнопку **Продолжить**.
 
-![](<../../../.gitbook/assets/image (183).png>)
+![](../../../resources/activities/basic/gsheets/image-183.png)
 
 1. Нажмите **Создать учетные данные**.
 
-![](<../../../.gitbook/assets/image (112).png>)
+![](../../../resources/activities/basic/gsheets/image-112.png)
 
 1. Нажмите кнопку **Отмена**.
 
-![](<../../../.gitbook/assets/image (35).png>)
+![](../../../resources/activities/basic/gsheets/image-35.png)
 
 1. Перейдите в раздел меню **Окно запроса доступа OAuth**.
 
-![](<../../../.gitbook/assets/image (172).png>)
+![](../../../resources/activities/basic/gsheets/image-172.png)
 
 1. Выберите тип пользователя и нажмите **Создать**.
 
-![](<../../../.gitbook/assets/image (21).png>)
+![](../../../resources/activities/basic/gsheets/image-21.png)
 
 1. Введите название приложения (произвольное), электронные адреса службы поддержки и разработчика, после чего нажмите **Сохранить и продолжить** во всех последующих окнах.
 
-![](<../../../.gitbook/assets/image (17).png>)
+![](../../../resources/activities/basic/gsheets/image-17.png)
 
 1. Перейдите в раздел **Учетные данные**, нажмите **Создать учетные данные** и выберите пункт **Идентификатор клиента OAuth**.
 
-![](<../../../.gitbook/assets/image (228).png>)
+![](../../../resources/activities/basic/gsheets/image-228.png)
 
 1. В поле **Тип приложения** выберите значение **Приложение для ПК**, введите произвольное наименование и нажмите **Создать**. Надежно сохраните данные из появившегося окна (**Идентификатор клиента** и **Секретный код клиента**) и нажмите **ОК**.
 
-![](<../../../.gitbook/assets/image (152).png>)
+![](../../../resources/activities/basic/gsheets/image-152.png)
 
 1. Скачайте файл идентификации нажатием на соответствующую кнопку. Путь к нему необходимо вводить в свойстве **Путь к файлу** элемента **Документ Google Sheets**
 
-![](<../../../.gitbook/assets/image (118).png>)
+![](../../../resources/activities/basic/gsheets/image-118.png)
 
 1. Для работы с таблицей понадобится ее идентификатор. Его можно найти в адресе таблицы - это буквенно-числовой набор между d/ и /edit. Данный набор нужно ввести в свойство **ID документа** элемента **Документ Google Sheets**.
 
-![](<../../../.gitbook/assets/image (205).png>)
+![](../../../resources/activities/basic/gsheets/image-205.png)
 
 ## Содержание
 

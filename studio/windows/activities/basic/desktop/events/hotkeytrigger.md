@@ -1,6 +1,6 @@
 # Событие спецкнопки
 
-![](<../../../../.gitbook/assets/image (105).png>)
+![](../../../../resources/activities/basic/desktop/events/image-105.png)
 
 Элемент, ожидающий событие нажатия спецкнопки. Обратите внимание, что он помещается в контейнер [**События**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/els_events/el_events). В этом же контейнере настраивается режим работы цикла и работа с потоками.
 

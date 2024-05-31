@@ -4,7 +4,7 @@
 
 Если требуется сохранить изменения, то дополнительно используйте элемент «Сохранить документ».
 
-![Элемент «Удалить страницу»](<../../../../../.gitbook/assets1/windows_items/odf-delete-sheet.png>)
+![Элемент «Удалить страницу»](../../../../../resources/activities/extra/odf-oxml/table/pages/odf-delete-sheet.png)
 
 
 ## Свойства

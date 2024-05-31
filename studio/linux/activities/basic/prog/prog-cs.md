@@ -1,8 +1,8 @@
 # C# Script
 
-![](../../resources/basic/prog/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(66).png)
+![](../../../resources/activities/basic/prog/image-100-1-1-1-1-1-1-1-2-66.png)
 
-![](../../resources/basic/prog/image-(137).png)
+![](../../../resources/activities/basic/prog/image-137.png)
 
 Элемент производит выполнение сценария на языке C#. Код может быть указан в одном из свойств:
 * Выражение;
@@ -12,15 +12,15 @@
 
 Указанное значение доступно для быстрого просмотра на панели элемента:
 
-![](../../resources/basic/prog/c-script-view-code.png)
+![](../../../resources/activities/basic/prog/c-script-view-code.png)
 
 При наведении курсора на область с кодом можно также увидеть полное значение во всплывающей подсказке:
 
-![](../../resources/basic/prog/c-script-hint-2.png)
+![](../../../resources/activities/basic/prog/c-script-hint-2.png)
 
 При двойном клике на область откроется редактор кода:
 
-![](../../resources/basic/prog/c-script-edit-code.png)
+![](../../../resources/activities/basic/prog/c-script-edit-code.png)
 
 
 ### Свойства

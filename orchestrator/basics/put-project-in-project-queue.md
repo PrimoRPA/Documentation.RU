@@ -11,7 +11,7 @@
 1. Перейдите на страницу **RPA-проекты > Все RPA-проекты**.
 2. Выделите в таблице проект и нажмите кнопку **Поместить в очередь проектов**.
 
-![](../../.gitbook/assets1/add-to-project-queue-button.png)
+![](../resources/basics/add-to-project-queue-button.png)
 
 **Результат:**
 

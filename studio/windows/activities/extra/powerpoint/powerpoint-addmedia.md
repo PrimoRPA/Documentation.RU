@@ -1,6 +1,6 @@
 # Вставить медиа-файл
 
-![](<../../../.gitbook/assets/image (533).png>)
+![](../../../resources/activities/extra/powerpoint/image-533.png)
 
 
 

@@ -9,7 +9,7 @@
 3.	Введите имя проекта. **Имя проекта и библиотеки dll должны начинаться с префикса Primo.**
 4.	Найдите в папке Primo Studio сборку `Primo.ProjectAnalyzer.Dto.dll` и добавьте ее в Dependencies проекта:
   
-  ![](<../../../.gitbook/assets/1.sdk.rules.png>) 
+  ![](../../resources/ltools.sdk/windows/1.sdk.rules.png) 
 
 5\. Создайте класс (Add ➝ Class...), который будет содержать правило. Для этого надо унаследовать интерфейс Primo.ProjectAnalyzer.IAnalysisRule.
 
@@ -235,7 +235,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 | RegEx	           | Регулярное выражение, применяемое при проверке ввода аргумента |
 | Value	           | Значение аргумента |
 
-![](<../../../.gitbook/assets/2.sdk.rules.png>) 
+![](../../resources/ltools.sdk/windows/2.sdk.rules.png) 
 
 **RuleResult**
 
@@ -246,7 +246,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 | RecommendationMessage	| Текст рекомендации |
 | Messages	       | Сообщения  |
 
-![](<../../../.gitbook/assets/3.sdk.rules.png>) 
+![](../../resources/ltools.sdk/windows/3.sdk.rules.png) 
  
 ## Анатомия проекта Primo
 

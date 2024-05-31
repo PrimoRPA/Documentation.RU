@@ -6,7 +6,7 @@ description: Set asset
 
 Элемент обращается в Оркестратор, чтобы установить новое значение [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets). В свойствах элемента необходимо указать название искомого ресурса и его новое значение. 
 
-![Элемент «Установить значение»](<../../../../.gitbook/assets/image (305).png>)
+![Элемент «Установить значение»](../../../../resources/activities/basic/orch/assets/image-305.png)
 
 Данный элемент работает с ресурсами всех типов данных, кроме Credentials. Чтобы изменить значение ресурса с типом Credentials, используйте элемент [Установить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_setcredentials).
 
@@ -39,7 +39,7 @@ description: Set asset
 
 ### Решение проблем
 
-![](<../../../../.gitbook/assets1/set-asset-error-in-studio.png>)
+![](../../../../resources/activities/basic/orch/assets/set-asset-error-in-studio.png)
 
 При выполнении роботом элемента может возникнуть «Ошибка получения значения». Вероятные причины возникновения:
 * ресурса с указанным названием нет в Оркестраторе;

@@ -1,8 +1,8 @@
 # Добавить строку таблицы
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (92).png>)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-92.png)
 
-![](<../../../.gitbook/assets/image (139).png>)
+![](../../../resources/activities/basic/word/image-139.png)
 
 Элемент, добавляющий строку к таблице. Элемент работает корректно только внутри контейнера Word
 

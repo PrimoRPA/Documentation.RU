@@ -1,6 +1,6 @@
 # Фокус ввода
 
-![](<../../../.gitbook/assets/image (456).png>)
+![](../../../resources/activities/basic/uiinteraction/image-456.png)
 
 Устанавливает фокус ввода на выбранном элементе управления.
 

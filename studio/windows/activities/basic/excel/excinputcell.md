@@ -8,7 +8,7 @@ description: Cell input
 
 После записи данных используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения в файле не сохранятся.
 
-![Элемент «Ввод в ячейку»](<../../../.gitbook/assets1/WFWriteCell.png>) 
+![Элемент «Ввод в ячейку»](../../../resources/activities/basic/excel/wfwritecell.png) 
 
 ## Свойства
 

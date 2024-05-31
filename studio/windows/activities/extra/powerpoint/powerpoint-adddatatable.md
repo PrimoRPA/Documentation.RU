@@ -1,6 +1,6 @@
 # Вставить таблицу
 
-![](<../../../.gitbook/assets/image (528).png>)
+![](../../../resources/activities/extra/powerpoint/image-528.png)
 
 
 

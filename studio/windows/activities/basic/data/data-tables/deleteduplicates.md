@@ -1,8 +1,8 @@
 # Удалить повторяющиеся строки
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (2) (83).png>)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-2-83.png)
 
-![](<../../../../.gitbook/assets/Удалить повторяющиеся строки.png>)
+![](../../../../resources/activities/basic/data/data-tables/удалить-повторяющиеся-строки.png)
 
 
 Компонент, объединяющий таблицы.

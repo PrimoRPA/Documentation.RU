@@ -1,6 +1,6 @@
 # Удалить слайд
 
-![](<../../../.gitbook/assets/image (931).png>)
+![](../../../resources/activities/extra/powerpoint/image-931.png)
 
 
 

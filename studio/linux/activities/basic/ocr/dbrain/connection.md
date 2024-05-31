@@ -1,8 +1,8 @@
 # Сервер Dbrain
 
-![](../../../resources/basic/ocr/dbrain/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(213).png)
+![](../../../../resources/activities/basic/ocr/dbrain/image-100-1-1-1-1-1-1-1-2-213.png)
 
-![](../../../resources/basic/ocr/dbrain/image-(411).png)
+![](../../../../resources/activities/basic/ocr/dbrain/image-411.png)
 
 Элемент, подключающий к серверу Dbrain
 

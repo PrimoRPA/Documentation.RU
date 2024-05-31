@@ -9,7 +9,7 @@
 
 При [запросе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license) лицензии можно выбрать соответствующую программу в поле **Продукт**:
 
-![](<../../../.gitbook/assets1/orch-license-product.png>) 
+![](../../resources/settings/licensing/orch-license-product.png) 
 
 Ниже дана расшифровка каждого из значений.
 

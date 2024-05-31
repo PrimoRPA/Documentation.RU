@@ -1,8 +1,8 @@
 # Выполнить команду сервера
 
-![](../../../resources/basic/network/terminal/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(3).png)
+![](../../../../resources/activities/basic/network/terminal/image-100-1-1-1-1-1-1-1-2-3.png)
 
-![](../../../resources/basic/network/terminal/image-(303).png)
+![](../../../../resources/activities/basic/network/terminal/image-303.png)
 
 Компонент, выполняющий команду на терминальном сервере
 

@@ -1,8 +1,8 @@
 # Ожидание
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (207).png>)
+![](../../../resources/activities/basic/logic/image-100-1-1-1-1-1-1-1-2-207.png)
 
-![](<../../../.gitbook/assets/image (52).png>)
+![](../../../resources/activities/basic/logic/image-52.png)
 
 Компонент, останавливающий выполнение процесса на заданное количество миллисекунд.
 

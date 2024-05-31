@@ -3,7 +3,7 @@
 
 Элемент завершает работу браузера. Может быть полезен, когда необходимо завершить работу с браузером после выполнения всех необходимых действий. Например, после того как собраны нужные данные с веб-страницы, закрытие браузера поможет освободить ресурсы и завершить текущий процесс робота.
 
-![](<../../../.gitbook/assets/image (377).png>)
+![](../../../resources/activities/basic/browser/image-377.png)
 
 Должен размещаться внутри контейнера [**Открыть браузер**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open) либо [**Присоединиться к браузеру**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_attach).
 

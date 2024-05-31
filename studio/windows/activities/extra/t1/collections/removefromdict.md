@@ -1,6 +1,6 @@
 # Удалить из справочника
 
-![](<../../../../.gitbook/assets/image (463).png>)
+![](../../../../resources/activities/extra/t1/collections/image-463.png)
 
 Элемент, удаляющий значение из справочника по ключу
 

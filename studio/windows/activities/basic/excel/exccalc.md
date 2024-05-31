@@ -1,6 +1,6 @@
 # Пересчет формул
 
-![](<../../../.gitbook/assets/image (349).png>)
+![](../../../resources/activities/basic/excel/image-349.png)
 
 Компонент, пересчитывающий формулы листов Excel.
 

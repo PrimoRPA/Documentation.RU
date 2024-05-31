@@ -1,6 +1,6 @@
 # Удаление диапазона
 
-![](<../../../../.gitbook/assets1/Cropped-DeleteRange.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-deleterange.png)
 
 Компонент, удаляющий диапазон ячеек в Excel.
 

@@ -1,6 +1,6 @@
 # Переместить файл
 
-![](<../../../../.gitbook/assets/image (872).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-872.png)
 
 Элемент, перемещающий файл
 

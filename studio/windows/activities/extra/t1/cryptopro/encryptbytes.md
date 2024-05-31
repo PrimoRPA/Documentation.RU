@@ -1,6 +1,6 @@
 # Зашифровать байты
 
-![](<../../../../.gitbook/assets/image (455).png>)
+![](../../../../resources/activities/extra/t1/cryptopro/image-455.png)
 
 Элемент, шифрующий массив байтов
 

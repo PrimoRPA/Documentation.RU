@@ -8,7 +8,7 @@ description: Set cell formula
 
 После записи данных используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения не сохранятся.
 
-![Элемент «Ввод формулы в ячейку»](<../../../.gitbook/assets1/WFWriteCellFormula.png>)
+![Элемент «Ввод формулы в ячейку»](../../../resources/activities/basic/excel/wfwritecellformula.png)
 
 ## Свойства
 

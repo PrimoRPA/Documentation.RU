@@ -4,7 +4,7 @@
 
 Если в файле требуется сохранить изменения, то дополнительно используйте элемент «Сохранить документ».
 
-![Элемент «Вставка колонок»](<../../../../.gitbook/assets1/windows_items/odf-insert-column.png>)
+![Элемент «Вставка колонок»](../../../../resources/activities/extra/odf-oxml/table/odf-insert-column.png)
 
 
 ## Свойства

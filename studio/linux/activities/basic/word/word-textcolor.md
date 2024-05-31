@@ -1,6 +1,6 @@
 # Цвет шрифта
 
-![](../../resources/basic/word/image-(608).png)
+![](../../../resources/activities/basic/word/image-608.png)
 
 
 

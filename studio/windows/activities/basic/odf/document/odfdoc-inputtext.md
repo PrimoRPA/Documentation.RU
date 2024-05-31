@@ -1,6 +1,6 @@
 # Ввод текста
 
-![](<../../../../.gitbook/assets1/Cropped-InputText.png>)
+![](../../../../resources/activities/basic/odf/document/cropped-inputtext.png)
 
 Компонент, производящий запись данных в документ Word. 
 

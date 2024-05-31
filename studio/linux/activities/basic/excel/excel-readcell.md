@@ -10,7 +10,7 @@ description: Read cell
 
 :small_blue_diamond: **Совет**. Если вам нужно прочитать формулу, воспользуйтесь элементом [Чтение формулы из ячейки](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_readcellformula).
 
-![](../../resources/basic/excel/WFReadCell.png)
+![](../../../resources/activities/basic/excel/wfreadcell-fixed.png)
 
 
 
@@ -28,7 +28,7 @@ description: Read cell
 
 **Пример заполненных свойств**:
 
-![](../../resources/basic/excel/excel-read-cell2.png)
+![](../../../resources/activities/basic/excel/excel-read-cell2.png)
 
 
 ## Пример использования

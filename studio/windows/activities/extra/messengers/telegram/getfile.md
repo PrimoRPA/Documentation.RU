@@ -1,6 +1,6 @@
 # Получить файл
 
-![](<../../../../.gitbook/assets/image (46).png>)
+![](../../../../resources/activities/extra/messengers/telegram/image-46.png)
 
 Элемент, получающий файл из чата Telegram.
 

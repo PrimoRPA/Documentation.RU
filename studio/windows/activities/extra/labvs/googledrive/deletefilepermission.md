@@ -1,6 +1,6 @@
 # Удалить доступ к файлу
 
-![](<../../../../.gitbook/assets/image (753).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-753.png)
 
 Элемент, удаляющий право доступа к файлу
 

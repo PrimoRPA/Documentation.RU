@@ -1,6 +1,6 @@
 # Добавить слайд
 
-![](<../../../.gitbook/assets/image (464).png>)
+![](../../../resources/activities/extra/powerpoint/image-464.png)
 
 
 

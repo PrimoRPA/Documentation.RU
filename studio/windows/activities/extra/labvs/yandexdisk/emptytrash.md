@@ -1,5 +1,5 @@
 # Очистить корзину
 
-![](<../../../../.gitbook/assets/image (584).png>)
+![](../../../../resources/activities/extra/labvs/yandexdisk/image-584.png)
 
 Элемент, очищающий корзину

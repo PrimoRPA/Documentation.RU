@@ -1,6 +1,6 @@
 # Информация о файле
 
-![](<../../../../.gitbook/assets/image (507).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-507.png)
 
 Элемент, получающий информацию о файле
 

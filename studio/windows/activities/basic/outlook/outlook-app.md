@@ -1,6 +1,6 @@
 # Приложение Outlook
 
-![](<../../../.gitbook/assets/image (190).png>)
+![](../../../resources/activities/basic/outlook/image-190.png)
 
 Элемент предоставляет возможность подключиться к приложению Outlook. Является контейнером по отношению к другим элементам из группы *Outlook*.
 
@@ -16,7 +16,7 @@
    * Откроется диалоговое окно **Настройка почты - Outlook**.
    * Выберите команду **Показать**.
 
-    ![](<../../../.gitbook/assets1/win-outlook-show.png>)
+    ![](../../../resources/activities/basic/outlook/win-outlook-show.png)
    
 1. **Пароль** *[String]* - пароль профиля при его наличии. Чаще всего отсутствует.
 1. **Защищенный пароль** *[[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=netcore-2.0)]* - зашифрованный пароль профиля, не хранится в открытом виде. Получить его можно, например, из программы **Диспетчер учетных данных** (Credential Manager).

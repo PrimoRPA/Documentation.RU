@@ -10,7 +10,7 @@ description: Peek queue by ID
 
 Перед началом работы с компонентом убедитесь, что настроена связь Студии и Оркестратора.
 
-![](../../../resources/basic/orch/queues/peek-queue-by-id.png) 
+![](../../../../resources/activities/basic/orchestrator/queues/peek-queue-by-id.png) 
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

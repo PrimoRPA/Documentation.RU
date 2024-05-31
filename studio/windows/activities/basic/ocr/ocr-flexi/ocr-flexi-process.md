@@ -1,6 +1,6 @@
 # Обработать документы
 
-![](<../../../../.gitbook/assets/image (431).png>)
+![](../../../../resources/activities/basic/ocr/ocr-flexi/image-431.png)
 
 Элемент, осуществляющий обработку (распознавание) документов на сервере FlexiCapture.
 

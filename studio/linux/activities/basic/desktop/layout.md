@@ -1,6 +1,6 @@
 # Раскладка
 
-![](../../resources/basic/desktop/image-(83).png)
+![](../../../resources/activities/basic/desktop/image-83.png)
 
 Элемент, осуществляющий смену раскладки клавиатуры.
 

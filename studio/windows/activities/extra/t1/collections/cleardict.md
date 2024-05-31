@@ -1,6 +1,6 @@
 # Очистить справочник
 
-![](<../../../../.gitbook/assets/image (933).png>)
+![](../../../../resources/activities/extra/t1/collections/image-933.png)
 
 Элемент, очищающий содержимое справочника
 

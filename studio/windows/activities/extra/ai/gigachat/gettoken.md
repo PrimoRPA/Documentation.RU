@@ -2,11 +2,11 @@
 
 Элемент позволяет получить токен для работы с сервисом GigaChat.
 
-![](<../../../../.gitbook/assets1/сбер токен.png>)
+![](../../../../resources/activities/extra/ai/gigachat/сбер-токен.png)
 
 Элемент становится доступным после установки библиотеки **Primo.AI**. Найти его можно в группе элементов GigaChat на соответствующей панели:
 
-![](<../../../../.gitbook/assets1/gigachat-on-panel.png>)
+![](../../../../resources/activities/extra/ai/gigachat/gigachat-on-panel.png)
 
 Используйте сохраненный токен в элементе **Вопрос в чат**, чтобы вступить в диалог с нейросетевой моделью.
 
@@ -14,7 +14,7 @@
 
 Для получения токена вам потребуется указать в свойствах элемента авторизационные данные клиента. Ознакомьтесь с [инструкцией по работе с AI](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/ai#gigachat), чтобы узнать, как их получить.
 
-![](<../../../../.gitbook/assets1/sber-auth-data.png>)
+![](../../../../resources/activities/extra/ai/gigachat/sber-auth-data.png)
 
 
 ## Свойства
@@ -30,6 +30,6 @@
 
 Пример заполнения свойств:
 
-![](<../../../../.gitbook/assets1/сбер свойства токен.png>)
+![](../../../../resources/activities/extra/ai/gigachat/сбер-свойства-токен.png)
 
 

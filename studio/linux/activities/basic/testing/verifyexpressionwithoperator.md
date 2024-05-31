@@ -1,8 +1,8 @@
 # Проверка выражения с оператором
 
-![](../../resources/basic/testing/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(182).png)
+![](../../../resources/activities/basic/testing/image-100-1-1-1-1-1-1-1-2-182.png)
 
-![](../../resources/basic/testing/image-(74).png)
+![](../../../resources/activities/basic/testing/image-74.png)
 
 Элемент, выполняющий проверку заданного выражения.
 

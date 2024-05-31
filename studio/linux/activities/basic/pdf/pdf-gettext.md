@@ -1,8 +1,8 @@
 # Чтение текста
 
-![](../../resources/basic/pdf/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(41).png)
+![](../../../resources/activities/basic/pdf/image-100-1-1-1-1-1-1-1-2-41.png)
 
-![](../../resources/basic/pdf/image-(370).png)
+![](../../../resources/activities/basic/pdf/image-370.png)
 
 Компонент, получающий текст документа PDF
 

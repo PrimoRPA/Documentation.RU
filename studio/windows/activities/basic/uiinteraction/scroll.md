@@ -1,6 +1,6 @@
 # Прокрутка
 
-![](<../../../.gitbook/assets/image (483).png>)
+![](../../../resources/activities/basic/uiinteraction/image-483.png)
 
 Осуществляет прокрутку в визуальном компоненте.
 

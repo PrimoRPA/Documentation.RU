@@ -1,8 +1,8 @@
 # Получить сообщения
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (199).png>)
+![](../../../../resources/activities/basic/mq/mq-kafka/image-100-1-1-1-1-1-1-1-2-199.png)
 
-![](<../../../../.gitbook/assets/image (318).png>)
+![](../../../../resources/activities/basic/mq/mq-kafka/image-318.png)
 
 Компонент, получающий сообщения из очереди сервера Kafka.
 

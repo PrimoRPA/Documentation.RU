@@ -2,7 +2,7 @@
 
 Элемент ищет заданные значения в диапазоне ячеек ODF-таблицы. Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Поиск в диапазоне»](<../../../../.gitbook/assets1/windows_items/odf-lookUp-range.png>)
+![Элемент «Поиск в диапазоне»](../../../../resources/activities/extra/odf-oxml/table/odf-lookup-range.png)
 
 
 ## Свойства

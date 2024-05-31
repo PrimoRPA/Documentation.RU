@@ -1,6 +1,6 @@
 # Скачать файл
 
-![](<../../../../.gitbook/assets/image (586).png>)
+![](../../../../resources/activities/extra/labvs/yandexdisk/image-586.png)
 
 Элемент, производящий скачивание файла
 

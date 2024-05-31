@@ -28,7 +28,7 @@
 
 1. Скачайте архив [InstallExtensions.zip](https://drive.google.com/file/d/1cIXwlojb_9nkF3KSDDsggSldqjjvaScM/view?usp=sharing) и разархивируйте его:
 
-   ![](../../.gitbook/assets/auto-install-ext-files.png)
+   ![](../resources/settings/auto-install-ext-files.png)
 
 2. Скопируйте файлы **_Install_BrowserExtensions_GPO.bat** и **_InstallWebBrowserNative.bat** в папку с программой Студии/Робота, чтобы они были расположены рядом с файлом Primo.Robot.exe - например, в папку `C:\Program Files\Primo\Primo Studio`.
 3. Последовательно запустите скрипты.
@@ -48,7 +48,7 @@ C:\Scripts\_InstallWebBrowserNative.bat “C:\Program Files\Primo\Primo Robot x6
 
 При изменении версии расширения с 1.59 может потребоваться корректировка скрипта `_Install_BrowserExtensions_GPO.bat`. Откройте файл скрипта и проверьте версию устанавливаемого расширения. При необходимости измените ее:
 
-![](../../.gitbook/assets1/version-in-script-bat-to-chrome-ext-1.png)
+![](../resources/settings/version-in-script-bat-to-chrome-ext-1.png)
 
 
 ## Описание установки

@@ -1,6 +1,6 @@
 # Сохранить документ
 
-![](<../../../../.gitbook/assets1/Cropped-SaveDoc.png>)
+![](../../../../resources/activities/basic/odf/table/cropped-savedoc.png)
 
 Элемент сохраняет текущее состояние файла Excel. 
 

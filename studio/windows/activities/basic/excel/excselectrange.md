@@ -7,7 +7,7 @@ description: Select range
 
 Элемент выделяет диапазон ячеек Excel.
 
-![](<../../../.gitbook/assets1/WFSelectRange.png>)
+![](../../../resources/activities/basic/excel/wfselectrange.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

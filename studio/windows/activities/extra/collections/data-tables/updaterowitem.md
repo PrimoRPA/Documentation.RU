@@ -2,7 +2,7 @@
 
 Изменяет значение ячейки в таблице DataTable. Параметры можно указывать либо на панели элемента, либо в панели свойств.
 
-![](<../../../../.gitbook/assets1/WFDataTableUpdateRowItem.png>)
+![](../../../../resources/activities/extra/collections/data-tables/wfdatatableupdaterowitem.png)
 
 
 ## Свойства

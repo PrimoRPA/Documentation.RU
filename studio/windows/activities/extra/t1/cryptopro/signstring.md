@@ -1,6 +1,6 @@
 # Подписать строку
 
-![](<../../../../.gitbook/assets/image (482).png>)
+![](../../../../resources/activities/extra/t1/cryptopro/image-482.png)
 
 Элемент, создающий ЭЦП строки
 

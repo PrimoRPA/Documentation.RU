@@ -1,8 +1,8 @@
 # Чтение файла
 
-![](../../resources/basic/files/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(335).png)
+![](../../../resources/activities/basic/files/image-100-1-1-1-1-1-1-1-2-335.png)
 
-![](../../resources/basic/files/image-(96).png)
+![](../../../resources/activities/basic/files/image-96.png)
 
 Компонент, читающий содержимое файла.
 

@@ -1,6 +1,6 @@
 # Очистить коллекцию
 
-![](<../../../../.gitbook/assets/image (952).png>)
+![](../../../../resources/activities/extra/t1/collections/image-952.png)
 
 Элемент, очищающий содержимое коллекции
 

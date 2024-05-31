@@ -1,6 +1,6 @@
 # Присоединиться к Lotus Notes
 
-![](<../../../../.gitbook/assets/image (332).png>)
+![](../../../../resources/activities/basic/mail/lotus/image-332.png)
 
 Компонент, осуществляющий подключение к Lotus Notes.
 

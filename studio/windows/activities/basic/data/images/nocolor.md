@@ -1,6 +1,6 @@
 # Обесцветить изображение
 
-![](<../../../../.gitbook/assets/image (397).png>)
+![](../../../../resources/activities/basic/data/images/image-397.png)
 
 Компонент, приводящий цвета изображения к шкале серого.
 

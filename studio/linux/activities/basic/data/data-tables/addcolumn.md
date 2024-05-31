@@ -1,8 +1,8 @@
 # Добавить столбец
 
-![](../../../resources/basic/data/data_tables/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(235).png)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-235.png)
 
-![](../../../resources/basic/data/data_tables/image-(259).png)
+![](../../../../resources/activities/basic/data/data-tables/image-259.png)
 
 Компонент, добавляющий колонку в таблицу.
 

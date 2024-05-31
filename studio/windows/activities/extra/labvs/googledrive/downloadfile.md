@@ -1,6 +1,6 @@
 # Скачать файл
 
-![](<../../../../.gitbook/assets/image (487) (1) (2) (1) (1) (2) (1) (1).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-487-1-2-1-1-2-1-1.png)
 
 Элемент, производящий скачивание файла
 

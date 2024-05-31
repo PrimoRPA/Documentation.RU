@@ -1,6 +1,6 @@
 # Чтение диапазона
 
-![](../../../../resources/activities/basic/odf/table/Cropped-ReadRange.png)
+![](../../../../resources/activities/basic/odf/table/cropped-readrange-fixed.png)
 
 Компонент, считывающий данные из диапазона ячеек Excel.
 

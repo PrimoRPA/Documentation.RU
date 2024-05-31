@@ -1,8 +1,8 @@
 # Заменить подстроку
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (170).png>)
+![](../../../../resources/activities/basic/data/data-strings/image-100-1-1-1-1-1-1-1-2-170.png)
 
-![](<../../../../.gitbook/assets/image (438).png>)
+![](../../../../resources/activities/basic/data/data-strings/image-438.png)
 
 Компонент, осуществляющий замену всех вхождений подстроки в строке.
 

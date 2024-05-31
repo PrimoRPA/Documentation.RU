@@ -21,8 +21,8 @@
 
    * Пример для Linux:
 
-   ![](../../.gitbook/assets/update-webdriver-linux.png)
+   ![](../resources/settings/update-webdriver-linux.png)
 
    * Пример для Windows:
 
-   ![](../../.gitbook/assets/update-webdriver-windows.png)
+   ![](../resources/settings/update-webdriver-windows.png)

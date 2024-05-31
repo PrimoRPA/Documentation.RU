@@ -1,6 +1,6 @@
 # Выбор значения
 
-![](../../resources/basic/desktop/image-(177).png)
+![](../../../resources/activities/basic/desktop/image-177.png)
 
 Компонент, выбирающий значения в комбо-боксе либо списке.
 

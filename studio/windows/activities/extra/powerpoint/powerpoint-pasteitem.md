@@ -1,6 +1,6 @@
 # Вставить объект
 
-![](<../../../.gitbook/assets/image (744).png>)
+![](../../../resources/activities/extra/powerpoint/image-744.png)
 
 
 

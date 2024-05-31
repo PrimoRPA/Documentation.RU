@@ -1,6 +1,6 @@
 # Стандартизация ФИО
 
-![](<../../../.gitbook/assets/image (589).png>)
+![](../../../resources/activities/extra/ahunter/image-589.png)
 
 
 

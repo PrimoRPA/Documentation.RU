@@ -1,6 +1,6 @@
 # Получить за таблицы
 
-![](<../../../../.gitbook/assets/image (966).png>)
+![](../../../../resources/activities/extra/t1/collections/image-966.png)
 
 Элемент, получающий значение из таблицы по индексам колонки и строки
 

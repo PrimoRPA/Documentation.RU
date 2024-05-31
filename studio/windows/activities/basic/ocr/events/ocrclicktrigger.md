@@ -1,6 +1,6 @@
 # Событие клика изображения
 
-![](<../../../../.gitbook/assets/image (134).png>)
+![](../../../../resources/activities/basic/ocr/events/image-134.png)
 
 
 

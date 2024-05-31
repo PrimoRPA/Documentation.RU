@@ -1,6 +1,6 @@
 # Размер коллекции
 
-![](<../../../../.gitbook/assets/image (460).png>)
+![](../../../../resources/activities/extra/t1/collections/image-460.png)
 
 Элемент, получающий размер коллекции
 

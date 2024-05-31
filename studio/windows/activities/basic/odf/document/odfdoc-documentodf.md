@@ -1,6 +1,6 @@
 # Документ ODF
 
-![](<../../../../.gitbook/assets1/Cropped-DocumentODF.png>)
+![](../../../../resources/activities/basic/odf/document/cropped-documentodf.png)
 
 Компонент, производящий подключение к приложению ODF Документы. 
 

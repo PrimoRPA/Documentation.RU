@@ -1,6 +1,6 @@
 # Перетаскивание
 
-![](<../../../.gitbook/assets/image (602).png>)
+![](../../../resources/activities/basic/uiinteraction/image-602.png)
 
 Компонент производит перетаскивание элемента управления.
 

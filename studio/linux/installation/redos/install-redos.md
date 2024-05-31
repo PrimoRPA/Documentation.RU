@@ -126,16 +126,16 @@ passwd: пароль успешно обновлён
 
 ## Установка расширения для браузера Chrome для текущего пользователя
 Откройте браузер Chrome, выберите пункт меню **Настройки и управление Google Chrome > Расширения > Управление расширениями**, далее на странице **Расширения** установите настройку **Режим разработчика**:  
-![](<../../resources/installation/redos/developer-mode.png>)  
+![](../../resources/installation/redos/developer-mode.png)  
 Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` в браузер Хром на страницу **Расширения**. В результате на странице должно появится расширение Primo RPA Extension:  
-![](<../../resources/installation/redos/chrome-extension.png>)
+![](../../resources/installation/redos/chrome-extension.png)
 
 ## Установка расширения для браузера Яндекс
 Откройте браузер Яндекс, в строке адреса укажите browser://extensions/, нажмите Enter, далее на странице **Расширения** установите настройку **Режим разработчика**:  
-![](<../../resources/installation/redos/developer-mode.png>)  
+![](../../resources/installation/redos/developer-mode.png)  
 
 Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` в браузер Яндекс на страницу **Расширения**. В результате на странице должно появиться расширение Primo RPA Extension:  
-![](<../../resources/installation/redos/yandex-extension.png>)
+![](../../resources/installation/redos/yandex-extension.png)
 
 
 ## Настройка браузеров Chrome и Яндекс для текущего пользователя
@@ -165,9 +165,9 @@ passwd: пароль успешно обновлён
 1. **Проблема**: «Смещение элементов в браузере Яндекс». Проблема проявляется во время выбора элемента страницы при помощи пикера браузера, при этом границы выбранного элемента не совпадают с самим элементом.  
 **Решение**: В настройках «Интерфейс» -> «Боковая панель» отключите настройку «Показывать боковую панель»
 
-![](<../../resources/installation/redos/sidebar.png>)
+![](../../resources/installation/redos/sidebar.png)
 
 2. **Проблема**: «При запуске браузера Яндекс восстанавливаются закрытые вкладки страниц».  
 **Решение**: В настройках «Интерфейс»-> «Вкладки и группы» выключите настройку «При запуске восстанавливать вкладки окон и список закрепленных групп»
 
-![](<../../resources/installation/redos/page-restore.png>)
+![](../../resources/installation/redos/page-restore.png)

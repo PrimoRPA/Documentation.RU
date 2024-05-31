@@ -1,6 +1,6 @@
 # Заменить текст
 
-![](<../../../../.gitbook/assets1/Cropped-ReplaceText.png>)
+![](../../../../resources/activities/basic/odf/document/cropped-replacetext.png)
 
 Заменяет все вхождения исходного текста на новый.
 

@@ -1,8 +1,8 @@
 # Получить голоса
 
-![](../../resources/basic/dialogs/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(231).png)
+![](../../../resources/activities/basic/dialogs/image-100-1-1-1-1-1-1-1-2-231.png)
 
-![](../../resources/basic/dialogs/Получить-голоса.png)
+![](../../../resources/activities/basic/dialogs/получить-голоса-fixed.png)
 
 Компонент, получающий массив доступных в системе голосов.
 

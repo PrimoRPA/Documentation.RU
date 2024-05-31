@@ -1,8 +1,8 @@
 # Сохранить сообщение
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (46).png>)
+![](../../../resources/activities/basic/outlook/image-100-1-1-1-1-1-1-1-2-46.png)
 
-![](<../../../.gitbook/assets/Сохранить сообщение Exchange и Outlook.png>)
+![](../../../resources/activities/basic/outlook/сохранить-сообщение-exchange-и-outlook.png)
 
 Позволяет сохранить на диск письмо из электронной почты Outlook. Корректно работает только внутри контейнера [**Приложение Outlook**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/el\_basic/els\_outlook/el\_outlook\_app).
 

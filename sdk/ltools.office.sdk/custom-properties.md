@@ -91,7 +91,7 @@ public PrimoElementBack(IWFContainer container) : base(container)
 
 ```
 
-![](<../../../.gitbook/assets/0 (140).png>)
+![](../resources/ltools.office.sdk/0-140.png)
 
 
 ## Получение значения кастомного свойства

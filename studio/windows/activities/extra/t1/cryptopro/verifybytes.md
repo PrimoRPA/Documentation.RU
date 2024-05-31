@@ -1,6 +1,6 @@
 # Проверить подпись байтов
 
-![](<../../../../.gitbook/assets/image (581).png>)
+![](../../../../resources/activities/extra/t1/cryptopro/image-581.png)
 
 Элемент, проверяющий ЭЦП массива байт
 

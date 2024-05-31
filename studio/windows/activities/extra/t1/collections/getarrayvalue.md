@@ -1,6 +1,6 @@
 # Получить из массива
 
-![](<../../../../.gitbook/assets/image (955).png>)
+![](../../../../resources/activities/extra/t1/collections/image-955.png)
 
 Элемент, получающий значение из массива по индексам колонки и строки
 

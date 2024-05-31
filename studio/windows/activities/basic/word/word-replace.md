@@ -1,7 +1,7 @@
 # Заменить текст
 
 
-![](<../../../.gitbook/assets/image (128).png>)
+![](../../../resources/activities/basic/word/image-128.png)
 
 Заменяет все вхождения исходного текста на новый.
 

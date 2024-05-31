@@ -7,7 +7,7 @@ description: Prediction
 
 Элемент осуществляет предсказание на основе обученной модели. Модель предварительно обучают с помощью элемента [**Обучение модели предсказания**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_prediction_study).
 
-![](<../../../.gitbook/assets/image (232).png>)
+![](../../../resources/activities/extra/machine-learning/image-232.png)
 
 
 ## Свойства

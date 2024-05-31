@@ -1,8 +1,8 @@
 # Очистить таблицу
 
-![](../../../resources/basic/data/data_tables/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(289).png)
+![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-1-1-1-1-2-289.png)
 
-![](../../../resources/basic/data/data_tables/image-(254).png)
+![](../../../../resources/activities/basic/data/data-tables/image-254.png)
 
 Компонент, очищающий таблицу.
 

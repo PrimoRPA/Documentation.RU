@@ -1,8 +1,8 @@
 # Отсоединиться от сервера
 
-![](../../../resources/basic/network/terminal/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(278).png)
+![](../../../../resources/activities/basic/network/terminal/image-100-1-1-1-1-1-1-1-2-278.png)
 
-![](../../../resources/basic/network/terminal/image-(388).png)
+![](../../../../resources/activities/basic/network/terminal/image-388.png)
 
 Компонент, выполняющий отсоединение от терминального сервера
 

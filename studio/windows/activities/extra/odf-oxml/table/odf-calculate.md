@@ -2,7 +2,7 @@
 
 Элемент пересчитывает формулы на листах ODF-файла. Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Пересчет формул»](<../../../../.gitbook/assets1/windows_items/odf-calculate.png>)
+![Элемент «Пересчет формул»](../../../../resources/activities/extra/odf-oxml/table/odf-calculate.png)
 
 
 ## Свойства

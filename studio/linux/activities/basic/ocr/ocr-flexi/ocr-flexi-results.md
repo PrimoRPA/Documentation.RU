@@ -1,8 +1,8 @@
 # Результаты обработки
 
-![](../../../resources/basic/ocr/ocr_flexi/image-(100)-(1)-(1)-(1)-(2)-(83).png)
+![](../../../../resources/activities/basic/ocr/ocr-flexi/image-100-1-1-1-2-83.png)
 
-![](../../../resources/basic/ocr/ocr_flexi/Результаты-обработки.png)
+![](../../../../resources/activities/basic/ocr/ocr-flexi/результаты-обработки-fixed.png)
 
 Элемент помогает получить результаты асинхронной обработки документов на сервере FlexiCapture.
 

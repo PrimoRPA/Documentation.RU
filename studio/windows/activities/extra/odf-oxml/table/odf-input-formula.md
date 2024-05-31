@@ -4,7 +4,7 @@
 
 Чтобы сохранить изменения в файле, используйте дополнительно элемент «Сохранить документ».
 
-![Элемент «Ввод формулы в ячейку»](<../../../../.gitbook/assets1/windows_items/odf-input-formula-to-cell.png>)
+![Элемент «Ввод формулы в ячейку»](../../../../resources/activities/extra/odf-oxml/table/odf-input-formula-to-cell.png)
 
 
 ## Свойства

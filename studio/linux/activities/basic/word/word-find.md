@@ -1,8 +1,8 @@
 # Найти текст
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(236).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-236.png)
 
-![](../../resources/basic/word/image-(104).png)
+![](../../../resources/activities/basic/word/image-104.png)
 
 Ищет вхождение заданного текста в документ.
 

@@ -1,6 +1,6 @@
 # Пользовательский ввод
 
-![](../../resources/basic/dialogs/image-(321).png)
+![](../../../resources/activities/basic/dialogs/image-321.png)
 
 Элемент отображает пользовательское окно ввода данных.
 

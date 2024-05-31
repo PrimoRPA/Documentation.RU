@@ -1,6 +1,6 @@
 # Добавить страницу
 
-![](<../../../../.gitbook/assets/image (242).png>)
+![](../../../../resources/activities/basic/excel/excpages/image-242.png)
 
 Компонент, создающий новую страницу в Excel.
 

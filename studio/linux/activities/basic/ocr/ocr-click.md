@@ -1,6 +1,6 @@
 # Клик изображения мышью
 
-![](../../resources/basic/ocr/image-(449).png)
+![](../../../resources/activities/basic/ocr/image-449.png)
 
 Компонент, производящий клик мышью на заданном изображении.
 

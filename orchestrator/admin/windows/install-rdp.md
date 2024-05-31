@@ -9,12 +9,12 @@
 2\. В файле `Primo.Orchestrator.RDP.exe.config` настраиваем:
 * путь до файла с логом;
 
-![](<../../../.gitbook/assets/install-rdp-1.png>)
+![](../../resources/admin/windows/install-rdp-1.png)
 
 * строку соединения с БД аналогично строке для БД **ltools** из конфигурационного файла WebApi (в том числе **dbVendor**); 
 * фильтрацию адресов машин роботов (опционально) - в случае, если для каждого экземпляра приложения планируется использовать свой список адресов:
 
-![](<../../../.gitbook/assets/install-rdp-2.png>)
+![](../../resources/admin/windows/install-rdp-2.png)
 
 3\. Приложение запускается из командной строки:
 ```
@@ -37,7 +37,7 @@ Primo.Orchestrator.RDP --console --hidden
 * Отключаем запрос подтверждения сертификата при подключении к удаленному рабочему столу. Для этого в системный реестр в ветку
 `HKEY_LOCAL_MACHINE/Software/Microsoft/Terminal Server Client` добавляем ключ **DWORD** с именем **AuthenticationLevelOverride** и значением **0**: 
 
-![](<../../../.gitbook/assets/install-rdp-3.png>)
+![](../../resources/admin/windows/install-rdp-3.png)
 
 5\. Убедиться, что приложение работает, когда оно запущено в скрытом режиме, можно командой:
 ```

@@ -1,6 +1,6 @@
 # Удалить файл
 
-![](<../../../../.gitbook/assets/image (520).png>)
+![](../../../../resources/activities/extra/labvs/yandexdisk/image-520.png)
 
 Элемент, удаляющий файл
 

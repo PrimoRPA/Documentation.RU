@@ -1,6 +1,6 @@
 # Переместить сообщения
 
-![](<../../../../.gitbook/assets/image (401).png>)
+![](../../../../resources/activities/basic/mail/lotus/image-401.png)
 
 Компонент, перемещающий письма между папками Lotus Notes.
 

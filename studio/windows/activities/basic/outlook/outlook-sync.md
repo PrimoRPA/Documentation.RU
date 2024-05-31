@@ -1,6 +1,6 @@
 # Синхронизировать папку
 
-![](<../../../.gitbook/assets/attach_outlook.png>)
+![](../../../resources/activities/basic/outlook/attach-outlook.png)
 
 Элемент принудительно синхронизирует указанную папку Outlook. 
 

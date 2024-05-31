@@ -8,4 +8,4 @@
 2. Перетащите файл chrome.crx на закладку браузера Яндекс
 3. В появившемся окне нажмите кнопку "Установить расширение"
 
-![](<../../../.gitbook/assets/image (861).png>)
+![](../../resources/settings/plugin-install/image-861.png)

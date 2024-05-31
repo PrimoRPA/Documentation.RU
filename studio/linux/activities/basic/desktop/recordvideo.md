@@ -1,6 +1,6 @@
 # Запись видео рабочего стола
 
-![](../../resources/basic/desktop/image-(209).png)
+![](../../../resources/activities/basic/desktop/image-209.png)
 
 Компонент, создающий видеозапись рабочего стола, в формате AVI.
 

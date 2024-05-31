@@ -4,9 +4,9 @@ description: Delete from queue
 
 # Удалить из очереди
 
-![](../../../resources/basic/orch/queues/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(8).png)
+![](../../../../resources/activities/basic/orchestrator/queues/image-100-1-1-1-1-1-1-1-1-8.png)
 
-![](../../../resources/basic/orch/queues/delete-orch-queue-item-by-studio.png)
+![](../../../../resources/activities/basic/orchestrator/queues/delete-orch-queue-item-by-studio.png)
 
 Компонент позволяет удалить элемент из [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора. 
 

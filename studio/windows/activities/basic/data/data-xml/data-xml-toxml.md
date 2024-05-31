@@ -1,8 +1,8 @@
 # Объект к XML
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (32).png>)
+![](../../../../resources/activities/basic/data/data-xml/image-100-1-1-1-1-1-1-1-1-32.png)
 
-![](<../../../../.gitbook/assets/image (390).png>)
+![](../../../../resources/activities/basic/data/data-xml/image-390.png)
 
 Компонент осуществляет преобразование объекта в строку XML.
 

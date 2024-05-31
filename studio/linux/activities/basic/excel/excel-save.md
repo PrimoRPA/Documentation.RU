@@ -1,6 +1,6 @@
 # Сохранить документ
 
-![](../../resources/basic/excel/image-(283).png)
+![](../../../resources/activities/basic/excel/image-283.png)
 
 Элемент сохраняет текущее состояние файла Excel. 
 

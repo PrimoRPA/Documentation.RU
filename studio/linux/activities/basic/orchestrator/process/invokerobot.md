@@ -5,9 +5,9 @@ description: Invoke robot
 
 # Запустить робота
 
-![](../../../resources/basic/orch/process/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(126).png)
+![](../../../../resources/activities/basic/orchestrator/process/image-100-1-1-1-1-1-1-1-2-126.png)
 
-![](../../../resources/basic/orch/process/Запустить-робота.png)
+![](../../../../resources/activities/basic/orchestrator/process/запустить-робота-fixed.png)
 
 Элемент инициирует запуск робота для выполнения [задания](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) в Оркестраторе. Помогает ускорить выполнение нагруженных бизнес-процессов.
 

@@ -7,53 +7,53 @@
 2\. Мышкой щелкаем по файлу `C:\Install\postgresql-13.4-1-windows-x64.exe`.\
 3\.	Выбираем **Да** в появившемся окне:
 
-![](<../../../.gitbook/assets/install-postgre-win-1.png>)
+![](../../resources/admin/windows/install-postgre-win-1.png)
 
 4\. В следующем окне выбираем **Далее** (Next):
 
-![](<../../../.gitbook/assets/install-postgre-win-2.png>)
+![](../../resources/admin/windows/install-postgre-win-2.png)
 
 5\. Нужно выбрать директорию (1), куда будет установлена программа. Оставляем все без изменения и нажимаем **Далее** (2):
 
-![](<../../../.gitbook/assets/install-postgre-win-3.png>)
+![](../../resources/admin/windows/install-postgre-win-3.png)
 
 6\. В окне выбора компонентов тоже оставляем настройки по умолчанию и жмем **Далее**:
 
-![](<../../../.gitbook/assets/install-postgre-win-4.png>)
+![](../../resources/admin/windows/install-postgre-win-4.png)
 
 7\. В следующем окне прописываем путь `C:\Primo\PostgreSQL\Data` (1), где будут располагаться файлы базы данных Оркестратора и конфигурационные файлы, и нажимаем **Далее** (2):
 
-![](<../../../.gitbook/assets/install-postgre-win-5.png>)
+![](../../resources/admin/windows/install-postgre-win-5.png)
 
 8\. Вводим пароль (1) и его подтверждение (2) для суперпользователя БД (postgres) и нажимаем **Далее**. В дальнейшем пароль можно будет изменить в PostgreSQL.
 
-![](<../../../.gitbook/assets/install-postgre-win-6.png>)
+![](../../resources/admin/windows/install-postgre-win-6.png)
 
 9\. В следующем окне оставляем настройки порта по умолчанию (5432) и нажимаем **Далее**:
 
-![](<../../../.gitbook/assets/install-postgre-win-7.png>)
+![](../../resources/admin/windows/install-postgre-win-7.png)
 
 10\. Из выпадающего меню (1) выбираем **Русский, Россия** (2) и нажимаем **Далее** (3):
 
-![](<../../../.gitbook/assets/install-postgre-win-8.png>)
+![](../../resources/admin/windows/install-postgre-win-8.png)
 
 11\. Перепроверяем введенные данные (1): 
 * Если необходимо, можно вернуться по кнопке **Назад** и исправить параметры. 
 * Если все верно, нажимаем **Далее**.
 
-![](<../../../.gitbook/assets/install-postgre-win-9.png>)
+![](../../resources/admin/windows/install-postgre-win-9.png)
 
 12\. В следующем окне выбираем **Далее**:
 
-![](<../../../.gitbook/assets/install-postgre-win-10.png>)
+![](../../resources/admin/windows/install-postgre-win-10.png)
 
 13\. Дожидаемся завершения процесса установки:
 
-![](<../../../.gitbook/assets/install-postgre-win-11.png>)
+![](../../resources/admin/windows/install-postgre-win-11.png)
 
 14\. Поскольку **Stack Builder** не понадобится, убираем галочку (1) и нажимаем **Завершить** (2):
 
-![](<../../../.gitbook/assets/install-postgre-win-12.png>)
+![](../../resources/admin/windows/install-postgre-win-12.png)
 
 15\. Заходим в **PostgreSQL** через платформу **pgAdmin** (пользователь **postgres/postgres**). 
 

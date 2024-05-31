@@ -8,7 +8,7 @@ description: Append range
 
 Путь до файла и настройки подключения к Excel настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Чтобы изменения в файле применились, используйте в конце работы элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
-![](<../../../.gitbook/assets1/append-range-with-save.png>)
+![](../../../resources/activities/basic/excel/append-range-with-save.png)
 
 
 

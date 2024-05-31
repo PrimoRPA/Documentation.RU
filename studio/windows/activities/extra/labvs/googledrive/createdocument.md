@@ -1,6 +1,6 @@
 # Создать документ
 
-![](<../../../../.gitbook/assets/image (754).png>)
+![](../../../../resources/activities/extra/labvs/googledrive/image-754.png)
 
 Элемент, создающий документ
 

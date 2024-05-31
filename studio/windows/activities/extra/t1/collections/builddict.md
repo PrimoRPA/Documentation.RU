@@ -1,6 +1,6 @@
 # Создать справочник
 
-![](<../../../../.gitbook/assets/image (922).png>)
+![](../../../../resources/activities/extra/t1/collections/image-922.png)
 
 Элемент, создающий и наполняющий справочник
 
@@ -10,4 +10,4 @@
 
 **Мастер справочника**
 
-![](<../../../../.gitbook/assets/image (583).png>)
+![](../../../../resources/activities/extra/t1/collections/image-583.png)

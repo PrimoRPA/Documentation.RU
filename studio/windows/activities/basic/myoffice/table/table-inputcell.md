@@ -1,6 +1,6 @@
 # Ввод в ячейку
 
-![](<../../../../.gitbook/assets/image (503).png>)
+![](../../../../resources/activities/basic/myoffice/table/image-503.png)
 
 Компонент, производящий запись данных в ячейку Таблицы.
 

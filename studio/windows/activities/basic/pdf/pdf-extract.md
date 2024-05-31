@@ -1,6 +1,6 @@
 # Извлечь страницы
 
-![](<../../../.gitbook/assets/image (535).png>)
+![](../../../resources/activities/basic/pdf/image-535.png)
 
 Компонент, извлекающий страницы из документа PDF.
 

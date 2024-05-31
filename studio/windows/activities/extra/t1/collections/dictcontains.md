@@ -1,6 +1,6 @@
 # Справочник содержит
 
-![](<../../../../.gitbook/assets/image (812).png>)
+![](../../../../resources/activities/extra/t1/collections/image-812.png)
 
 Элемент, проверяющий наличие элемента в справочнике
 

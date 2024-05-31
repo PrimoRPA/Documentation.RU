@@ -1,6 +1,6 @@
 # Вставка изображения
 
-![](../../../../resources/activities/basic/odf/text/Cropped-InsertPic.png)
+![](../../../../resources/activities/basic/odf/text/cropped-insertpic-fixed.png)
 
 Элемент производит вставку изображения в документ Word. Путь до документа указывается в контейнере Документ ODF.
 

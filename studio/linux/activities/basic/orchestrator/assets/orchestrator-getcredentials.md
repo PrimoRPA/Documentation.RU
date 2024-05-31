@@ -4,13 +4,13 @@ description: Get Credentials
 
 # Получить учетные данные
 
-![](../../../resources/basic/orch/assets/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(44).png)
+![](../../../../resources/activities/basic/orchestrator/assets/image-100-1-1-1-1-1-1-1-1-44.png)
 
 ## Назначение
 
 Элемент позволяет получить учетные данные из Оркестратора. Под учетными данными подразумевается [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials, который был создан в Оркестраторе и хранится в базе данных. 
 
-![](../../../resources/basic/orch/assets/image-(386).png)
+![](../../../../resources/activities/basic/orchestrator/assets/image-386.png)
 
 ## Начальные условия
 

@@ -6,7 +6,7 @@ description: Save as PDF
 
 Элемент экспортирует книгу Excel в формат PDF. Путь до экспортируемого файла и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
-![](../../resources/basic/excel/WFExcelToPdf.png)
+![](../../../resources/activities/basic/excel/wfexceltopdf-fixed.png)
 
 
 ## Свойства

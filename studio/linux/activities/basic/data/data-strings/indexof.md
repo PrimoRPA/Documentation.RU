@@ -1,8 +1,8 @@
 # Поиск подстроки
 
-![](../../../resources/basic/data/data_strings/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(197).png)
+![](../../../../resources/activities/basic/data/data-strings/image-100-1-1-1-1-1-1-1-2-197.png)
 
-![](../../../resources/basic/data/data_strings/image-(328).png)
+![](../../../../resources/activities/basic/data/data-strings/image-328.png)
 
 Компонент, осуществляющий поиск индекса вхождения подстроки в строку. Возвращает -1 если строка не найдена.
 

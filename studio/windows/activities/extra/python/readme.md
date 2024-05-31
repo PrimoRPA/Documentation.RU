@@ -6,11 +6,11 @@
 
 Пример установки **Primo.Python** через менеджер зависимостей:
 
-![](<../../../.gitbook/assets1/setup-library-by-depend-manager.png>)
+![](../../../resources/activities/extra/python/setup-library-by-depend-manager.png)
 
 После установки пакета в Студии, на панели элементов, станет доступна папка Python:
 
-![](<../../../.gitbook/assets1/packet-primo.python.png>)
+![](../../../resources/activities/extra/python/packet-primo.python.png)
 
 
 

@@ -2,7 +2,7 @@
 
 Элемент считывает данные из колонки ODF-таблицы. Путь до файла указывается в контейнере «Таблица ODF».
 
-![Элемент «Чтение колонки»](<../../../../.gitbook/assets1/windows_items/odf-read-column.png>)
+![Элемент «Чтение колонки»](../../../../resources/activities/extra/odf-oxml/table/odf-read-column.png)
 
 
 ## Свойства

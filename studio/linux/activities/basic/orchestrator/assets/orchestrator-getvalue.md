@@ -5,13 +5,13 @@ description: Get asset
 
 # Получить значение
 
-![](../../../resources/basic/orch/assets/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(19).png)
+![](../../../../resources/activities/basic/orchestrator/assets/image-100-1-1-1-1-1-1-1-1-19.png)
 
 ## Назначение
 
 Позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменную) из Оркестратора. Поиск ресурса осуществляется по его названию. Полученный ресурс необходимо сохранить в свойстве **Результат** в виде переменной. Она должна иметь тип данных System.Object.
 
-![](../../../resources/basic/orch/assets/image-(269).png)
+![](../../../../resources/activities/basic/orchestrator/assets/image-269.png)
 
 Робот может запросить ресурс следующих типов данных:
 * String;
@@ -42,7 +42,7 @@ description: Get asset
 
 ### Решение проблем
 
-![](../../../resources/basic/orch/assets/set-asset-error-in-studio.png)
+![](../../../../resources/activities/basic/orchestrator/assets/set-asset-error-in-studio.png)
 
 При выполнении элемента может возникнуть «Ошибка получения значения». Она возникает, если ресурса с указанным названием нет в Оркестраторе.
 
