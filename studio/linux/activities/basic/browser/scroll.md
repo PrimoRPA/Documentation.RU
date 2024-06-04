@@ -2,7 +2,7 @@
 
 ![](../../../resources/activities/basic/browser/image-100-1-1-1-1-1-1-1-2-221.png)
 
-![](../../../resources/activities/basic/browser/image-274.png)
+![](../../../resources/activities/basic/browser/browser-scroll-activity.png)
 
 Элемент, осуществляющий прокрутку в браузере.
 
@@ -10,14 +10,14 @@
 | -------------- | -------------------- | -------------------------------------------------- |
 | Горизонтальная | int?                 | Горизонтальная прокрутка (смещение)                |
 | Вертикальная   | int?                 | Вертикальная прокрутка (смещение)                  |
-| Прокрутка      | System.Windows.Point | Текущее состояние прокрутки                        |
+| Прокрутка      | System.Nullable<System.Windows.Point> | Текущее состояние прокрутки                        |
 | Таймаут\*      | Int32                | Предельное время ожидания завершения процесса (мс) |
 
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
 LTools.WebBrowser.BrowserApp app = LTools.WebBrowser.BrowserApp.Init(wf, "Free email*", LTools.WebBrowser.Model.BrowserTypes_Short.IE);
-System.Windows.Point ret = app.Scroll(null, null);
+System.Windows.Point? ret = app.Scroll(null, null);
 app.Scroll(100, 20, 10000);
 ```
 {% endtab %}
