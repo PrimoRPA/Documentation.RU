@@ -1,6 +1,6 @@
 # Получить текст
 
-![](../../../resources/activities/basic/desktop/image-143.png)
+![](../../../resources/activities/basic/desktop/gettext-activity.png)
 
 Компонент, получающий текст выбранного элемента управления. Компонент корректно работает только внутри контейнера Присоединиться к приложению.
 
