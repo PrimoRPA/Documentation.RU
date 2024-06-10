@@ -4,27 +4,27 @@
 
 Студия предоставляет возможность разрабатывать сценарии автоматизации в режиме чистого кода - Pure code. Для этого при создании сценария - или, иначе, *процесса* - выберите тип **Только код** (1) и укажите язык программирования (2).
 
-![](<../../.gitbook/assets1/choose-pure-code.png>)
+![](../resources/process/choose-pure-code.png)
 
 По умолчанию используется язык С#, но вместо него вы можете выбрать Python или JavaScript. После создания процесса откроется редактор кода для работы с элементами:
 
-![](<../../.gitbook/assets1/work-area-pure-code.png>)
+![](../resources/process/work-area-pure-code.png)
 
 #### Как добавить в процесс элемент?
 
 На панели *Элементы* найдите нужный компонент и перетащите в редактор кода - будет создан образец для его вызова.
 
-![](<../../.gitbook/assets/add-element-to-code-1.png>)
+![](../resources/process/add-element-to-code-1.png)
 
 В разделах, посвященных описанию элементов, как правило, можно найти подраздел *Только код* - он содержит примеры использования элементов в чистом коде. См. пример для элемента [Получить значение](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue#tolko-kod):
 
-![](<../../.gitbook/assets1/example-code-in-element.png>)
+![](../resources/process/example-code-in-element.png)
 
 #### Как в процессе вызвать другой процесс?
 
 Чтобы вызвать другой процесс, перетащите соответствующий файл процесса из панели проекта в код.
 
-![](<../../.gitbook/assets1/dragdrop-proccess-in-proccess.png>)
+![](../resources/process/dragdrop-proccess-in-proccess.png)
 
 #### Как использовать аргументы?
 
@@ -34,18 +34,18 @@
 
 В меню редактора кода находятся кнопки <img src="../../.gitbook/assets/image (22).png" alt="" data-size="line"> - используйте их, чтобы создать [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) элемента управления. При необходимости отредактировать шаблон, выделите его в коде и также используйте одну из этих кнопок.
 
-![](<../../.gitbook/assets/selector-in-code.png>)
+![](../resources/process/selector-in-code.png)
 
 
 #### Как установить точку останова?
 
 Нажмите в меню редактора кнопку <img src="../../.gitbook/assets/stop.png" alt="" data-size="line">.
 
-![](<../../.gitbook/assets/breakpoint-in-only-code.png>)
+![](../resources/process/breakpoint-in-only-code.png)
 
 В коде появится строка вызова точки останова:
 
-![](<../../.gitbook/assets/added-breakpoint-in-only-code.png>)
+![](../resources/process/added-breakpoint-in-only-code.png)
 
 :bangbang: ***В языках Python и JavaScript последний параметр отвечает за номер строки точки останова.***
 
@@ -54,11 +54,11 @@
 * Стали видны текущие значения локальных переменных функции. В версии ядра v1 в панели **Вывод** отображаются только текущие значения переменных класса.
 * На точке останова стало возможным перейти к коду функции.
 
-![](<../../.gitbook/assets1/set-breakpoint.png>)
+![](../resources/process/set-breakpoint.png)
 
 Выбрать ядро отладчика чистого кода можно в окне [настроек](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#otladchik) Студии. По умолчанию используется версия v1.
 
-![](<../../.gitbook/assets1/version-of-debagger.png>)
+![](../resources/process/version-of-debagger.png)
 
  > :small_orange_diamond: Если вы меняете версию ядра, **обязательно перезагрузите Студию.**\
  > :small_orange_diamond: Если вы меняете ядро в проектах, где были использованы точки останова, заданные кодом (v1), удалите их и установите новые (v2). Это поможет избежать проблем совместимости.\
@@ -68,27 +68,27 @@
 
 Добавьте точку останова к нужному элементу и примените команду **Отладить процесс**.
 
-![](<../../.gitbook/assets/command-debug-in-only-code.png>)
+![](../resources/process/command-debug-in-only-code.png)
 
 На панели **Элементы/Проект** вызовите контекстное меню и выберите пункт **Закрытые панели**.
 
-![](<../../.gitbook/assets/closed-panels-in-code.png>)
+![](../resources/process/closed-panels-in-code.png)
 
 Нажмите появившуюся кнопку **Вывод**, чтобы отобразить панель.
 
-![](<../../.gitbook/assets/output-in-code.png>)
+![](../resources/process/output-in-code.png)
 
 Перейдите на панель **Вывод**, нажав соответствующую кнопку внизу.
 
-![](<../../.gitbook/assets/panel-output-in-code.png>)
+![](../resources/process/panel-output-in-code.png)
 
 Просмотрите состояния переменных на момент остановки выполнения кода.
 
-![](<../../.gitbook/assets/value-var-in-output-in-code.png>)
+![](../resources/process/value-var-in-output-in-code.png)
 
 Если в панели **Вывод** отображаются неверные данные - например, с прошлой отладки в режиме последовательности - просто нажмите кнопку **Обновить**.
 
-![](<../../.gitbook/assets/update-value-var-in-output-in-code.png>)
+![](../resources/process/update-value-var-in-output-in-code.png)
 
 
 ## Ограничения

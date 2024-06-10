@@ -34,7 +34,7 @@
     ```
 6. В конфигурационном файле службы `appsettings.ProdLinux.json` **пропишите адрес Оркестратора и TenantId** (если эта машина не в тенанте по умолчанию), **а также пользователя тенанта** (встроенная учетная запись agent из тенанта по умолчанию):
 
-![](../../../../.gitbook/assets/config-agent-centos.png)
+![](../../../resources/setting-up-machines/linux/robotmachine/config-agent-centos.png)
 
 7.  **Запустите службу:**
 

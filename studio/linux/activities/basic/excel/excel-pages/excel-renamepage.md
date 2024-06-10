@@ -1,8 +1,8 @@
 # Переименовать страницу
 
-![](../../../resources/basic/excel/excel_pages/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(238).png)
+![](../../../../resources/activities/basic/excel/excel-pages/image-100-1-1-1-1-1-1-1-2-238.png)
 
-![](../../../resources/basic/excel/excel_pages/image-(41).png)
+![](../../../../resources/activities/basic/excel/excel-pages/image-41.png)
 
 Компонент, переименовывающий страницу Excel.
 

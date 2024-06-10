@@ -6,11 +6,11 @@ description: Add to queue
 
 Компонент позволяет добавить новый элемент в [очередь обмена данными](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора. Добавленному элементу присваивается статус **New**.
 
-![](../../../resources/basic/orch/queues/image-(375).png)
+![](../../../../resources/activities/basic/orchestrator/queues/image-375.png)
 
 Пример отображения нового элемента в очереди Оркестратора:
 
-![](../../../resources/basic/orch/queues/оркестратор.-элементы-очереди.png)
+![](../../../../resources/activities/basic/orchestrator/queues/оркестратор.-элементы-очереди.png)
 
 Для успешной работы компонента должно быть установлено [подключение Студии к Оркестратору](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator).
 

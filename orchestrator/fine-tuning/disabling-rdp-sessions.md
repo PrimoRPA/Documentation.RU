@@ -2,7 +2,7 @@
 
 Параметры открытия/отключения/разлогинивания RDP-сессий находятся в секции **RDP** конфигурационного файла WebApi:
 
-![](<../../.gitbook/assets/parameters-rdp-sessions-in-config.png>)
+![](../resources/fine-tuning/parameters-rdp-sessions-in-config.png)
 
 Описание параметров приведено в таблице ниже.
 

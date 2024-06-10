@@ -2,7 +2,7 @@
 
 Данный файл нужно заполнить и загрузить на странице Импорт данных (/admin/structure/migrate/manage/primo/migrations) в миграцию под названием "Управления и департаменты":
 
-![](<../.gitbook/assets1/Data-Import-Areas_Underline.png>)
+![](resources/data-import-areas-underline.png)
 
 После того, как файл будет загружен, можно выполнить импорт "Процессов"; департаменты загрузятся из этого файла автоматически.
 

@@ -10,11 +10,11 @@
 
 :small_orange_diamond: ***RPA-проект, который вы разработали в одном режиме, не получится потом открыть в другом режиме — они несовместимы.***
 
-![](<../../.gitbook/assets1/studio-modes.png>)
+![](../resources/launch/studio-modes.png)
 
 Чтобы впоследствии не выбирать каждый раз режим при запуске Студии, установите чекбокс **Не показывать окно выбора режима Студии**.
 
-![](<../../.gitbook/assets1/studio-dont-show-modes.png>)
+![](../resources/launch/studio-dont-show-modes.png)
 
 Далее, если вы запустили издание Primo RPA Studio Community, то откроется рабочая область для создания RPA-проектов.
 
@@ -28,7 +28,7 @@
 
 Существует 2 типа лицензий: локальная или оркестраторная.
 
-![](<../../.gitbook/assets/Лицензии в Студии.png>)
+![](../resources/launch/лицензии-в-студии.png)
 
 В случае, если ни одна из лицензий не была выбрана, Студия закроется сразу после закрытия окна регистрации.
 
@@ -43,7 +43,7 @@
 * Нажмите кнопку **Сформировать запрос** (2).
 * В консоли диалога появится текст запроса (3):
 
-![](<../../.gitbook/assets/local-license-for-studio.png>)
+![](../resources/launch/local-license-for-studio.png)
 
 * Скопируйте текст и отправьте вендору по адресу [License@primo-rpa.ru](mailto:License@primo-rpa.ru). В ответе придет файл лицензионного ключа с расширением \*.license.
 * Загрузите его в систему нажатием кнопки **Загрузить ключ** (4).
@@ -60,7 +60,7 @@
 
 ***Что это значит?** Администратор Оркестратора предварительно должен [создать пользователя](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/users/orch-users) с ролью Studio, после чего передать его данные вам, включая тенант пользователя и адрес Оркестратора:*
 
-![](<../../.gitbook/assets/orch-license-for-studio.png>)
+![](../resources/launch/orch-license-for-studio.png)
 
 * Нажмите **Соединиться** (3).
 
@@ -69,6 +69,6 @@
 ### Студия не запускается
 При использовании антивируса возможны проблемы с открытием Студии. Чтобы их избежать, добавьте файл `LTools.Selector.exe` (или всю папку Студии) в исключения антивируса. Файл `LTools.Selector.exe` находится в папке установки программы. Пример:
 
-![](<../../.gitbook/assets/ltools.selector.exe-here.png>)
+![](../resources/launch/ltools.selector.exe-here.png)
 
 Также рекомендуем ознакомиться с инструкцией [по мультисессионной работе](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/layout/multisession).

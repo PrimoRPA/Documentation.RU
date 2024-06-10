@@ -1,6 +1,6 @@
 # Вставить таблицу
 
-![](../../../../resources/activities/basic/odf/text/Cropped-InsertTable.png)
+![](../../../../resources/activities/basic/odf/text/cropped-inserttable-fixed.png)
 
 Элемент, читающий таблицу из документа. Элемент работает корректно только внутри контейнера.
 

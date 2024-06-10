@@ -1,6 +1,6 @@
 # Чтение колонки
 
-![](../../../../resources/activities/basic/odf/table/Cropped-ReadColumn.png)
+![](../../../../resources/activities/basic/odf/table/cropped-readcolumn-fixed.png)
 
 Элемент, считывающий данные из колонки Excel.
 

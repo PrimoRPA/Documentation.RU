@@ -4,17 +4,17 @@
 
 После успешного запуска на экране появится основное окно приветствия
 
-![](<../../.gitbook/assets/Untitled (9).png>)
+![](../resources/getting-started/untitled-9.png)
 
 Из данного окна можно создать новый проект, открыть имеющийся, либо выбрать один из последних проектов, с которыми производилась работа. Если снять галку "Показывать при запуске", данное окно более не будет появляться. После закрытия окна приветствия, станет доступно окно студии
 
-![](<../../.gitbook/assets/001 (12).png>)
+![](../resources/getting-started/001-12.png)
 
 В окне присутствуют следующие компоненты:&#x20;
 
 Главное меню приложения
 
-![](../../.gitbook/assets/Picture3.png)
+![](../resources/getting-started/picture3.png)
 
 В данном меню имеются следующие пункты:
 
@@ -87,7 +87,7 @@
 
 Панель действий
 
-![](../../.gitbook/assets/кнопки\_основной\_панели.png)
+![](../resources/getting-started/кнопки-основной-панели.png)
 
 В данной панели имеются следующие кнопки:
 
@@ -115,7 +115,7 @@
 
 Панель проекта
 
-![](<../../.gitbook/assets/Picture5 (1).png>)
+![](../resources/getting-started/picture5-1.png)
 
 В данной панели имеются следующие кнопки
 
@@ -129,52 +129,52 @@
 
 Панель элементов
 
-![](<../../.gitbook/assets/Picture6 (1).png>)
+![](../resources/getting-started/picture6-1.png)
 
 
 
 Основная рабочая область
 
-![](<../../.gitbook/assets/Picture7 (1).png>)
+![](../resources/getting-started/picture7-1.png)
 
 
 
 Панель свойств
 
-![](<../../.gitbook/assets/Picture8 (1).png>)
+![](../resources/getting-started/picture8-1.png)
 
 
 
 Панель перехвата трафика
 
-![](../../.gitbook/assets/Picture9.png)
+![](../resources/getting-started/picture9.png)
 
 
 
 Панель свойств пакета
 
-![](../../.gitbook/assets/Picture10.png)
+![](../resources/getting-started/picture10.png)
 
 
 
 Панель фильтра трафика
 
-![](../../.gitbook/assets/Picture11.png)
+![](../resources/getting-started/picture11.png)
 
 
 
 Панель мобильных устройств
 
-![](../../.gitbook/assets/Picture12.png)
+![](../resources/getting-started/picture12.png)
 
 
 
 Панель инспектора UI
 
-![](../../.gitbook/assets/Picture23.png)
+![](../resources/getting-started/picture23.png)
 
 
 
 Панель инспектора SAP
 
-![](../../.gitbook/assets/Picture24.png)
+![](../resources/getting-started/picture24.png)

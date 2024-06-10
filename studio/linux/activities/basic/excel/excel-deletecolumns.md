@@ -8,7 +8,7 @@ description: Delete columns
 
 Путь до файла, тип драйвера и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Чтобы сохранить изменения, используйте также элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save). 
 
-![](../../resources/basic/excel/WFDeleteColumns.png)
+![](../../../resources/activities/basic/excel/wfdeletecolumns-fixed.png)
 
 
 ## Свойства

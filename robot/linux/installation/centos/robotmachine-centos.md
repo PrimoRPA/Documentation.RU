@@ -5,11 +5,11 @@
 При установке машины робота под управлением Centos 7 необходимо:
 - на экране **ВЫБОР ПРОГРАММ** отметить базовое окружение **Рабочая станция**;
 
-![ВЫБОР ПРОГРАММ](../resources/installation/centos-install-software.png)
+![ВЫБОР ПРОГРАММ](../../resources/installation/centos/centos-install-software.png)
 
 - на экране **СОЗДАНИЕ ПОЛЬЗОВАТЕЛЕЙ** создать пользователя-администратора (далее - `primo-admin`).
 
-![СОЗДАНИЕ ПОЛЬЗОВАТЕЛЯ](../resources/installation/centos-create-admin.png)
+![СОЗДАНИЕ ПОЛЬЗОВАТЕЛЯ](../../resources/installation/centos/centos-create-admin.png)
 
 Установка дополнительного ПО и создание дополнительных пользователей будет описана ниже.
 

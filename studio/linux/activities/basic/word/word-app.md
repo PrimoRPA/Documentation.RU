@@ -1,8 +1,8 @@
 # Документ Word
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(291).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-291.png)
 
-![](../../resources/basic/word/image-(169).png)
+![](../../../resources/activities/basic/word/image-169.png)
 
 Компонент производит подключение к приложению Word. В случае отсутствия указанного файла будет создан новый.
 

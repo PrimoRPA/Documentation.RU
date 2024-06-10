@@ -8,7 +8,7 @@ description: Excel workbook
 
 В сценарии автоматизации **Приложение Excel** выступает контейнером для других элементов Excel. В конце работы с файлом рекомендуется использовать элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/prilozhenie-excel/el\_excel\_save), чтобы все изменения применились.
 
-![](../../resources/basic/excel/excel-workbook-1.png)
+![](../../../resources/activities/basic/excel/excel-workbook-1.png)
 
 
 ## Свойства

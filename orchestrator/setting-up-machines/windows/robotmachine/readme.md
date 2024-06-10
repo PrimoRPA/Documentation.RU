@@ -15,7 +15,7 @@
 
 Компоненты Оркестратора (выборочно) и их связи и с роботами/машиной робота приведены на схеме ниже:
 
-![](<../../../../.gitbook/assets/Машина-Робота-W. Компоненты Орка.png>)
+![](../../../resources/setting-up-machines/windows/robotmachine/машина-робота-w.-компоненты-орка.png)
 
 Полная схема приведена в разделе [Компоненты системы](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/system-components).
 

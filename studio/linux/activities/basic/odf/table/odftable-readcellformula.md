@@ -1,6 +1,6 @@
 # Чтение формулы из ячейки
 
-![](../../../../resources/activities/basic/odf/table/Cropped-ReadFormulaFromCell.png)
+![](../../../../resources/activities/basic/odf/table/cropped-readformulafromcell-fixed.png)
 
 Компонент, производящий считывание формулы из указанной ячейки Excel.
 

@@ -9,7 +9,7 @@ description: Copy range
 
 Чтобы внесенные изменения применились, используйте также элемент [**Сохранить документ**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/prilozhenie-excel/el\_excel\_save).
 
-![](../../resources/basic/excel/WFCopyRange.png)
+![](../../../resources/activities/basic/excel/wfcopyrange-fixed.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

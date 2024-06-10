@@ -1,6 +1,6 @@
 # Таблица ODF
 
-![](../../../../resources/activities/basic/odf/table/Cropped-ODFtable.png)
+![](../../../../resources/activities/basic/odf/table/cropped-odftable-fixed.png)
 
 Компонент, производящий подключение к приложению Excel. Компонент служит контейнером для других элементов, работающих с Excel.
 В случае отсутствия указанного файла будет создан новый.

@@ -6,7 +6,7 @@
 
 Для добавления пользователя перейдите в раздел **Пользователи** в веб-интерфейсе Оркестратора.
 
-![](../../.gitbook/assets1/add_user.png)
+![](../../resources/ui3/start/missing.png)
 
 1. Нажмите на кнопку **Добавить пользователя**, чтобы открыть соответствующую форму.
 2. Введите данные:
@@ -23,15 +23,15 @@
  
 Имеется возможность временной блокировки аккаунта пользователя.
 
-![](../../.gitbook/assets1/user_blocked.png)
+![](../../resources/ui3/start/user-blocked.png)
 
 **Настройки пароля**
 
 Опция позволяет указать обязательность смены пароля при первом входе в систему.
 
-![](../../.gitbook/assets1/Change_password.png) 
+![](../../resources/ui3/start/change-password.png) 
 
-![](../../.gitbook/assets1/youtube-video-gif.gif)
+![](../../resources/ui3/start/youtube-video-gif.gif)
 
 
 Об управлении ролями пользователя можно узнать [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/user_role_managment).

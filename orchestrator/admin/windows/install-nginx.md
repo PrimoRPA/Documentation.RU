@@ -10,9 +10,9 @@
 
 Если для приема логов роботов не используется внешний сервис RobotLogs, удалите из конфига nginx.conf проксирование в RobotLogs: 
 
-![](<../../../.gitbook/assets/install-nginx-win-1.png>)
+![](../../resources/admin/windows/install-nginx-win-1.png)
 
-![](<../../../.gitbook/assets/install-nginx-win-2.png>)
+![](../../resources/admin/windows/install-nginx-win-2.png)
 
 3\.	При помощи cmd запустите nginx:
 *	Перейдите в папку с установленным nginx: 
@@ -27,7 +27,7 @@ start nginx
 ``` 
 tasklist /fi "imagename eq nginx.exe" 
 ```
-![](<../../../.gitbook/assets/install-nginx-win-3.png>)
+![](../../resources/admin/windows/install-nginx-win-3.png)
 
 4\.	После каждой перезагрузки Windows требуется вручную запускать nginx. Чтобы этого не делать каждый раз, приложение nginx следует поставить в автозагрузку: 
 * Создайте bat-файл `C:\orch_start.bat` со следующими командами: 
@@ -41,7 +41,7 @@ start nginx
 ```
 Добавится соответствующее значение в системный реестр:
 
-![](<../../../.gitbook/assets/install-nginx-win-4.png>)
+![](../../resources/admin/windows/install-nginx-win-4.png)
 
 5\. Откройте порт 44392 на файерволе. В PowerShell выполните команду:
 ```

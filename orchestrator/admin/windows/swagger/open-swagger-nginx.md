@@ -20,7 +20,7 @@ location /swagger/ {
 
 ```
 
-![](<../../../../.gitbook/assets/swagger-nginx-1.png>)
+![](../../../resources/admin/windows/swagger/swagger-nginx-1.png)
 
 3\. При помощи cmd перезапустите Nginx:
 * Перейдите в папку с установленным Nginx: 
@@ -30,8 +30,8 @@ location /swagger/ {
 * Убедитесь, что Nginx запущен, используя команду: 
 `tasklist /fi "imagename eq nginx.exe"`
 
-![](<../../../../.gitbook/assets/swagger-nginx-2.png>)
+![](../../../resources/admin/windows/swagger/swagger-nginx-2.png)
 
 4\. Проверьте доступность Swagger по адресу: https://{IP}:44392/swagger/index.html 
 
-![](<../../../../.gitbook/assets/swagger-nginx-3.png>)
+![](../../../resources/admin/windows/swagger/swagger-nginx-3.png)

@@ -1,6 +1,6 @@
 # Документ ODF
 
-![](../../../../resources/activities/basic/odf/text/Cropped-DocumentODF.png)
+![](../../../../resources/activities/basic/odf/text/cropped-documentodf-fixed.png)
 
 Компонент, производящий подключение к приложению ODF Документы.
 

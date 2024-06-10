@@ -4,30 +4,30 @@
 
 * В окне инструмента **Выбор элемента** (Element selection) добавлены подсказки с описанием горячих клавиш. 
   
-  ![](<../../../.gitbook/assets/picker-3.png>)
+  ![](../../resources/process/searchpatterns/picker-3.png)
 
 * Проверить корректность шаблона (селектора) теперь можно на этапе выбора свойств. Кнопка **Валидация настроек шаблона** запускает проверку текущих настроек - результат отображается внизу редактора. 
 
-  ![](<../../../.gitbook/assets/search settings validation.png>)  
+  ![](../../resources/process/searchpatterns/search-settings-validation.png)  
    
 * Добавлены всплывающие подсказки, помогающие скорректировать шаблон поиска. Значения выбранных свойств стали доступны для редактирования.
   
-  ![](<../../../.gitbook/assets/edit-value-in-pattern-editor.png>)
+  ![](../../resources/process/searchpatterns/edit-value-in-pattern-editor.png)
 
 * Кроме того, появились вкладки **Структура** и **Код** (шаблон поиска в JSON), а также возможность быстро поменять текущий селектор.
 
-  ![](<../../../.gitbook/assets/structure-tub-in-editor.png>)
+  ![](../../resources/process/searchpatterns/structure-tub-in-editor.png)
 
 * В окне редактора добавлена опция **Путь до элемента**, позволяющая управлять родительскими и дочерними селекторами. 
 
-  ![](<../../../.gitbook/assets/button-path-to-element-in-editor-pattern.png>)
+  ![](../../resources/process/searchpatterns/button-path-to-element-in-editor-pattern.png)
 
   Дочерние и родительские селекторы добавляются/удаляются при помощи команд контекстного меню.
 
-  ![](<../../../.gitbook/assets/daughter-selector-context-menu.png>)
+  ![](../../resources/process/searchpatterns/daughter-selector-context-menu.png)
 
   Функция полезна в ситуациях, когда бывает сложно определить нужный элемент управления только по его параметрам.
 
-  ![](<../../../.gitbook/assets/parameters-daughter-selector.png>)
+  ![](../../resources/process/searchpatterns/parameters-daughter-selector.png)
 
   

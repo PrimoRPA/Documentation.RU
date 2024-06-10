@@ -1,6 +1,6 @@
 # Получение списка
 
-![](../../resources/basic/desktop/image-(107).png)
+![](../../../resources/activities/basic/desktop/image-107.png)
 
 Компонент, получающий значения из комбо-бокса либо списка.
 

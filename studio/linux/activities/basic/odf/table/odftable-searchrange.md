@@ -1,6 +1,6 @@
 # Поиск в диапазоне
 
-![](../../../../resources/activities/basic/odf/table/Cropped-SearchRange.png)
+![](../../../../resources/activities/basic/odf/table/cropped-searchrange-fixed.png)
 
 Компонент, осуществляющий поиск значения в диапазоне ячеек Excel.
 

@@ -9,7 +9,7 @@ description: Open browser
 2. Выступает в роли контейнера для других элементов, работающих с веб-страницами. Например, для таких, как [**Присутствие элемента**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_exists), [**Клик мышью**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_click), [**Обновить страницу**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_refresh) и т. д.
 
 
-   ![](../../resources/basic/browser/open-browser-as-container-new.png)
+   ![](../../../resources/activities/basic/browser/open-browser-as-container-new.png)
 
    Элементы, вложенные в контейнер **Открыть браузер** и присоединенные к нему, требуют наличия расширения браузера, хотя сам контейнер работает независимо от него. Способы установки расширений описаны [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install).
 
@@ -22,7 +22,7 @@ description: Open browser
 
 1. **Тип браузера** - тип используемого браузера. По умолчанию `IE` — Internet Explorer. Чтобы выбрать другое значение, кликните выпадающий список:
 
-   ![](../../resources/basic/browser/open-browser-type-browser.png)
+   ![](../../../resources/activities/basic/browser/open-browser-type-browser.png)
 
    Значения, которые начинаются со слов `Web Driver`, предназначены для тех случаев, когда необходимо использовать Selenium WebDriver. По умолчанию веб-драйвер уже встроен в Студию, но для успешной работы версии драйвера и браузера должны быть совместимы. Если они не совместимы, то веб-драйвер требуется [обновить](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/update-web-driver).
    

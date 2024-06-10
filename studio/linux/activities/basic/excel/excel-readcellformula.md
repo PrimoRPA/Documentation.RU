@@ -8,7 +8,7 @@ description: Read cell formula
 
 Путь до файла, тип драйвера и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
-![](../../resources/basic/excel/WFReadCellFormula.png)
+![](../../../resources/activities/basic/excel/wfreadcellformula-fixed.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность его заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).

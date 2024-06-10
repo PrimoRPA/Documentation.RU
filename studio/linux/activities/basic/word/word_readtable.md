@@ -1,8 +1,8 @@
 # Прочитать таблицу
 
-![](../../resources/basic/word/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(200).png)
+![](../../../resources/activities/basic/word/image-100-1-1-1-1-1-1-1-2-200.png)
 
-![](../../resources/basic/word/image-(168).png)
+![](../../../resources/activities/basic/word/image-168.png)
 
 Элемент, читающий таблицу из документа. Элемент работает корректно только внутри контейнера Word
 

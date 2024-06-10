@@ -1,8 +1,8 @@
 # Информация о файле
 
-![](../../resources/basic/files/image-(100)-(1)-(1)-(1)-(1)-(1)-(1)-(1)-(2)-(38).png)
+![](../../../resources/activities/basic/files/image-100-1-1-1-1-1-1-1-2-38.png)
 
-![](../../resources/basic/files/Информация-о-файле.png)
+![](../../../resources/activities/basic/files/информация-о-файле-fixed.png)
 
 Компонент, получающий информацию о файле или папке.
 
