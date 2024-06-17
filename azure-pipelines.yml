@@ -1,21 +1,20 @@
 trigger:
-- master
+- master  # Ветка, которую вы отслеживаете в Azure
 
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- checkout: self
+variables:
+- group: sync-variables
 
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: |
-      git clone https://Gvardas:${{ secrets.GITHUB_TOKEN }}@github.com/Gvardas/azure_test.git
-      cd azure_test
-      git config user.email "toxacomp@yandex.ru"
-      git config user.name "Gvardas"
-      cp -R $(Build.SourcesDirectory)/* .
-      git add . 
-      git commit -m "Sync from Azure DevOps"
-      git push origin main
+steps:
+- script: |
+    git config --global user.email "toxacomp@yandex.ru"
+    git config --global user.name "Gvardas"
+    git clone https://Gvardas:${GITHUB_TOKEN}@github.com/Gvardas/azure_test.git
+    cd azure_test
+    git remote add azure https://${AZURE_TOKEN}@azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU
+    git fetch azure
+    git checkout azure/master  # Ветка в Azure, которую вы хотите копировать
+    git push origin master  # Пушим изменения в GitHub в ветку master
+  displayName: 'Sync Azure Repo to GitHub'
