@@ -1,0 +1,21 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- checkout: self
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      git clone https://<GITHUB_USERNAME>:${{ secrets.GITHUB_TOKEN }}@github.com/<GITHUB_USERNAME>/<GITHUB_REPOSITORY>.git
+      cd <GITHUB_REPOSITORY>
+      git config user.email "you@example.com"
+      git config user.name "Your Name"
+      cp -R $(Build.SourcesDirectory)/* .
+      git add .
+      git commit -m "Sync from Azure DevOps"
+      git push origin main
