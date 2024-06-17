@@ -11,10 +11,10 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      git clone https://<GITHUB_USERNAME>:${{ secrets.GITHUB_TOKEN }}@github.com/<GITHUB_USERNAME>/<GITHUB_REPOSITORY>.git
-      cd <GITHUB_REPOSITORY>
-      git config user.email "you@example.com"
-      git config user.name "Your Name"
+      git clone https://Gvardas:${{ secrets.GITHUB_TOKEN }}@github.com/Gvardas/azure_test.git
+      cd azure_test
+      git config user.email "toxacomp@yandex.ru"
+      git config user.name "Gvardas"
       cp -R $(Build.SourcesDirectory)/* .
       git add .
       git commit -m "Sync from Azure DevOps"
