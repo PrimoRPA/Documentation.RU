@@ -16,6 +16,6 @@ steps:
       git config user.email "toxacomp@yandex.ru"
       git config user.name "Gvardas"
       cp -R $(Build.SourcesDirectory)/* .
-      git add .
+      git add . 
       git commit -m "Sync from Azure DevOps"
       git push origin main
