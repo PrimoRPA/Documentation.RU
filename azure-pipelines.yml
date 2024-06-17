@@ -2,7 +2,9 @@ trigger:
 - master  # Ветка, которую вы отслеживаете в Azure
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: default
+  demands: 
+    - Agent.Name -equals azure-agent-deb
 
 variables:
 - group: sync-variables
