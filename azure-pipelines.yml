@@ -22,4 +22,5 @@ steps:
     git add -A
     git commit -m "Automated sync from Azure DevOps"
     git push github master --force
+    sudo rm -r /home/ubuntu/azure_repo_master/Documentation.RU/
   displayName: 'Sync Azure Repo to GitHub1'
