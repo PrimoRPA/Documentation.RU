@@ -17,9 +17,6 @@ steps:
     git checkout master
     git pull
     git remote add github git@github.com:Gvardas/azure_test.git
-    git fetch github master
-    git merge github/master
-    git add -A
     git commit -m "Automated sync from Azure DevOps"
     git push github master --force
   displayName: 'Sync Azure Repo to GitHub-test'
