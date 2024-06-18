@@ -1,5 +1,5 @@
 trigger:
-- master  # Ветка, которую вы отслеживаете в Azure
+- master  
 
 pool:
   name: default
@@ -11,12 +11,9 @@ variables:
 
 steps:
 - script: |
-    git config --global user.name "Gvardas"
-    git config --global user.email "toxacomp@yandex.ru"
-    git remote set-url origin https://${GITHUB_TOKEN}@github.com/Gvardas/azure_test.git
-    cd azure_test
-    git remote add azure https://${AZURE_TOKEN}@azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU
-    git fetch azure
-    git checkout azure/master  # Ветка в Azure, которую вы хотите копировать
-    git push origin master  # Пушим изменения в GitHub в ветку master
+    cd ~/azure_repo_master/
+    git clone --branch master git@azure-dos.s1.primo1.orch:PrimoCollection/Documentation/_git/Documentation.RU
+    cd ~/azure_repo_master/Documentation.RU/
+    git remote add github git@github.com:Gvardas/azure_test.git
+    git push github master --force
   displayName: 'Sync Azure Repo to GitHub'
