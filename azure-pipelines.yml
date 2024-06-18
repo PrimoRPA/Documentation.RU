@@ -22,4 +22,4 @@ steps:
     git add -A
     git commit -m "Automated sync from Azure DevOps"
     git push github master --force
-  displayName: 'Sync Azure Repo to GitHub'
+  displayName: 'Sync Azure Repo to GitHub1'
