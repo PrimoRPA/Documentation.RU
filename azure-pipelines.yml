@@ -15,7 +15,7 @@ steps:
     git clone ssh://azure-dos.s1.primo1.orch:22/PrimoCollection/Documentation/_git/Documentation.RU  
     cd ~/azure_repo_master/Documentation.RU/
     git checkout master
-    git pull github master
+    git pull
     git remote add github git@github.com:Gvardas/azure_test.git
     git fetch github master
     git merge github/master
