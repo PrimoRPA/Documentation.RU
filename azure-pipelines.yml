@@ -15,6 +15,8 @@ steps:
     git clone --branch master git@azure-dos.s1.primo1.orch:PrimoCollection/Documentation/_git/Documentation.RU
     cd ~/azure_repo_master/Documentation.RU/
     git remote add github git@github.com:Gvardas/azure_test.git
+    git fetch github master
+    git merge github/master
     git add -A
     git commit -m "Automated sync from Azure DevOps"
     git push github master --force
