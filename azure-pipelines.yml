@@ -16,7 +16,7 @@ steps:
     cd ~/azure_repo_master/Documentation.RU/
     git checkout master
     git pull github master
-    git remote add github git@github.com:Gvardas/azure_test.git
+    git remote add github git@github.com:PrimoRPA/Documentation.RU.git
     git fetch github master
     git merge github/master
     git add -A
