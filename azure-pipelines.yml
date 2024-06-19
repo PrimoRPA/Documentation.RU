@@ -19,4 +19,4 @@ steps:
     git remote add github git@github.com:timur-primorpa/PrimoRPA/Documentation.RU.git
     git commit -m "Automated sync from Azure DevOps"
     git push github master --force
-  displayName: 'Sync Azure Repo to GitHub-test'
+  displayName: 'Sync Azure Repo to GitHub-test1'
