@@ -14,6 +14,9 @@
 | Позиция           | LTools.Common.Model.ClickPositions    | Позиция курсора при клике                          |
 | Таймаут\*         | Int32                                 | Предельное время ожидания завершения процесса (мс) |
 
+## Только код  
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+> Для работы с примером необходимо установить приложение **mate-calc**.
 
 {% tabs %}
 {% tab title="C#" %}
@@ -21,10 +24,10 @@
 //Функционал пока не реализован!!!
 LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 //Шаблон поиска + Кнопка мыши + Клавиатура
-app.Click("{\"Name\":\"Hide\",\"AutomationID\":\"btnVanish\",\"ClassName\":\"Button\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}",
+app.Click("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":\"mate-calc\",\"TextSearchMode\":0,\"Items\":[{\"Name\":\"5\",\"Role\":\"push button\",\"Items\":[]}]}",
 		LTools.Desktop.Model.MouseButtons.BUTTON_LEFT, LTools.Desktop.Model.KeyboardKeys.CTRL, 20000);
 //Элемент
-LTools.Desktop.Model.DUIControl el = app.FindElement("{\"Name\":\"Hide\",\"AutomationID\":\"btnVanish\",\"ClassName\":\"Button\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
+LTools.Desktop.Model.DUIControl el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":\"mate-calc\",\"TextSearchMode\":0,\"Items\":[{\"Name\":\"5\",\"Role\":\"push button\",\"Items\":[]}]}");
 app.Click(el);
 //Координаты
 app.Click(new System.Drawing.Rectangle(100, 150, 0, 0));
@@ -36,10 +39,10 @@ app.Click(new System.Drawing.Rectangle(100, 150, 0, 0));
 #Функционал пока не реализован!!!
 app = LTools.Desktop.DesktopApp.Init(wf, None, "Test_*", 20000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
 #Шаблон поиска + Кнопка мыши + Клавиатура
-app.Click("{\"Name\":\"Hide\",\"AutomationID\":\"btnVanish\",\"ClassName\":\"Button\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}",
+app.Click("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":\"mate-calc\",\"TextSearchMode\":0,\"Items\":[{\"Name\":\"5\",\"Role\":\"push button\",\"Items\":[]}]}",
 		LTools.Desktop.Model.MouseButtons.BUTTON_LEFT, LTools.Desktop.Model.KeyboardKeys.CTRL, 20000)
 #Элемент
-el = app.FindElement("{\"Name\":\"Hide\",\"AutomationID\":\"btnVanish\",\"ClassName\":\"Button\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}")
+el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":\"mate-calc\",\"TextSearchMode\":0,\"Items\":[{\"Name\":\"5\",\"Role\":\"push button\",\"Items\":[]}]}")
 app.Click(el)
 #Координаты
 app.Click(System.Drawing.Rectangle(100, 150, 0, 0))
@@ -51,10 +54,10 @@ app.Click(System.Drawing.Rectangle(100, 150, 0, 0))
 //Функционал пока не реализован!!!
 var app = _lib.LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, true, _lib.LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 //Шаблон поиска + Кнопка мыши + Клавиатура
-app.Click("{\"Name\":\"Hide\",\"AutomationID\":\"btnVanish\",\"ClassName\":\"Button\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}",
+app.Click("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":\"mate-calc\",\"TextSearchMode\":0,\"Items\":[{\"Name\":\"5\",\"Role\":\"push button\",\"Items\":[]}]}",
 	_lib.LTools.Desktop.Model.MouseButtons.BUTTON_LEFT, _lib.LTools.Desktop.Model.KeyboardKeys.CTRL, 20000);
 //Элемент
-var el = app.FindElement("{\"Name\":\"Hide\",\"AutomationID\":\"btnVanish\",\"ClassName\":\"Button\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
+var el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":\"mate-calc\",\"TextSearchMode\":0,\"Items\":[{\"Name\":\"5\",\"Role\":\"push button\",\"Items\":[]}]}");
 app.Click(el);
 //Координаты
 app.Click(new _lib.System.Drawing.Rectangle(100, 150, 0, 0));
