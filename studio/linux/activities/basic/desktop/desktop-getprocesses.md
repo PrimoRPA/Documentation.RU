@@ -1,6 +1,6 @@
 # Список процессов
 
-![](../../../resources/activities/basic/desktop/image-125.png)
+![](../../../resources/activities/basic/desktop/get-processes-activity.png)
 
 Компонент, получающий список запущенных процессов, всех или текущего пользователя.
 
@@ -10,10 +10,13 @@
 | Имя процесса         | String                            | Шаблон поиска имени процесса (calc\*)                    |
 | Переменная\*         | List\<System.Diagnostics.Process> | Переменная для хранения полученного списка               |
 
+## Только код  
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-List<System.Diagnostics.Process> proc = LTools.Desktop.DesktopApp.GetProcesses(wf, true);
+List<System.Diagnostics.Process> proc = LTools.Desktop.DesktopApp.GetProcesses(wf, "*", true);
 foreach (var p in proc)
 	LTools.Workflow.PrimoApp.AddToLog(wf, p.ProcessName);
 ```
@@ -21,7 +24,7 @@ foreach (var p in proc)
 
 {% tab title="Python" %}
 ```python
-proc = LTools.Desktop.DesktopApp.GetProcesses(wf, True)
+proc = LTools.Desktop.DesktopApp.GetProcesses(wf, "*", True)
 for p in proc:
 	LTools.Workflow.PrimoApp.AddToLog(wf, p.ProcessName)
 ```
@@ -29,7 +32,7 @@ for p in proc:
 
 {% tab title="JavaScript" %}
 ```javascript
-var proc = _lib.LTools.Desktop.DesktopApp.GetProcesses(wf, true);
+var proc = _lib.LTools.Desktop.DesktopApp.GetProcesses(wf, "*", true);
 for (var i = 0; i < proc.Count; i++)
 	_lib.LTools.Workflow.PrimoApp.AddToLog(wf, proc[i].ProcessName);
 ```
