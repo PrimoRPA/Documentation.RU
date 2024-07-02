@@ -33,7 +33,7 @@ app.SetChecked(el, true);
 
 {% tab title="Python" %}
 ```python
-app = LTools.Desktop.DesktopApp.Init(wf, null, "Калькулятор", 10000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
+app = LTools.Desktop.DesktopApp.Init(wf, None, "Калькулятор", 10000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
 #Шаблон поиска
 app.SetChecked("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Name\":\"subscript\",\"Role\":\"toggle button\",\"Items\":[]}]}", True)
 #Ссылка на элемент

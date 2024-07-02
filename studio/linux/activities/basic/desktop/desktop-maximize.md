@@ -26,7 +26,7 @@ app.MaximizeWindow("Информация о системе");
 {% tab title="Python" %}
 ```python
 LTools.Desktop.DesktopApp.Start(wf, "kinfocenter");
-app = LTools.Desktop.DesktopApp.Init(wf, null , "Информация о системе");
+app = LTools.Desktop.DesktopApp.Init(wf, None , "Информация о системе");
 app.MaximizeWindow("Информация о системе");
 ```
 {% endtab %}

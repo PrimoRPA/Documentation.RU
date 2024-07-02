@@ -27,7 +27,7 @@ LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Кал
 
 {% tab title="Python" %}
 ```python
-app = LTools.Desktop.DesktopApp.Init(wf, null, "Калькулятор", 10000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
+app = LTools.Desktop.DesktopApp.Init(wf, None, "Калькулятор", 10000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
 ```
 {% endtab %}
 
