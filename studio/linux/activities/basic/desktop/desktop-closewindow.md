@@ -17,21 +17,21 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, "Калькулятор", null, 10000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
+LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Калькулятор", 10000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 app.CloseWindow("Калькулятор");
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Desktop.DesktopApp.Init(wf, "Калькулятор*", None, 10000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
+app = LTools.Desktop.DesktopApp.Init(wf, None, "Калькулятор", None, 10000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
 app.CloseWindow("Калькулятор")
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-let app = _lib.LTools.Desktop.DesktopApp.Init(wf, "Калькулятор", null, 10000, true, _lib.LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
+let app = _lib.LTools.Desktop.DesktopApp.Init(wf, null, "Калькулятор", 10000, true, _lib.LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 app.CloseWindow("Калькулятор");
 ```
 {% endtab %}
