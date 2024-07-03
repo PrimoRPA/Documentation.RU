@@ -15,17 +15,42 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-//Весь рабочий стол
-SixLabors.ImageSharp.Image bmp = LTools.Desktop.DesktopApp.CreateScreenshot(wf);
-bmp.SaveAsPng("screen.png");
+using System;
+using System.Collections.Generic;
+using System.Text;
+using LTools.Scripting.Model;
+using LTools.Network.Model;
+using SixLabors.ImageSharp;
+
+public class PrimoScript
+{
+    public static LTools.Scripting.CSharp.ScriptDebugger __debug;
+
+    public void main(LTools.Common.Model.WorkflowData wf)
+    {
+        SixLabors.ImageSharp.Image bmp = LTools.Desktop.DesktopApp.CreateScreenshot(wf);
+        //Весь рабочий стол
+        bmp.SaveAsPng("screen.png");
+    }
+}
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-#Весь рабочий стол
-bmp = LTools.Desktop.DesktopApp.CreateScreenshot(wf);
-bmp.SaveAsPng("screen.png");
+from System import *
+from System.Collections.Generic import *
+from System.Text import *
+from LTools.Scripting.Model import *
+from LTools.Network.Model import *
+from SixLabors.ImageSharp import *
+
+class PrimoScript(object):
+    @classmethod
+    def main(self, wf):
+        bmp = LTools.Desktop.DesktopApp.CreateScreenshot(wf);
+        #Весь рабочий стол        
+        ImageExtensions.SaveAsPng(bmp, "screen.png")
 ```
 {% endtab %}
 
