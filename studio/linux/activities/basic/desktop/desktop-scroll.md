@@ -30,7 +30,7 @@ System.Windows.Point pt = app.Scroll(el, null, null, 10000);
 
 {% tab title="Python" %}
 ```python
-app = LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
+app = LTools.Desktop.DesktopApp.Init(wf, None, "Test_*", 20000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
 #Шаблон поиска
 app.Scroll("{\"Name\":\"\",\"AutomationID\":\"txtbxSample\",\"ClassName\":\"TextBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}", 100, 50, 10000)
 #Элемент
@@ -52,4 +52,3 @@ var pt = app.Scroll(el, null, null, 10000);
 ```
 {% endtab %}
 {% endtabs %}
-

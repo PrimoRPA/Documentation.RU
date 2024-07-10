@@ -1,9 +1,10 @@
 # Получение списка
 
-![](../../../resources/activities/basic/desktop/image-107.png)
+![](../../../resources/activities/basic/desktop/getlist-activity.png)
 
 Компонент, получающий значения из комбо-бокса либо списка.
 
+## Свойства
 | Свойство      | Тип                             | Описание                                           |
 | ------------- | ------------------------------- | -------------------------------------------------- |
 | Шаблон поиска | String                          | Шаблон поиска элемента управления                  |
@@ -12,14 +13,19 @@
 | Выбранные     | List\<String>                   | Выбранные значения списка                          |
 | Таймаут\*     | Int32                           | Предельное время ожидания завершения процесса (мс) |
 
+## Только код  
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+> - Для работы с примером необходимо установить приложение **mate-calc**.
+> - Для демонстрации `Получение списка` необходимо переключиться в режим калькулятора `Финансовый`
+
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
+LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Калькулятор", 20000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 //Шаблон поиска + Весь список
-List<string> lst = app.SelectGetItems("{\"Name\":\"\",\"AutomationID\":\"lstbxListBox\",\"ClassName\":\"ListBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
+List<string> lst = app.SelectGetItems("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}");
 //Элемент + Выбранные записи
-LTools.Desktop.Model.DUIControl el = app.FindElement("{\"Name\":\"\",\"AutomationID\":\"lstbxListBox\",\"ClassName\":\"ListBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
+LTools.Desktop.Model.DUIControl el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}");
 List<string> sel = app.SelectGetSelItems(el);
 ```
 {% endtab %}
@@ -28,9 +34,9 @@ List<string> sel = app.SelectGetSelItems(el);
 ```python
 app = LTools.Desktop.DesktopApp.Init(wf, None, "Test_*", 20000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
 #Шаблон поиска + Весь список
-lst = app.SelectGetItems("{\"Name\":\"\",\"AutomationID\":\"lstbxListBox\",\"ClassName\":\"ListBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}")
+lst = app.SelectGetItems("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}")
 #Элемент + Выбранные записи
-el = app.FindElement("{\"Name\":\"\",\"AutomationID\":\"lstbxListBox\",\"ClassName\":\"ListBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}")
+el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}")
 sel = app.SelectGetSelItems(el)
 ```
 {% endtab %}
@@ -39,9 +45,9 @@ sel = app.SelectGetSelItems(el)
 ```javascript
 var app = _lib.LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, true, _lib.LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 //Шаблон поиска + Весь список
-var lst = app.SelectGetItems("{\"Name\":\"\",\"AutomationID\":\"lstbxListBox\",\"ClassName\":\"ListBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
+var lst = app.SelectGetItems("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}");
 //Элемент + Выбранные записи
-var el = app.FindElement("{\"Name\":\"\",\"AutomationID\":\"lstbxListBox\",\"ClassName\":\"ListBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
+var el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}");
 var sel = app.SelectGetSelItems(el);
 ```
 {% endtab %}

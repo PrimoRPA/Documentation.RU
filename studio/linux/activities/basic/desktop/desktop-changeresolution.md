@@ -4,6 +4,7 @@
 
 Элемент, осуществляющий смену разрешения экрана.
 
+## Свойства
 | Свойство     | Тип            | Описание                                           |
 |--------------|----------------| -------------------------------------------------- |
 | ***Процесс*** |                |                        |
@@ -13,25 +14,23 @@
 | ***Вывод***  |                |                        |
 | Разрешение   | Avalonia.Point | Текущее разрешение экрана|
 
-
-
-
+## Только код
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Desktop.ChangeResolutionApplication(wf, 1920, 1080, 20000);
+LTools.Desktop.DesktopApp.ChangeResolution(wf, 1920, 1080, 20000);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-LTools.Desktop.ChangeResolutionApplication(wf, 1920, 1080, 20000)
+LTools.Desktop.DesktopApp.ChangeResolution(wf, 1920, 1080, 20000)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-_lib.LTools.Desktop.ChangeResolutionApplication(wf, 1920, 1080, 20000);
+_lib.LTools.Desktop.DesktopApp.ChangeResolution(wf, 1920, 1080, 20000);
 ```
 {% endtab %}
 {% endtabs %}
