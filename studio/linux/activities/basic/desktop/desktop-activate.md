@@ -1,3 +1,7 @@
+---
+Description: Activate window
+---
+
 # Активировать окно
 
 ![](../../../resources/activities/basic/desktop/activate-window.png)
