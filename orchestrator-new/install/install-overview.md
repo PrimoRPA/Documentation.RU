@@ -5,7 +5,7 @@ Primo RPA Orchestrator (далее в тексте - Orchestrator, Оркест�
 
 ## Установка на Linux
 
-Процедура установки Оркестратора на операционной системе Linux (на примере Ubuntu Server 22.04) описана в статье [**Руководство по установке Primo RPA Orchestrator на Ubuntu Server 22.04**] (ССЫЫЫЛКА !!!).
+Процедура установки Оркестратора на операционной системе Linux (на примере Ubuntu Server 22.04) описана в статье [**Установка Primo RPA Orchestrator на Ubuntu Server 22.04**](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/install-on-ubuntu.md&version=GBOrchestrator-NewDocumentation-InProgress).
 
 Развертывание Оркестратора предполагает выполнение следующих шагов в указанном порядке:
 
