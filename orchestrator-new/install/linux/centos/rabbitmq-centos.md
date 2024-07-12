@@ -27,5 +27,22 @@
 
 `firewall-cmd --list-all`
 
+![](../../../resources/install/linux/centos/install-linux-centos-rabbit-ports.PNG)
 
+С другой машины в сети откройте веб-интерфейс управления RabbitMQ, убедитесь, что он открывается:
 
+![](../../../resources/install/linux/centos/install-linux-centos-rabbit-ui.PNG)
+
+Создайте пользователя RabbitMQ, назначьте ему права:
+
+```
+sudo rabbitmqctl add_user 'admin' 'Qwe123!@#'
+sudo rabbitmqctl set_user_tags admin administrator
+sudo rabbitmqctl set_permissions -p / admin '.*' '.*' '.*'
+```
+
+Проверьте, что пользователь admin/Qwe123!@# имеет доступ к веб-интерфейсу управления RabbitMQ:
+
+![](../../../resources/install/linux/centos/install-linux-centos-rabbit-ui2.PNG)
+
+Дальнейшее управление RabbitMQ можно осуществлять через этот веб-интерфейс.
