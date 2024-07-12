@@ -82,6 +82,8 @@ systemctl restart rabbitmq-server
 
 `systemctl status rabbitmq-server`
 
+Дополнительную информацию по установке Rabbit MQ можно найти в статье [Установка RabbitMQ на CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/rabbitmq-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview)
+
 - **Шаг 4**
 
 Установите **nginx** из репозиториев
