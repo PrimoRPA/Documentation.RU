@@ -133,7 +133,85 @@ systemctl start Primo.Orchestrator.WebApi
 systemctl status Primo.Orchestrator.WebApi
 ```
 
-Дальнейшие пункты (7-12) могут выполняться в произвольном порядке.
+Дальнейшие пункты (7-11) могут выполняться в произвольном порядке.
 
 - **Шаг 7**
+
+Установите **RDP2**:
+
+```
+mkdir -p /opt/Primo/RDP2
+unzip RDP2-Astra.zip -d /opt/Primo/RDP2/
+cp /opt/Primo/RDP2/Primo.Orchestrator.RDP2.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable /etc/systemd/system/Primo.Orchestrator.RDP2.service
+chmod -R +x /opt/Primo/RDP2/Primo.Orchestrator.RDP2
+vim /opt/Primo/RDP2/appsettings.ProdLinux.json
+systemctl start Primo.Orchestrator.RDP2
+systemctl status Primo.Orchestrator.RDP2
+```
+- **Шаг 8**
+
+Установите **States**:
+
+```
+mkdir -p /opt/Primo/States
+unzip States-linux.zip -d /opt/Primo/States/
+cp /opt/Primo/States/Primo.Orchestrator.States.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable /etc/systemd/system/Primo.Orchestrator.States.service
+chmod -R +x /opt/Primo/States/Primo.Orchestrator.States
+vim /opt/Primo/States/appsettings.ProdLinux.json
+systemctl start Primo.Orchestrator.States
+systemctl status Primo.Orchestrator.States
+```
+
+- **Шаг 9**
+
+Установите **RobotLogs**:
+
+```
+mkdir -p /opt/Primo/RobotLogs
+unzip RobotLogs-linux.zip -d /opt/Primo/RobotLogs/
+cp /opt/Primo/RobotLogs/Primo.Orchestrator.RobotLogs.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable /etc/systemd/system/Primo.Orchestrator.RobotLogs.service
+chmod -R +x /opt/Primo/RobotLogs/Primo.Orchestrator.RobotLogs
+vim /opt/Primo/RobotLogs/appsettings.ProdLinux.json
+systemctl start Primo.Orchestrator.RobotLogs
+systemctl status Primo.Orchestrator.RobotLogs
+```
+
+- **Шаг 10**
+
+Установите **Notifications**:
+
+```
+mkdir -p /opt/Primo/Notifications
+unzip Notifications-linux.zip -d /opt/Primo/Notifications/
+cp /opt/Primo/Notifications/Primo.Orchestrator.Notifications.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable /etc/systemd/system/Primo.Orchestrator.Notifications.service
+chmod -R +x /opt/Primo/Notifications/Primo.Orchestrator.Notifications
+vim /opt/Primo/Notifications/appsettings.ProdLinux.json
+systemctl start Primo.Orchestrator.Notifications
+systemctl status Primo.Orchestrator.Notifications
+```
+
+- **Шаг 11**
+
+Установите **MachineInfo**:
+
+```
+mkdir -p /opt/Primo/MachineInfo
+unzip MachineInfo-linux.zip -d /opt/Primo/MachineInfo/
+cp /opt/Primo/MachineInfo/Primo.Orchestrator.MachineInfo.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable /etc/systemd/system/Primo.Orchestrator.MachineInfo.service
+chmod -R +x /opt/Primo/MachineInfo/Primo.Orchestrator.MachineInfo
+vim /opt/Primo/MachineInfo/appsettings.ProdLinux.json
+systemctl start Primo.Orchestrator.MachineInfo
+systemctl status Primo.Orchestrator.MachineInfo
+```
+
 
