@@ -139,7 +139,9 @@ systemctl start Primo.Orchestrator.WebApi
 systemctl status Primo.Orchestrator.WebApi
 ```
 
-Дальнейшие пункты (7-11) могут выполняться в произвольном порядке.
+Вы также можете ознакомиться с более подробной [инструкцией по установе WebApi](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/webapi-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+
+> **Дальнейшие пункты (7-11) могут выполняться в произвольном порядке.**
 
 - **Шаг 7**
 
