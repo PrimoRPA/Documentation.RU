@@ -158,6 +158,9 @@ vim /opt/Primo/RDP2/appsettings.ProdLinux.json
 systemctl start Primo.Orchestrator.RDP2
 systemctl status Primo.Orchestrator.RDP2
 ```
+
+Дополнительную информацию о процедуре установки RDP2 можно найти в статьях [Установка RDP2 под CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/rdp2-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview) и [Установка RDP2 под Astra Linux 1.7] ().
+
 - **Шаг 8**
 
 Установите **States**:
