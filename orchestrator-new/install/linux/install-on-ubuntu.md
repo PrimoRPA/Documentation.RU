@@ -115,10 +115,10 @@ systemctl restart nginx
 
 `unzip UI.zip -d /opt/Primo/UI`
 
-Информация об установке UI на CentOS 8 содержится в соответствующей [статье](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/ui-centos.md&version=GBOrchestrator-NewDocumentation-InProgress).
-
 Перейдите адресу: 
 [https://ipaddr:44392](https://ipaddr:44392)
+
+Информация об установке UI на CentOS 8 содержится в соответствующей [статье](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/ui-centos.md&version=GBOrchestrator-NewDocumentation-InProgress).
 
 - **Шаг 6**
 
