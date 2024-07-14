@@ -195,6 +195,8 @@ systemctl start Primo.Orchestrator.RobotLogs
 systemctl status Primo.Orchestrator.RobotLogs
 ```
 
+Более подробную информацию об установке RobotLogs можно найте в [статье](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/robotlogs-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+
 - **Шаг 10**
 
 Установите **Notifications**:
