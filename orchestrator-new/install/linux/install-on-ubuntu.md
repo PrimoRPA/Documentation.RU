@@ -107,6 +107,8 @@ systemctl restart nginx
 
 `systemctl status nginx`
 
+С более подробной информацией об установке nginx (на CentOS 8) можно ознакомиться в статье [Установка nginx под CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/nginx-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+
 - **Шаг 5**
 
 Установите **веб-интерфейс**:
