@@ -29,9 +29,9 @@ LTools.Workflow.PrimoApp.AddToLog(wf, els[0].TagName);
 ```python
 app = LTools.WebBrowser.BrowserApp.Open(wf, LTools.WebBrowser.Model.BrowserTypes.Yandex, "https://www.google.com/")
 el = app.FindElement("{\"Tag\":\"TEXTAREA\",\"Text\":\"\",\"CSSSelector\":\"\",\"SearchFrames\":false,\"Attributes\":[{\"Key\":\"CLASS\",\"Value\":\"gLFyf\"}]}")
-LTools.Workflow.PrimoApp.AddToLog(wf, el.TagName);
+LTools.Workflow.PrimoApp.AddToLog(wf, el.TagName)
 els = app.FindElements("{\"Tag\":\"TEXTAREA\",\"Text\":\"\",\"CSSSelector\":\"\",\"SearchFrames\":false,\"Attributes\":[{\"Key\":\"CLASS\",\"Value\":\"gLFyf\"}]}")
-LTools.Workflow.PrimoApp.AddToLog(wf, els[0].TagName);
+LTools.Workflow.PrimoApp.AddToLog(wf, els[0].TagName)
 ```
 {% endtab %}
 
