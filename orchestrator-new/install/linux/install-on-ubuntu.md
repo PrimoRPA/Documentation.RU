@@ -213,6 +213,8 @@ systemctl start Primo.Orchestrator.Notifications
 systemctl status Primo.Orchestrator.Notifications
 ```
 
+Более подробно об установке Notifications можно прочитать в статье [Установка Notifications на CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/notifications-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+
 - **Шаг 11**
 
 Установите **MachineInfo**:
