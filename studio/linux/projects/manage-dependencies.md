@@ -20,11 +20,11 @@
 
 Для запуска Менеджера зависимостей используйте вкладку **Проект -> Управление зависимостями**:
 
-![](<../../resources/projects/Dependencies-ManageDependencies-menuitem.PNG>)
+![](<../resources/projects/Dependencies-ManageDependencies-menuitem.PNG>)
 
 Откроектся окно вида:
 
-![](<../../resources/projects/Dependencies-ManageDependencies-Manager.PNG.PNG>)
+![](<../resources/projects/Dependencies-ManageDependencies-Manager.PNG.PNG>)
 
 Зависимости разбиты на четыре основные группы:
 
@@ -45,7 +45,7 @@
 
 По нажатию кнопки **Сохранить** выводится окно со списком предполагаемых изменений:
 
-![](<../../resources/projects/Dependencies-Install.png>)
+![](<../resources/projects/Dependencies-Install.png>)
 
 После нажатия кнопки **Установить** будут произведены все описанные изменения, а в нижней части окна отобразится журнал работы установщика зависимостей.
 
@@ -59,6 +59,6 @@
 
 Восстановить зависимости можно как вручую путем копирования, так и автоматически: для этого нужно нажать на любую зависимость левой кнопкой мыши и выбрать пункт меню **Восстановить зависимости**:
 
-![](<../../resources/projects/Dependencies-Restore.png>)
+![](<../resources/projects/Dependencies-Restore.png>)
 
 ***
