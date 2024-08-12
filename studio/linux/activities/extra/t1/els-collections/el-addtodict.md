@@ -1,6 +1,6 @@
 # Добавить в справочник
 
-![](<../../../../../resources/activities/extra/t1/T1-AddToDict.PNG>)
+![](<../../../../resources/activities/extra/t1/T1-AddToDict.PNG>)
 
 Элемент, добавляющий новое значение в справочник.
 
