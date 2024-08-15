@@ -2,7 +2,7 @@
 
 Разрешите localhost в файле `C:\Windows\System32\drivers\etc\hosts`:
 
-![](../../../resources/install/windows/rabbitmq-hosts.PNG)
+![](../../resources/install/windows/rabbitmq-hosts.PNG)
 
 Скачайте и установите нужную версию, используя инструкции для [установки под Windows](https://www.rabbitmq.com/docs/install-windows).
 
@@ -20,10 +20,10 @@ rabbitmqctl.bat start_app
 
 :small_orange_diamond: Авторизоваться со встроенной учетной записью guest можно только если административная панель работает на localhost.
 
-![](../../../resources/install/windows/rabbitmq-webinterface.PNG)
+![](../../resources/install/windows/rabbitmq-webinterface.PNG)
 
 Зайдите под пользователем admin/Qwe123!@#
 
-![](../../../resources/install/windows/rabbitmq-webinterface-controls.PNG)
+![](../../resources/install/windows/rabbitmq-webinterface-controls.PNG)
 
 Дальнейшее управление RabbitMQ можно осуществлять через этот веб-интерфейс.
