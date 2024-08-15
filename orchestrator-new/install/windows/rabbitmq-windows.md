@@ -4,7 +4,7 @@
 
 ![](../../resources/install/windows/rabbitmq-hosts.PNG)
 
-Скачайте и установите нужную версию, используя инструкции для [установки под Windows](https://www.rabbitmq.com/docs/install-windows).
+Скачайте и установите нужную версию RabbitMQ, используя инструкции для [установки под Windows](https://www.rabbitmq.com/docs/install-windows).
 
 Произведите первоначальное конфигурирование RabbitMQ:
 ```
