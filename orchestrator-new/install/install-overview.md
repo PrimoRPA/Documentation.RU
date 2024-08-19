@@ -50,18 +50,17 @@ Primo RPA Orchestrator (далее в тексте - Orchestrator, Оркест�
 2. Установка **RabbitMQ** - Скачайте и установите нужную версию, используя инструкции для [установки под Windows](https://www.rabbitmq.com/docs/install-windows).  
 Далее следуйте инструкции, описанной в статье [Установка RabbitMQ под Windows 2016 Server](../../orchestrator-new/install/windows/rabbitmq-windows.md).
 
-3. Установка **nginx** либо **IIS** и соответствующего **UI**.
+3. Установка **nginx** либо **IIS** и соответствующего **UI** и **WebApi**.
     * Для nginx: [Скачайте](https://nginx.org/ru/download.html) и установите nginx. Также ознакомьтесь с информацией на [сайте продукта](https://nginx.org/ru/docs/windows.html).
-    После установки выполните действия, [описанные в инструкции](../../orchestrator-new/install/windows/nginx-windows.md). 
-    Для установки UI используйте статью [Установка UI на nginx](../../orchestrator-new/install/windows/ui-nginx-windows.md)
+    После установки выполните действия, [описанные в инструкции](../../orchestrator-new/install/windows/nginx-windows.md).   
+    Для установки UI используйте статью [Установка UI на nginx](../../orchestrator-new/install/windows/ui-nginx-windows.md).  
+    Порядок установки WebApi описан в статье [Установка WebApi](../../orchestrator-new/install/windows/webapi-windows.md).  
 
 
 НАХОДИТСЯ В РАБОТЕ
 
 ### Пошаговая установка Оркестратора
-Видео по установке Оркестратора на Windows Server 2019 с WebApi (IIS) можно просмотреть [здесь](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA).
-
-<a href="https://www.youtube.com/watch?v=IAIRmChw65k"><img src="https://raw.githubusercontent.com/PrimoRPA/Docs.Rus/main/.gitbook/assets/video_preview/test_gif.gif" width="850" title="hover text"></a>
+Видео по установке Оркестратора на Windows Server 2019 с WebApi (IIS) можно просмотреть [здесь](https://rutube.ru/video/9bb248ccced157536cbf8af50b038012/).
 
 
-Nginx: [Установка Оркестратора на веб-сервер Nginx](https://www.youtube.com/watch?v=mOTH1PWxSCs&ab_channel=PrimoRPA)
+Nginx: [Установка Оркестратора на веб-сервер Nginx](https://rutube.ru/video/53ac25d2c3128bdd6cea7d055e88255b/)
