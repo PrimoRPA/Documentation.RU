@@ -149,6 +149,146 @@
 
 ![](../../../orchestrator-new/resources/install/windows/iis-30-apppool-primo.PNG)
 
+Создайте папки `C:\Primo\UI` и `C:\Primo\WebApi`, в которые разархивируйте UI.zip и 
+WebApi-IIS.zip из комплекта поставки.
 
+Рабочий каталог узла UI:
 
+![](../../../orchestrator-new/resources/install/windows/iis-31-node-ui.PNG)
+
+Рабочий каталог узла WebApi:
+
+![](../../../orchestrator-new/resources/install/windows/iis-32-node-webapi.PNG)
+
+Добавьте веб-узел Primo.WebApi, установите для него ранее созданный Application Pool с наименованием Primo.WebApi.
+
+Добавление веб-узла Primo.WebApi:
+
+![](../../../orchestrator-new/resources/install/windows/iis-33-addwebsite-primo.PNG)
+
+Параметры веб-узла Primo.WebApi:
+
+![](../../../orchestrator-new/resources/install/windows/iis-34-primowebsite-param.PNG)
+
+Добавлен веб-узел Primo.WebApi:
+
+![](../../../orchestrator-new/resources/install/windows/iis-35-websiteadded.PNG)
+
+Чтобы Primo.WebApi заработал под IIS, установите `dotnet-hosting-7.0.11-win.exe` 
+(https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-7.0.11-windows-hosting-bundle-installer)
+из комплекта поставки и перезагрузите компьютер.
+
+Для создания узла UI сначала создайте для веб-сервера SSL-сертификат , так как этот узел будет работать по https.
+
+> Для промышленного узла необходимо использовать SSL-сертификат, выданный доверенным удостоверяющим центром.
+
+Открытие оснастки управления сертификатами:
+
+![](../../../orchestrator-new/resources/install/windows/iis-36-certmngmnt.PNG)
+
+Добавление самоподписанного SSL-сертификата:
+
+![](../../../orchestrator-new/resources/install/windows/iis-37-add-sslcert.PNG)
+
+Параметры SSL-сертификата:
+
+![](../../../orchestrator-new/resources/install/windows/iis-38-sslcert-params.PNG)
+
+SSL-сертификат с наименованием Primo установлен:
+
+![](../../../orchestrator-new/resources/install/windows/iis-39-sslcert-added.PNG)
+
+Добавьте веб-узел Primo.UI, установите для него Application Pool с наименованием DefaultAppPool и выберите ранее созданный SSL-сертификат с наименованием Primo: 
+
+![](../../../orchestrator-new/resources/install/windows/iis-40-primosite-params.PNG)
+
+На этом шаге узлы Primo.WebApi и Primo.UI по отдельности рабочие. Далее надо связать Primo.UI и Primo.WebApi, настроив реверс-прокси для API. 
+Предварительно надо установить модули IIS из комплекта поставки (обязательно в приведенной ниже последовательности), обеспечивающие 
+функциональность реверс-прокси:  
+`rewrite_amd64_en-US.msi`  
+`requestRouter_amd64.msi`  
+
+На узле Primo.UI настраиваем реверс-прокси для API.
+
+Иконка оснастки управления правилами URL Rewrite:
+
+![](../../../orchestrator-new/resources/install/windows/iis-41-urlrewrite.PNG)
+
+Добавление правила URL Rewrite:
+
+![](../../../orchestrator-new/resources/install/windows/iis-42-urlrewrite-rules.PNG)
+
+Выбор шаблона правила URL Rewrite:
+
+![](../../../orchestrator-new/resources/install/windows/iis-43-urlrewrite-template.PNG)
+
+Параметры правила URL Rewrite:
+
+![](../../../orchestrator-new/resources/install/windows/iis-44-urlrewrite-params.PNG)
+
+Параметры правила URL Rewrite:
+* Name: Reverse Proxy to API
+* Pattern: ^api/(.*)
+* Rewrite URL: http://localhost:5001/api/{R:1} 
+
+Правило URL Rewrite добавлено:
+
+![](../../../orchestrator-new/resources/install/windows/iis-45-urlrewrite-added.PNG)
+
+Чтобы ARR заработал, надо его активировать. Для этого попробуйте добавить «Reverse Proxy» правило:
+
+![](../../../orchestrator-new/resources/install/windows/iis-46-reverseproxy.PNG)
+
+IIS выдаст предупреждение об активации ARR, на которое надо согласиться и нажать «ОК»:
+
+![](../../../orchestrator-new/resources/install/windows/iis-47-warning.PNG)
+
+Добавлять «Reverse Proxy» правило не надо, это все нужно было только для активации ARR. Поэтому нажмите «Cancel»:
+
+![](../../../orchestrator-new/resources/install/windows/iis-48-cancel.PNG)
+
+Теперь ARR активировано, и узел Primo.UI может работать как реверс-прокси.
+
+Управлять правилами также можно из Web.config (секция <rewrite/>) узла.
+
+Расположение Web.config узла Primo.UI:
+
+![](../../../orchestrator-new/resources/install/windows/iis-49-webconfig.PNG)
+
+Секция <rewrite/> Web.config:
+
+![](../../../orchestrator-new/resources/install/windows/iis-50-rewrite.PNG)
+
+Для каждого узла – Primo.UI и Primo.WebApi настройте максимальный размер загружаемых файлов.
+
+Размер файлов для узла Primo.UI:
+
+![](../../../orchestrator-new/resources/install/windows/iis-51-filesize.PNG)
+
+Размер файлов для узла Primo.WebApi:
+
+![](../../../orchestrator-new/resources/install/windows/iis-52-filesize-webapi.PNG)
+
+Проверяем, что в appsettings.ProdWin.json для UseIISIntegration = true. 
+Остальные настройки appsettings.ProdWin.json выставляем аналогично описанному в статье [Установка WebApi как службы под Windows 2016 Server](../../orchestrator-new/install/windows/webapi-windows.md). 
+
+:small_orane_diamond: **ВНИМАНИЕ!!! Файлы web.config для каждого узла идут в комплекте поставки: для Primo.WebApi в архиве WebApi-IIS.zip, для Primo.UI в папке Distr\Windows. 
+Их содержимое может отличаться от приведенных в руководстве скриншотов. Дополнительную информацию можно найти на официальном сайте Microsoft: [URL Rewrite Module Configuration Reference](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/url-rewrite-module-configuration-reference) и
+[Using Failed Request Tracing to Trace Rewrite Rules](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules).**
+
+Проверьте работоспособность, запуская приложение в браузере по адресу:
+
+`https://[адрес]:44392`
+
+Если WebApi работает с MS SQL SERVER, используя Windows-аутентификацию (Trusted_Connection=True), то для Application Pool с наименованием Primo.WebApi необходимо задать этого (доменного) Windows-пользователя. 
+
+Правой кнопкой мыши откройте окно Advanced Settings и найдите свойство Identity:
+
+![](../../../orchestrator-new/resources/install/windows/iis-53-advancedsettings.PNG)
+
+Поменяйте значение свойства Identity – выберите Custom account и нажмите кнопку «Set…»:
+
+![](../../../orchestrator-new/resources/install/windows/iis-54-customacc.PNG)
+
+![](../../../orchestrator-new/resources/install/windows/iis-55-setcreds.PNG)
 
