@@ -2,9 +2,9 @@
 
 *Eng: SecureStringToString*
 
-![](../../../resources/activities/basic/crypto/securestring-к-строке-fixed.png)
+![](../../../resources/activities/basic/crypto/SecureString-to-string-activity.png)
 
-Компонент, который преобразует SecureString в строку. Элемент **SecureString к строке** может быть полезен при автоматизации задач, которые требуют обработки конфиденциальных данных. 
+Компонент, который преобразует SecureString в строку. Элемент **SecureString к строке** может быть полезен при автоматизации задач, которые требуют обработки конфиденциальных данных.
 
 ## Свойства
 
@@ -15,7 +15,7 @@
 | **Процесс:**         |           |           |
 | Строка\*             | String                | Название строковой переменной                 |
 | **Вывод:**           |           |           |
-| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Название переменной вывода, в которую будут сохранены данные в формате SecureString           |
+| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Название переменной вывода, в которую сохранены данные в формате SecureString           |
 
 ## Learning
 
@@ -25,8 +25,6 @@
 2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
 3. Выберите процесс `StudioActivities/Ru/Криптография/Secure_string.ltw` для просмотра.
 
-
-
 ## Только код
 
 Пример использования элемента в процессе с типом **Только код** (Pure code)
@@ -34,19 +32,22 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-string ret = Common.Helpers.CryptographyHelper.SecureStringToString("txt");
+System.Security.SecureString secureString = LTools.Common.Helpers.CryptographyHelper.StringToSecureString("Защищенная строка");
+string ret = LTools.Common.Helpers.CryptographyHelper.SecureStringToString(secureString);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-ret = Common.Helpers.CryptographyHelper.SecureStringToString("txt")
+secureString = LTools.Common.Helpers.CryptographyHelper.StringToSecureString("Защищенная строка");
+ret = LTools.Common.Helpers.CryptographyHelper.SecureStringToString(secureString);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var ret = _lib.Common.Helpers.CryptographyHelper.SecureStringToString("txt");
+var secureString = _lib.LTools.Common.Helpers.CryptographyHelper.StringToSecureString("Защищенная строка");
+var ret = _lib.LTools.Common.Helpers.CryptographyHelper.SecureStringToString(secureString);
 ```
 {% endtab %}
 {% endtabs %}
