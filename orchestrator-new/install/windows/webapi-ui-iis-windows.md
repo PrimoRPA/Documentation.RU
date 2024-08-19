@@ -272,9 +272,11 @@ IIS выдаст предупреждение об активации ARR, на 
 Проверяем, что в appsettings.ProdWin.json для UseIISIntegration = true. 
 Остальные настройки appsettings.ProdWin.json выставляем аналогично описанному в статье [Установка WebApi как службы под Windows 2016 Server](../../orchestrator-new/install/windows/webapi-windows.md). 
 
-:small_orane_diamond: **ВНИМАНИЕ!!! Файлы web.config для каждого узла идут в комплекте поставки: для Primo.WebApi в архиве WebApi-IIS.zip, для Primo.UI в папке Distr\Windows. 
-Их содержимое может отличаться от приведенных в руководстве скриншотов. Дополнительную информацию можно найти на официальном сайте Microsoft: [URL Rewrite Module Configuration Reference](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/url-rewrite-module-configuration-reference) и
-[Using Failed Request Tracing to Trace Rewrite Rules](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules).**
+:small_orange_diamond: **ВНИМАНИЕ!!! Файлы web.config для каждого узла идут в комплекте поставки: для Primo.WebApi в архиве WebApi-IIS.zip, для Primo.UI в папке Distr\Windows. 
+Их содержимое может отличаться от приведенных в руководстве скриншотов.**
+
+> Дополнительную информацию можно найти на официальном сайте Microsoft: [URL Rewrite Module Configuration Reference](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/url-rewrite-module-configuration-reference) и
+[Using Failed Request Tracing to Trace Rewrite Rules](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules).
 
 Проверьте работоспособность, запуская приложение в браузере по адресу:
 
