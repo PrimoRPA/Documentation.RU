@@ -1,6 +1,8 @@
-# SecureString к строке
+---
+Description: SecureStringToString
+---
 
-*Eng: SecureStringToString*
+# SecureString к строке
 
 ![](../../../resources/activities/basic/crypto/SecureString-to-string-activity.png)
 
@@ -10,20 +12,11 @@
 
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-| Свойство             | Тип                   | Описание                                      |
-| -------------------- | --------------------- | --------------------------------------------- |
-| **Процесс:**         |           |           |
-| Строка\*             | String                | Название строковой переменной                 |
-| **Вывод:**           |           |           |
-| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Название переменной вывода, в которую сохранены данные в формате SecureString           |
+**Процесс:**
+1. **Строка\*** *[String]* - Название строковой переменной.
 
-## Learning
-
-На странице [Learning](https://github.com/PrimoRPA/Learning) доступен RPA-проект, демонстрирующий работу элемента.
-
-1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
-2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
-3. Выберите процесс `StudioActivities/Ru/Криптография/Secure_string.ltw` для просмотра.
+**Вывод:** 
+1. **SecureString\*** *[[System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0)] - Название переменной вывода, в которую сохранены данные в формате SecureString.
 
 ## Только код
 
