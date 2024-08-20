@@ -1,6 +1,6 @@
 # Окно сообщения
 
-![](../../../resources/activities/basic/dialogs/image-387.png)
+![](../../../resources/activities/basic/dialogs/Activity-message.png)
 
 Компонент, производящий отображение окна с заданным сообщением.
 
