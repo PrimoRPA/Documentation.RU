@@ -39,6 +39,8 @@ New-Service -Name Primo.Orchestrator.RDP2 -BinaryPathName
 
 ![](../../../orchestrator-new/resources/install/windows/rdp2-recovery.PNG)
 
+После установки Агента выполните следующие действия:
+
 Проверьте, что RDP-сессия устанавливается корректно:
 
 ![](../../../orchestrator-new/resources/install/windows/rdp2-session.PNG)
