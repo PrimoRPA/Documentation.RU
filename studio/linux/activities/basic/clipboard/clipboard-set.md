@@ -3,7 +3,7 @@
 
 Элемент предназначен для отправки текста в буфер обмена.
 
-![](../../../resources/activities/basic/clipboard/image-376.png)
+![](../../../resources/activities/basic/clipboard/activity-clipboard-set.png)
 
 ## Свойства
 Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
@@ -15,7 +15,7 @@
 
 ## Пример на Learning
 
-RPA-сценарий, демонстрирующий работу элемента, доступен на [Learning](https://github.com/PrimoRPA/Learning). Скачайте проект StudioActivities, откройте его в Студии и выберите процесс `StudioActivities/Ru/Буфер обмена/Копировать-Вставить.ltw` для просмотра. 
+RPA-сценарий, демонстрирующий работу элемента, доступен на [Learning](https://github.com/PrimoRPA/Learning). Скачайте проект StudioActivities, откройте его в Студии и выберите процесс `StudioActivities/Ru/Буфер обмена/Копировать-Вставить.ltw` для просмотра.
 
 ## Только код
 
@@ -40,4 +40,3 @@ _lib.LTools.Desktop.DesktopApp.SendToClipboard(wf, "text");
 ```
 {% endtab %}
 {% endtabs %}
-
