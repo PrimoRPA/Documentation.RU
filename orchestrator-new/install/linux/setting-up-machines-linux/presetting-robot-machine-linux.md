@@ -58,4 +58,4 @@
 
 ## Установка Агента
 
-Установка Агента и настройка машины для робота пошагово описана в разделе [**Установка Агента Оркестратора**](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/robotmachine/agentinstall).
+Установка Агента и настройка машины для робота пошагово описана в разделе [**Установка Агента Оркестратора**](../../../orchestrator-new/install/linux/setting-up-machines-linux/agentinstall.md).
