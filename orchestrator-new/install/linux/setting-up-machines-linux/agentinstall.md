@@ -10,7 +10,7 @@
 
 ## Общие настройки
 
-Если в RPA-проекте (zip-архив) присутствуют файлы с кириллицей в наименовании, то для корректной распаковки архива перед запуском робота необходимо чтобы в конфигурационном файле службы Агента был настроен параметр ProjectZipEncoding. 
+Если в RPA-проекте (zip-архив) присутствуют файлы с кириллицей в наименовании, то для корректной распаковки архива перед запуском робота необходимо, чтобы в конфигурационном файле службы Агента был настроен параметр ProjectZipEncoding. 
 Наиболее востребованные значения:  utf-8 (для Windows), cp866 (для Linux) и null (кодировка по умолчанию в ОС):
 
 ![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-1.PNG)
@@ -19,7 +19,7 @@
 ## Действия при установке CentOS 8.5
 
 Подключаемся к серверу по SSH с пользователем с правами root. 
-Копируем папку /srv/samba/shared/install/Agent-linux в /opt/Primo/Agent:
+Копируем папку `/srv/samba/shared/install/Agent-linux` в `/opt/Primo/Agent`:
 ```
 cp -R  /srv/samba/shared/install/Agent-linux /opt/Primo/Agent
 ```
