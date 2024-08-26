@@ -1,11 +1,19 @@
-# 
+# Установка Агента Оркестратора
+
+Раздел содержит инструкции по установке Агента Оркестратора для следующих операционных систем:
+
+* CentOS 8.5
+* РЕДОС
+* Astra Linux 1.7
+* CentOS 7
+
 
 ## Общие настройки
 
 Если в RPA-проекте (zip-архив) присутствуют файлы с кириллицей в наименовании, то для корректной распаковки архива перед запуском робота необходимо чтобы в конфигурационном файле службы Агента был настроен параметр ProjectZipEncoding. 
 Наиболее востребованные значения:  utf-8 (для Windows), cp866 (для Linux) и null (кодировка по умолчанию в ОС):
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-1.PNG)
 
 
 ## Действия при установке CentOS 8.5
@@ -36,7 +44,7 @@ chmod -R 777 /opt/Primo/Agent/BashScripts
 ```
 В конфигурационном файле службы appsettings.ProdLinux.json прописываем адрес Оркестратора и TenantId (если эта машина не в тенанте по умолчанию) и пользователя из тенанта (встроенная учетная запись agent из тенанта по умолчанию):
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-2.PNG)
 
 Стартуем службу:
 ```
@@ -61,11 +69,11 @@ journalctl -u Primo.Orchestrator.Agent
 При установке машины робота под управлением РЕДОС 7.3 необходимо:
 * на экране **ВЫБОР ПРОГРАММ** отметить базовое окружение **Рабочая станция с графическим окружением (MATE)**
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-3.PNG)
 
 * на экране **СОЗДАНИЕ ПОЛЬЗОВАТЕЛЕЙ** создать пользователя-администратора (далее - primo-admin)
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-4.PNG)
 
 Установка дополнительного ПО и создание дополнительных пользователей будет описана ниже.
 
@@ -359,7 +367,7 @@ passwd: пароль успешно обновлён
 
 * на экране **Настройка учётных записей и паролей** создать пользователя-администратора (далее - primo-admin)
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-5.PNG)
 
 Установка дополнительного ПО и создание дополнительных пользователей будет описана ниже.
 
@@ -647,11 +655,11 @@ passwd: пароль успешно обновлён
 
 * на экране **ВЫБОР ПРОГРАММ** отметить базовое окружение **Рабочая станция**:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-6.PNG)
 
 * на экране **СОЗДАНИЕ ПОЛЬЗОВАТЕЛЕЙ** создать пользователя-администратора (далее - primo-admin):
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-7.PNG)
 
 Установка дополнительного ПО и создание дополнительных пользователей будет описана ниже.
 
