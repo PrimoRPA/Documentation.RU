@@ -2,12 +2,12 @@
 Раздел предназначен для опытных пользователей и содержит инструкцию для тонкой настройки машины робота. 
 
 ## Установка PowerShell Core
-Производится в соответствии с инструкцией [Установка PowerShell-7.1.3 под Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/powershell-install).
+Производится в соответствии с инструкцией [Установка PowerShell-7.1.3 под Windows](../../../../orchestrator-new/install/windows/setting-up-machines-win/install-powershell.md).
 
 ## Установка агента Оркестратора
 Создаем переменную окружения из PowerShell:
 ```
-> [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
+[System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 Проверить настройку переменных можно через **System Properties ➝ Advanced** по кнопке **Environment Variables**:
 
@@ -17,8 +17,8 @@
 
 Копируем файлы из дистрибутива Агента через PowerShell:
 ```
->$InstallPath = "C:\Install" 
->Expand-Archive -LiteralPath "$InstallPath\Agent.zip" -DestinationPath 'C:\Primo\Agent'
+$InstallPath = "C:\Install" 
+Expand-Archive -LiteralPath "$InstallPath\Agent.zip" -DestinationPath 'C:\Primo\Agent'
 ```
 Проверяем, что файлы скопировались в папку `C:\Primo\Agent`:
   
@@ -26,7 +26,7 @@
 
 Создаем службу из PowerShell:
 ```
->New-Service -Name "Primo.Orchestrator.Agent" -BinaryPathName "C:\Primo\Agent\Primo.Orchestrator.Agent.exe" -Description "Primo.Orchestrator.Agent" -DisplayName "Primo.Orchestrator.Agent" -StartupType Automatic
+New-Service -Name "Primo.Orchestrator.Agent" -BinaryPathName "C:\Primo\Agent\Primo.Orchestrator.Agent.exe" -Description "Primo.Orchestrator.Agent" -DisplayName "Primo.Orchestrator.Agent" -StartupType Automatic
 ```
 Отображение службы Primo.Orchestrator.Agent среди всех служб:
 
@@ -47,13 +47,13 @@
 ![](<../../../../.gitbook/assets/robot-machine-without-istaller-7.png>)
 
 ## Настройка брандмауэра Windows
-Открываем [порты](https://docs.primo-rpa.ru/primo-rpa/orchestrator/ports) для HTTP-сервера Агента (5002) и роботов (8000-9000) – по этим портам к ним обращается сервер Оркестратора.
+Открываем [порты](../orchestrator-new/ports.md) для HTTP-сервера Агента (5002) и роботов (8000-9000) – по этим портам к ним обращается сервер Оркестратора.
 
-В PowerSchell выполняем команды:
+В PowerShell выполняем команды:
 ```
->New-NetFirewallRule -Name "Primo Agent (5002)" -DisplayName "Primo Agent (5002)" -Profile "Private, Domain, Public" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 5002
+New-NetFirewallRule -Name "Primo Agent (5002)" -DisplayName "Primo Agent (5002)" -Profile "Private, Domain, Public" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 5002
 
->New-NetFirewallRule -Name "Primo Robot (8000-9000)" -DisplayName "Primo Robot (8000-9000)" -Profile "Private, Domain, Public" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 8000-9000
+New-NetFirewallRule -Name "Primo Robot (8000-9000)" -DisplayName "Primo Robot (8000-9000)" -Profile "Private, Domain, Public" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 8000-9000
 ```
 
 ## Проверка настройки машины робота
@@ -67,6 +67,20 @@ https://<IP-адрес-машины-Оркестратора>:44392/login
 
 ![](<../../../../.gitbook/assets/robot-machine-without-istaller-8.png>)
 
+Проверяем, что работают (если не выключены в конфигурационном файле, секция Performance, параметр Enabled) метрики производительности на главной странице:
+
+![]()
+
+и в логе нет связанных с ними ошибок. Если в логе есть ошибка счетчиков производительности Windows, сходная с представленной ниже:
+
+![]()
+
+нужно настроить работу счетчиков средствами ОС: 
+
+* [Перестроение значений библиотеки счетчиков производительности вручную](https://learn.microsoft.com/ru-ru/troubleshoot/windows-server/performance/rebuild-performance-counter-library-values)
+
+* [Manually rebuild performance counter library values](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/rebuild-performance-counter-library-values)
+
 
 ## Удержание RDP-сессий 
 Возможно настроить машину робота для 2-х альтернативных способов удержания RDP-сессий (требуется для работы робота с рабочим столом).
@@ -76,7 +90,9 @@ https://<IP-адрес-машины-Оркестратора>:44392/login
 ![](<../../../../.gitbook/assets/robot-machine-without-istaller-9.png>)
 
 ### Удержание одной RDP-сессии в консоли
-Для этого нужно файл `restore_console.bat` из комплекта поставки разместить в корне диска `C:\`. Закрывать RDP-сессию необходимо при помощи запуска этого файла из cmd. Для автоматизации этого запуска, чтобы он проводился автоматически при отключении пользователя от сессии, можно создать Windows Task на событие «On disconnect on user session».
+Для этого нужно файл `restore_console.bat` из комплекта поставки разместить в корне диска `C:\`. 
+Закрывать RDP-сессию необходимо при помощи запуска этого файла из cmd. Для автоматизации этого запуска, чтобы он проводился автоматически при отключении 
+пользователя от сессии, можно создать Windows Task на событие «On disconnect on user session».
 
 На основе импорта из файла `RDP-Disconnector.xml` нужно создать Windows Task:
 
