@@ -71,7 +71,7 @@
 
 Установить Агента Оркестратора на машине робота можно двумя способами:
 
-* [из инсталлятора `AgentInstaller.zip`](../../../orchestrator-new/install/windows/setting-up-machines-win/appendix-win.md) - это основной инструмент для настройки машины робота;
-* [без использования инсталлятора](../../../orchestrator-new/install/windows/setting-up-machines-win/appendix-win.md) - альтернативный вариант на случай, если не получилось установить Агента через инсталлятор.
+* [из инсталлятора `AgentInstaller.zip`](../../../../orchestrator-new/install/windows/setting-up-machines-win/appendix-win.md) - это основной инструмент для настройки машины робота;
+* [без использования инсталлятора](../../../../orchestrator-new/install/windows/setting-up-machines-win/appendix-win.md) - альтернативный вариант на случай, если не получилось установить Агента через инсталлятор.
 
 
