@@ -11,9 +11,9 @@
 ```
 Проверить настройку переменных можно через **System Properties ➝ Advanced** по кнопке **Environment Variables**:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-1.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-1.PNG>)
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-2.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-2.PNG>)
 
 Копируем файлы из дистрибутива Агента через PowerShell:
 ```
@@ -22,7 +22,7 @@ Expand-Archive -LiteralPath "$InstallPath\Agent.zip" -DestinationPath 'C:\Primo\
 ```
 Проверяем, что файлы скопировались в папку `C:\Primo\Agent`:
   
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-3.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-3.PNG>)
 
 Создаем службу из PowerShell:
 ```
@@ -30,21 +30,21 @@ New-Service -Name "Primo.Orchestrator.Agent" -BinaryPathName "C:\Primo\Agent\Pri
 ```
 Отображение службы Primo.Orchestrator.Agent среди всех служб:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-4.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-4.PNG>)
 
 Редактируем конфигурационный файл `C:\Primo\Agent\appsettings.ProdWin.json` – указываем IP-адрес Оркестратора, TenantId Агента и пользователя из тенанта\*. Для дефолтного тенанта null.
 
 \* *Встроенная учетная запись agent из тенанта по умолчанию. Для шифрования пароля используется программа шифрования паролей PasswordEncryptor.zip из комплекта поставки Оркестратора.*
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-5.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-5.PNG>)
 
 Запускаем службу:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-6.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-6.PNG>)
 
 Служба должна работать под Local System account:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-7.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-7.PNG>)
 
 ## Настройка брандмауэра Windows
 Открываем [порты](../orchestrator-new/ports.md) для HTTP-сервера Агента (5002) и роботов (8000-9000) – по этим портам к ним обращается сервер Оркестратора.
@@ -65,15 +65,15 @@ https://<IP-адрес-машины-Оркестратора>:44392/login
 ```
 и убеждаемся, что открывается страница авторизации:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-8.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-8.PNG>)
 
 Проверяем, что работают (если не выключены в конфигурационном файле, секция Performance, параметр Enabled) метрики производительности на главной странице:
 
-![]()
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-9.PNG>)
 
 и в логе нет связанных с ними ошибок. Если в логе есть ошибка счетчиков производительности Windows, сходная с представленной ниже:
 
-![]()
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-9(2).PNG>)
 
 нужно настроить работу счетчиков средствами ОС: 
 
@@ -87,7 +87,7 @@ https://<IP-адрес-машины-Оркестратора>:44392/login
 
 Два варианта работы по удержанию RDP-сессии отображены на схеме:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-9.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-10.PNG>)
 
 ### Удержание одной RDP-сессии в консоли
 Для этого нужно файл `restore_console.bat` из комплекта поставки разместить в корне диска `C:\`. 
@@ -96,19 +96,19 @@ https://<IP-адрес-машины-Оркестратора>:44392/login
 
 На основе импорта из файла `RDP-Disconnector.xml` нужно создать Windows Task:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-10.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-11.PNG>)
 
 Проверяем свойства создаваемой Windows Task «RDP-Disconnector»:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-11.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-12.PNG>)
 
 Windows Task «RDP-Disconnector» должна работать под локальным администратором:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-12.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-13-1.PNG>)
 
 Проверяем наличие созданной Windows Task «RDP-Disconnector»:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-13.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-13.PNG>)
 
 ### Удержание многих RDP-сессий за счет внешних RDP-подключений
 
@@ -116,21 +116,21 @@ Windows Task «RDP-Disconnector» должна работать под лока�
 
 Сначала заводятся пользователи для RDP-сессий, например, user1 и user2: 
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-14.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-14.PNG>)
 
 Пользователи желательно должны входить в группу Administrators:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-15.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-15.PNG>)
 
 Если пользователи не входят в группу Administrators, то обязательно (!) должны входить в группы Users и Remote Desktop Users.
 
 Добавленные пользователи должны быть зарегистрированы для машины робота (имя пользователя/пароль, и т.д.) в Оркестраторе:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-16.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-16.PNG>)
 
 В Оркестраторе для RDP-пользователя должны быть настроены параметры безопасности подключения:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-17.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-17.PNG>)
 
 Параметры RDP-подключения:
 1. [AuthenticationLevel](https://docs.microsoft.com/en-us/windows/win32/termserv/imsrdpclientadvancedsettings4-authenticationlevel) – 1 
@@ -142,37 +142,42 @@ Windows Task «RDP-Disconnector» должна работать под лока�
 
 К машине робота должны быть разрешены RDP-подключения:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-18.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-18.PNG>)
 
 Также должны быть настроены параметры подключения, открыт порт для RDP (порт должен быть открыт и в случае единственного пользователя):
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-19(2).png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-19.PNG.png>)
 
 Если используется сервер удаленных рабочих столов, то необходимо его настроить. Запустить оснастку gpedit.msc (Win+R) :
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-20.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-20.PNG>)
 
 На вкладке Security:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-21.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-21.PNG>)
 
 На вкладке Connections:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-22.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-22.PNG>)
 
 Блокировка экрана пользователя должна быть отключена. Локально, или через групповые политики AD:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-23.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-23.PNG>)
 
 Сервис RDP-подключений запускается на внешней машине, например, на машине с WebApi. На одну сессию сервис расходует порядка 100 Мб памяти.
 
 RDP-сессии запускаются автоматически при старте роботов. Этот процесс требует некоторого времени, в течение которого робот должен подождать открытия. Эти параметры задаются в конфиге WebApi:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-24.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-24.PNG>)
 
 Продолжительность ожидания запуска RDP-сессии:
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-25.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-25.PNG>)
+
+Если в RPA-проекте (zip-архив) присутствуют файлы с кириллицей в наименовании, то для корректной распаковки архива перед запуском робота необходимо чтобы в конфигурационном файле службы Агента был настроен параметр ProjectZipEncoding. 
+Наиболее востребованные значения:  utf-8 (для Windows), cp866 (для Linux) и null (кодировка по умолчанию в ОС).
+
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-26.PNG>)
 
 ## Настройка машины робота из скрипта
 
@@ -180,7 +185,7 @@ RDP-сессии запускаются автоматически при ста
 
 В скрипте нужно установить значения переменных в секции Input. Все необходимые комментарии содержатся в самом скрипте.
 
-![](<../../../../.gitbook/assets/robot-machine-without-istaller-26.png>)
+![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-27.PNG>)
 
 Необходимо разрешить выполнение неподписанного скрипта, выполнив перед его запуском в PowerShell команду:
 ```
