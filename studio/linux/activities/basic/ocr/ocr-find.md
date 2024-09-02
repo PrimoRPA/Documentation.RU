@@ -1,3 +1,7 @@
+---
+Description: OCR Find image
+---
+
 # Поиск изображения
 
 ![](../../../resources/activities/basic/ocr/ocr-find-image-element.png)
