@@ -1,6 +1,6 @@
 # Выбрать ветвь
 
-![](../../../resources/activities/basic/logic/выбрать-ветвь-fixed.png)
+![](../../../resources/activities/basic/logic/pickbranch-element.png)
 
 **Выбрать ветвь (Pick)** - контейнер, в котором можно разместить две и более [**ветвей**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_logic/el_logic_branch) (их количество зависит от вашего усмотрения). 
 
@@ -9,7 +9,7 @@
 2. Первая ветвь, вернувшая значение **true** (условие истинно), выполнит настроенное для нее действие.
 3. Остальные ветви будут проигнорированы.
 
-![](../../../resources/activities/basic/logic/pick-branch-2.png)
+![](../../../resources/activities/basic/logic/pickbranch2-element.png)
 
 Компонент обладает общими свойствами, описанными в разделе  [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements).
 
