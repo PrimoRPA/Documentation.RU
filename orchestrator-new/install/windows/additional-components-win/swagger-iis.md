@@ -2,7 +2,7 @@
 
 **Swagger** – интерактивная документация к Api Оркестратора. По умолчанию Swagger доступен только на машине Оркестратора по адресу: 
 
-http://localhost:5001/swagger/index.html
+`http://localhost:5001/swagger/index.html`
 
 Чтобы им можно было пользоваться на любой машине в сети организации, не открывая порт 5001 Оркестратора, требуется настроить в IIS проксирование этого адреса:
 
@@ -24,6 +24,6 @@ http://localhost:5001/swagger/index.html
 
 4. Проверяем доступность Swagger по адресу:
 
-https://{IP}:44392/swagger/index.html 
+`https://{IP}:44392/swagger/index.html`
 
 ![](../../../../orchestrator-new/resources/install/windows/additional-components-win/swagger-iis-3.PNG)
