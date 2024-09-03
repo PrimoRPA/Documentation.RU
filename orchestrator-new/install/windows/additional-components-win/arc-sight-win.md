@@ -9,7 +9,7 @@ Expand-Archive -LiteralPath "$InstallPath\ArcSight.zip" -DestinationPath "C:\Pri
 ```
 
 Создаем системную переменную окружения. Для этого в PoweShell выполняем команду:
-``
+```
 [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 
@@ -28,11 +28,11 @@ Expand-Archive -LiteralPath "$InstallPath\ArcSight.zip" -DestinationPath "C:\Pri
 **Описание параметров интеграции с ArcSight**
 
 | № п/п |	Секция	|  Параметр  |	Тип	  |  Рекомендуемое значение	 |   Описание   |
--------------------------------------------------------------------------------------
-1.		Device	Vendor	String	Primo	По спецификации ArcSight
-2.			Product	String	Orchestrator.ArcSight	По спецификации ArcSight
-3.			Version	String	1.0.0.0	По спецификации ArcSight
-4.		CEF	Version	String	0	По спецификации ArcSight
+|-------|-----------|------------|--------|--------------------------|--------------|
+|   1.	|   Device	 |  Vendor   |  String  |    	Primo	          | По спецификации ArcSight |
+|   2.	|	         |   Product |	String	|  Orchestrator.ArcSight  |	По спецификации ArcSight |
+|   3.	|        	 |	Version	 |  String	|       1.0.0.0	          | По спецификации ArcSight |
+|   4.	|	CEF	     |  Version  | String	|          0	          | По спецификации ArcSight |
 5.		Files	Path	String	C:\\Primo\\ArcSight\\IntegrationLogs\\ArcSight-.txt	Папка, из которой ArcSight будет забирать логи и префикс имени файла логов. Например, ArcSight-20220521.txt, ArcSight-20220521 1.txt, ArcSight-20220521 2.txt. Нумерация, 1, 2 и т.д. для одной даты. См. п. 6 
 6.			MaxCountEvents	Int	2000	Максимальное количество строк в одном файле логов. После этого значения создается новый файл. Для нового файла для одной даты используется автоматическая нумерация. Должно быть согласовано с механизмом чтения файлов из папки обмена ArcSight
 7.			MaxCountFiles	Int	200	Максимальное количество файлов в папке обмена. Старые файлы логов удаляются. Должно быть согласовано с механизмом чтения файлов из папки обмена ArcSight
