@@ -18,7 +18,7 @@
 ```
 Создаем системную переменную окружения `ASPNETCORE_ENVIRONMENT`, если она не создана ранее. Для этого в PowerShell выполняем команду:
 ```
-[System.Environment]::SetEnvironmentVariable(' ASPNETCORE_ENVIRONMENT ', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
+[System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 Регистрируем Primo.Orchestrator.Analytic.exe как службу Windows и сразу запускаем её. Для этого в PoweShell последовательно выполняем команды:
 ```
