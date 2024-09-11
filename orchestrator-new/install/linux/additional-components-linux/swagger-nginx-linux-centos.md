@@ -7,7 +7,7 @@
 
 1. Редактируем файл nginx.conf – добавляем в конец файла секцию для проксирования Swagger:
 ```
-vim /etc/nginx/nginx.conf
+# vim /etc/nginx/nginx.conf
 ```
 
 ![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/swagger-1.PNG)
@@ -25,14 +25,14 @@ location /swagger/ {
 2. Открываем порт 5001 на файерволе:
 
 ```
-firewall-cmd --zone=public --add-port=5001/tcp --permanent
-firewall-cmd –reload
+# firewall-cmd --zone=public --add-port=5001/tcp --permanent
+# firewall-cmd –reload
 ```
 
 3. Перезапускаем nginx и проверяем, что служба удачно перезапустилась:
 ```
-systemctl restart nginx
-systemctl status nginx
+# systemctl restart nginx
+# systemctl status nginx
 ```
 
 ![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/swagger-2.PNG)
