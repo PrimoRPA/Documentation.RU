@@ -4,27 +4,27 @@
 
 Копируем папку /srv/samba/shared/install/ArcSight в /opt/Primo:
 ```
-cp -R  /srv/samba/shared/install/ArcSight /opt/Primo/ArcSight
+# cp -R  /srv/samba/shared/install/ArcSight /opt/Primo/ArcSight
 ```
 Создаем службу:
 
 Переходим в каталог /opt/Primo/ArcSight:
 ```
-cd /opt/Primo/ArcSight
+# cd /opt/Primo/ArcSight
 ```
 Копируем файл службы (идет с комплектом поставки) в /etc/systemd/system:
 ```
-cp Primo.Orchestrator.ArcSight.service /etc/systemd/system/Primo.Orchestrator.ArcSight.service
+# cp Primo.Orchestrator.ArcSight.service /etc/systemd/system/Primo.Orchestrator.ArcSight.service
 
-systemctl daemon-reload
+# systemctl daemon-reload
 ```	
 Помещаем службу в автозапуск:
 ```
-systemctl enable /etc/systemd/system/Primo.Orchestrator.ArcSight.service
+# systemctl enable /etc/systemd/system/Primo.Orchestrator.ArcSight.service
 ```
 Даем права на запуск:
 ```
-chmod -R 777 /opt/Primo/ArcSight /Primo.Orchestrator.ArcSight
+# chmod -R 777 /opt/Primo/ArcSight /Primo.Orchestrator.ArcSight
 ```
 Настраиваем уровни логирования приложения (Information, Warning, Error):
 
@@ -58,11 +58,11 @@ chmod -R 777 /opt/Primo/ArcSight /Primo.Orchestrator.ArcSight
 
 Стартуем службу:
 ```
-systemctl start Primo.Orchestrator.ArcSight
+# systemctl start Primo.Orchestrator.ArcSight
 ```
 Проверяем состояние службы:
 ```
-systemctl status Primo.Orchestrator.ArcSight
+# systemctl status Primo.Orchestrator.ArcSight
 ```
 После установки ArcSight требуется настройка интеграционного шлюза LogEventsWebhook.
 
