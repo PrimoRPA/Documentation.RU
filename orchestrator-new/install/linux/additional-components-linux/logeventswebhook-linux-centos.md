@@ -4,27 +4,27 @@
 
 Копируем папку /srv/samba/shared/install/LogEventsWebhook в /opt/Primo:
 ```
-cp -R  /srv/samba/shared/install/LogEventsWebhook /opt/Primo/LogEventsWebhook
+# cp -R  /srv/samba/shared/install/LogEventsWebhook /opt/Primo/LogEventsWebhook
 ```
 Создаем службу:
 
 Переходим в каталог /opt/Primo/LogEventsWebhook:
 ```
-cd /opt/Primo/LogEventsWebhook
+# cd /opt/Primo/LogEventsWebhook
 ```
 Копируем файл службы (идет с комплектом поставки) в /etc/systemd/system:
 ```
-cp Primo.Orchestrator.LogEventsWebhook.service /etc/systemd/system/Primo.Orchestrator.LogEventsWebhook.service
+# cp Primo.Orchestrator.LogEventsWebhook.service /etc/systemd/system/Primo.Orchestrator.LogEventsWebhook.service
 
-systemctl daemon-reload
+# systemctl daemon-reload
 ```
 Помещаем службу в автозапуск:
 ```
-systemctl enable /etc/systemd/system/Primo.Orchestrator.LogEventsWebhook.service
+# systemctl enable /etc/systemd/system/Primo.Orchestrator.LogEventsWebhook.service
 ```	
 Даем права на запуск:
 ```
-chmod -R 777 /opt/Primo/MachineInfo/Primo.Orchestrator.LogEventsWebhook
+# chmod -R 777 /opt/Primo/MachineInfo/Primo.Orchestrator.LogEventsWebhook
 ```
 Настраиваем appsettings.ProdLinux.json (некоторые параметры):
 
@@ -52,11 +52,11 @@ chmod -R 777 /opt/Primo/MachineInfo/Primo.Orchestrator.LogEventsWebhook
 
 Стартуем службу:
 ```
-systemctl start Primo.Orchestrator.LogEventsWebhook
+# systemctl start Primo.Orchestrator.LogEventsWebhook
 ```
 Проверяем состояние службы:
 ```
-systemctl status Primo.Orchestrator.LogEventsWebhook
+# systemctl status Primo.Orchestrator.LogEventsWebhook
 ```
 В конфигурационном файле службы WebApi разрешаем интеграцию:
 
