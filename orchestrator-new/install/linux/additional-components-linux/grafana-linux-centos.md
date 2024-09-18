@@ -6,7 +6,7 @@ Grafana – отдельное приложение с веб-интерфейс
 
 Схема интеграции Grafana с Оркестратором:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-1.PNG)
 
 Согласно иллюстрации выше интеграция с Grafana осуществляется следующим образом:
 1.	Устанавливается приложение Grafana. Например, на том же сервере, где и WebApi.
@@ -21,7 +21,7 @@ Grafana – отдельное приложение с веб-интерфейс
 
 ## Установка Grafana
 
-Далее предполагается что Grafana устанавливается на сервере Оркестратора.
+Далее предполагается, что Grafana устанавливается на сервере Оркестратора.
 
 Установочный файл Grafana идет в комплекте поставки. Также он может быть скачан с [официального сайта Grafana](https://grafana.com/), командой: 
 ```
@@ -44,29 +44,29 @@ $ sudo firewall-cmd --reload
 ```
 4. Никакого специального интерфейса для управления этой службой у Grafana нет.
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-2.PNG)
 
 5. Заходим в веб-интерфейс Grafana по адресу `http://localhost:3000` и вводим логин. со встроенной учетной записью admin/admin:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-3.PNG)
 
 6. Меняем пароль по умолчанию на новый (Grafana сама предложит это сделать):
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-4.PNG)
 
 7. Откроется панель управления Grafana. Установка Grafana завершена:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-5.PNG)
 
 ## Настройка источника данных для отчетов
 
 Переходим в раздел Configuration/Data Sources. Для только что установленной Grafana можно перейти из раздела General/Home. Можно воспользоваться левым боковым меню «шестеренка»:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-6.PNG)
 
 Выбираем поставщика данных PostgreSQL или Microsoft SQL Server (в зависимости от вендора БД Оркестратора):
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-7.PNG)
 
 Настраиваем подключение к БД ltoolslogs:
 
@@ -83,7 +83,7 @@ $ sudo firewall-cmd --reload
 
 > \* - Grafana поддерживает TimescaleDB, что находит свое отражение при создании отчетов. За подробной информацией необходимо обратиться к официальной документации на официальном сайте Grafana.
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-8.PNG)
 
 **Для Microsoft SQL Server**:
 * Name – оставляем по умолчанию Microsoft SQL Server (можно выбрать произвольное);
@@ -95,25 +95,25 @@ $ sudo firewall-cmd --reload
 * Connection limits – все параметры этого блока оставляем по умолчанию;
 * Min time interval – оставляем по умолчанию 1m;
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-9.PNG)
 
 Внизу формы настройки подключения нажимаем кнопку «Save & test»:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-10.PNG)
 
 Если все сделано верно и БД ltoolslogs доступна, отобразится сообщение об удачном подключении к БД:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-11.PNG)
 
 В разделе Configuration/Data Sources будет отображаться созданное подключение с наименованием PostgreSQL (Microsoft SQL Server):
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-12.PNG)
 
 ## Настройка конфигурационного файла Grafana
 
 В WordPad (или аналогичной программе, **не Notepad!**) открываем конфигурационный файл Grafana `C:\Program Files\GrafanaLabs\grafana\conf\defaults.ini`.
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-13.PNG)
 
 В секции [server] (можно найти поиском по файлу, Ctrl + F) меняем дефолтные значения параметров на:
 ```
@@ -129,7 +129,7 @@ $ sudo systemctl restart grafana-server
 
 ApiKey создается в интерфейсе Grafana в разделе Configuration/Api keys (боковое левое меню «шестеренка»). Кликаем по кнопке «New API key»:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-14.PNG)
 
 Задаем параметры нового ApiKey:
 * Key name – key1 (произвольное наименование на латинице);
@@ -138,15 +138,15 @@ ApiKey создается в интерфейсе Grafana в разделе Conf
 
 Нажимаем кнопку «Add»:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-15.PNG)
 
 Сохраняем где-то отдельно полученный ApiKey, так как через интерфейс Grafana увидеть его больше будет невозможно:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-16.PNG)
 
 Закрываем модальное окно с новым ApiKey. Этот ApiKey под наименованием key1, которое ему дали ранее, будет отображаться в списке всех ApiKey:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-17.PNG)
 
 ## Настройка Front
 
@@ -161,7 +161,7 @@ upstream grafana {
 }
 ```
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-18.PNG)
 
 После правила перенаправления location/api/ добавляем правило
 ```
@@ -174,7 +174,7 @@ ApiKey (без фигурных скобок) подставляем созда�
 
 Если не нужна автоматическая авторизация в Grafana, заголовок proxy_set_header Authorization можно не устанавливать (удалить всю строку).
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-19.PNG)
 
 Из cmd перезапускаем nginx:
 ```
@@ -185,7 +185,7 @@ C:\Primo\nginx-1.21.1>nginx -s reload
 
 Добавляем серверную переменную AUTHORIZATION:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-20.PNG)
 
 Открываем файл C:\Primo\UI\web.config и добавляем следующее правило после правила «Reverse Proxy to API»:
 ```
@@ -198,7 +198,7 @@ C:\Primo\nginx-1.21.1>nginx -s reload
  </rule>
 ```
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-21.PNG)
 
 ## Создание или импорт отчетов
 
@@ -214,27 +214,27 @@ SQL-образным DSL Grafana;
 
 Для импорта отчета переходим в раздел Dashboards/Manage и нажимаем кнопку «Import»:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-22.PNG)
 
 В открывшейся форме нажимаем кнопку «Upload JSON file»:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-23.PNG)
 
 Выбираем идущий в комплекте поставки пример отчета – файл Роботы-1627543691525.json – и нажимаем кнопку «Import»:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-24.PNG)
 
 Если все выполнено верно, и файл отчета корректный, сразу откроется сам отчет:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-25.PNG)
 
 Далее публикуем его, чтобы получить внешнюю ссылку на этот отчет. Нажимаем на кнопку «Share dashboard or panel»:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-26.PNG)
 
 В открывшейся форме ставим Shorten URL = true и копируем адрес ссылки:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-27.PNG)
 
 Окончательная ссылка на отчет получается после ручной корректировки как
 ```
@@ -245,12 +245,12 @@ https://{IP Оркестратора}:44392/grafana/goto/zDhfKuZnz?orgId=1
 
 Ссылки на опубликованные отчеты добавляются в конфигурационный файл C:\Primo\WebApi\appsettings.ProdWin.json в секцию Grafana:ReportItems:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-28.PNG)
 
 Задается Url отчета, полученный в разделе выше, и произвольное наименование отчета. После этого службу WebApi нужно перезапустить.
 
 Проверить, что все настроено верно, можно через интерфейс Оркестратора в разделе Журнал/Отчеты:
 
-![]()
+![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/grafana-29.PNG)
 
 По клику по кнопке Robots («Robots» – наименование отчета из конфигурационного файла) откроется отчет в Grafana.
