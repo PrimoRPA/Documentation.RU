@@ -25,7 +25,11 @@
    * Настраиваем [Passive Health Checks](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-health-check/):\
      **fail_timeout** – время, в течение которого должно произойти количество неудачных попыток, чтобы сервер был помечен как недоступный, а также время, в течение которого сервер помечается как недоступный (по умолчанию 10 секунд).\
      **max_fails** – количество неудачных попыток, которые должны произойти в течение периода fail_timeout, чтобы сервер был помечен как недоступный (по умолчанию – 1 попытка).
-4. Запускаем программу синхронизации папок [Syncthing](https://docs.syncthing.net/index.html) (идет в комплекте поставки) и настраиваем через её UI синхронизацию папки C:\tmp (или /srv/samba/shared/tmp для Linux) на узлах фермы:
+4. Запускаем программу синхронизации папок [Syncthing](https://docs.syncthing.net/index.html) (идет в комплекте поставки) и 
+настраиваем через её UI синхронизацию папки C:\tmp\* (или /srv/samba/shared/tmp для Linux) на узлах фермы:
+
+> \* - В зависимости от того, какая папка указана в appsettings.ProdWin.json (appsettings.ProdLinux.json) в секции RobotDistrUpload:TargetFilePath
+
    * На **Windows** просто запускаем syncthing.exe (его потом нужно добавить в автозагрузку).
    * На **Linux**:\
      Разархивируем архив в директорию /srv/samba/shared/install/syncthing-linux-amd64-v1.18.2 командой:
