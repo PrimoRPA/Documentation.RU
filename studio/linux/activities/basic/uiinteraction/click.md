@@ -1,6 +1,6 @@
 # Клик мышью
 
-![](<../../../.gitbook/assets/image (493) (1) (1).png>)
+![](../../../resources/activities/basic/uiinteraction/mouse-click-activity.png>)
 
 Производит клик мышью на выбранном элементе управления.
 
