@@ -126,15 +126,16 @@ passwd: пароль успешно обновлён
 
 ## Установка расширения для браузера Chrome для текущего пользователя
 Откройте браузер Chrome, выберите пункт меню **Настройки и управление Google Chrome > Расширения > Управление расширениями**, далее на странице **Расширения** установите настройку **Режим разработчика**:  
-![](../../resources/installation/redos/developer-mode.png)  
-Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` в браузер Хром на страницу **Расширения**. В результате на странице должно появится расширение Primo RPA Extension:  
+![](../../resources/installation/redos/developer-mode.png)
+
+Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2 или перетаскивание файла `/opt/Primo/Studio/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3 в браузер Хром на страницу **Расширения**. В результате на странице должно появится расширение Primo RPA Extension:  
 ![](../../resources/installation/redos/chrome-extension.png)
 
 ## Установка расширения для браузера Яндекс
 Откройте браузер Яндекс, в строке адреса укажите browser://extensions/, нажмите Enter, далее на странице **Расширения** установите настройку **Режим разработчика**:  
-![](../../resources/installation/redos/developer-mode.png)  
+![](../../resources/installation/redos/developer-mode.png)
 
-Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` в браузер Яндекс на страницу **Расширения**. В результате на странице должно появиться расширение Primo RPA Extension:  
+Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2 или перетаскивание файла `/opt/Primo/Studio/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3 в браузер Янндекс на страницу **Расширения**. В результате на странице должно появиться расширение Primo RPA Extension:  
 ![](../../resources/installation/redos/yandex-extension.png)
 
 
