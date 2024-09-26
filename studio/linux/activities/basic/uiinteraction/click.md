@@ -1,3 +1,7 @@
+---
+Description: Mouse click
+---
+
 # Клик мышью
 
 ![](../../../resources/activities/basic/uiinteraction/mouse-click-activity.png)
