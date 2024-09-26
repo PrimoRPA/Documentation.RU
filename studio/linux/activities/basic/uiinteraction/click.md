@@ -1,8 +1,10 @@
 # Клик мышью
 
-![](../../../resources/activities/basic/uiinteraction/mouse-click-activity.png>)
+![](../../../resources/activities/basic/uiinteraction/mouse-click-activity.png)
 
 Производит клик мышью на выбранном элементе управления.
+
+> Для работы данного элемента необходимо установленное браузерное расширение версии 3.68 (1.68) и выше.
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность. Описание общих свойств элемента см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
