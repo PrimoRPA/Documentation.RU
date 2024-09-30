@@ -1,14 +1,15 @@
+---
+Description: Delete duplicates
+---
+
 # Удалить повторяющиеся строки
 
-![](../../../../resources/activities/basic/data/data-tables/image-100-1-1-1-2-83.png)
+![](../../../../resources/activities/basic/data/data-tables/delete-duplicates.png)
 
-![](../../../../resources/activities/basic/data/data-tables/удалить-повторяющиеся-строки-fixed.png)
+Компонент, удаляющий повторяющиеся строки из таблицы.
 
+## Свойства  
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-Компонент, объединяющий таблицы.
-
-| Свойство             | Тип                   | Описание                                      |
-| -------------------- | --------------------- | --------------------------------------------- |
-| Таблица\*            | System.Data.DataTable | Исходная таблица                              |
-| Результат\*          | System.Data.DataTable | Переменная, в которую нужно сохранить измененную таблицу |
-
+1. **Таблица\*** *[System.Data.DataTable]* - Исходная таблица.
+1. **Результат\*** *[System.Data.DataTable]* - Переменная, в которую нужно сохранить измененную таблицу.
