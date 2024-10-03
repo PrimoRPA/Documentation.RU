@@ -21,4 +21,4 @@
 
 Перечисленные порты можно увидеть на схеме компонентов Оркестратора:
 
-![](<../../orchestrator-new/resources/install/new-orch-component-schema.png>)
+![](<../../orchestrator-new/resources/Orch-components.PNG>)
