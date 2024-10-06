@@ -1,8 +1,6 @@
 # Получить письма (POP3)
 
-![](../../../resources/activities/basic/mail/image-100-1-1-1-1-1-1-1-2-239.png)
-
-![](../../../resources/activities/basic/mail/image-419.png)
+![](../../../resources/activities/basic/mail/receive-mails-pop3-activity.png)
 
 Компонент, осуществляющий получение почтовых сообщений по протоколу POP3.
 
@@ -24,29 +22,70 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-List<LTools.Network.Model.EMail.MailMessage> mail = LTools.Network.MailApp.POP3Receive(wf, "server", 443, "login", "password", 10, new List<string>() { "id1" }, false, false, false, 10000);
-List<LTools.Network.Model.EMail.MailMessage> mail2 = LTools.Network.MailApp.POP3Receive(wf, "server", 443, "login", "password", 10, new List<LTools.Network.Model.EMail.MailMessage>(), false, false, false, 10000);
+var server = "server";
+var port = 443;
+var login = "login";
+var password = "password";
+var messageCount = 10;
+List<LTools.Network.Model.EMail.MailMessage> messages = null;
+List<string> messageIds = null;
+var isDeleteAfterReceive = false;
+var isReadingAttachment = false;
+var isSsl = false;
+var timeout = 10000;
+var useSso = false;
+MailKit.Security.SecureSocketOptions sso = MailKit.Security.SecureSocketOptions.Auto;
+var ignoreCertificate = false;
+
+List<LTools.Network.Model.EMail.MailMessage> mails = LTools.Network.MailApp.POP3Receive(wf, server, port, login, password, messageCount, messageIds, isDeleteAfterReceive, isReadingAttachment, isSsl, timeout, useSso, sso, ignoreCertificate);
+
+List<LTools.Network.Model.EMail.MailMessage> mails2 = LTools.Network.MailApp.POP3Receive(wf, server, port, login, password, messageCount, messages, isDeleteAfterReceive, isReadingAttachment, isSsl, timeout, useSso, sso, ignoreCertificate);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-dt = List[String]()
-dt.Add("id1")
-dt2 = List[LTools.Network.Model.EMail.MailMessage]()
-mail = LTools.Network.MailApp.POP3Receive(wf, "server", 443, "login", "password", 10, dt, False, False, False, 10000)
-mail2 = LTools.Network.MailApp.POP3Receive(wf, "server", 443, "login", "password", 10, dt2, False, False, False, 10000);
+server = "server";
+port = 443;
+login = "login";
+password = "password";
+messageCount = 10;
+messages = None;
+messageIds = None;
+isDeleteAfterReceive = False;
+isReadingAttachment = False;
+isSsl = False;
+timeout = 10000;
+useSso = False;
+sso = MailKit.Security.SecureSocketOptions.Auto;
+ignoreCertificate = False;
+
+mails = LTools.Network.MailApp.POP3Receive(wf, server, port, login, password, messageCount, messageIds, isDeleteAfterReceive, isReadingAttachment, isSsl, timeout, useSso, sso, ignoreCertificate);
+
+mails2 = LTools.Network.MailApp.POP3Receive(wf, server, port, login, password, messageCount, messages, isDeleteAfterReceive, isReadingAttachment, isSsl, timeout, useSso, sso, ignoreCertificate);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var host = new _lib.Microsoft.ClearScript.HostFunctions();
-var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.String));
-lst.Add("id1");
-var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.LTools.Network.Model.EMail.MailMessage));
-var mail = _lib.LTools.Network.MailApp.POP3Receive(wf, "server", 443, "login", "password", 10, lst, false, false, false, 10000);
-var mail2 = _libLTools.Network.MailApp.POP3Receive(wf, "server", 443, "login", "password", 10, lst2, false, false, false, 10000);
+var server = "server";
+var port = 443;
+var login = "login";
+var password = "password";
+var messageCount = 10;
+List<LTools.Network.Model.EMail.MailMessage> messages = Null;
+List<string> messageIds = Null;
+var isDeleteAfterReceive = false;
+var isReadingAttachment = false;
+var isSsl = false;
+var timeout = 10000;
+var useSso = false;
+MailKit.Security.SecureSocketOptions sso = MailKit.Security.SecureSocketOptions.Auto;
+var ignoreCertificate = false;
+
+var mails = _lib.LTools.Network.MailApp.POP3Receive(wf, server, port, login, password, messageCount, messageIds, isDeleteAfterReceive, isReadingAttachment, isSsl, timeout, useSso, sso, ignoreCertificate);
+
+var mails2 = _libLTools.Network.MailApp.POP3Receive(wf, server, port, login, password, messageCount, messages, isDeleteAfterReceive, isReadingAttachment, isSsl, timeout, useSso, sso, ignoreCertificate);
 ```
 {% endtab %}
 {% endtabs %}
