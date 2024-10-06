@@ -6,7 +6,7 @@ description: Save attachment
 
 Элемент позволяет сохранить вложение письма.
 
-![](../../../../resources/activities/basic/mail/exchange/image-773.png)
+![](../../../../resources/activities/basic/mail/exchange/exchange-save-attachment-activity.png)
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
@@ -23,19 +23,55 @@ description: Save attachment
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-app.SaveAttachment(att, "C\\file");
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+LTools.Office.Model.WFSaveAttachment attachment = null;
+var pathToFile = "pathToFile";
+
+app.SaveAttachment(attachment, pathToFile);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app.SaveAttachment(att, "C\\file")
+version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+url = "url";
+login = "login";
+password = "password";
+domain = "domain";
+russianTimeZone = False;
+
+app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+attachment = None;
+pathToFile = "pathToFile";
+
+app.SaveAttachment(attachment, pathToFile)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-app.SaveAttachment(att, "C\\file");
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+var attachment = Null;
+var pathToFile = "pathToFile";
+
+app.SaveAttachment(attachment, pathToFile);
 ```
 {% endtab %}
 {% endtabs %}
