@@ -1,6 +1,6 @@
 # Переместить в папку
 
-![](../../../../resources/activities/basic/mail/exchange/image-297.png)
+![](../../../../resources/activities/basic/mail/exchange/exchange-move-to-folder-activity.png)
 
 Компонент, осуществляющий перемещение сообщений между папками MS Exchange.
 
@@ -11,8 +11,8 @@
 
 | Свойство           | Тип                                                                    | Описание         |
 | ------------------ | ---------------------------------------------------------------------- | ---------------- |
-| ***Общие***  | | Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa) | 
-| ***Exchange***  | | | 
+| ***Общие***  | | Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa) |
+| ***Exchange***  | | |
 | Папка назначения\* | String                                                                 | Папка назначения |
 | Письма\*           | List<[LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)> | Массив сообщений |
 | Общий ящик         | String  | Укажите общий почтовый ящик, если письма нужно перемещать в нем |
@@ -23,25 +23,58 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain");
-List<LTools.Office.Model.OMailMessage> msg = app.ReadMail("Inbox", true, false, 10);
-app.MoveToFolder(msg[0], "folder");
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+List<LTools.Office.Model.OMailMessage> messages = null;
+var outbox = "outbox";
+var shared = "shared";
+
+app.MoveToFolder(messages, outbox, shared);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain")
-msg = app.ReadMail("Inbox", True, False, 10)
-app.MoveToFolder(msg[0], "folder")
+version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+url = "url";
+login = "login";
+password = "password";
+domain = "domain";
+russianTimeZone = False;
+
+app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+messages = None;
+outbox = "outbox";
+shared = "shared";
+
+app.MoveToFolder(messages, outbox, shared)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain");
-var msg = app.ReadMail("Inbox", true, false, 10);
-app.MoveToFolder(msg[0], "folder");
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+var messages = Null;
+var outbox = "outbox";
+var shared = "shared";
+
+app.MoveToFolder(messages, outbox, shared);
 ```
 {% endtab %}
 {% endtabs %}
