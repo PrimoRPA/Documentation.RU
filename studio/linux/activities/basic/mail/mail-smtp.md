@@ -52,12 +52,12 @@ server = "server";
 port = 443;
 login = "login";
 password = "password";
-isHtml = false;
-isSsl = false;
+isHtml = False;
+isSsl = False;
 attachments = None;
 timeout = 10000;
-ignoreCertificate = false;
-useSso = false;
+ignoreCertificate = False;
+useSso = False;
 sso = MailKit.Security.SecureSocketOptions.Auto;
 
 LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso);

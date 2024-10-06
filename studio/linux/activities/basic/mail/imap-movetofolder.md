@@ -62,7 +62,7 @@ inbox = "inbox";
 outbox = "outbox";
 messages = None;
 messageIds = None;
-isSsl = false;
+isSsl = False;
 timeout = 10000;
 
 LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, timeout);
