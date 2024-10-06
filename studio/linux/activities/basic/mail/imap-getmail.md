@@ -2,9 +2,7 @@
 
 *Eng: Receive mail (IMAP)*
 
-![](../../../resources/activities/basic/mail/image-100-1-1-1-1-1-1-1-1-58.png)
-
-![](../../../resources/activities/basic/mail/image-335.png)
+![](../../../resources/activities/basic/mail/receive-mails-imap-activity.png)
 
 Элемент используется для получения почтовых сообщений по протоколу IMAP. Cвойства элемента представлены ниже.
 
@@ -48,29 +46,73 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-List<LTools.Network.Model.EMail.MailMessage> mail = LTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", false, true, false, new List<string>() { "id1" }, DateTime.Now.AddDays(-2), DateTime.Now, false, false, 10000);
-List<LTools.Network.Model.EMail.MailMessage> mail2 = LTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", false, true, false, new List<LTools.Network.Model.EMail.MailMessage>(), DateTime.Now.AddDays(-2), DateTime.Now, false, false, 10000);
+var server = "server";
+var port = 443;
+var login = "login";
+var password = "password";
+var inbox = "inbox";
+var isOnlyUnread = false;
+var markRead = true;
+var markUnread = false;
+List<LTools.Network.Model.EMail.MailMessage> messages = null;
+List<string> messageIds = null;
+DateTime? dateFrom = null;
+DateTime? dateTo = null;
+var isReadingAttachment = false;
+var isSsl = false;
+var timeout = 10000;
+
+List<LTools.Network.Model.EMail.MailMessage> mails = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
+
+List<LTools.Network.Model.EMail.MailMessage> mails2 = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-dt = List[String]()
-dt.Add("id1")
-dt2 = List[LTools.Network.Model.EMail.MailMessage]()
-mail = LTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", False, True, False, dt, DateTime.Now.AddDays(-2), DateTime.Now, False, False, 10000)
-mail2 = LTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", False, True, False, dt2, DateTime.Now.AddDays(-2), DateTime.Now, False, False, 10000);
+server = "server";
+port = 443;
+login = "login";
+password = "password";
+inbox = "inbox";
+isOnlyUnread = False;
+markRead = True;
+markUnread = False;
+messages = None;
+messageIds = None;
+dateFrom = None;
+dateTo = None;
+isReadingAttachment = False;
+isSsl = False;
+timeout = 10000;
+
+mails = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, timeout)
+
+mails2 = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var host = new _lib.Microsoft.ClearScript.HostFunctions();
-var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.String));
-lst.Add("id1");
-var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.LTools.Network.Model.EMail.MailMessage));
-var mail = _lib.LTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", false, true, false, lst, _lib.DateTime.Now.AddDays(-2), _lib.DateTime.Now, false, false, 10000);
-var mail2 = _libLTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", false, true, false, lst2, _lib.DateTime.Now.AddDays(-2), _lib.DateTime.Now, false, false, 10000);
+var server = "server";
+var port = 443;
+var login = "login";
+var password = "password";
+var inbox = "inbox";
+var isOnlyUnread = false;
+var markRead = true;
+var markUnread = false;
+var messages = Null;
+var = Null;
+var dateFrom = Null;
+var dateTo = Null;
+var isReadingAttachment = false;
+var isSsl = false;
+var timeout = 10000;
+
+var mails = _lib.LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
+
+var mails2 = _lib.LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
 ```
 {% endtab %}
 {% endtabs %}
