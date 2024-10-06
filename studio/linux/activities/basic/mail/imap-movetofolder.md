@@ -44,11 +44,12 @@ var outbox = "outbox";
 List<LTools.Network.Model.EMail.MailMessage> messages = null;
 List<string> messageIds = null;
 var isSsl = false;
+var ignoreCertificate = false;
 var timeout = 10000;
 
-LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, timeout);
+LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, ignoreCertificate, timeout);
 
-LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, timeout);
+LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, ignoreCertificate, timeout);
 ```
 {% endtab %}
 
@@ -63,11 +64,12 @@ outbox = "outbox";
 messages = None;
 messageIds = None;
 isSsl = False;
+ignoreCertificate = False;
 timeout = 10000;
 
-LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, timeout);
+LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, ignoreCertificate, timeout);
 
-LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, timeout);
+LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, ignoreCertificate, timeout);
 ```
 {% endtab %}
 
@@ -82,11 +84,12 @@ var outbox = "outbox";
 var messages = Null;
 var messageIds = Null;
 var isSsl = false;
+var ignoreCertificate = false;
 var timeout = 10000;
 
-_lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, timeout);
+_lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, ignoreCertificate, timeout);
 
-_lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, timeout);
+_lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, ignoreCertificate, timeout);
 ```
 {% endtab %}
 {% endtabs %}

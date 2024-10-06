@@ -60,11 +60,16 @@ DateTime? dateFrom = null;
 DateTime? dateTo = null;
 var isReadingAttachment = false;
 var isSsl = false;
+var isProgramSorting = false;
+var isProgramFiltering = false;
+var sortingType = LTools.Network.Model.EMail.ImapSortTypes..Default;
+var messageCount = 10;
+var ignoreCertificate = false;
 var timeout = 10000;
 
-List<LTools.Network.Model.EMail.MailMessage> mails = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
+List<LTools.Network.Model.EMail.MailMessage> mails = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, isProgramSorting, isProgramFiltering, sortingType, messageCount, ignoreCertificate, timeout);
 
-List<LTools.Network.Model.EMail.MailMessage> mails2 = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
+List<LTools.Network.Model.EMail.MailMessage> mails2 = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, isProgramSorting, isProgramFiltering, sortingType, messageCount, ignoreCertificate, timeout);
 ```
 {% endtab %}
 
@@ -84,11 +89,16 @@ dateFrom = None;
 dateTo = None;
 isReadingAttachment = False;
 isSsl = False;
+isProgramSorting = False;
+isProgramFiltering = False;
+sortingType = LTools.Network.Model.EMail.ImapSortTypes..Default;
+messageCount = 10;
+ignoreCertificate = False;
 timeout = 10000;
 
-mails = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, timeout)
+mails = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, isProgramSorting, isProgramFiltering, sortingType, messageCount, ignoreCertificate, timeout)
 
-mails2 = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
+mails2 = LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, isProgramSorting, isProgramFiltering, sortingType, messageCount, ignoreCertificate, timeout);
 ```
 {% endtab %}
 
@@ -108,11 +118,16 @@ var dateFrom = Null;
 var dateTo = Null;
 var isReadingAttachment = false;
 var isSsl = false;
+var isProgramSorting = False;
+var isProgramFiltering = False;
+var sortingType = LTools.Network.Model.EMail.ImapSortTypes..Default;
+var messageCount = 10;
+var ignoreCertificate = false;
 var timeout = 10000;
 
-var mails = _lib.LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
+var mails = _lib.LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messages, dateFrom, dateTo, isReadingAttachment, isSsl, isProgramSorting, isProgramFiltering, sortingType, messageCount, ignoreCertificate, timeout);
 
-var mails2 = _lib.LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, timeout);
+var mails2 = _lib.LTools.Network.MailApp.IMAPReceive(wf, server, port, login, password, inbox, isOnlyUnread, markRead, markUnread, messageIds, dateFrom, dateTo, isReadingAttachment, isSsl, isProgramSorting, isProgramFiltering, sortingType, messageCount, ignoreCertificate, timeout);
 ```
 {% endtab %}
 {% endtabs %}

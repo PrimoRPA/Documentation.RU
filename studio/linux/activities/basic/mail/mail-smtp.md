@@ -37,8 +37,10 @@ var timeout = 10000;
 var ignoreCertificate = false;
 var useSso = false;
 var sso = MailKit.Security.SecureSocketOptions.Auto;
+string emailAddressToSendCopy = null;
+string emailAddressToSendSecondCopy = null;
 
-LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso);
+LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso, emailAddressToSendCopy, emailAddressToSendSecondCopy);
 ```
 {% endtab %}
 
@@ -59,8 +61,10 @@ timeout = 10000;
 ignoreCertificate = False;
 useSso = False;
 sso = MailKit.Security.SecureSocketOptions.Auto;
+emailAddressToSendCopy = None;
+emailAddressToSendSecondCopy = None;
 
-LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso);
+LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso, emailAddressToSendCopy, emailAddressToSendSecondCopy);
 ```
 {% endtab %}
 
@@ -81,8 +85,10 @@ var timeout = 10000;
 var ignoreCertificate = false;
 var useSso = false;
 var sso = MailKit.Security.SecureSocketOptions.Auto;
+var emailAddressToSendCopy = Null;
+var emailAddressToSendSecondCopy = Null;
 
-_lib.LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso);
+_lib.LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso, emailAddressToSendCopy, emailAddressToSendSecondCopy);
 ```
 {% endtab %}
 {% endtabs %}
