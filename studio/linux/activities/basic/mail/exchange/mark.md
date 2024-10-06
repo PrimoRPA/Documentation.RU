@@ -1,6 +1,6 @@
 # Пометить сообщение
 
-![](../../../../resources/activities/basic/mail/exchange/image-334.png)
+![](../../../../resources/activities/basic/mail/exchange/exchange-mark-message-activity.png)
 
 Компонент, делающий пометки на сообщениях электронной почты в MS Exchange.
 
@@ -12,25 +12,55 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain");
-List<LTools.Office.Model.OMailMessage> msg = app.ReadMail("Inbox", true, false, 10);
-app.MarkMail(mag[0], LTools.Office.Model.OMailMarkTypes.IMPORTANCE_HIGH);
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+List<LTools.Office.Model.OMailMessage> messages = null;
+var markType = LTools.Office.Model.OMailMarkTypes.READ;
+
+app.MarkMail(messages, markType);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain")
-msg = app.ReadMail("Inbox", True, False, 10)
-app.MarkMail(mag[0], LTools.Office.Model.OMailMarkTypes.IMPORTANCE_HIGH)
+version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+url = "url";
+login = "login";
+password = "password";
+domain = "domain";
+russianTimeZone = False;
+
+app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+messages = None;
+markType = LTools.Office.Model.OMailMarkTypes.READ;
+
+app.MarkMail(messages, markType);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, _lib.Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain");
-var msg = app.ReadMail("Inbox", true, false, 10);
-app.MarkMail(mag[0], _lib.LTools.Office.Model.OMailMarkTypes.IMPORTANCE_HIGH);
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+var messages = Null;
+var markType = _lib.LTools.Office.Model.OMailMarkTypes.READ;
+
+app.MarkMail(messages, markType);
 ```
 {% endtab %}
 {% endtabs %}
