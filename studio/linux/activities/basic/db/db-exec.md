@@ -2,7 +2,7 @@
 Description: Execute query
 ---
 
-# Выполнить запроѝ
+# Выполнить запрос
 
 ![](../../../resources/activities/basic/db/execute-query-activity.png)
 
