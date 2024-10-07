@@ -4,9 +4,7 @@ description: Insert
 
 # Вставка данных
 
-![](../../../resources/activities/basic/db/image-100-1-1-1-1-1-1-1-2-65.png)
-
-![](../../../resources/activities/basic/db/бд.-вставка-данных.png)
+![](../../../resources/activities/basic/db/insert-data-activity,.png)
 
 Элемент производит вставку данных в указанную таблицу базы данных (БД).
 
@@ -27,30 +25,6 @@ description: Insert
 | **Вывод:**        | | | |     
 | Кол-во            | Int32                                                                                                    | Итоговое количество вставленных строк  | |
 
-### Окно мастера 
-
-:small_blue_diamond: *Для ODBC мастер отсутствует.*
-
-Свойство **Строка соединения** имеет кнопку <img src="../../../.gitbook/assets/connection_editor_button.png" alt="" data-size="line"> — при ее нажатии появится мастер создания строки соединения. Окно мастера будет отличаться для разных БД — убедитесь, что свойство **Тип БД** заполнено верно. 
-
-Мастер для Ole DB:
-
-![Для Ole DB](../../../resources/activities/basic/db/image-301.png)
-
-Мастер для PostgreSQL:
-
-![Для Postgre Sql](../../../resources/activities/basic/db/image-383.png)
-
-После заполнения полей мастера и нажатия кнопки **OK** строка соединения сформируется автоматически и будет записана в соответствующее свойство.
-
-Рассмотрим пример заполнения мастера для PostgreSQL. В свойстве **Тип БД** указываем `Postgre Sql`. После чего вызываем мастер и заполняем параметры подключения: 
-
-![Заполненные параметры подключения к Postgre Sql](../../../resources/activities/basic/db/wfconnectdatabase-master.png)
-
-Нажимаем **Тест**, чтобы убедиться, что подключение настроено успешно. После чего сохраняем настройки. В свойстве **Строка соединения** автоматически сформировалось значение из нашего мастера: `"Host=localhost;Port=5432;Password=pass;Username=postgres;Database=postgres"`.
-
-
-
 ## Только код
 
 Пример использования элемента в процессе с типом **Только код** (Pure code):
@@ -58,22 +32,46 @@ description: Insert
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Database.DatabaseApp app = LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI");
-int res = app.Insert("table", data);
+var connectionString = "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI";
+var databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+LTools.Database.DatabaseApp app = LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType);
+
+var tableName = "table";
+var data = new System.Data.DataTable();
+var timeout = 10000;
+
+int res = app.Insert(tableName, data, timeout);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI")
-res = app.Insert("table", da
+connectionString = "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI";
+databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+app = LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType)
+
+tableName = "table";
+data = new System.Data.DataTable();
+timeout = 10000;
+
+res = app.Insert(tableName, data, timeout)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI"); 
-var res = app.Insert("table", data);
+var connectionString = "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI";
+var databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+var app = _lib.LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType);
+
+var tableName = "table";
+var data = new System.Data.DataTable();
+var timeout = 10000;
+
+var res = app.Insert(tableName, data, timeout);
 ```
 {% endtab %}
 {% endtabs %}

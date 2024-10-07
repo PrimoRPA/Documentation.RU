@@ -5,9 +5,7 @@ description: Disconnect DB
 
 # Отсоединиться от БД
 
-![](../../../resources/activities/basic/db/image-100-1-1-1-1-1-1-1-2-65.png)
-
-![](../../../resources/activities/basic/db/отсоединиться-от-бд.png)
+![](../../../resources/activities/basic/db/disconnect-data-base-activity.png)
 
 Элемент завершает соединение с базой данных.
 
@@ -28,21 +26,34 @@ description: Disconnect DB
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Database.DatabaseApp app = LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI");
+var connectionString = "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI";
+
+var databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+LTools.Database.DatabaseApp app = LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType);
+
 app.Disconnect();
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI")
+connectionString = "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI";
+
+databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+app = LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType)
+
 app.Disconnect()
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI");
+var databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+var app = _lib.LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType);
+
 app.Disconnect();
 ```
 {% endtab %}
