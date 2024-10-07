@@ -1,6 +1,6 @@
 # Чтение почты
 
-![](../../../../resources/activities/basic/mail/exchange/image-324.png)
+![](../../../../resources/activities/basic/mail/exchange/exchange-read-mails-activity.png)
 
 Компонент вычитывает электронную почту из MS Exchange.
 
@@ -24,25 +24,64 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain");
-List<LTools.Office.Model.OMailMessage> msg = app.ReadMail("Inbox", true, false, 10);
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+var inbox = "inbox";
+var isOnlyUnread = true;
+var isReadingAttachment = false;
+var messageCount = 30;
+var query = "query";
+
+List<LTools.Office.Model.OMailMessage> messages = app.ReadMail(inbox, isOnlyUnread, isReadingAttachment, messageCount, query);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain")
-msg = app.ReadMail("Inbox", True, False, 10)
+version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+url = "url";
+login = "login";
+password = "password";
+domain = "domain";
+russianTimeZone = False;
+
+app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+inbox = "inbox";
+isOnlyUnread = True;
+isReadingAttachment = False;
+messageCount = 30;
+query = "query";
+
+messages = app.ReadMail(inbox, isOnlyUnread, isReadingAttachment, messageCount, query);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, _lib.Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain");
-var msg = app.ReadMail("Inbox", true, false, 10);
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+var inbox = "inbox";
+var isOnlyUnread = true;
+var isReadingAttachment = false;
+var  messageCount = 30;
+var query = "query";
+
+var messages = app.ReadMail(inbox, isOnlyUnread, isReadingAttachment, messageCount, query);
 ```
 {% endtab %}
 {% endtabs %}
-
-
-

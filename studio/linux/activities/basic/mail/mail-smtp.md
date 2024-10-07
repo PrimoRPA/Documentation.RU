@@ -1,8 +1,6 @@
 # Отправить письмо (SMTP)
 
-![](../../../resources/activities/basic/mail/image-100-1-1-1-1-1-1-1-2-185.png)
-
-![](../../../resources/activities/basic/mail/image-250.png)
+![](../../../resources/activities/basic/mail/send-mail-smtp-activity.png)
 
 Компонент, осуществляющий отправку почтового сообщения по протоколу SMTP.
 
@@ -24,24 +22,73 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Network.MailApp.SMTPSend(wf, "from", "to", "subject", "body", "server", 443, "login", "password", false, false, new List<string>() { "file1" }, 10000);
+var fromEmailAddress = "fromEmailAddress";
+var toEmailAddress = "toEmailAddress";
+var subject = "subject";
+var body = "body";
+var server = "server";
+var port = 443;
+var login = "login";
+var password = "password";
+var isHtml = false;
+var isSsl = false;
+List<string> attachments = null;
+var timeout = 10000;
+var ignoreCertificate = false;
+var useSso = false;
+var sso = MailKit.Security.SecureSocketOptions.Auto;
+string emailAddressToSendCopy = null;
+string emailAddressToSendSecondCopy = null;
+
+LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso, emailAddressToSendCopy, emailAddressToSendSecondCopy);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-dt = List[String]()
-dt.Add("file1")
-LTools.Network.MailApp.SMTPSend(wf, "from", "to", "subject", "body", "server", 443, "login", "password", False, False, dt, 10000)
+fromEmailAddress = "fromEmailAddress";
+toEmailAddress = "toEmailAddress";
+subject = "subject";
+body = "body";
+server = "server";
+port = 443;
+login = "login";
+password = "password";
+isHtml = False;
+isSsl = False;
+attachments = None;
+timeout = 10000;
+ignoreCertificate = False;
+useSso = False;
+sso = MailKit.Security.SecureSocketOptions.Auto;
+emailAddressToSendCopy = None;
+emailAddressToSendSecondCopy = None;
+
+LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso, emailAddressToSendCopy, emailAddressToSendSecondCopy);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var host = new _lib.Microsoft.ClearScript.HostFunctions();
-var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.String));
-lst.Add("file 1");
-_lib.LTools.Network.MailApp.SMTPSend(wf, "from", "to", "subject", "body", "server", 443, "login", "password", false, false, lst, 10000);
+var fromEmailAddress = "fromEmailAddress";
+var toEmailAddress = "toEmailAddress";
+var subject = "subject";
+var body = "body";
+var server = "server";
+var port = 443;
+var login = "login";
+var password = "password";
+var isHtml = false;
+var isSsl = false;
+var attachments = Null;
+var timeout = 10000;
+var ignoreCertificate = false;
+var useSso = false;
+var sso = MailKit.Security.SecureSocketOptions.Auto;
+var emailAddressToSendCopy = Null;
+var emailAddressToSendSecondCopy = Null;
+
+_lib.LTools.Network.MailApp.SMTPSend(wf, fromEmailAddress, toEmailAddress, subject, body, server, port, login, password, isHtml, isSsl, attachments, timeout, ignoreCertificate, useSso, sso, emailAddressToSendCopy, emailAddressToSendSecondCopy);
 ```
 {% endtab %}
 {% endtabs %}

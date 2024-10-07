@@ -1,6 +1,6 @@
 # Удалить сообщения
 
-![](../../../../resources/activities/basic/mail/exchange/image-299.png)
+![](../../../../resources/activities/basic/mail/exchange/exchange-delete-message-activity.png)
 
 Компонент, удаляющий сообщения электронной почты в MS Exchange.
 
@@ -12,26 +12,55 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain");
-List<LTools.Office.Model.OMailMessage> msg = app.ReadMail("Inbox", true, false, 10);
-app.DeleteMail(msg[0], LTools.Office.Model.OMailDeleteTypes.MoveToDeletedItems);
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+List<LTools.Office.Model.OMailMessage> messages = null;
+var deleteType = LTools.Office.Model.OMailDeleteTypes.MoveToDeletedItems;
+
+app.DeleteMail(messages, deleteType);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain")
-msg = app.ReadMail("Inbox", True, False, 10)
-app.DeleteMail(msg[0], LTools.Office.Model.OMailDeleteTypes.MoveToDeletedItems)
+version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+url = "url";
+login = "login";
+password = "password";
+domain = "domain";
+russianTimeZone = False;
+
+app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+messages = None;
+deleteType = LTools.Office.Model.OMailDeleteTypes.MoveToDeletedItems;
+
+app.DeleteMail(messages, deleteType);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, _lib.Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "server url", "login", "pass", "domain");
-var msg = app.ReadMail("Inbox", true, false, 10);
-app.DeleteMail(msg[0], _lib.LTools.Office.Model.OMailDeleteTypes.MoveToDeletedItems);
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+var messages = Null;
+var deleteType = _lib.LTools.Office.Model.OMailDeleteTypes.MoveToDeletedItems;
+
+app.DeleteMail(messages, deleteType);
 ```
 {% endtab %}
 {% endtabs %}
-

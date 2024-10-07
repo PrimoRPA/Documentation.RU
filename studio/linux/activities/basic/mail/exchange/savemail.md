@@ -1,8 +1,6 @@
 # Сохранить сообщение
 
-![](../../../../resources/activities/basic/mail/exchange/image-100-1-1-1-1-1-1-1-2-252.png)
-
-![](../../../../resources/activities/basic/mail/exchange/сохранить-сообщение-exchange-и-outlook-fixed.png)
+![](../../../../resources/activities/basic/mail/exchange/exchange-save-message-activity.png)
 
 Позволяет сохранить на диск письмо из электронной почты MS Exchange. Корректно работает только внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/el\_basic/els\_mail/els\_exchange/el\_connect).
 
@@ -16,22 +14,55 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "URL", "login", "pass", "domain");
-app.SaveMessage(msg, @"C:\file.eml");
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+LTools.Office.MSExchangeApp app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+LTools.Office.Model.OMailMessage message = null;
+var pathToFile = "pathToFile";
+
+app.SaveMessage(message, pathToFile);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Office.MSExchangeApp.InitSvc(wf, Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "URL", "login", "pass", "domain")
-app.SaveMessage(msg, "C:\file.eml")
+version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+url = "url";
+login = "login";
+password = "password";
+domain = "domain";
+russianTimeZone = False;
+
+app = LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+message = None;
+pathToFile = "pathToFile";
+
+app.SaveMessage(message, pathToFile)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, _lib.Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1, "URL", "login", "pass", "domain");
-app.SaveMessage(msg, "C:\\file.eml");
+var version = Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010;
+var url = "url";
+var login = "login";
+var password = "password";
+var domain = "domain";
+var russianTimeZone = false;
+
+var app = _lib.LTools.Office.MSExchangeApp.InitSvc(wf, version, url, login, password, domain, russianTimeZone);
+
+message = Null;
+pathToFile = "pathToFile";
+
+app.SaveMessage(message, pathToFile);
 ```
 {% endtab %}
 {% endtabs %}

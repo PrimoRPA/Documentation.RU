@@ -2,9 +2,7 @@
 
 *Eng: Move to folder (IMAP)*
 
-![](../../../resources/activities/basic/mail/image-100-1-1-1-1-1-1-1-1-28.png)
-
-![](../../../resources/activities/basic/mail/image-427.png)
+![](../../../resources/activities/basic/mail/move-to-folder-imap-activity.png)
 
 Элемент перемещает сообщения между папками по протоколу IMAP.
 
@@ -37,30 +35,61 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-List<LTools.Network.Model.EMail.MailMessage> mail = LTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", false, true, false, null, DateTime.Now.AddDays(-2), DateTime.Now, false, false, 10000);
-LTools.Network.MailApp.IMAPMoveToFolder(wf, "server", 443, "login", "password", "inbox", "outbox", new List<string>() { mail[0].UID }, false, 10000);
-LTools.Network.MailApp.IMAPMoveToFolder(wf, "server", 443, "login", "password", "inbox", "outbox", mail, false, 10000);
+var server = "server";
+var port = 443;
+var login = "login";
+var password = "password";
+var inbox = "inbox";
+var outbox = "outbox";
+List<LTools.Network.Model.EMail.MailMessage> messages = null;
+List<string> messageIds = null;
+var isSsl = false;
+var ignoreCertificate = false;
+var timeout = 10000;
+
+LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, ignoreCertificate, timeout);
+
+LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, ignoreCertificate, timeout);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-dt = List[String]()
-mail = LTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", False, True, False, null, DateTime.Now.AddDays(-2), DateTime.Now, False, False, 10000)
-dt.Add(mail[0].UID)
-LTools.Network.MailApp.IMAPMoveToFolder(wf, "server", 443, "login", "password", "inbox", "outbox", dt, False, 10000)
-LTools.Network.MailApp.IMAPMoveToFolder(wf, "server", 443, "login", "password", "inbox", "outbox", mail, False, 10000)
+server = "server";
+port = 443;
+login = "login";
+password = "password";
+inbox = "inbox";
+outbox = "outbox";
+messages = None;
+messageIds = None;
+isSsl = False;
+ignoreCertificate = False;
+timeout = 10000;
+
+LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, ignoreCertificate, timeout);
+
+LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, ignoreCertificate, timeout);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var host = new _lib.Microsoft.ClearScript.HostFunctions();
-var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.String));
-var mail = _lib.LTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "password", "inbox", false, true, false, null, _lib.DateTime.Now.AddDays(-2), _lib.DateTime.Now, false, false, 10000);
-lst.Add(mail[0].UID);
-_lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, "server", 443, "login", "password", "inbox", "outbox", lst, false, 10000);
-_lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, "server", 443, "login", "password", "inbox", "outbox", mail, false, 10000);
+var server = "server";
+var port = 443;
+var login = "login";
+var password = "password";
+var inbox = "inbox";
+var outbox = "outbox";
+var messages = Null;
+var messageIds = Null;
+var isSsl = false;
+var ignoreCertificate = false;
+var timeout = 10000;
+
+_lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messages, isSsl, ignoreCertificate, timeout);
+
+_lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, server, port, login, password, inbox, outbox, messageIds, isSsl, ignoreCertificate, timeout);
 ```
 {% endtab %}
 {% endtabs %}
