@@ -4,11 +4,11 @@ Description: Wait queue
 
 # Ожидать сообщения из очереди
 
+![](../../../../../../studio/linux/resources/activities/basic/orchestrator/queues/wait-queue.png)
+
 Компонент ожидает появление нового элемента в [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues). При появлении элемента, робот извлечет его из очереди Оркестратора и сохранит в переменную. Извлеченный элемент перейдет из состояния New в InProgress. Это означает, что он будет доступен вашему роботу для дальнейшей обработки в рамках сценария автоматизации. Подробнее о статусах элемента см. [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues/items#statusy-elementa).
 
 Если во время выполнения компонента указанная очередь окажется пустой, то робот будет опрашивать очередь в течение заданного времени из свойства **Период**. Это отличает данный компонент от других способов извлечения элемента, например, от [**Получить из очереди**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/readfromqueue).  
-
-![](../../../../studio/linux/resources/activities/basic/orchestrator/queues/wait-queue.png)
 
 
 ### Свойства
@@ -23,7 +23,7 @@ Description: Wait queue
 **Вывод**
 1. **Таблица** *[[DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-8.0&viewFallbackFrom=net-4.6.1)]* - Переменная, которая будет хранить полученный элемент очереди в виде таблицы.
 1. **Результат** *[String]* - Переменная, которая будет хранить полученный элемент очереди в виде строки.
-1. **Элемент** *[[LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/orkestrator/els\_queues/datatypes)]* - Элемент очереди.
+1. **Элемент** *[[LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/orkestrator/els\_queues/datatypes)]* - Переменная, которая будет хранить полученный элемент очереди в виде объекта.
 
 
 ## Только код
