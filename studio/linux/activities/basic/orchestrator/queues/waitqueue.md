@@ -40,9 +40,8 @@ description: Wait queue
 //Свойства элемента:
 //wf: [LTools.Common.Model.WorkflowData] ссылка на вызывающий алгоритм
 //queue - Очередь: [String] Имя очереди
-//robot - Статус элемента
-object ret = LTools.Enterprise.OrchestratorApp.PeekQueue(wf, "PrimoTestQueue", LTools.Enterprise.Model.QueueItemStates.Any);
-		
+
+object ret = LTools.Enterprise.OrchestratorApp.WaitQueue(wf, queue);		
 //Вывод в лог
 LTools.Workflow.PrimoApp.AddToLog(wf, "Полученное значение из очереди - " + ret.ToString(), LTools.Enums.LogMessageType.Info);
 ```
@@ -53,9 +52,8 @@ LTools.Workflow.PrimoApp.AddToLog(wf, "Полученное значение и�
 #Свойства элемента:
 #wf: [LTools.Common.Model.WorkflowData] - Ссылка на вызывающий алгоритм
 #queue - Очередь: [String] Имя очереди
-#robot - Статус элемента
-ret = LTools.Enterprise.OrchestratorApp.PeekQueue(wf, "PrimoTestQueue", LTools.Enterprise.Model.QueueItemStates.Any)
-		
+
+ret = LTools.Enterprise.OrchestratorApp.WaitQueue(wf, queue)		
 #Вывод в лог
 LTools.Workflow.PrimoApp.AddToLog(wf, "Полученное значение из очереди - " + str(ret), LTools.Enums.LogMessageType.Info)
 ```
@@ -66,9 +64,8 @@ LTools.Workflow.PrimoApp.AddToLog(wf, "Полученное значение и�
 //Свойства элемента:
 //wf: [LTools.Common.Model.WorkflowData] - Ссылка на вызывающий алгоритм
 //queue - Queue: [String] Имя очереди
-//robot - Статус элемента
-let ret = _lib.LTools.Enterprise.OrchestratorApp.PeekQueue(wf, "PrimoTestQueue", _lib.LTools.Enterprise.Model.QueueItemStates.Any);
-		
+
+let ret = _lib.LTools.Enterprise.OrchestratorApp.WaitQueue(wf, queue);		
 //Вывод в лог	
 _lib.LTools.Workflow.PrimoApp.AddToLog(wf, "Полученное значение из очереди - " + ret.toString(), _lib.LTools.Enums.LogMessageType.Info);
 ```
