@@ -1,5 +1,5 @@
 ---
-description: Execute query
+Description: Execute query
 ---
 
 # Выполнить запрос
