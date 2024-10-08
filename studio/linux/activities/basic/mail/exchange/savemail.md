@@ -1,3 +1,7 @@
+---
+Description: Save message
+---
+
 # Сохранить сообщение
 
 ![](../../../../resources/activities/basic/mail/exchange/exchange-save-message-activity.png)
