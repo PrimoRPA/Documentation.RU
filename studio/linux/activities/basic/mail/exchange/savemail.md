@@ -4,12 +4,14 @@
 
 Позволяет сохранить на диск письмо из электронной почты MS Exchange. Корректно работает только внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/el\_basic/els\_mail/els\_exchange/el\_connect).
 
-> _Общие свойства элемента описаны в разделе_ [_**Работа с элементами**_](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)_._
+## Свойства
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-| Свойство    | Тип                                                                        | Описание                               |
-| ----------- | -------------------------------------------------------------------------- | -------------------------------------- |
-| Путь\*      | String                                                                     | Путь сохранения файла в формате \*.eml |
-| Сообщение\* | [LTools.Office.Model.OMailMessage](../els\_mail/datatypes/omailmessage.md) | Письмо для сохранения, переменная      |
+1. **Путь\*** *[String]* - Путь сохранения файла в формате \*.eml.
+1. **Сообщение\*** *[[LTools.Office.Model.OMailMessage](../els\_mail/datatypes/omailmessage.md)]* - Письмо для сохранения, переменная.
+
+## Только код
+Пример использования элемента в процессе с типом **Только код** (Pure code):
 
 {% tabs %}
 {% tab title="C#" %}
