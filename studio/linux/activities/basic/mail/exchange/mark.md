@@ -4,11 +4,14 @@
 
 Компонент, делающий пометки на сообщениях электронной почты в MS Exchange.
 
-| Свойство    | Тип                                                                    | Описание                 |
-| ----------- | ---------------------------------------------------------------------- | ------------------------ |
-| Тип метки   | LTools.Office.Model.OMailMarkTypes                                     | Тип метки сообщения      |
-| Сообщения\* | List<[LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)> | Список писем для пометки |
+## Свойства
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
+1. **Тип метки** *[LTools.Office.Model.OMailMarkTypes]* - Тип метки сообщения.
+1. **Сообщения\*** *[List<[LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)>]* - Список писем для пометки.
+
+## Только код
+Пример использования элемента в процессе с типом **Только код** (Pure code):
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
