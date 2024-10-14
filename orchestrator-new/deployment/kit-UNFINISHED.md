@@ -59,9 +59,8 @@
 1. **restore_console.bat**. Скрипт для перенаправления RDP-сессии в консоль. Используется вместе с файлом RDP-Disconnector.xml.
 1. **ChromeStandaloneSetup64.exe**. Установщик браузера Google Chrome.
 
-Точный размер каждого файла приведен в руководстве «Развертывание Primo RPA 23.x - Руководство администратора.docx». Документ включен в поставку. В нем же можно просмотреть полный перечень всех документов по Оркестратору, входящих в комплект.
 
 ## Варианты развертывания компонентов
 
-Возможные варианты развертывания компонентов приведены [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/component-deployment-options).
+Возможные варианты развертывания компонентов приведены [здесь](../../orchestrator-new/deployment/component-deployment-options.md).
 
