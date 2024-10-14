@@ -4,7 +4,7 @@
 
 Мультитенантность настраивается в конфигурационном файле WebApi в секции **Tenants**:
 
-![](../resources/deployment/tenants-config.png) 
+![](../../../orchestrator-new/resources/deploy/tenants-config.png) 
 
 #### Таблица 1 – Описание параметров для настройки мультитенантности.
 
