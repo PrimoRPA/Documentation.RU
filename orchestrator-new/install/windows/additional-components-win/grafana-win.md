@@ -1,4 +1,4 @@
-# Установка и настройке Grafana под Windows 2016 Server
+# Установка и настройка Grafana под Windows 2016 Server
 
 ## Общие положения
 
