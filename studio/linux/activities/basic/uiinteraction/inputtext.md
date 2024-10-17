@@ -1,6 +1,6 @@
 # Ввод текста
 
-![](<../../../.gitbook/assets/image (937).png>)
+![](../../../resources/activities/basic/uiinteraction/input-text-activity.png)
 
 Компонент позволяет ввести текст в выбранный элемент управления. Инструмент ![](<../../../.gitbook/assets/image (794).png>), который расположен на компоненте, позволяет автоматически заполнить [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) нужного элемента управления.
 
