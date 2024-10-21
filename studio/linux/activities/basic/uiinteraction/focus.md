@@ -4,7 +4,7 @@ description: Set focus
 
 # Фокус ввода
 
-![](<../../../.gitbook/assets/image (456).png>)
+![](../../../resources/activities/basic/uiinteraction/focus-activity.png)
 
 Устанавливает фокус ввода на выбранном элементе управления.
 
