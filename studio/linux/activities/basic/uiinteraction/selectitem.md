@@ -1,6 +1,6 @@
 # Выбор значения
 
-![](<../../../.gitbook/assets/image (563).png>)
+![](../../../resources/activities/basic/uiinteraction/select-item-activity.png)
 
 Компонент позволяет выбирать значения в комбобоксе либо списке.
 
