@@ -4,7 +4,7 @@
 
 Компонент позволяет ввести текст в выбранный элемент управления. Инструмент ![](<../../../.gitbook/assets/image (794).png>), который расположен на компоненте, позволяет автоматически заполнить [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) нужного элемента управления.
 
-Если элемент управления относится к определенному приложению, сначала используйте контейнер [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_desktop/el_desktop_attach), а уже в него поместите **Ввод текста**.
+Если элемент управления относится к определенному приложению, сначала используйте контейнер [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/linuks/el-linux-basic/els-desktop/el-desktop-attach), а уже в него поместите **Ввод текста**.
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
