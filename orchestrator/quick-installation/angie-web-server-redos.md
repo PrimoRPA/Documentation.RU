@@ -63,11 +63,11 @@ http > upstream robotlogs
 http > ustream rdpstream  
 http > upstream rdpstream1  
 
-![](../../../../orchestrator-new/resources/install/linux/redos/angie-redos1.PNG)
+![](../../orchestrator/resources/quick-installation/angie-redos1.PNG)
 
 В секции server > root укажите путь к папке *UI* Оркестратора:
 
-![](../../../../orchestrator-new/resources/install/linux/redos/angie-redos2.PNG)
+![](../../orchestrator/resources/quick-installation/angie-redos2.PNG)
 
 Перезапустите службу и убедитесь, что она работает:
 ```
