@@ -17,4 +17,4 @@
 
 RDP-пользователям (локальным или доменным) необходимо выдать полные права на эту папку:
 
-![](../../../orchestrator-new/resources/fine-tuning/block-robot-by-agent-2.png)
+![](../../../orchestrator-new/resources/fine-tuning/block-robot-by-agent-3.png)
