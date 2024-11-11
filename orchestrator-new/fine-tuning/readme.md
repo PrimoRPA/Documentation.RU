@@ -1,3 +1,6 @@
+NEEDS EDITING!!!
+CHANGE LINKS, ADD NEW CHAPTERS
+
 # Тонкая настройка
 Тонкая настройка Оркестратора осуществляется в конфигурационном файле WebApi:
 * appsettings.ProdWin.json - для WebApi под Windows (папка `Distr` > `Windows` в комплекте поставки);
