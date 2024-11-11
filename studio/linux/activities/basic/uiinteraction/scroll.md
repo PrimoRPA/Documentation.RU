@@ -1,6 +1,6 @@
 # Прокрутка
 
-![](<../../../.gitbook/assets/image (483).png>)
+![](../../../resources/activities/basic/uiinteraction/scroll-activity.png)
 
 Осуществляет прокрутку в визуальном компоненте.
 
@@ -23,4 +23,3 @@
 | Вертикальная         | double?                              | Вертикальная прокрутка (%)                          |
 | ***Вывод***  |  |  |
 | Прокрутка            | [System.Drawing.Point](https://learn.microsoft.com/ru-ru/dotnet/api/System.Drawing.Point?view=netcore-1.1)         | Переменная, которая сохранит текущее состояние прокрутки  |
-
