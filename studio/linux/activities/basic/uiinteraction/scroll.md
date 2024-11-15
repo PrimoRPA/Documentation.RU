@@ -16,7 +16,7 @@
 | Элемент              | LTools.UIInteraction.Model.UIControl | Ссылка на элемент управления  |
 | Таймаут\*            | Int32                                | Предельное время ожидания завершения процесса (мс)  |
 | ***Прокрутка***  |  |  |
-| Горизонтальная       | [double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)? | Горизонтальная прокрутка (%)   |
-| Вертикальная         | double?                              | Вертикальная прокрутка (%)                          |
+| Горизонтальная       | [double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0) | Горизонтальная прокрутка (%; для браузера: пиксели)   |
+| Вертикальная         | double                              | Вертикальная прокрутка (%; для браузера: пиксели)                          |
 | ***Вывод***  |  |  |
-| Прокрутка            | [System.Drawing.Point](https://learn.microsoft.com/ru-ru/dotnet/api/System.Drawing.Point?view=netcore-1.1)         | Переменная, которая сохранит текущее состояние прокрутки  |
+| Прокрутка            | [System.Drawing.Point](https://learn.microsoft.com/ru-ru/dotnet/api/System.Drawing.Point?view=netcore-1.1)         | Переменная, которая сохранит текущее состояние прокрутки (%; для браузера: пиксели)  |
