@@ -4,7 +4,7 @@
 
 Параметры открытия RDP-сессии настраиваются в конфигурационном файле WebApi в секции **RobotStart.AttemptsKeepRDPSessionLevels**:
 
-![](../resources/fine-tuning/rdp-support-config.png)
+![](../../../orchestrator-new/resources/fine-tuning/rdp-session.PNG)
 
 В таблице приводится описание параметров открытия RDP-сессии.
 
