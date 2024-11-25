@@ -1,3 +1,7 @@
+---
+Description: Scroll
+---
+
 # Прокрутка
 
 ![](../../../resources/activities/basic/uiinteraction/scroll-activity.png)
