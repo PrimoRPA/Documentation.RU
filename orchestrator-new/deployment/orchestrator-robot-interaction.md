@@ -4,7 +4,7 @@
 
 Сетевое взаимодействие Оркестратора с роботами:
 
-![]()
+![](../../../orchestrator-new/resources/deploy/orch-robot-interaction1.PNG)
 
 От своих Агентов и запущенных роботов Оркестратор получает:
 1.	От Агентов – обратную связь и запросы на скачивание проектов/дистрибутивов.
@@ -30,7 +30,7 @@
 
 Работа по запуску и контролю работы Windows-робота:
 
-![]()
+![](../../../orchestrator-new/resources/deploy/orch-robot-interaction2.PNG)
 
 ## Запуск Linux-робота
 
@@ -46,7 +46,7 @@
 
 Работа по запуску и контролю работы Linux-робота:
 
-![]()
+![](../../../orchestrator-new/resources/deploy/orch-robot-interaction3.PNG)
 
 ## Развертывание Windows- и Linux-роботов
 
@@ -60,4 +60,4 @@
 
 Развернутый робот готов к запуску.
 
-![]()
+![](../../../orchestrator-new/resources/deploy/orch-robot-interaction4.PNG)
