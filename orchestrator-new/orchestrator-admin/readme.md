@@ -4,7 +4,7 @@
 
 Все вкладки настроек открываются при помощи верхнего правого меню - иконка «Шестеренка».
 
-![](../../../orchestrator-new/resources/settings/admin-settings-icon.png)
+![](../../../orchestrator-new/resources/orchestrator-admin/admin-settings-icon.png)
 
 Настройки делятся на системные и настройки тенанта.
 
