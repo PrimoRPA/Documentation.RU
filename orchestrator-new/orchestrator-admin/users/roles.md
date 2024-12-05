@@ -6,11 +6,11 @@
 В дальнейшем, при работе с пользователями, роли назначаются пользователю. Управление ролями осуществляется на вкладке **Настройки/Роли пользователей**. 
 Добавление новой роли осуществляется по кнопке **Добавить роль**:
 
-![](../../../orchestrator-new/resources/orchestrator-admin/users/user-roles1.png)
+![](../../../orchestrator-new/resources/orchestrator-admin/users/user-roles-1.PNG)
 
 Форма добавления роли:
 
-![](../../../orchestrator-new/resources/orchestrator-admin/users/user-roles2.png)
+![](../../../orchestrator-new/resources/orchestrator-admin/users/user-roles-2.PNG)
 
 **Управление** – это права на специфические операции, например, «Запуск робота с проектом» для роботов.
 
