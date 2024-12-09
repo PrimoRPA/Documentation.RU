@@ -8,17 +8,17 @@
 
 Перейдите в раздел **Настройки > Стратегия очереди проектов**. От выбранной стратегии зависит, по какому принципу будут назначаться роботы на RPA-проекты, помещенные в очередь на выполнение. 
 
-![]()
+![](../../orchestrator-new/resources/orchestrator-admin/project-queue-strategy1.PNG)
 
 В таблицах с роботами (рисунок 1) и RPA-проектами (рисунок 2) отображаются напоминания, если отсутствуют необходимые привязки для выбранной стратегии.
 
 Рисунок 1:
 
-![]()
+![](../../orchestrator-new/resources/orchestrator-admin/project-queue-strategy2.PNG)
 
 Рисунок 2:
 
-![]()
+![](../../orchestrator-new/resources/orchestrator-admin/project-queue-strategy3.PNG)
 
 
 ## Стратегия для отдельного тенанта
