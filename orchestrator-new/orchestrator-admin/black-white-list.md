@@ -7,11 +7,11 @@
 
 Права на создание списков есть только у администратора. Функция доступна в разделе **Настройки > Ч-Б список Студий** по кнопке **Добавить правило**:
 
-![](../resources/settings/stidios-list-button.png)
+![](../../orchestrator-new/resources/orchestrator-admin/stidios-list-button.png)
 
 В результате откроется форма настроек правила фильтрации:
 
-![](../resources/settings/studios-list-form.png)
+![](../../orchestrator-new/resources/orchestrator-admin/studios-list-form.png)
 
 1. **Tenant** - выберите тенант, к которому относятся учетные записи машин Студий. 
 2. **Параметры правила** - по умолчанию настроена фильтрация по диапазону IP. Потребуется указать начало и конец диапазона IP-адресов машин.\
