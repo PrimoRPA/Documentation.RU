@@ -17,7 +17,7 @@
 
 Если задача долго не переходит в состояние успешно завершенной, её нужно удалить:
 
-![](../../../orchestrator-new/resources/orchestrator-admin/nuget.PNG)
+![](../../../orchestrator-new/resources/orchestrator-admin/nuget3.PNG)
 
 ## Просмотр пакетов в Primo Studio
 Чтобы NuGet-пакеты с локального сервера были доступны в Студии, нужно добавить его в разрешенные источники в настройках Студии. О том, как это сделать, читайте [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/nuget).
