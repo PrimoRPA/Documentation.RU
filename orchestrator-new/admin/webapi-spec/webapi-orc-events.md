@@ -74,7 +74,7 @@ POST: Url
 | 3   | SecurityIncident | Инцидент безопасности |  
 | 4   | Correction    | Корректировка |  
      
-**ВНИМАНИЕ!** Для ознакомления с перечнем событий Оркестратора см. [Приложение 3 - События Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/appendix/appendix3).
+**ВНИМАНИЕ!** Для ознакомления с перечнем событий Оркестратора см. [Приложение 3 - События Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/appendix/appendix3).
 
 ## End-point приема событий для интеграции с ArcSight
 
