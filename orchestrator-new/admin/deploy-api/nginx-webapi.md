@@ -1,7 +1,7 @@
 # Развертывание фермы WebApi за Nginx
 
 1. Развертываем по инструкциям компоненты WebApi, States, Notifications на каждом узле фермы.
-2. Правим конфиг WebApi (c:\Primo\WebApi\appsettings.ProdWin.json или c:\Primo\WebApi\appsettings.ProdLinux.json), где:\
+2. Правим конфигурационный файл WebApi (c:\Primo\WebApi\appsettings.ProdWin.json или c:\Primo\WebApi\appsettings.ProdLinux.json), где:\
    RobotDeployment: **OrchBaseUrl** – url, на который отвечает nginx;\
    InstanceInfo: **Id** – уникальный номер для каждого узла:
    ```json
@@ -19,7 +19,7 @@
      "Id": 0
    },
    ```
-3. Правим конфиг nginx (/etc/nginx/nginx.conf):
+3. Правим конфигурационный файл nginx (/etc/nginx/nginx.conf):
    * Прописываем url узлов фермы (на узлах порты должны быть открыты):\
      ![](../../../../orchestrator-new/resources/admin/nginx-api1.png)
    * Настраиваем [Passive Health Checks](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-health-check/):\
