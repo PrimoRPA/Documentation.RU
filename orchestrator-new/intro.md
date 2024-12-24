@@ -10,12 +10,12 @@
 ## Системный администратор
 
 Занимается развертыванием всех компонентов Оркестратора и выполняет тонкую настройку системы. Вам могут быть полезны следующие разделы:
-* [Системные требования](https://docs.primo-rpa.ru/primo-rpa/orchestrator/systemreq) — аппаратные и программные требования для работы Оркестратора и роботов.
-* [Развертывание](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment) — порядок установки компонентов Оркестратора и конфигурирование системы.
-* [Инфраструктура](https://docs.primo-rpa.ru/primo-rpa/orchestrator/ports) — список сетевых портов Оркестратора.
-* [Настройка машин роботов и Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines).
-* [Варианты установки Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation).
-* [Тонкая настройка Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/fine-tuning).
+* [Системные требования](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/systemreq) — аппаратные и программные требования для работы Оркестратора и роботов.
+* [Развертывание](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/deployment) — порядок установки компонентов Оркестратора и конфигурирование системы.
+* [Инфраструктура](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/ports) — список сетевых портов Оркестратора.
+* [Настройка машин роботов и Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/setting-up-machines).
+* [Варианты установки Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/quick-installation).
+* [Тонкая настройка Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/fine-tuning).
 
 Полный комплект документации по настройке и развертыванию компонентов входит в комплект поставки Оркестратора. 
 
