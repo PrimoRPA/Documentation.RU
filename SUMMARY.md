@@ -1030,6 +1030,7 @@
   * [Масштабирование журнала робота](orchestrator-new/orchestrator-sys-admin/robot-log-scaling.md)
   * [Контроль версий проектов Оркестратора](orchestrator-new/orchestrator-sys-admin/orch-version-control.md)
   * [Настройка хранения секретов служб в отдельной БД](orchestrator-new/orchestrator-sys-admin/secrets.md)
+  * [Настройка PostgreSQL для работы через SSL](orchestrator-new/orchestrator-sys-admin/postgresql-setup-for-ssl.md)
 * [Администраторам Оркестратора](orchestrator-new/orchestrator-admin/readme.md)
   * [Лицензии](orchestrator-new/orchestrator-admin/licensing/readme.md)
     * [Типы лицензий](orchestrator-new/orchestrator-admin/licensing/license-types.md)
