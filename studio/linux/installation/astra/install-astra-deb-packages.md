@@ -1,4 +1,4 @@
-# Установка Primo RPA Studio Linux на Astra Linux
+# Установка Primo RPA Studio Linux на Astra Linux по средствам пакетов debian
 
 На экране **Настройка учётных записей пользователей и паролей** создайте пользователя-администратора (далее – primo-admin) машины Студии.
 
@@ -51,31 +51,70 @@ deb https://security.debian.org/debian-security/ buster/updates main contrib non
 ```
 [primo-admin@astra-studio ~]$ yandex-browser-stable
 ```
-## Установка Студии
-Распакуйте архив Primo.Studio.Linux.zip в удобный каталог, например: `/home/user`.
+## Установка компонентов Студии линукс
+Существую следующую компоненты Студии линукс, которые можно устанавливать на машину как отдельно, так и в некоторых комбинациях:
 
-Создайте каталог:
+- `Studio Linux` - включает в себя инструмент разработчика и предназначен для создания и отладки процессов.
+
+- `Robot Runner` - включает в себя инструмент запуска процессов как в ручном режиме, так и по расписанию.
+
+- `Browser Extensions` - компонент, который позволяет взаимодействовать браузерным активностям с браузерами Яндекс и Google Chrome по средствам специальных расширений для этих браузеров.
+
+Типичные комбинации компонентов для установки:
+- `Studio Linux` + `Robot Runner` + `Browser Extensions` - полный установочный набор для разработчика
+- `Robot Runner` + `Browser Extensions` - установочный набор только для запуска процессов
+- `Browser Extensions` - набор для установки на машины, где планируется запускать оркестровых роботов.
+
+### Установка компонента Studio Linux
+Скопируйте пакет `primo-studio_1.25.1.3-1_all.deb`  в удобный каталог, например: `/home/{current user}`.
+
+>Имя пакета может отличаться в зависимости от версии продукта, не используйте буквально
+
+Перейдите в папку с этим пакетом и выполните установку пакета
 ```
-[primo-admin@astra-studio ~]$ sudo mkdir /opt/Primo/
+[primo-admin@astra-studio ~]$ sudo apt install ./primo-studio_1.25.1.3-1_all.deb
 ```
-Содержимое папки linux-x64 перенесите в `/opt/Primo/Studio`:
+В результате компонент должен установиться по пути `/opt/primo/studio/`
+>Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, что будет описано ниже
+
+### Установка компонента Robot Runner
+Скопируйте пакет `primo-robot-runner_1.25.1.3-1_all.deb`  в удобный каталог, например: `/home/{current user}`.
+
+>Имя пакета может отличаться в зависимости от версии продукта, не используйте буквально
+
+Перейдите в папку с этим пакетом и выполните установку пакета
 ```
-[primo-admin@astra-studio ~]$ sudo mv /home/user/linux-x64/ /opt/Primo/Studio/`
+[primo-admin@astra-studio ~]$ sudo apt install ./primo-robot-runner_1.25.1.3-1_all.deb
+
 ```
-Распакуйте содержимое архива `/opt/Primo/Studio/x64/AstraOCRx64.zip` в папку `/opt/Primo/Studio/`
+В результате компонент должен установиться по пути `/opt/primo/robot-runner/`
+>Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, что будет описано ниже
+
+### Установка компонента Robot Runner
+Скопируйте пакет `primo-web-browser-native_1.25.1.3-1_all.deb`  в удобный каталог, например: `/home/{current user}`.
+
+>Имя пакета может отличаться в зависимости от версии продукта, не используйте буквально
+
+Перейдите в папку с этим пакетом и выполните установку пакета
+```
+[primo-admin@astra-studio ~]$ sudo apt install ./primo-web-browser-native_1.25.1.3-1_all.deb
+
+```
+В результате компонент должен установиться по пути `/opt/primo/robot-runner/`
+>Для возможности работать с компонентом необходимо будет настроить права для группы пользователей и зарегистрировать расширение для браузеров, что будет описано ниже
 
 ## Создание группы пользователей
 Для работы пользователя необходима общая группа:
 ```
 [primo-admin@astra-studio ~]$ sudo groupadd primo-rpa
 ```
-Задайте вновь созданную группу для всех элементов папки Студии:
+Задайте вновь созданную группу для папки Primo куда были установленны необходимые компонентов Студии линукс:
 ```
-[primo-admin@astra-studio ~]$ sudo chgrp -R primo-rpa /opt/Primo/Studio/
+[primo-admin@astra-studio ~]$ sudo chgrp -R primo-rpa /opt/Primo/
 ```
 Задайте права:
 ```
-[primo-admin@astra-studio ~]$ sudo chmod -R 770 /opt/Primo/Studio/
+[primo-admin@astra-studio ~]$ sudo chmod -R 770 /opt/Primo/
 ```
 ## Настройка учетной записи пользователя
 Создание учётной записи пользователя `<any_user>`:
@@ -99,8 +138,8 @@ passwd: пароль успешно обновлён
 ![](../../resources/installation/astra/developer-mode.png)
 
 Выполните перетаскивание соответствующего файла в браузер Хром на страницу **Расширения**:
-* файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2, 
-* файла `/opt/Primo/Studio/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3. 
+* файла `/opt/primo/web-browser-native/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2,
+* файла `/opt/primo/web-browser-native/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3.
 
 В результате на странице должно появиться расширение Primo RPA Extension:  
 ![](../../resources/installation/astra/chrome-extension.png)
@@ -110,8 +149,8 @@ passwd: пароль успешно обновлён
 ![](../../resources/installation/astra/developer-mode.png)  
 
 Выполните перетаскивание соответствующего файла в браузер Яндекс на страницу **Расширения**:
-* файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2,
-* файла `/opt/Primo/Studio/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3. 
+* файла `/opt/primo/web-browser-native/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2,
+* файла `/opt/primo/web-browser-native/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3.
 
 В результате на странице должно появиться расширение Primo RPA Extension:  
 ![](../../resources/installation/astra/yandex-extension.png)
@@ -121,9 +160,9 @@ passwd: пароль успешно обновлён
 
 Скрипт `browsers.sh` выполняет регистрацию расширения, установленного для браузеров Хром и Яндекс, для текущего пользователя.
 
-Запустите скрипт:
+Запустите скрипт (без sudo):
 
-`./opt/Primo/Studio/browsers.sh`
+`/opt/primo/web-browser-native/browsers.sh`
 
 Вывод консоли должен содержать повторяющуюся два раза строчку:
 
