@@ -110,11 +110,11 @@ deb https://security.debian.org/debian-security/ buster/updates main contrib non
 ```
 Задайте вновь созданную группу для папки Primo куда были установленны необходимые компонентов Студии линукс:
 ```
-[primo-admin@astra-studio ~]$ sudo chgrp -R primo-rpa /opt/Primo/
+[primo-admin@astra-studio ~]$ sudo chgrp -R primo-rpa /opt/primo/
 ```
 Задайте права:
 ```
-[primo-admin@astra-studio ~]$ sudo chmod -R 770 /opt/Primo/
+[primo-admin@astra-studio ~]$ sudo chmod -R 770 /opt/primo/
 ```
 ## Настройка учетной записи пользователя
 Создание учётной записи пользователя `<any_user>`:
@@ -176,7 +176,7 @@ passwd: пароль успешно обновлён
 
 Запустите:
 
-`/opt/Primo/Studio/Primo.Studio`
+`/opt/primo/studio/Primo.Studio`
 
 ## Дополнительные настройки
 
