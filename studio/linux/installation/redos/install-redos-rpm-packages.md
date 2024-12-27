@@ -1,4 +1,4 @@
-# Установка Primo RPA Studio Linux на РЕД ОС 7.3
+# Установка Primo RPA Studio Linux на РЕД ОС 7.3 средствами RPM пакетов
 ## Действия при установке РЕД ОС 7.3
 
 При установке машины студии под управлением РЕДОС 7.3 необходимо:
@@ -81,19 +81,57 @@ Shift+z
 ```
 [primo-admin@redos-studio ~]$ yandex-browser-stable
 ```
-## Установка Студии
-Распакуйте архив Primo.Studio.Linux.zip в удобный каталог, например: `/home/user`.
+## Установка компонентов Студии линукс
+Существую следующую компоненты Студии линукс, которые можно устанавливать на машину как отдельно, так и в некоторых комбинациях:
 
-Создайте каталог:
-```
-[primo-admin@redos-studio ~]$ sudo mkdir /opt/Primo/
-```
-Содержимое папки linux-x64 перенесите в `/opt/Primo/Studio`:
-```
-[primo-admin@redos-studio ~]$ sudo mv /home/user/linux-x64/ /opt/Primo/Studio/`
-```
-Распакуйте содержимое архива `/opt/Primo/Studio/x64/AstraOCRx64.zip` в папку `/opt/Primo/Studio/`
+- `Studio Linux` - включает в себя инструмент разработчика и предназначен для создания и отладки процессов.
 
+- `Robot Runner` - включает в себя инструмент запуска процессов как в ручном режиме, так и по расписанию.
+
+- `Browser Extensions` - компонент, который позволяет взаимодействовать браузерным активностям с браузерами Яндекс и Google Chrome по средствам специальных расширений для этих браузеров.
+
+Типичные комбинации компонентов для установки:
+- `Studio Linux` + `Robot Runner` + `Browser Extensions` - полный установочный набор для разработчика
+- `Robot Runner` + `Browser Extensions` - установочный набор только для запуска процессов
+- `Browser Extensions` - набор для установки на машины, где планируется запускать оркестровых роботов.
+
+### Установка компонента Studio Linux
+Скопируйте пакет `primo-studio-1.25.1.3-1.x86_64.rpm`  в удобный каталог, например: `/home/<current_user>`.
+
+>Имя пакета может отличаться в зависимости от версии продукта, не используйте буквально
+
+Перейдите в папку с этим пакетом и выполните установку пакета
+```
+[primo-admin@astra-studio ~]$ sudo dnf install ./primo-studio-1.25.1.3-1.x86_64.rpm
+```
+В результате компонент должен установиться по пути `/opt/primo/studio/`
+>Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, что будет описано ниже
+
+### Установка компонента Robot Runner
+Скопируйте пакет `primo-robot-runner-1.25.1.3-1.x86_64.rpm`  в удобный каталог, например: `/home/<current_user>`.
+
+>Имя пакета может отличаться в зависимости от версии продукта, не используйте буквально
+
+Перейдите в папку с этим пакетом и выполните установку пакета
+```
+[primo-admin@astra-studio ~]$ sudo dnf install ./primo-robot-runner-1.25.1.3-1.x86_64.rpm
+
+```
+В результате компонент должен установиться по пути `/opt/primo/robot-runner/`
+>Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, что будет описано ниже
+
+### Установка компонента Browser Extensions
+Скопируйте пакет `primo-web-browser-native-1.25.1.3-1.x86_64.rpm`  в удобный каталог, например: `/home/<current_user>`.
+
+>Имя пакета может отличаться в зависимости от версии продукта, не используйте буквально
+
+Перейдите в папку с этим пакетом и выполните установку пакета
+```
+[primo-admin@astra-studio ~]$ sudo dnf install ./primo-web-browser-native-1.25.1.3-1.x86_64.rpm
+
+```
+В результате компонент должен установиться по пути `/opt/primo/web-browser-native/`
+>Для возможности работать с компонентом необходимо будет настроить права для группы пользователей и зарегистрировать расширение для браузеров, что будет описано ниже
 ## Создание группы пользователей
 Для работы пользователя необходима общая группа:
 ```
@@ -101,11 +139,11 @@ Shift+z
 ```
 Задайте вновь созданную группу для всех элементов папки Студии:
 ```
-[primo-admin@redos-studio ~]$ sudo chgrp -R primo-rpa /opt/Primo/Studio/
+[primo-admin@redos-studio ~]$ sudo chgrp -R primo-rpa /opt/primo/
 ```
 Задайте права:
 ```
-[primo-admin@redos-studio ~]$ sudo chmod -R 770 /opt/Primo/Studio/
+[primo-admin@redos-studio ~]$ sudo chmod -R 770 /opt/primo/
 ```
 ## Настройка учетной записи пользователя
 Создание учётной записи пользователя `<any_user>`:
@@ -129,8 +167,8 @@ passwd: пароль успешно обновлён
 ![](../../resources/installation/redos/developer-mode.png)
 
 Выполните перетаскивание соответствующего файла в браузер Хром на страницу **Расширения**:
-* файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2, 
-* файла `/opt/Primo/Studio/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3. 
+* файла `/opt/primo/web-browser-native/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2,
+* файла `/opt/primo/web-browser-native/Studio/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3.
 
 В результате на странице должно появится расширение Primo RPA Extension:  
 ![](../../resources/installation/redos/chrome-extension.png)
@@ -140,8 +178,8 @@ passwd: пароль успешно обновлён
 ![](../../resources/installation/redos/developer-mode.png)
 
 Выполните перетаскивание соответствующего файла в браузер Яндекс на страницу **Расширения**:
-* файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2,
-* файла `/opt/Primo/Studio/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3.  
+* файла `/opt/primo/web-browser-native/Studio/Extensions/Chrome/chrome.crx` для установки расширения с версией манифест v2,
+* файла `/opt/primo/web-browser-native/Studio/ExtensionsV3/Chrome/chrome.crx` для установки расширения с версией манифест v3.  
 
 В результате на странице должно появиться расширение Primo RPA Extension:  
 ![](../../resources/installation/redos/yandex-extension.png)
@@ -153,7 +191,7 @@ passwd: пароль успешно обновлён
 
 Запустите скрипт:
 
-`./opt/Primo/Studio/browsers.sh`
+`./opt/primo/web-browser-native/browsers.sh`
 
 Вывод консоли должен содержать повторяющуюся два раза строчку:
 
@@ -167,7 +205,7 @@ passwd: пароль успешно обновлён
 
 Запустите:
 
-`/opt/Primo/Studio/Primo.Studio`
+`/opt/primo/studio/Primo.Studio`
 
 ## Дополнительные настройки
 
