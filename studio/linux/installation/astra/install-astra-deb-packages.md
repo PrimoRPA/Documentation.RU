@@ -90,7 +90,7 @@ deb https://security.debian.org/debian-security/ buster/updates main contrib non
 В результате компонент должен установиться по пути `/opt/primo/robot-runner/`
 >Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, что будет описано ниже
 
-### Установка компонента Robot Runner
+### Установка компонента Browser Extensions
 Скопируйте пакет `primo-web-browser-native_1.25.1.3-1_all.deb`  в удобный каталог, например: `/home/{current user}`.
 
 >Имя пакета может отличаться в зависимости от версии продукта, не используйте буквально
@@ -100,7 +100,7 @@ deb https://security.debian.org/debian-security/ buster/updates main contrib non
 [primo-admin@astra-studio ~]$ sudo apt install ./primo-web-browser-native_1.25.1.3-1_all.deb
 
 ```
-В результате компонент должен установиться по пути `/opt/primo/robot-runner/`
+В результате компонент должен установиться по пути `/opt/primo/web-browser-native/`
 >Для возможности работать с компонентом необходимо будет настроить права для группы пользователей и зарегистрировать расширение для браузеров, что будет описано ниже
 
 ## Создание группы пользователей
