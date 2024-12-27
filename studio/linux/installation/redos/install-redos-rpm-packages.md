@@ -100,6 +100,7 @@ Shift+z
 
 Перейдите в папку с этим пакетом и выполните установку пакета
 ```
+[primo-admin@astra-studio ~]$ cd /home/<current_user>
 [primo-admin@astra-studio ~]$ sudo dnf install ./primo-studio-1.25.1.3-1.x86_64.rpm
 ```
 В результате компонент должен установиться по пути `/opt/primo/studio/`
@@ -112,8 +113,8 @@ Shift+z
 
 Перейдите в папку с этим пакетом и выполните установку пакета
 ```
+[primo-admin@astra-studio ~]$ cd /home/<current_user>
 [primo-admin@astra-studio ~]$ sudo dnf install ./primo-robot-runner-1.25.1.3-1.x86_64.rpm
-
 ```
 В результате компонент должен установиться по пути `/opt/primo/robot-runner/`
 >Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, что будет описано ниже
@@ -125,8 +126,8 @@ Shift+z
 
 Перейдите в папку с этим пакетом и выполните установку пакета
 ```
+[primo-admin@astra-studio ~]$ cd /home/<current_user>
 [primo-admin@astra-studio ~]$ sudo dnf install ./primo-web-browser-native-1.25.1.3-1.x86_64.rpm
-
 ```
 В результате компонент должен установиться по пути `/opt/primo/web-browser-native/`
 >Для возможности работать с компонентом необходимо будет настроить права для группы пользователей и зарегистрировать расширение для браузеров, что будет описано ниже
