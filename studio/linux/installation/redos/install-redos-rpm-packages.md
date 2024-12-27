@@ -92,8 +92,8 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 
 Перейдите в папку с этим пакетом и выполните установку пакета
 ```
-[primo-admin@astra-studio ~]$ cd /home/<current_user>
-[primo-admin@astra-studio ~]$ sudo dnf install ./primo-studio-1.25.1.3-1.x86_64.rpm
+[primo-admin@redos-studio ~]$ cd /home/<current_user>
+[primo-admin@redos-studio ~]$ sudo dnf install ./primo-studio-1.25.1.3-1.x86_64.rpm
 ```
 В результате компонент должен установиться по пути `/opt/primo/studio/`
 >Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, что будет описано ниже
@@ -105,8 +105,8 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 
 Перейдите в папку с этим пакетом и выполните установку пакета
 ```
-[primo-admin@astra-studio ~]$ cd /home/<current_user>
-[primo-admin@astra-studio ~]$ sudo dnf install ./primo-robot-runner-1.25.1.3-1.x86_64.rpm
+[primo-admin@redos-studio ~]$ cd /home/<current_user>
+[primo-admin@redos-studio ~]$ sudo dnf install ./primo-robot-runner-1.25.1.3-1.x86_64.rpm
 ```
 В результате компонент должен установиться по пути `/opt/primo/robot-runner/`
 >Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, что будет описано ниже
@@ -118,8 +118,8 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 
 Перейдите в папку с этим пакетом и выполните установку пакета
 ```
-[primo-admin@astra-studio ~]$ cd /home/<current_user>
-[primo-admin@astra-studio ~]$ sudo dnf install ./primo-web-browser-native-1.25.1.3-1.x86_64.rpm
+[primo-admin@redos-studio ~]$ cd /home/<current_user>
+[primo-admin@redos-studio ~]$ sudo dnf install ./primo-web-browser-native-1.25.1.3-1.x86_64.rpm
 ```
 В результате компонент должен установиться по пути `/opt/primo/web-browser-native/`
 >Для возможности работать с компонентом необходимо будет настроить права для группы пользователей и зарегистрировать расширение для браузеров, что будет описано ниже
