@@ -1,12 +1,6 @@
-# ВЕРСИЯ ПОД WINDOWS
-
 # Робот
 
-Робот является самостоятельным приложением с минимальным графическим интерфейсом.
-
-![](../resources/robot/0-8.png)
-
-Кнопка ![](../resources/robot/4-8.png) служит для очистки текста консоли Робота.
+Робот является самостоятельным консольным приложением.
 
 Робот выпускается в двух изданиях:
 
@@ -38,4 +32,19 @@
 
 Пример:
 
-`Primo.Robot.exe instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project\\`
+`Primo.Robot instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project\\`
+
+Так же робот может вернуть список всех доступных активностей в Primo Studio, для этого необходимо воспользоваться следующей командной:
+
+`./Primo.Robot ActivitiesList`
+
+Команда потдерживает следующие аргументы:
+
+* **-G, --grouping:** Включить группировку активность
+* **-F, --write-in-file:** Вывести результат выполнения команды в файл
+* **--output-directory:** Путь к итоговому файлу. По умолчанию используется текущая папка + ActivitiesList.txt
+* **--help:** Показать текс справки
+
+Пример:
+
+`./Primo.Robot ActivitiesList -G -F --output-directory=/tmp/ActivitiesList.txt`
