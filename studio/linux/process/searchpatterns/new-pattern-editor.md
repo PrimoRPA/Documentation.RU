@@ -1,6 +1,6 @@
 # Новый редактор шаблона поиска
 
-Новый редактор шаблона поиска выглядит следующим образом:
+
 
   ![](../../resources/process/searchpatterns/pattern-editor-base.png)
 
