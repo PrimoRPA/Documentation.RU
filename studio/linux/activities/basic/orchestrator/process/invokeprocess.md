@@ -1,18 +1,18 @@
 ---
-description: Invoke project
+Description: Invoke project
 ---
 
 
 # Вызов проекта
 
-![](../../../../resources/activities/basic/orchestrator/process/image-100-1-1-1-1-1-1-1-2-126.png)
 
-![](../../../../resources/activities/basic/orchestrator/process/вызов-проекта-fixed.png)
+![](../../../../resources/activities/basic/orchestrator/process/Invoke-project.png)
 
 Элемент предназначен для вызова и локальной обработки проекта из Оркестратора. 
 
 ## Свойства
-Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Символ `*` в названии свойства указывает на обязательность заполнения. 
+Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 
 | Свойство          | Тип                                                     | Описание                                     |  Пример        |  
