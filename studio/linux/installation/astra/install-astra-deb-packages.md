@@ -61,7 +61,7 @@ deb https://security.debian.org/debian-security/ buster/updates main contrib non
 Типичные комбинации компонентов для установки:
 - `Studio Linux` + `Robot Runner` + `Browser Extensions` - полный установочный набор для разработчика
 - `Robot Runner` + `Browser Extensions` - установочный набор только для запуска процессов
-- `Browser Extensions` - набор для установки на машины, где планируется запускать оркестраторных роботов (см. инструкцию Настройка машины робота на Astra Linux `todo: добавить гиперссылку на документ`)
+- `Browser Extensions` - набор для установки на машины, где планируется запускать оркестраторных роботов.
 
 ### Установка компонента Studio Linux
 Скопируйте пакет `primo-studio_1.25.1.3-1_all.deb`  в удобный каталог, например: `/home/<current_user>`.
