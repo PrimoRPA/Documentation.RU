@@ -1,4 +1,8 @@
-﻿# Создать объект Java
+﻿---
+Description: Create Java object
+---
+
+# Создать объект Java
 
 ![](../../../resources/activities/extra/java/create-java-object-base.png)
 
