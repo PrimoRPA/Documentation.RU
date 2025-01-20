@@ -3,7 +3,7 @@
 
 Набор элементов для интеграции робота и Java не входит в базовую комплектацию, а устанавливается дополнительно в виде библиотеки Primo.Java.Linux. Ее можно скачать:
 * с официального сайта [NuGet](https://www.nuget.org/packages/Primo.Java.Linux);
-* напрямую из Студии с помощью [менеджера зависимостей](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei), где нужно выбрать раздел Nuget.org.
+* напрямую из Студии с помощью [менеджера зависимостей](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio-linux/projects/manage-dependencies#menedzher-zavisimostei), где нужно выбрать раздел Nuget.org.
 
 В состав библиотеки входят элементы:
 * **Java** - устанавливает соединение с java.exe. На машине должна быть установлена Java 8.
