@@ -1,8 +1,6 @@
 # Командная строка
 
-![](../../../resources/activities/basic/prog/image-100-1-1-1-1-1-1-1-2-136.png)
-
-![](../../../resources/activities/basic/prog/image-63.png)
+![](../../../resources/activities/basic/prog/cmd_base.png)
 
 Компонент, производящий выполнение консольной команды CMD.
 
