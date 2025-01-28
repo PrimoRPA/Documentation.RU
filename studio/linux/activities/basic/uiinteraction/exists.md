@@ -16,6 +16,6 @@
 | Таймаут\*            | Int32                                       | Предельное время ожидания завершения процесса (мс). По умолчанию `10000`    |
 рекомендуется использовать его аккуратно |
 | ***Вывод***           |  |  |
-| Элемент              | [LTools.UIInteraction.Model.UIControl](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/tipy-dannykh/uicontrol) | Переменная для хранения ссылки на элемент управления  |
+| Элемент              | LTools.UIInteraction.Model.UIControl | Переменная для хранения ссылки на элемент управления  |
 | Элементы             | List\<LTools.UIInteraction.Model.UIControl> | Переменная для хранения ссылок на элементы управления |
 | Результат            | Boolean                                     | Переменная, хранящая результаты поиска                |
