@@ -8,20 +8,18 @@
 
 ## Видеоинструкция
 
-С видеоинструкцией по установке Оркестратора на веб-сервер IIS можно ознакомиться [здесь](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA).
-
-<a href="https://www.youtube.com/watch?v=IAIRmChw65k"><img src="https://raw.githubusercontent.com/PrimoRPA/Docs.Rus/main/.gitbook/assets/video_preview/test_gif.gif" width="850" title="hover text"></a>
+С видеоинструкцией по установке Оркестратора на веб-сервер IIS можно ознакомиться [здесь](https://rutube.ru/video/9bb248ccced157536cbf8af50b038012/).
 
 
 ## Начальная подготовка 
-> *Подробнее в «Руководстве по предварительной настройке машины Оркестратора под Windows 2016 Server.docx».*
+> *Подробнее см. в разделе [**Предварительная настройк машины Оркестратора под Windows 2016 Server**](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/presetting-orch-machine-win)*
 
 1.	Переименовываем сервер для простоты и удобства. Например, назовем его **ORCHESTRATOR**.
 2.	Создаем папку для размещения дистрибутивов `Primo.Distrib`.
 3.	Скачиваем и распаковываем архив с дистрибутивом Оркестратора в ранее созданную папку `Primo.Distrib`.
 
 ## Шаг 1. Включаем IIS 
-> *Подробнее в «Руководство по установке WebApi и UI на IIS под Windows 2016 Server.docx» с 7-ой страницы и далее.*
+> *Подробнее см. в разделе [**Установка WebApi и UI на IIS под Windows 2016 Server**](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/webapi-ui-iis-windows)*
 
 1. Заходим в **Диспетчер > Управление > Добавить роли и компоненты**.
 
