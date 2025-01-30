@@ -110,8 +110,8 @@ May 22 15:33:53 host CEF:0|Primo|Orchestrator.ArcSight|1.0.0.0|8040|AgentStartRo
 >\**Требования к сервису могут быть уточнены по результатам тестирования Заказчиком работы интеграции*.\
 
 Инструкции по установке ArcSight:
-* [Для ОС Linux](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/additional-components-linux/arcsight-linux-centos.md)
-* [Для ОС Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/additional-components-win/arc-sight-win.md)
+* [Для ОС Linux](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/additional-components-linux/arcsight-linux-centos)
+* [Для ОС Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/additional-components-win/arc-sight-win)
 
 
 
