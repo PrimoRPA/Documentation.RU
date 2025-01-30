@@ -39,8 +39,5 @@
 
 ## Дополнительно
 
-Вам также могут быть интересны следующие разделы:
-
-- [Мультитенантная AD-авторизация](../../orchestrator-new/deployment/deploy-options.md);
-- [Отключение тенанта по умолчанию](???????)).
+Вам также может быть интересен раздел [Мультитенантная AD-авторизация](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/deployment/deploy-options).
 
