@@ -17,11 +17,11 @@
 1. Переименуем сервер, дав ему простое и понятное название. Например, **ORCHESTRATOR**.
 2. Раскомментируем в файле `C:\Windows\System32\drivers\etc\hosts` следующую строку:
 
-![](../resources/quick-installation/orch-install-nginxserver-1.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-1.png)
 
 3. Разрешаем удаленные подключения к хосту. Заходим в **Start Menu > Control Panel > System > Advanced System Settings > Remote** и включаем настройку, как на рисунке ниже:
 
-![](../resources/quick-installation/orch-install-nginxserver-2.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-2.png)
 
 
 ## Шаг 1. Подготовка и установка дистрибутивов
@@ -31,17 +31,17 @@
 1. Создаем папку `C:\Primo`.
 2. Создаем папку `C:\Install` и копируем в нее нужные дистрибутивы:
 
-![](../resources/quick-installation/orch-install-nginxserver-3.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-3.png)
 
 3. Устанавливаем Google Chrome. Обновляем его до последней версии и делаем браузером по умолчанию.
 4. Устанавливаем Notepad++. Все опции оставляем по умолчанию.
 5. Устанавливаем PowerShell. При установке включаем все чекбоксы:
 
-![](../resources/quick-installation/orch-install-nginxserver-4.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-4.png)
 
 6. Создаем папку `docs` на рабочем столе и копируем туда следующую документацию из комплекта поставки:
 
-![](../resources/quick-installation/orch-install-nginxserver-18.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-18.png)
 
 ## Шаг 2. Настройка PostgreSQL 
 
@@ -52,53 +52,53 @@
 2.	Кликаем по файлу `C:\Install\postgresql-13.4-1-windows-x64.exe`.
 3.	Выбираем **Да** в появившемся окне:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-5.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-5.png)
 
 4.	В следующем окне выбираем **Далее**.
 
-   ![](../resources/quick-installation/orch-install-nginxserver-6.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-6.png)
 
 5.	Выбираем директорию (1), куда будет установлена программа. Оставляем все без изменения и жмем **Далее** (2).
 
-   ![](../resources/quick-installation/orch-install-nginxserver-7.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-7.png)
 
 6.	В окне выбора компонентов тоже все оставляем по умолчанию и нажимаем **Далее**.
 
-   ![](../resources/quick-installation/orch-install-nginxserver-8.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-8.png)
 
 7.	Прописываем путь `C:\Primo\PostgreSQL\Data` (1), где будут располагаться файлы базы данных Оркестратора и конфигурационные файлы, нажимаем **Далее** (2).
 
-   ![](../resources/quick-installation/orch-install-nginxserver-9.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-9.png)
 
 8.	Вводим пароль\* (1) и его подтверждение (2) для суперпользователя БД (postgres), нажимаем **Далее**.
 
    > \**В дальнейшем пароль можно будет изменить в PostgreSQL.*
 
-   ![](../resources/quick-installation/orch-install-nginxserver-10.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-10.png)
 
 9.	В следующем окне не меняем настройки порта по умолчанию (`5432`) и нажимаем **Далее**.
 
-   ![](../resources/quick-installation/orch-install-nginxserver-11.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-11.png)
 
 10.	Из выпадающего меню (1) выбираем **Русский, Россия** (2) и нажимаем **Далее** (3).
 
-   ![](../resources/quick-installation/orch-install-nginxserver-12.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-12.png)
 
 11.	Перепроверяем введенные данные (1). В случае необходимости можно вернуться, кликнув **Назад**, и исправить параметры. Если все верно, выбираем **Далее**.
 
-   ![](../resources/quick-installation/orch-install-nginxserver-13.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-13.png)
 
 12. В следующем окне нажимаем **Далее**.
 
-   ![](../resources/quick-installation/orch-install-nginxserver-14.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-14.png)
 
 13.	Дожидаемся завершения процесса установки.
 
-   ![](../resources/quick-installation/orch-install-nginxserver-15.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-15.png)
 
 14.	Stack Builder не понадобится, убираем галочку (1) и нажимаем **Завершить** (2):
 
-   ![](../resources/quick-installation/orch-install-nginxserver-16.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-16.png)
 
 15. Заходим в PostgreSQL через pgAdmin (пользователь postgres/postgres). pgAdmin установится вместе с PostgreSQL и доступен через меню **Пуск**\**.
 
@@ -145,7 +145,7 @@
     * Перезапускаем службу PostgreSQL.
     * Проверяем статус работы службы:
 
-    ![](../resources/quick-installation/orch-install-nginxserver-17.png)
+    ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-17.png)
 
 :white_check_mark: Установка и настройка сервера БД завершена.
 
@@ -155,7 +155,7 @@
 
 1. Разрешаем localhost в файле `C:\Windows\System32\drivers\etc\hosts`.  
 
-![](../resources/quick-installation/orch-install-nginxserver-between18and19.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-between18and19.png)
 
 2. Разархивируем `rabbitmq.zip` в ту же папку `C:\Install\rabbitmq`.
 
@@ -177,11 +177,11 @@
 
 6. Открываем веб-интерфейс управления RabbitMQ на http://localhost:15672, убеждаемся, что он открывается:
 
-![](../resources/quick-installation/orch-install-nginxserver-19.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-19.png)
 
 Заходим под пользователем admin/Qwe123!@#.
 
-![](../resources/quick-installation/orch-install-nginxserver-20.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-20.png)
 
 Дальнейшее управление RabbitMQ можно осуществлять через этот веб-интерфейс.
 
@@ -218,9 +218,9 @@
 
 4. После чего созданная служба Primo.Orchestrator.MachineInfo будет отображаться в списке всех служб как запущенная:
 
-![](../resources/quick-installation/orch-install-nginxserver-21.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-21.png)
 
-![](../resources/quick-installation/orch-install-nginxserver-22.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-22.png)
 
 5. Открываем порт `5051` на файерволе.
 
@@ -228,11 +228,11 @@
 
    Параметр **Timeout** (по умолчанию 4 сек.) – это время ответа, после которого сервис считается недоступным.
 
-![](../resources/quick-installation/orch-install-nginxserver-23.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-23.png)
 
 7. Если используется кластер MachineInfo, или MachineInfo используется в гео-кластере, в конфигурационном файле службы WebApi прописываются ссылки на все узлы кластера:
 
-![](../resources/quick-installation/orch-install-nginxserver-24.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-24.png)
 
 Порядок узлов имеет значение. В момент генерации запроса на лицензию должны быть доступны все узлы. Узлы нельзя скрывать за балансировщиком нагрузки (load balancer)!
 
@@ -246,7 +246,7 @@
 2. Редактируем конфигурацию Notifications в файле `C:\Primo\Notifications\appsettings.ProdWin.json`:
    * Правим секцию **Email**, отвечающую за SMTP-сервер, с которого будет происходить рассылка.
 
-![](../resources/quick-installation/orch-install-nginxserver-25.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-25.png)
 
 3. Проверяем, что значение системной переменной окружения DOTNET_ENVIRONMENT равно ProdWin. Для этого в PoweShell выполняем команду:
 
@@ -271,7 +271,7 @@
 
 7. Через интерфейс Оркестратора переходим в раздел **Настройки > Пользователи**. Редактируем для пользователей параметры рассылки - указываем e-mail и типы событий:
 
-![](../resources/quick-installation/orch-install-nginxserver-26.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-26.png)
 
 
 ### RDP2 
@@ -283,7 +283,7 @@
 2. Редактируем конфигурацию RDP2 в файле `C:\Primo\RDP2\appsettings.ProdWin.json`:
    * Меняем в секции **Orchestrator** адрес Оркестратора и учетку пользователя, можно использовать только системного пользователя rdpservice:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-27.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-27.png)
 
    * Если поменялся пароль пользователя **rdpservice** – меняем. Пароль предварительно шифруем программой шифрования паролей.
    * При необходимости устанавливаем значение **AddressFilter** для фильтрации по машине Агента либо оставляем поле пустым (будут использованы все Агенты системы).
@@ -310,23 +310,23 @@
 
 7. Запускаем службу. Служба должна работать под Local System account:
 
-![](../resources/quick-installation/orch-install-nginxserver-28.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-28.png)
 
-![](../resources/quick-installation/orch-install-nginxserver-29.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-29.png)
 
 8. Переходим на вкладку **Восстановление** (Recovery) и проверяем, что действия при сбое установлены:
 
-![](../resources/quick-installation/orch-install-nginxserver-30.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-30.png)
 
 9. Проверяем через интерфейс Оркестратора, что RDP-сессия устанавливается корректно:
 
-![](../resources/quick-installation/orch-install-nginxserver-31.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-31.png)
 
 10. Параметры сессии должны быть установлены следующим образом:
 * Authentication Level = Attemp Authentication
 * Negotiate Security Layer = True
 
-![](../resources/quick-installation/orch-install-nginxserver-32.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-32.png)
 
 
 ### RobotLogs 
@@ -352,15 +352,15 @@
 4. Настраиваем конфигурационный файл:
    * Настраиваем строки подключения в БД:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-33.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-33.png)
 
    * Настраиваем **UserName** и **Password** сервера RabbitMQ, который используется для обработки логов со скринами рабочего стола:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-34.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-34.png)
 
    * Настраиваем **Host**, **UserName** и **Password** сервера RabbitMQ, который используется для интеграции с Оркестратором:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-35.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-35.png)
 
    * Открываем порт `5672` на файерволе сервера RabbitMQ, который используется для интеграции с Оркестратором. 
 
@@ -368,15 +368,15 @@
 
    * Настраиваем URL Оркестратора. При необходимости, можно поменять пароль встроенной системной записи Orchestrator – одновременно через UI Оркестратора и в этой секции конфига:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-36.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-36.png)
 
    * Настраиваем **ScreenFilePath** – путь до файлов со скринами рабочего стола, которые собираются с машины робота. Папка по этому пути должна быть создана заранее, и на неё должны быть настроены права на чтение и запись для всех.
 
-   ![](../resources/quick-installation/orch-install-nginxserver-37.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-37.png)
 
    * Настраиваем в соответствии с конфигурационным файлом WebApi список тенантов:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-38.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-38.png)
 
 5. Регистрируем `Primo.Orchestrator.RobotLogs.exe` как службу Windows и сразу запускаем её. Она должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
 
@@ -394,23 +394,23 @@
 
 >\**Или аналогично настроено в IIS для узла UI, если используется IIS.*
 
-![](../resources/quick-installation/orch-install-nginxserver-39-1.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-39-1.png)
 
-![](../resources/quick-installation/orch-install-nginxserver-39-2.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-39-2.png)
 
 9. В конфигурационном файле **Primo.Orchestrator.WebApi** переключаем прием логов на сервис RobotLogs и перезапускаем **Primo.Orchestrator.WebApi**:
 
-![](../resources/quick-installation/orch-install-nginxserver-40.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-40.png)
 
 10. Если запросы в RobotLogs проксируются через отдельный от WebApi эндпоинт, нужно указать в конфиг-файле **Primo.Orchestrator.WebApi** этот эндпоинт в RobotLogsBaseUrl:
 
-![](../resources/quick-installation/orch-install-nginxserver-41.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-41.png)
 
 В настоящее время не поддерживается. Зарезервирован для дальнейшей оптимизации приема логов от роботов.
 
 Тонкая настройка производительности приема логов настраивается в секции **InputBufferRobotLogs**:
 
-![](../resources/quick-installation/orch-install-nginxserver-42.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-42.png)
 
 * **MaxQueueLength** – максимальный размер входного буфера приема логов от робота. Чем выше, тем больший размер пачек логов робот без потерь может слать в Оркестратор.
 * **MaxBatchSize** – максимальный размер пачки за один раз сбрасываемый сервисом в БД ltoolslogs. Чем выше, тем меньше обращений в БД потребуется, но тем большее количество данных за один раз должно быть передано.
@@ -426,11 +426,11 @@
 2. Редактируем конфигурационный файл States - `C:\Primo\States\appsettings.ProdWin.json`:
    * Находим секцию **ConnectionStrings**:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-43.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-43.png)
 
    * И меняем значение **HOST** для всех строк подключения к БД на реальный IP серверов БД:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-44.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-44.png)
 
    Если поменялся пользователь/пароль БД – их тоже меняем.
 
@@ -470,29 +470,29 @@
 2. Редактируем конфигурацию WebApi в файле `C:\Primo\WebApi\appsettings.ProdWin.json`:
    * Меняем адрес на реальный IP вашего сервера. См. `nginx.config` и «Руководство по установке Nginx под Windows 2016 Server.docx».
 
-   ![](../resources/quick-installation/orch-install-nginxserver-45.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-45.png)
 
 3. Создаем папку для публикации дистрибутивов робота, например, `C:\tmp`, и указываем её в конфиге `appsettings.ProdWin.json`:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-46.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-46.png)
 
 4. Меняем в файле `appsettings.ProdWin.json` в секции **ConnectionStrings** значение **HOST** для всех строк подключения к БД на реальный IP серверов БД.
 
    Для PostgreSQL это секция:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-47.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-47.png)
 
    Где меняем значение атрибута:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-49.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-49.png)
 
    Для MS SQL SERVER меняем значение здесь:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-50.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-50.png)
 
 6. Если для работы лицензий используется сервис получения параметров оборудования, то настраиваем WebApi на работу с этим сервисом – вводим адрес сервиса:
-
-![](../resources/quick-installation/orch-install-nginxserver-51.png)
+   
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-51.png)
 
 7. Если поменялся пользователь/пароль БД – их тоже меняем.
 
@@ -508,7 +508,7 @@
    ```
 10. После чего созданная служба **Primo.Orchestrator.WebApi** будет отображаться в списке всех служб как запущенная:
 
-![](../resources/quick-installation/orch-install-nginxserver-52.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-52.png)
 
 :small_orange_diamond: ***Служба может не запуститься.*** Наиболее вероятная причина – это неверный Connection string (пароль) в `appsettings.ProdWin.json`, или не развернута/не настроена какая-либо из четырех БД Оркестратора.
 
@@ -522,7 +522,7 @@
 
 После того, как все перечисленные службы установлены, они должны появиться в диспетчере служб Windows:
 
-![](../resources/quick-installation/orch-install-nginxserver-53.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-53.png)
 
 
 ## Шаг 5. Установка Nginx как службы Windows
@@ -533,22 +533,22 @@
 
 1.	Разархивировать файл `nginx-service.zip`, который идет в комплекте поставки, в папку `C:\Primo\nginx-1.21.1` (версия Nginx может измениться).
 
-   ![](../resources/quick-installation/orch-install-nginxserver-54.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-54.png)
 
 2.	Щелкнуть правой кнопкой мыши по пустому простанству и открыть PowerShell от имени администратора:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-55.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-55.png)
 
 3. Использовать команду установки:
    ```
    .\nginx-service.exe install
    ```
 
-   ![](../resources/quick-installation/orch-install-nginxserver-56.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-56.png)
 
 4.	После успешной установки службы запускать либо останавливать ее можно либо из **Управление сервером > Службы**:
 
-   ![](../resources/quick-installation/orch-install-nginxserver-57.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-57.png)
 
    Либо из PowerShell (после установки службы окно PowerShell необходимо перезапустить) командами:
 
@@ -557,7 +557,7 @@
    > net start nginx
    ```
 
-   ![](../resources/quick-installation/orch-install-nginxserver-58.png)
+   ![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-58.png)
 
 
 ### Установка UI на Nginx 
@@ -573,7 +573,7 @@
 
 Заходим в список служб и проверяем, что все ранее установленные службы запущены:
 
-![](../resources/quick-installation/orch-install-nginxserver-59.png)
+![](../../../orchestrator-new/resources/install/quick-install/orch-install-nginxserver-59.png)
 
 Это службы:
 -	nginx;
