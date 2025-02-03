@@ -8,13 +8,11 @@
 
 ## Видеоинструкция
 
-С видеоинструкцией по установке Оркестратора можно ознакомиться [здесь](https://www.youtube.com/watch?v=mOTH1PWxSCs).
-
-[![Watch the video](../resources/quick-installation/quick-install-nginx.gif)](https://www.youtube.com/watch?v=mOTH1PWxSCs)
+С видеоинструкцией по установке Оркестратора можно ознакомиться [здесь](https://rutube.ru/video/53ac25d2c3128bdd6cea7d055e88255b/).
 
 
 ## Начальная подготовка 
-> *Подробнее в «Руководстве по предварительной настройке машины Оркестратора под Windows 2016 Server.docx»*.
+> *Подробнее в статье [Предварительная настройка машины Оркестратора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/presetting-orch-machine-win)*.
 
 1. Переименуем сервер, дав ему простое и понятное название. Например, **ORCHESTRATOR**.
 2. Раскомментируем в файле `C:\Windows\System32\drivers\etc\hosts` следующую строку:
@@ -28,7 +26,7 @@
 
 ## Шаг 1. Подготовка и установка дистрибутивов
 
-> *Подробнее в «Руководстве по предварительной настройке машины Оркестратора под Windows 2016 Server.docx».*
+> *Подробнее в статье [Предварительная настройка машины Оркестратора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/presetting-orch-machine-win).*
 
 1. Создаем папку `C:\Primo`.
 2. Создаем папку `C:\Install` и копируем в нее нужные дистрибутивы:
@@ -47,7 +45,7 @@
 
 ## Шаг 2. Настройка PostgreSQL 
 
-> *Подробнее в «Руководстве по установке PostgreSQL под Windows 2016 Server.docx»*.
+> *Подробнее в статье [Установка PostgreSQL под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/postgres-windows*.
 
 Устанавливаем PostgreSQL Server:
 1.	Распаковываем архив `postgresql-13.4-1-windows.zip` в папку `C:\Install`.
@@ -153,7 +151,7 @@
 
 ## Шаг 3. Установка RabbitMQ 
 
-> *Подробнее в «Руководстве по установке RabbitMQ под Windows 2016 Server.docx»*.
+> *Дополнительная информация содержится в статье [Установка RabbitMQ под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/rabbitmq-windows)*.
 
 1. Разрешаем localhost в файле `C:\Windows\System32\drivers\etc\hosts`.  
 
@@ -193,7 +191,7 @@
 
 ### MachineInfo 
 
-> *Подробнее в «Руководстве по установке MachineInfo как службы под Windows 2016 Server.docx».*
+> *Подробнее см. статью [Установка MachineInfo как службы под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/machineinfo-windows)*
 
 В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена. Поэтому сразу устанавливаем MachineInfo. 
 
@@ -241,7 +239,7 @@
 
 ### Notifications 
 
-> *Подробнее в «Руководстве по установке Notifications под Windows 2016 Server.docx».*
+> *Подробнее см. статью [Установка Notifications под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/notifications-windows)*
 
 1. Разархивируем `C:\Install\Notifications.zip` в папку `C:\Primo\Notifications`.
 
@@ -278,7 +276,7 @@
 
 ### RDP2 
 
-> *Подробнее в «Руководстве по установке RDP2 под Windows 2016 Server.docx»*.
+> *Подробнее в статье [Установка RDP2 под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/rdp2-windows)*.
 
 1. Разархивируем `C:\Install\RDP2.zip` в папку`C:\Primo\RDP2`.
 
@@ -333,7 +331,7 @@
 
 ### RobotLogs 
 
-> *Подробнее в «Руководстве по установке RobotLogs как службы под Windows 2016 Server.docx»*.
+> *Дополнительная информация - [Установка RobotLogs как службы под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/robotlogs-windows)*.
 
 В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена. Поэтому сразу устанавливаем RobotLogs. 
 
@@ -421,7 +419,7 @@
 
 ### States 
 
-> *Подробнее в «Руководстве по установке States под Windows 2016 Server.docx»*.
+> *Подробнее см. [Установка States под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/states-windows)*.
 
 1. Разархивируем `C:\Install\States.zip` в папку `C:\Primo\States`.
 
@@ -461,7 +459,7 @@
 
 ### WebApi 
 
-> *Подробнее в «Руководстве по установке WebApi как службы под Windows 2016 Server.docx»*.
+> *Подробнее в статье статье [Установка WebApi как службы под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/webapi-windows)*.
 
 В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена. Поэтому сразу устанавливаем WebApi. 
 
@@ -529,7 +527,7 @@
 
 ## Шаг 5. Установка Nginx как службы Windows
 
-> *Подробнее в «Руководстве по установке Nginx в качестве службы под Windows 2016 Server.docx»*.
+> *Подробнее в статье [Установка Nginx под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/nginx-windows).
 
 Чтобы установить Nginx в качестве службы, необходимо:  
 
@@ -564,7 +562,7 @@
 
 ### Установка UI на Nginx 
 
-> *Подробнее в «Руководстве по установке UI на Nginx под Windows 2016 Server.docx»*.
+> *Подробнее в статье [Установка UI на Nginx под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/ui-nginx-windows)*.
 
 Для варианта реализации Front на основе Nginx копируем содержимое папки UI из `C:\install\UI.zip` в `C:\Primo\nginx-1.21.1\html`.
 
