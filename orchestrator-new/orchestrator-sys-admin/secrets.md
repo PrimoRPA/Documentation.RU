@@ -5,7 +5,8 @@
 2.	RobotLogs
 3.	States
 4.	Notifications
-5.	Analytic
+5.	Analytic  
+
 могут хранить свои секреты в отдельной БД ltoolssecrets. 
 
 Для этого требуется:
