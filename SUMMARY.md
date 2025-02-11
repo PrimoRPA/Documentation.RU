@@ -1068,6 +1068,7 @@
     * [Просмотр RDP-сессии](orchestrator-new/orchestrator-user/robots/view-rdp-session.md)
   * [Задания](orchestrator-new/orchestrator-user/tasks/tasks-overview.md)
     * [Запуск через задания RPA-проектов с аргументами](orchestrator-new/orchestrator-user/tasks/tasks-arguments.md)
+    * [Запуск через задание проекта одновременно на нескольких роботах](orchestrator-new/orchestrator-user/tasks/tasks-multiple-robots.md)
   * [Добавление RPA проекта](orchestrator-new/orchestrator-user/add-rpa-project.md)
   * [Развертывание робота](orchestrator-new/orchestrator-user/deploy-robot.md)
   * [Ручное помещение RPA-проекта в очередь проектов](orchestrator-new/orchestrator-user/manual-prj-in-queue.md)
