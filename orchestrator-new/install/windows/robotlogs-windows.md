@@ -16,31 +16,21 @@ Expand-Archive -LiteralPath "$InstallPath\RobotLogs.zip" -DestinationPath "C:\Pr
 [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 Настройте конфигурационный файл:
-Настройте строки подключения в БД:
+Настройте строку подключения в БД:
 
 ![](../../../orchestrator-new/resources/install/windows/robotlogs-1.PNG)
 
 Если для Postgres используется схема, отличная от public, надо явно указать схему –  SearchPath=schema1.
 
-Настройте UserName и Password сервера RabbitMQ, который используется для обработки логов со скринами рабочего стола:
+Настройте Host, UserName и Password сервера RabbitMQ:
 
 ![](../../../orchestrator-new/resources/install/windows/robotlogs-2.PNG)
-
-Настройте Host, UserName и Password сервера RabbitMQ, который используется для интеграции с Оркестратором:
-
-![](../../../orchestrator-new/resources/install/windows/robotlogs-3.PNG)
-
-Откройте порт 5672 на файерволе сервера RabbitMQ, который используется для интеграции с Оркестратором. 
-
-Сервер RabbitMQ, который используется для интеграции с Оркестратором, общий для очередей Primo.Orchestrator.RobotLogs и Primo.Orchestrator.WebApi. Поэтому требуется соблюдать соответствие названий очередей и обменников.
-
-Настройте URL-оркестратора (при необходимости, можно поменять пароль встроенной системной записи Orchestrator – одновременно через UI Оркестратора и в этой секции конфигурации):
-
-![](../../../orchestrator-new/resources/install/windows/robotlogs-4.PNG)
 
 Настройте секцию ScreenFileUpload – параметры сбора файлов со скринами рабочего стола на машине робота:
 
 ![](../../../orchestrator-new/resources/install/windows/robotlogs-5.PNG)
+
+Остальные параметры рекомендуется оставить без изменения\*:
 
 * MaxBatch – Максимальный размер пачки, извлекаемый из внутренней очереди ScreenFile за один раз, для отправки команды формирования Zip-архива файлов. Если больше нуля - файлы скринов запрашиваются асинхронно в виде Zip-архивов.
 * MaxBatchSended – Максимальный размер пачки, извлекаемый из внутренней очереди ScreenFilesSended за один раз. При превышении GetZipNonSeparationFactor команда отправится в очередь повторно.
@@ -52,6 +42,8 @@ Expand-Archive -LiteralPath "$InstallPath\RobotLogs.zip" -DestinationPath "C:\Pr
 * AgentTimeOut – Таймаут (сек) запроса агента. Не стоит делать большим, чтобы не создать повышенную нагрузку на Агента.
 * ThumbFactor – Коэффициент уменьшения оригинального изображения скрина. Уменьшенные изображения показываются в журнале робота в UI Оркестратора.
 
+> \* - Требуются для тонкой настройки производительности при высокой нагрузке
+
 При наличии тенантов настройте в соответствии с конфигурацией WebApi их список:
 
 ![](../../../orchestrator-new/resources/install/windows/robotlogs-6.PNG)
@@ -62,21 +54,11 @@ New-Service -Name Primo.Orchestrator.RobotLogs -BinaryPathName "C:\Primo\RobotLo
 $s = Get-Service "Primo.Orchestrator.RobotLogs"
 $s.Start()
 ```
+Откройте порт 56748 на файерволе (если служба RobotLogs не на одном сервере с nginx).
+
 После чего созданная служба Primo.Orchestrator.RobotLogs будет отображаться в списке всех служб как запущенная.
 
-Откройте порт 56748 на файерволе (если служба RobotLogs не на одном сервере с nginx для WebApi).
-
-Проверьте, что в конфигурации nginx настроено проксирование на RobotLogs:
-
-![](../../../orchestrator-new/resources/install/windows/robotlogs-7.PNG)
-
-Если запросы в RobotLogs проксируются через отдельный от WebApi эндпоинт, нужно указать в конфиге Primo.Orchestrator.WebApi этот эндпоинт в RobotLogsBaseUrl:
-
-![](../../../orchestrator-new/resources/install/windows/robotlogs-8.PNG)
-
-В настоящее время RobotLogsBaseUrl не поддерживается. Зарезервирован для дальнейшей оптимизации приема логов от роботов.
-
-Тонкая настройка производительности приема логов при необходимости настраивается в секцииях InputBufferRobotLogs и InputBufferAttendedRobotLogs:
+Тонкая настройка производительности приема логов/событий оркестратора настраивается в секцииях InputBufferRobotLogs, InputBufferAttendedRobotLogs и InputBufferOrchEvents, соответственно:
 
 ![](../../../orchestrator-new/resources/install/windows/robotlogs-9.PNG)
 
