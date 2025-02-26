@@ -1,10 +1,14 @@
+---
+Description: Click trigger
+---
+
 # Выбрать элемент
+
+![](../../../../resources/activities/basic/browser/events/click_trigger_base.png)
 
 Элемент ожидает событие нажатия мыши в окне браузера.
 
-Для работы активности необходимо установить утилиту "Evtest" и дать права на чтения всех файлов по пути "/dev/input".
-
-![](../../../../resources/activities/basic/browser/events/click_trigger_base.png)
+Для работы активности необходимо установить утилиту **Evtest** и дать права на чтения всех файлов по пути `/dev/input`.
 
 ## Свойства
 Символ * в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
