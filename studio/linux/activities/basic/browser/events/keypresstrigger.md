@@ -1,3 +1,7 @@
+---
+Description: Key pressed trigger
+---
+
 # Событие кнопки браузера
 
 ![](../../../../resources/activities/basic/browser/events/key_pressed_trigger_base.png)
