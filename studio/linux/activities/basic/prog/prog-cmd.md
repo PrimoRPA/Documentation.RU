@@ -1,3 +1,7 @@
+---
+Description: Command line
+---
+
 # Командная строка
 
 ![](../../../resources/activities/basic/prog/cmd_base.png)
