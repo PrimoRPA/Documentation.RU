@@ -1,8 +1,6 @@
 # Событие кнопки браузера
 
-![](../../../../resources/activities/basic/browser/events/image-153.png)
-
-
+![](../../../../resources/activities/basic/browser/events/key_pressed_trigger_base.png)
 
 Компонент, ожидающий событие нажатия кнопки приложения
 
@@ -16,4 +14,3 @@
 | Дополнительная кнопка | LTools.Common. Model.VirtualKey               | Дополнительная кнопка                 |
 | Состояние             | LTools.Common.Model. Triggers.KeyTriggerState | Состояние кнопки                      |
 | Дочерние              | Boolean                                       | Включая события от дочерних элементов |
-
