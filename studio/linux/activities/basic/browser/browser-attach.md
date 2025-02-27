@@ -5,7 +5,7 @@
 
 ![](../../../resources/activities/basic/browser/browser-attach-activity.png)
 
-Обратите внимание, что элементы, вложенные в контейнер **Присоединиться к браузеру** и присоединенные к нему, требуют наличия расширения браузера. Способы установки расширений описаны [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install).
+Обратите внимание, что элементы, вложенные в контейнер **Присоединиться к браузеру** и присоединенные к нему, требуют наличия расширения браузера. Способы установки расширений описаны [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio-linux/installation/installation-astra/install-astra-deb-packages).
 
 **Кроссплатформенность:** работает с Windows, Linux, MacOS.
 
