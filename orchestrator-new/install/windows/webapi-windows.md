@@ -36,6 +36,10 @@
 [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 Зарегистрируйте `Primo.Orchestrator.WebApi.exe` как службу Windows и сразу запустите её. 
+
+> Начиная с версии 1.24.8.0, WebApi требует наличия базы данных `ltoolsltwrepo`. Если учетная запись, под которой работает Оркестратор, не имеет прав на создание баз данных, `ltoolsltwrepo`
+должна быть создана вручную администратором перед запуском WebApi. Убедитесь, что учетная запись имеет необходимые права на доступ и использование этой базы данных.
+
 Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполните команды:
 ```
 New-Service -Name Primo.Orchestrator.WebApi -BinaryPathName "C:\Primo\WebApi\Primo.Orchestrator.WebApi.exe" -Description "Primo.Orchestrator.WebApi" -DisplayName "Primo.Orchestrator.WebApi" -StartupType Automatic 
