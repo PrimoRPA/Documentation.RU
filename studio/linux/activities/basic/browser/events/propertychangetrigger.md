@@ -2,7 +2,7 @@
 Description: Property changed trigger
 ---
 
-# Событие изменения аттрибута
+# Событие изменения атрибута
 
 ![](../../../../resources/activities/basic/browser/events/property_changad_trigger_base.png)
 
