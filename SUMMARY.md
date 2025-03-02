@@ -1039,6 +1039,7 @@
   * [Развертывание фермы WebApi за Nginx](orchestrator-new/orchestrator-sys-admin/deploy-api-nginx.md)
   * [Установка и настройка Logstash](orchestrator-new/orchestrator-sys-admin/logstash-install-setup.md)
   * [Спецификация WebApi на прием событий Оркестратора](orchestrator-new/admin/webapi-spec/webapi-orc-events.md)
+  * [Секционирование существующих таблиц с журналом Робота и Оркестратора для PostgreSQL](orchestrator-new/orchestrator-sys-admin/partitioning-tables-postresql.md)
  * [Администраторам Оркестратора](orchestrator-new/orchestrator-admin/readme.md)
   * [Лицензии](orchestrator-new/orchestrator-admin/licensing/readme.md)
     * [Типы лицензий](orchestrator-new/orchestrator-admin/licensing/license-types.md)
