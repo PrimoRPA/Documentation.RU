@@ -1,3 +1,7 @@
+---
+Description: Desktop Attach
+---
+
 # Присоединиться к приложению
 
 ![](../../../resources/activities/basic/desktop/attach-activity.png)
