@@ -1,5 +1,5 @@
 ---
-Description: Desktop Attach
+Description: Attach
 ---
 
 # Присоединиться к приложению
