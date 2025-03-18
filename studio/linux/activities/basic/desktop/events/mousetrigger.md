@@ -1,6 +1,6 @@
 # Событие мыши
 
-Для работы активности необходимо установить утилиту "Evtest" и дать права на чтения всех файлов по пути "/dev/input".
+Для работы активности с типом регистратора событий уровня файла HID необходимо установить утилиту "Evtest" и дать права на чтения всех файлов по пути "/dev/input".
 
 ![](../../../../resources/activities/basic/desktop/events/mouse-trigger-base.png)
 
@@ -16,6 +16,7 @@
 | Модификатор           | System.Windows.Input. ModifierKeys | Кнопка-модификатор (Ctrl, Shift...) |
 | Дополнительная кнопка | System.Windows.Input. ModifierKeys | Дополнительная кнопка               |
 | Область           | System.Drawing.Rectangle                            | Область клика мыши               |
+| Тип регистратора событий | LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes | Тип регистратора событий в системе |
 
 ### Обучающий пример
 
