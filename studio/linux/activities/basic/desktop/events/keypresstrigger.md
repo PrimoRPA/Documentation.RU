@@ -1,8 +1,8 @@
 # Событие кнопки приложения
 
-![](../../../../resources/activities/basic/desktop/events/image-165.png)
+![](../../../../resources/activities/basic/desktop/events/key-press-trigger-base.png)
 
-
+Для работы активности с типом регистратора событий уровня файла HID необходимо установить утилиту "Evtest" и дать права на чтения всех файлов по пути "/dev/input".
 
 Компонент, ожидающий событие нажатия кнопки приложения
 
@@ -16,5 +16,4 @@
 | <p></p><p>Дополнительная кнопка</p> | LTools.Common. Model.VirtualKey               | Дополнительная кнопка                 |
 | Состояние                           | LTools.Common.Model. Triggers.KeyTriggerState | Состояние кнопки                      |
 | Дочерние                            | Boolean                                       | Включая события от дочерних элементов |
-| Блокировать                         | Boolean                                       | Блокировать действие                  |
-
+| Тип регистратора событий | LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes | Тип регистратора событий в системе |
