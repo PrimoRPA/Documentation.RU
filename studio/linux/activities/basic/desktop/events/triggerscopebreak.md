@@ -1,6 +1,6 @@
 # Остановка событий
 
-![](../../../../resources/activities/basic/desktop/events/image-219.png)
+![](../../../../resources/activities/basic/desktop/events/trigger-stop-base.png)
 
 
 
@@ -9,4 +9,3 @@
 | Событий      | Тип                                       | Описание                       |
 | ------------ | ----------------------------------------- | ------------------------------ |
 | Переменная\* | LTools.Common.UIElements. IWFTriggerScope | Переменная-ссылка на контейнер |
-
