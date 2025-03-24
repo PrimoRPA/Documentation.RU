@@ -13,7 +13,6 @@
 | Имя процесса          | String                             | Имя процесса                          |
 | Основная кнопка       | LTools.Common.Model. MouseButtons  | Основная кнопка                       |
 | Модификатор           | Avalonia.Input.KeyModifiers | Кнопка-модификатор (Ctrl, Shift...)   |
-| Дополнительная кнопка | Avalonia.Input.KeyModifiers | Дополнительная кнопка                 |
-| Дочерние              | Boolean                            | Включая события от дочерних элементов |
+| Дополнительная кнопка | Avalonia.Input.KeyModifiers | Дополнительная кнопка            |
 | Область           | System.Drawing.Rectangle                            | Область клика мышью                   |
 | Тип регистратора событий | LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes | Тип регистратора событий в системе
