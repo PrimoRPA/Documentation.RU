@@ -14,6 +14,5 @@
 | Основная кнопка\*                   | LTools.Common. Model.VirtualKey               | Основная кнопка                       |
 | Модификатор                         | LTools.Common. Model.VirtualKey               | Кнопка-модификатор (Ctrl, Shift...)   |
 | <p></p><p>Дополнительная кнопка</p> | LTools.Common. Model.VirtualKey               | Дополнительная кнопка                 |
-| Состояние                           | LTools.Common.Model. Triggers.KeyTriggerState | Состояние кнопки                      |
-| Дочерние                            | Boolean                                       | Включая события от дочерних элементов |
+| Состояние                           | LTools.Common.Model. Triggers.KeyTriggerState | Состояние кнопки (состояние отжатой кнопки работает только с типом регистратора событий уровня файла HID)                     |
 | Тип регистратора событий | LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes | Тип регистратора событий в системе |
