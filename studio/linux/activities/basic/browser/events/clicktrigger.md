@@ -8,7 +8,7 @@ Description: Click trigger
 
 Элемент ожидает событие нажатия мыши в окне браузера.
 
-Для работы активности необходимо установить утилиту **Evtest** и дать права на чтения всех файлов по пути `/dev/input`.
+Для работы активности с типом [регистратора событий](/g_elements/el-linux/el-linux-basic/els-browser/els-events/event-recorder) уровня файла HID необходимо установить утилиту "Evtest" и дать права на чтения всех файлов по пути "/dev/input".
 
 ## Свойства
 Символ * в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
@@ -36,3 +36,4 @@ Description: Click trigger
    * `Shift`;
    * `Meta`.
 1. **Дочерние** *[Boolean]* - определяет, нужно ли включать события клика от дочерних элементов управления.
+1. **Тип регистратора событий** *[LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes]* - тип [регистратора событий](/g_elements/el-linux/el-linux-basic/els-browser/els-events/event-recorder) в системе.
