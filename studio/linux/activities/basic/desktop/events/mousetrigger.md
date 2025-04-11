@@ -1,6 +1,8 @@
 # Событие мыши
 
-![](../../../../resources/activities/basic/desktop/events/image-49.png)
+Для работы активности с типом регистратора событий уровня файла HID необходимо установить утилиту "Evtest" и дать права на чтения всех файлов по пути "/dev/input".
+
+![](../../../../resources/activities/basic/desktop/events/mouse-trigger-base.png)
 
 Компонент, ожидающий событие нажатия мыши. Обратите внимание, что элемент помещается в контейнер [**События**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/els_events/el_events). В этом же контейнере настраивается режим работы цикла и работа с потоками.
 
@@ -13,13 +15,9 @@
 | Основная кнопка       | Common.Model. MouseButtons         | Основная кнопка                     |
 | Модификатор           | System.Windows.Input. ModifierKeys | Кнопка-модификатор (Ctrl, Shift...) |
 | Дополнительная кнопка | System.Windows.Input. ModifierKeys | Дополнительная кнопка               |
-| Блокировать           | Boolean                            | Блокировать действие                |
+| Область           | System.Drawing.Rectangle                            | Область клика мыши               |
+| Тип регистратора событий | LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes | Тип регистратора событий в системе |
 
 ### Обучающий пример
 
 На портале Learning можно скачать процесс [Событие мыши.ltw](https://github.com/PrimoRPA/Learning/blob/master/StudioActivities/Ru/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F/%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%20%D0%BC%D1%8B%D1%88%D0%B8.ltw), демонстрирующий работу элемента. Добавьте этот процесс в свой проект в Студии, чтобы просмотреть его.
-
-Пример структуры:
-
-![](../../../../resources/activities/basic/desktop/events/mouse-trigger.png)
-
