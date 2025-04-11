@@ -1,6 +1,8 @@
 # Событие спецкнопки
 
-![](../../../../resources/activities/basic/desktop/events/image-105.png)
+![](../../../../resources/activities/basic/desktop/events/hot-key-trigger-base.png)
+
+Для работы активности с типом регистратора событий уровня файла HID необходимо установить утилиту "Evtest" и дать права на чтения всех файлов по пути "/dev/input".
 
 Элемент, ожидающий событие нажатия спецкнопки. Обратите внимание, что он помещается в контейнер [**События**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/els_events/el_events). В этом же контейнере настраивается режим работы цикла и работа с потоками.
 
@@ -10,11 +12,11 @@
 
 | Свойство              | Тип                                           | Описание                            |
 | --------------------- | --------------------------------------------- | ----------------------------------- |
-| Основная кнопка\*     | LTools.Common. Model.VirtualKey               | Основная кнопка                     |
+| Основная кнопка     | LTools.Common. Model.VirtualKey               | Основная кнопка                     |
 | Модификатор           | LTools.Common. Model.VirtualKey               | Кнопка-модификатор (Ctrl, Shift...) |
 | Дополнительная кнопка | LTools.Common. Model.VirtualKey               | Дополнительная кнопка               |
-| Состояние             | LTools.Common.Model. Triggers.KeyTriggerState | Состояние кнопки                    |
-| Бокировать            | Boolean                                       | Блокировать действие                |
+| Состояние             | LTools.Common.Model. Triggers.KeyTriggerState | Состояние кнопки  (состояние отжатой кнопки работает только с типом регистратора событий уровня файла HID)                    |
+| Тип регистратора событий | LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes | Тип регистратора событий в системе
 
 ### Обучающий пример
 
