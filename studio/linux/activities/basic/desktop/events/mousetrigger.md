@@ -1,22 +1,24 @@
-# Событие мыши
+---
+Description: Mouse trigger
+---
 
-Для работы активности с типом регистратора событий уровня файла HID необходимо установить утилиту "Evtest" и дать права на чтения всех файлов по пути "/dev/input".
+# Событие мыши
 
 ![](../../../../resources/activities/basic/desktop/events/mouse-trigger-base.png)
 
-Компонент, ожидающий событие нажатия мыши. Обратите внимание, что элемент помещается в контейнер [**События**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/els_events/el_events). В этом же контейнере настраивается режим работы цикла и работа с потоками.
+Компонент, ожидающий событие нажатия мыши. Обратите внимание, что элемент помещается в контейнер **События**. В этом же контейнере настраивается режим работы цикла и работа с потоками.
+
+Для работы активности с типом [регистратора событий](/g_elements/el-linux/el-linux-basic/els-browser/els-events/event-recorder) уровня файла HID необходимо установить утилиту `Evtest` и дать права на чтения всех файлов по пути `/dev/input`.
 
 ### Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
-| Свойство              | Тип                                | Описание                            |
-| --------------------- | ---------------------------------- | ----------------------------------- |
-| Основная кнопка       | Common.Model. MouseButtons         | Основная кнопка                     |
-| Модификатор           | System.Windows.Input. ModifierKeys | Кнопка-модификатор (Ctrl, Shift...) |
-| Дополнительная кнопка | System.Windows.Input. ModifierKeys | Дополнительная кнопка               |
-| Область           | System.Drawing.Rectangle                            | Область клика мыши               |
-| Тип регистратора событий | LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes | Тип регистратора событий в системе |
+1. **Основная кнопка** *[Common.Model. MouseButtons]* - Основная кнопка
+1. **Модификатор** *[System.Windows.Input. ModifierKeys]* - Кнопка-модификатор (Ctrl, Shift...)
+1. **Дополнительная кнопка** *[System.Windows.Input. ModifierKeys]* - Дополнительная кнопка
+1. **Область** *[System.Drawing.Rectangle]* - Область клика мыши
+1. **Тип регистратора событий** *[LTools.Common.Model.SystemEventsObservers.InputDeviceEventsObservers.Base.InputDeviceEventsObserverTypes]* - Тип [регистратора событий](/g_elements/el-linux/el-linux-basic/els-browser/els-events/event-recorder) в системе
 
 ### Обучающий пример
 
