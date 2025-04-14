@@ -6,9 +6,13 @@ Description: Key press trigger
 
 ![](../../../../resources/activities/basic/desktop/events/key-press-trigger-base.png)
 
+Компонент, ожидающий событие нажатия кнопки приложения.
+
 Для работы активности с типом [регистратора событий](/g_elements/el-linux/el-linux-basic/els-browser/els-events/event-recorder) уровня файла HID необходимо установить утилиту `Evtest` и дать права на чтения всех файлов по пути `/dev/input`.
 
-Компонент, ожидающий событие нажатия кнопки приложения
+### Свойства
+Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
+Символ `*` в названии свойства указывает на обязательность заполнения.
 
 1. **Шаблон поиска** *[String]* - Шаблон поиска элемента управления
 1. **Заголовок** *[String]* - Заголовок подключаемого приложения
