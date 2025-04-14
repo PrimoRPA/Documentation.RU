@@ -1,3 +1,7 @@
+---
+Description: Trigger scope break
+---
+
 # Остановка событий
 
 ![](../../../../resources/activities/basic/desktop/events/trigger-stop-base.png)
