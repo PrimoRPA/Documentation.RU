@@ -1,5 +1,7 @@
 # Цикл ForEach
 
+*Eng: ForEach*
+
 ![](../../../resources/activities/basic/logic/foreach.png)
 
 Элемент представляет собой цикл, перебирающий все значения выбранного массива.
