@@ -20,8 +20,8 @@ Description: Scroll
 1.  **Таймаут\*** *[Int32]* - Предельное время ожидания завершения процесса (мс).
 
 ***Прокрутка***
-1. **Горизонтальная** *[[double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)?]* - Горизонтальная прокрутка (%; для браузера: пиксели).
-1. **Вертикальная** *[double?]* - Вертикальная прокрутка (%; для браузера: пиксели).
+1. **Горизонтальная** *[[double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)?]* - Горизонтальная прокрутка (%).
+1. **Вертикальная** *[double?]* - Вертикальная прокрутка (%).
 
 ***Вывод***
 1. **Прокрутка** *[[System.Drawing.Point](https://learn.microsoft.com/ru-ru/dotnet/api/System.Drawing.Point?view=netcore-1.1)]* - Переменная, которая сохранит текущее состояние прокрутки (%; для браузера: пиксели).
