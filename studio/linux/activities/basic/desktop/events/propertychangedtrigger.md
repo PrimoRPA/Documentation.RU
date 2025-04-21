@@ -1,6 +1,6 @@
 # Событие изменения аттрибута
 
-![](../../../../resources/activities/basic/desktop/events/image-10.png)
+![](../../../../resources/activities/basic/desktop/events/property-changed-hot-key-trigger-base.png)
 
 
 
