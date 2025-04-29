@@ -49,7 +49,14 @@
 
 ## Браузерные расширения
 
-* Ручная настройка расширений
-    * Автоматическая настройка расширений
+Раздел предназначен для установки расширений браузеров и плагинов.
+
+ЗАМЕНИТЬ ![](../resources/settings/image-700.png)
+
+Процесс установки подробнее описан в следующих статьях: ЗАМЕНИТЬ ССЫЛКИ
+
+* [Ручная установка расширений и плагинов из интерфейса Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii);
+* [Автоматическая установка расширений для браузеров](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension).
+
 
 
