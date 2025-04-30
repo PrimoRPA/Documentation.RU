@@ -47,3 +47,10 @@
 1. Исправлена ошибка, возникавшая при вводе некорректных данных для авторизации в Оркестраторе RobotRunner или если Оркестратор был выключен, из-за которой при попытке редактирования задачи выдавалось сообщение "Enum value '0' is invalid for type 'Primo.Orchestrator.Client.Common.Enums.Platform' and cannot be serialized...".
 
 1. Для элемента **Прокрутка** группы **Работа с UI** восстановлена возможность прокрутки всей страницы браузера.
+
+
+## Где найти 
+
+[Скачать дистрибутив Primo RPA Studio Linux](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)
+
+[Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot)
