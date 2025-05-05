@@ -4,5 +4,5 @@
 
 Данная библиотека не входит в базовую комплектацию, а устанавливается дополнительно: для этого требуется скачать ее c официального сайта [Nuget.org](https://www.nuget.org/packages?q=Primo.Request.Logger).
 
-:bangbang: Для работы библиотеки требуется установить специальное браузерное расширение, которое можно скачать [здесь](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FMisc) (архив Desktop.zip).
+:bangbang: Для работы библиотеки необходимо установить специальное браузерное расширение, которое можно скачать [здесь](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FMisc) (архив Desktop.zip).
 
