@@ -1,8 +1,8 @@
-# Начать мониторинг
+# Остановить мониторинг
 
 ![](../../../resources/activities/extra/request-logger/stop-network-monitoring.png)
 
-Элемент предназначен для запуска отслеживания запросов/ответов.
+Элемент предназначен для остановки отслеживания запросов/ответов.
 
 ### Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
