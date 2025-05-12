@@ -14,6 +14,7 @@ Description: Key pressed trigger
 Символ * в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 1. **Шаблон поиска** *[String]* - Шаблон поиска элемента управления  
+1. **Коллекция шаблонов поиска** *[List\<String>]* - Коллекция шаблонов поиска элементов управления
 1. **Тип браузера** *[LTools.WebBrowser.Model. BrowserTypes\_Short]* - Тип используемого браузера 
 1. **Заголовок браузера** *[String]* - Заголовок подключаемого браузера   
 1. **Основная кнопка\*** *[LTools.Common. Model.VirtualKey]* - Основная кнопка
