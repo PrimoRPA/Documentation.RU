@@ -21,6 +21,7 @@ Description: Click trigger
 **«Процесс»**:
 
 1. **Шаблон поиска** *[String]* - [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio-linux/debug/searchpatterns) элемента управления, на котором ожидается клик мышью.
+1. **Коллекция шаблонов поиска** *[List<String>]* - Коллекция [шаблонов поиска](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio-linux/debug/searchpatterns) элементов управления, на которых ожидается клик мышью.
 1. **Основная кнопка** - основная кнопка мыши. По умолчанию `BUTTON_LEFT` - одиночный левый клик. Чтобы изменить тип, нажмите выпадающий список значений:
    * `BUTTON_LEFT_DOUBLECLICK` - двойной клик левой кнопкой мыши.
    * `BUTTON_RIGHT` - одиночный клик правой кнопкой.
