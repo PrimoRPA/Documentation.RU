@@ -4,7 +4,7 @@ Description: SecureStringToString
 
 # SecureString к строке
 
-![](../../../resources/activities/basic/crypto/SecureString-to-string-activity.png)
+![](../../../resources/activities/basic/crypto/secure-string-to-string.png)
 
 Компонент, который преобразует SecureString в строку. Элемент **SecureString к строке** может быть полезен при автоматизации задач, которые требуют обработки конфиденциальных данных.
 
@@ -13,9 +13,9 @@ Description: SecureStringToString
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 **Процесс:**
-1. **Строка\*** *[String]* - Название строковой переменной.
+1. **Строка\*** *[System.String]* - Название строковой переменной.
 
-**Вывод:** 
+**Вывод:**
 1. **SecureString\*** *[[System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0)] - Название переменной вывода, в которую сохранены данные в формате SecureString.
 
 ## Только код
