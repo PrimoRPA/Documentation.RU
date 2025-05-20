@@ -8,6 +8,8 @@ import { Cards, Callout } from 'nextra/components';
 
 Расширения возможно установить:
 
+ЗАМЕНИТЬ ССЫЛКИ
+
 - [Вручную из Студии](/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii) 
 - [Вручную из командной строки](/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) 
 - [Автоматически](/primo-studio/settings/autoinstall-browser-extension) 
@@ -15,6 +17,8 @@ import { Cards, Callout } from 'nextra/components';
 ## Ручная установка из Студии
 
 Инструкции см. в разделах:
+
+ЗАМЕНИТЬ ССЫЛКИ В КАРТОЧКАХ
 
 <Cards>
   <Cards.Card title="Chrome" href="./plugin-install/chrome" />  
