@@ -1,13 +1,36 @@
 # Установка браузерных расширений
 
 Расширения возможно установить:
-* [вручную из Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii)
-* [вручную из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki)
-* [автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension)
+* вручную из Студии
+* вручную из командной строки
+* автоматически
 
-## Ручная установка расширений
+## Ручная установка расширений из Студии
 
+Инструкции см. в разделах:
 
+{% content-ref url="chrome.md" %}
+[chrome.md](chrome.md)
+{% endcontent-ref %}
+
+{% content-ref url="firefox.md" %}
+[firefox.md](firefox.md)
+{% endcontent-ref %}
+
+{% content-ref url="edge.md" %}
+[edge.md](edge.md)
+{% endcontent-ref %}
+
+{% content-ref url="yandex.md" %}
+[yandex.md](yandex.md)
+{% endcontent-ref %}
+
+{% content-ref url="rdp.md" %}
+[rdp.md](rdp.md)
+{% endcontent-ref %} 
+
+{% content-ref url="java.md" %}
+[java.md](java.md)
 
 ## Установка из командной строки
 
