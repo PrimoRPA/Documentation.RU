@@ -2,10 +2,6 @@
 asIndexPage: true
 ---
 
----
-asIndexPage: true
----
-
 import { Callout } from 'nextra/components';
 
 # Запуск Studio Citizen
@@ -25,11 +21,11 @@ _:small_blue_diamond: [Чем отличаются издания](https://docs.
 </Callout>
 
 
-![alt](/assets1/studio-modes.png)
+![alt](../resources/Launch_EditionSelection.png)
 
-Чтобы впоследствии не выбирать каждый раз режим при запуске Студии, установите чекбокс **Не показывать окно выбора режима Студии**.
+Чтобы впоследствии не выбирать каждый раз режим при запуске Студии, установите чекбокс **Скрыть окно выбора режима**.
 
-![alt](/assets1/studio-dont-show-modes.png)
+![alt](../resources/Launch_EditionSelection_DoNotShowAgain.png)
 
 Выберите издание **Primo RPA Studio Citizen** - при этом откроется рабочая область для создания RPA-проектов.
 
