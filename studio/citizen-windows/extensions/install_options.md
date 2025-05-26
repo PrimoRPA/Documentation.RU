@@ -8,23 +8,19 @@ import { Cards, Callout } from 'nextra/components';
 
 Расширения возможно установить:
 
-ЗАМЕНИТЬ ССЫЛКИ
-
-- [Вручную из Студии](/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii) 
-- [Вручную из командной строки](/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) 
-- [Автоматически](/primo-studio/settings/autoinstall-browser-extension) 
+- Вручную из Студии 
+- Вручную из командной строки 
+- Автоматически 
 
 ## Ручная установка из Студии
 
 Инструкции см. в разделах:
 
-ЗАМЕНИТЬ ССЫЛКИ В КАРТОЧКАХ
-
 <Cards>
-  <Cards.Card title="Chrome" href="./plugin-install/chrome" />  
-  <Cards.Card title="FireFox" href="./plugin-install/firefox" />  
-  <Cards.Card title="Edge" href="./plugin-install/edge" />  
-  <Cards.Card title="Yandex" href="./plugin-install/yandex" />  
+  <Cards.Card title="Chrome" href="./primo-studio/settings/plugin-install/chrome" />  
+  <Cards.Card title="FireFox" href="./primo-studio/settings/plugin-install/firefox" />  
+  <Cards.Card title="Edge" href="./primo-studio/settings/plugin-install/edge" />  
+  <Cards.Card title="Yandex" href="./primo-studio/settings/plugin-install/yandex" />  
  
 </Cards>
 
@@ -93,7 +89,7 @@ LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=storelocal manifest=v3
 
 ## Автоматическая установка браузерных расширений
 
-Подробнее см. [здесь](/primo-studio/settings/autoinstall-browser-extension).
+Подробнее см. [здесь](https://docs.primo-rpa.ru/ru/primo-studio/settings/autoinstall-browser-extension).
 
 <Callout type="info" emoji="ℹ️">
   При автоматическом способе устанавливается только расширение на базе манифеста
