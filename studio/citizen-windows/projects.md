@@ -10,7 +10,7 @@
 
 Перейдите на вкладку меню **Оркестратор** и нажмите кнопку **Опубликовать**. В результате появится окно со списком проектов Оркестратора:
 
-ЗАМЕНИТЬ ![](../resources/Projects_ListToPublishInOrch.png)
+![alt](../../resources/Projects_ListToPublishInOrch.png)
 
 В окне доступны действия:
 
@@ -20,7 +20,7 @@
 
 При создании проекта отобразится окно конфигурации:
 
-ЗАМЕНИТЬ ![](../resources/projects/publish-rpa-project-from-studio.png)
+![alt](../../resources/Projects_PublishProject.png)
 
 Данное окно аналогично окну добавления проекта в Оркестраторе.
 
