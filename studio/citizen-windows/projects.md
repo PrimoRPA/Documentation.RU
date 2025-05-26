@@ -10,7 +10,7 @@
 
 Перейдите на вкладку меню **Оркестратор** и нажмите кнопку **Опубликовать**. В результате появится окно со списком проектов Оркестратора:
 
-ЗАМЕНИТЬ ![](../resources/projects/list-projects-in-studio-for-publish.png)
+ЗАМЕНИТЬ ![](../resources/Projects_ListToPublishInOrch.png)
 
 В окне доступны действия:
 
