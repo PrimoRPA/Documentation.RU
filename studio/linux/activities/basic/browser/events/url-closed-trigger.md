@@ -2,10 +2,11 @@
 
 ![](../../../../resources/activities/basic/browser/events/url-closed-trigger-base.png)
 
-
 Элемент, отслеживающий закрытие веб-страниц в браузере.
 
-| Свойство       | Тип    | Описание                    |
-| -------------- | ------ | --------------------------- |
-| Тип браузера | LTools.WebBrowser.Model.BrowserTypes | Тип используемого браузера |
-| URL | System.String | Отслеживаемый URL, поддерживает маски (*) |
+## Свойства
+Символ * в названии свойства указывает на обязательность заполнения. 
+Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+
+1. **Тип браузера** *[LTools.WebBrowser.Model.BrowserTypes]* - Тип используемого браузера
+1. **URL** *[System.String]* - Отслеживаемый URL, поддерживает маски (\*) 
