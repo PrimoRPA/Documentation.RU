@@ -13,10 +13,6 @@
 
 ![alt](../resources/ai-server/relnote1.25.4.3-update-button.png)
 
-## Исправленные ошибки
-
-
-
 
 TODO
 ## Инструкция по обновлению AI Server
