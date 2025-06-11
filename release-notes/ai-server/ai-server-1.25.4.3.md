@@ -13,6 +13,12 @@
 
 ![alt](../resources/ai-server/relnote1.25.4.3-update-button.png)
 
+## API
+
+1. Добавлены методы в API для проверки статусов запросов по модели и серверу:
+
+- Для SmartOCR: `GET https://{server URL}/inference/smartOCR/status` с заголовком modelType=XXXX 
+- Для NLP: `GET https://{server URL}/inference/nlp/{modelType}/status` 
 
 TODO
 ## Инструкция по обновлению AI Server
