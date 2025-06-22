@@ -18,4 +18,42 @@ Primo RPA поддерживает два режима авторизации ч
 
 
 
+---
+
+Статья https://docs.primo-rpa.ru/ru/primo-ai/developer/tutorial/authorization
+
+## Авторизация
+
+Все методы находятся в разделе `/auth` и предназначены для управления пользовательскими сессиями.
+
+| Метод | Endpoint | Назначение |
+|-------|----------|------------|
+| `POST` | `/auth/Account/logout` | Выход пользователя из системы. |
+| `POST` | `/auth/Account/KeyCloak1/Login` | Авторизация через KeyCloak1 |
+| `GET` | `/auth/Account/KeyCloak2/Login` | Авторизация через KeyCloak2. Используется `redirect_uri`. |
+| `GET` | `/auth/Account/KeyCloak2/AuthUrl1` | Получение AuthUrl для авторизации через KeyCloak2. |
+
+### Определение режима авторизации
+
+`GET /auth/account/type`
+
+В ответе приходит числовой код:
+
+- 0 — обычная авторизация
+
+- 1 — Active Directory (AD)
+
+- 2 — OpenId
+
+### Работа с ролями (v2)
+
+Методы находятся в /api/Roles/v2 и позволяют создавать и обновлять роли:
+
+| Метод | Endpoint | Назначение |
+|-------|----------|------------|
+|`POST`|`/api/Roles/v2`|Создание новой роли|
+|`PUT`|`/api/Roles/v2/{id}`|Обновление роли по id|
+
+
+
 
