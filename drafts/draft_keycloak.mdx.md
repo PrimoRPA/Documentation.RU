@@ -6,10 +6,10 @@ import { Callout } from 'nextra/components'
 
 ## Установка Docker
 
-[Установите Docker](https://docs.primo-rpa.ru/ru/primo-ai/installing/linux/installing-docker).
+Установите Docker — он потребуется для запуска контейнеров. Подробная инструкция доступна по [ссылке](https://docs.primo-rpa.ru/ru/primo-ai/installing/linux/installing-docker).
 
 <Callout type="warning" emoji="⚠️">
- Сервер использует подсеть server_ai, которая создается автоматически при первом запуске финальной команды данной статьи.
+ Сервер использует подсеть `server_ai`, которая создается автоматически при первом запуске финальной команды данной статьи.
 </Callout>
 
 
@@ -45,7 +45,7 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
    ```
    sudo mkdir -p /app/Primo.AI/Api/volumes/conf/Api/ /app/Primo.AI/Api/volumes/conf/Auth/ /app/Primo.AI/Api/volumes/conf/Logs/ /app/Primo.AI/Api/volumes/conf/MachineInfo/ /app/Primo.AI/Api/volumes/conf/Inference/ /app/Primo.AI/Api/volumes/nginx/ /app/Primo.AI/Api/volumes/Api_Models/ /app/Primo.AI/Api/volumes/Api_ContextFiles/ /app/Primo.AI/Api/volumes/Logs/
    ```
-2. Разместите окружение сервера в папке `/app/Primo.AI/Api`:
+1. Разместите окружение сервера в папке `/app/Primo.AI/Api`:
    ```
    sudo cp /srv/samba/shared/install/docker/server/docker-compose.yaml /app/Primo.AI/Api/
    ```
@@ -55,15 +55,18 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
    ```
    sudo unzip /srv/samba/shared/install/docker/server/env.zip -d /app/Primo.AI/Api/
    ```
-   При необходимости укажите нестандартные учётные данные для БД, RabbitMQ или временную зону в `.env`-файле:
-   ```
+   <Callout type="note">
+   Если вы используете нестандартные параметры для базы данных, RabbitMQ или временной зоны, укажите их в `.env`-файле:
+   </Callout>
+
+   ```bash
    sudo nano /app/Primo.AI/Api/.env
    ```
-3. Разместите файлы моделей **Умного OCR**:
+1. Разместите файлы моделей **Умного OCR**:
    ```
    sudo cp -r /srv/samba/shared/install/data/models/SmartOCR/* /app/Primo.AI/Api/volumes/Api_Models/
    ```
-4. Размещаем файлы моделей **AI Текст**.
+1. Добавьте файлы моделей **AI Текст**:
 
    **Модели AI Текст**:
    | Имя модели                          | LLM-ядро         | Мультимодальность | Имя файла                            |
@@ -86,7 +89,7 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
    ```
    Если скопировать только часть моделей, при попытке использовать отсутствующие — система покажет ошибку.
 
-Размещаем стандартный контекст NLP-запросов:
+1. Разместите стандартный контекст NLP-запросов:
    ```
    sudo cp -r /srv/samba/shared/install/data/context/* /app/Primo.AI/Api/volumes/Api_ContextFiles/
    ```
@@ -209,7 +212,7 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
 
 ## Разрешения
 
-Дайте томам контейнеров права на запись:
+Настройте права на запись для томов контейнеров:
    ```
    sudo chmod -R 777 /app/Primo.AI/Api/volumes/
    ```
