@@ -55,9 +55,8 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
    ```
    sudo unzip /srv/samba/shared/install/docker/server/env.zip -d /app/Primo.AI/Api/
    ```
-   <Callout type="note">
+   
    _Если вы используете нестандартные параметры для базы данных, RabbitMQ или временной зоны, укажите их в `.env`-файле_:
-   </Callout>
 
    ```bash
    sudo nano /app/Primo.AI/Api/.env
@@ -152,7 +151,7 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
    ```
    sudo nano /app/Primo.AI/Api/volumes/conf/Auth/appsettings.ProdLinux.json
    ```
-1. `Укажите` адрес портала AI Server в **Security > EnabledOrigins**:
+1. _Укажите_ адрес портала AI Server в **Security > EnabledOrigins**:
    ```
    "Security": {
     ...
@@ -166,12 +165,12 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
 
 ### Конфигурационный файл Api.Inference
 
-1. Откройте в редакторе конфигурационный файл:
+1. _Откройте_ в редакторе конфигурационный файл:
    ```
    sudo nano /app/Primo.AI/Api/volumes/conf/Inference/appsettings.ProdLinux.json
    ```
 
-1. Укажите адрес портала AI Server в **Security > EnabledOrigins**:
+1. _Укажите_ адрес портала AI Server в **Security > EnabledOrigins**:
    ```
    "Security": {
     ...
@@ -185,11 +184,11 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
 
 ### Конфигурационный файл Api.Logs
 
-1. Откройте в редакторе конфигурационный файл:
+1. _Откройте_ в редакторе конфигурационный файл:
    ```
    sudo nano /app/Primo.AI/Api/volumes/conf/Logs/appsettings.ProdLinux.json
    ```
-1. Укажите адрес портала AI Server в **Security > EnabledOrigins**:
+1. _Укажите_ адрес портала AI Server в **Security > EnabledOrigins**:
    ```
    "Security": {
     ...
@@ -205,7 +204,7 @@ docker load -i /srv/samba/shared/install/distr/rabbitmq.tar
 
 При необходимости укажите в конфигурационном файле количество рабочих процессов, максимальное число соединений и другие параметры.
 
-Откройте в редакторе конфигурационный файл:
+_Откройте_ в редакторе конфигурационный файл:
    ```
    sudo nano /app/Primo.AI/Api/volumes/nginx/nginx.conf
    ```
