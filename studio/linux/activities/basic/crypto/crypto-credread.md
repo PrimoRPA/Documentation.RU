@@ -1,7 +1,5 @@
 # Прочитать Credentials
 
-*Eng: Get Credentials*
-
 ![](../../../resources/activities/basic/crypto/get-credentials.png)
 
 Элемент позволяет получить доступ к логинам и паролям безопасным способом, читая их из системного хранилища учетных данных операционной системы. 
