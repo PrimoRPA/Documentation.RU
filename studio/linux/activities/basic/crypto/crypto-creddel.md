@@ -1,3 +1,5 @@
+import { Tabs } from 'nextra/components';
+
 # Удалить из Credentials
 
 ![](../../../resources/activities/basic/crypto/delete-credentials.png)
