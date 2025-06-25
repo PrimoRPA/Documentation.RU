@@ -1,3 +1,5 @@
+import { Tabs } from 'nextra/components';
+
 # Прочитать Credentials
 
 ![](../../../resources/activities/basic/crypto/get-credentials.png)
