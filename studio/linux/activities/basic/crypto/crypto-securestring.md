@@ -1,7 +1,3 @@
----
-Description: SecureStringToString
----
-
 # SecureString к строке
 
 ![](../../../resources/activities/basic/crypto/secure-string-to-string.png)
