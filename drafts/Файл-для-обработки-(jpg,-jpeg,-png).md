@@ -1,3 +1,5 @@
+Задача https://azure-dos.s1.primo1.orch/PrimoCollection/AI/_workitems/edit/33111 
+
 Статья https://docs.primo-rpa.ru/ru/primo-ai/user/NLP/testing
 
 _Поменять скриншот на_ 
