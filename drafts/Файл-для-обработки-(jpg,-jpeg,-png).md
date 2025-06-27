@@ -2,7 +2,7 @@
 
 Статья https://docs.primo-rpa.ru/ru/primo-ai/user/NLP/testing
 
-_Поменять скриншот на_ 
+_Поменять скриншот из статьи на_ 
 ![image.png](/.attachments/image-1d37d30f-f93b-457d-9e8d-944aef8cc02e.png)
 
 ***
