@@ -1,3 +1,5 @@
+Задача https://azure-dos.s1.primo1.orch/PrimoCollection/AI/_workitems/edit/39214
+
 Главная страница Primo RPA AI Server предоставляет краткий обзор текущего состояния системы: информацию о машинах, проектах и доступных моделях. 
 
 ![image.png](/.attachments/image-8c39f32c-b389-4f96-a5fb-f844db4d34b3.png)
