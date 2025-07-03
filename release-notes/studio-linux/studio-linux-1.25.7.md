@@ -8,16 +8,24 @@
 * Событие открытия URL
 * Событие закрытия URL
 
+![alt](../../release-notes/resources/studio-linux/relnotes-1257-URL-elements.png)
+
 2. Реализованы активности группы **Криптография**:
 * Прочитать Credentials
-* Записать Credentials
-* Удалить Credentials
+* Записать в Credentials
+* Удалить из Credentials
+
+![alt](../../release-notes/resources/studio-linux/relnotes-1257-creds-elements.png)
 
 3. Реализована активность группы **Рабочий стол: События**:
 * События системы
 
+![alt](../../release-notes/resources/studio-linux/system-events-trigger-base.png)
+
 4. Реализована активность группы **Рабочий стол**:
 * Журнал системных сессий
+
+![alt](../../release-notes/resources/studio-linux/systemsessionslog.png)
 
 5. Значительно уменьшено потребление ресурсов процессора при использовании нескольких одновременно работающих элементов групп **Браузер: События** и **Рабочий стол: События**.
 
@@ -31,6 +39,8 @@
 
 8. В диалог создания нового проекта добавлен функционал для работы с шаблонами Robotic Enterprise Framework (REFramework, REF) через выпадающий список **Шаблон**.
 Включение предустановленных шаблонов REFramework планируется в будущих релизах; на данный момент пользователи могут создавать шаблоны самостоятельно.
+
+![alt](../../release-notes/resources/studio-linux/relonote-1257-reframework.png)
 
 9. Реализована технология IntelliSense для работы с переменными и аргументами.
 
