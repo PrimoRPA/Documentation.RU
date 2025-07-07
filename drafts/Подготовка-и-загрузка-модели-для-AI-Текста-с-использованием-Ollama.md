@@ -1,3 +1,4 @@
+PR: https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.Portal/pullrequest/4074 
 # Общая информация
 Данная статья описывает процесс подготовки к загрузке новой базовой модели для использования в AI Тексте с движком Ollama.
 
