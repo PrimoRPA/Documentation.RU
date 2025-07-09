@@ -1,21 +1,19 @@
-Список изменений для патч-версии 1.25.4.4, выпущенной в июле 2025-го года.
+Список изменений для патч-версии 1.25.4.5, выпущенной в июле 2025-го года.
 
-#Движок Ollama
+## Шаблоны моделей
+- Добавлена возможность полноценной загрузки своих (например, после fine-tuning — дообучения) моделей AI Текст:
+  - для движка vLLM в формате HuggingFace (pytorch) 
+  - для движка Ollama в формате GGUF с указанием шаблона и параметров модели
 
-- Добавлена подробная инструкция по подготовке модели для запуска на движке Ollama. 
+  ![image.png](/.attachments/image-2df30d59-c04b-488a-b89c-4394901839fd.png)
 
-#Улучшения  
+##Движок Ollama
 
-**Шаблоны моделей**  
-- Реализована возможность указания шаблона и параметров для подключения кастомных LLM-моделей в формате GGUF:
-![image.png](/.attachments/image-2df30d59-c04b-488a-b89c-4394901839fd.png)
+- Добавлена подробная инструкция по подготовке модели для запуска на движке Ollama:  
 
-#Исправленные ошибки
+
+##Исправленные ошибки
 - Устранена плавающая ошибка, возникавшая при обнаружении неактивности используемых моделей.
 
-
-
-https://azure-dos.s1.primo1.orch/PrimoCollection/AI/_workitems/edit/41424
-https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.Portal/pullrequest/4074?_a=files
-https://azure-dos.s1.primo1.orch/PrimoCollection/AI/_workitems/edit/41416/?workitem=41416
-https://azure-dos.s1.primo1.orch/PrimoCollection/AI/_workitems/edit/41427
+##Инструкция по обновлению AI Server
+- [Обновление 1.25.4.4 → 1.25.4.5](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_wiki/wikis/docs.primo-rpa.ru/4242/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-1.25.4.4-%E2%86%92-1.25.4.5) — ограничивается вариантом установки через Docker.
