@@ -5,8 +5,13 @@
 
 ## Новые функции и улучшения
 
-1. Реализована возможность для Primo Robot работать с переменной окружения PRIMOSALT для использования паролей, зашифрованных с помощью соли.
+1. В диалог создания нового проекта добавлены **предустановленные шаблоны** Robotic Enterprise Framework (REFramework, REF), которые доступны через выпадающий список **Шаблон**.
+* Robotic Enterprise Framework
+* Excel Process
+* Linear Process
+* Mail Process
 
+![alt](../../resources/studio-linux/12574-ref-templates-small.png)
 
 ## Где найти
 
